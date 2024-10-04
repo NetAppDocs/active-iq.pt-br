@@ -1,0 +1,24 @@
+---
+sidebar: sidebar 
+permalink: concept_understand_health_check_dashboard.html 
+keywords: activeiq, health check, health, HCA, health check dashboard, health check score 
+summary: Fornece informações para se familiarizar com o Painel de verificação de integridade. 
+---
+= Compreender o painel de verificação de integridade
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O painel Verificação de integridade do Digital Advisor fornece uma revisão pontual do seu ambiente geral.
+
+Com base no índice de verificação de integridade, você pode alinhar os sistemas de storage às práticas recomendadas da NetApp para facilitar o Planejamento em longo prazo. Ele ajuda você a monitorar todos os sistemas executados em software e hardware por meio de uma interface de usuário centralizada. As pontuações de verificação de integridade permitem que você obtenha rapidamente insights sobre os riscos do sistema. As principais recomendações e práticas recomendadas ajudam você a tomar medidas para melhorar a integridade da base instalada.
+
+
+NOTE: Você pode acessar o painel Verificação de integridade somente por meio das ofertas de serviços do NetApp SupportEdge Advisor e do SupportEdge Expert.

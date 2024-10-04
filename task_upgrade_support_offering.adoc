@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: task_upgrade_support_offering.html 
+keywords: upgrade, support offering, supportedge, premium, standard, basic, expert, secure, purchase 
+summary: Fornece informações sobre como atualizar a oferta de suporte. 
+---
+= Atualize a oferta de suporte
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode comprar um upgrade para a oferta de suporte para acessar mais recursos e funcionalidades no Digital Advisor.
+
+Você pode atualizar sua oferta de suporte atual para otimizar sua base de instalação com a ajuda de práticas e correções recomendadas, atualizar a automação com playbooks do Ansible, relatórios e avaliações acionáveis, suporte personalizado etc. A atualização pode ser adquirida ao renovar seus contratos de suporte ou, em qualquer outro momento, a partir do painel do sistema (nó).
+
+
+NOTE: Você pode optar por upgrade do AIQ somente se você usar atualmente as ofertas de suporte seguro do SupportEdge Premium ou do SupportEdge.
+
+.Passos
+. Clique em *Exibir todos os sistemas* ao lado do widget *Inventário*.
+. No Painel de Inventário, selecione o nó (host) que você deseja atualizar. Você será redirecionado para o painel do sistema ou nó.
+. Clique em *Upgrade* no widget *Configuration*.
++
+image:Configuration widget_Support offering upgrade.PNG["Widget de configuração"]
+
+. Opcionalmente, clique em *comparar ofertas de suporte* para visualizar o gráfico de comparação e escolher a oferta de suporte que se adapta aos seus requisitos. Alternativamente, você pode clicar em *ofertas de suporte* no menu de navegação à esquerda para visualizar o gráfico de comparação.
+. Selecione o tipo de atualização desejado.
++
+.. Adicione o upgrade do AIQ às ofertas de suporte do SupportEdge Premium ou do SupportEdge Secure
+.. Qualquer outra solicitação de atualização
+
+
+. Adicione quaisquer comentários que você tenha e clique em *Enviar*. Uma solicitação para adquirir o upgrade da oferta de suporte é enviada para a equipe de renovações do NetApp.
+

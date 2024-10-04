@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: task_subscribe_to_wellness_review_email.html 
+keywords: wellness, wellness review subscription, unsubscribe, supportedge expert, supportedge advisor 
+summary:  
+---
+= Assine o e-mail de avaliação de bem-estar
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode se inscrever no e-mail de revisão de bem-estar para receber um e-mail mensal que resume o status de bem-estar, sistemas que estão se aproximando de suas datas de renovação, sistemas que exigem uma atualização para os produtos NetApp na sua base instalada. Você receberá um e-mail de avaliação de bem-estar para que você possa ver um resumo mensal e tomar medidas para seus sistemas. Você também tem opções para exibir, editar, compartilhar e excluir suas assinaturas. A qualquer momento, se você decidir não receber o e-mail, você pode cancelar a inscrição de receber e-mail também.
+
+Depois que a assinatura estiver ativada, você deverá selecionar uma data de início ao adicionar uma assinatura. O resumo mensal do e-mail fornece uma visão das ações de bem-estar, renovação, atualização e verificação de integridade excecionais. Você pode confirmar o endereço de e-mail e o e-mail é enviado para o endereço de e-mail especificado. Você também tem a opção de excluir assinaturas.
+
+
+NOTE: Esse recurso está disponível somente por meio das ofertas de serviços do NetApp SupportEdge Advisor e do SupportEdge Expert.
+
+.Passos
+. No painel esquerdo, clique em *Revisão de bem-estar*.
+. Clique em *Adicionar assinatura*.
+. Forneça as informações necessárias nos campos *nomeie a assinatura*, *escolha Categoria*, *pesquisar Cliente* e *Email* na caixa de diálogo *Adicionar nova assinatura*.
+. Clique em *Subscribe*.
++
+Após a assinatura bem-sucedida, você receberá uma mensagem *assinatura adicionada*.
+
+

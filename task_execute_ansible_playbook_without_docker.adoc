@@ -1,0 +1,65 @@
+---
+sidebar: sidebar 
+permalink: task_execute_ansible_playbook_without_docker.html 
+keywords: Ansible Playbook, Ansible, playbook, without docker 
+summary: Fornece informações sobre como executar o Ansible Playbook usando a imagem do docker. 
+---
+= Execute o Playbook do Ansible sem a imagem do Docker do NetApp
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+.Passos
+[role="lead"]
+. Instale link:https://docs.python.org/3/using/windows.html["Python"^] e link:https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html["Ansible"^].
+. Instale os pacotes Python necessários usando *pip*:
++
+[listing]
+----
+$ pip install netapp-lib requests paramiko
+ 
+Installing collected packages: netapp-lib, requests, paramiko
+Successfully installed netapp-lib-2020.3.12 requests-2.23.0  paramiko-2.7.2
+----
+. Instale a coleção do NetApp Ansible usando o comando *Ansible-Galaxy*:
++
+[listing]
+----
+To install the collection only for the current user
+$ ansible-galaxy collection install netapp.ontap
+ 
+To do a more universal installation,
+$ ansible-galaxy collection install netapp.ontap -p /usr/share/ansible/collections
+
+$ chmod -R +rw /usr/share/ansible/collections
+----
++
+Para obter mais informações sobre o comando Ansible-Galaxy, consulte e para obter mais informações sobre a NetApp coleção Ansible-Galaxylink:https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html["Documentação do Ansible Galaxy"^], consulte o link:https://galaxy.ansible.com/netapp/ontap["Página de coleção do NetApp Ansible"^].
+
+. Execute o Playbook do Ansible usando o comando *Ansible-playbook*:
++
+[listing]
+----
+$ cd <downloaded_playbook_path>
+$ ansible-playbook na_ontap_pb_upgrade_firmware.yml
+ 
+Enter your ONTAP admin username: ****
+Enter the password for your ONTAP admin user: ****
+Enter the base URL to the firmware package (using HTTP is recommended): http://<web-server>/path/
+PLAY [ONTAP Firmware Upgrade] ****************************************************************
+----
++
+
+NOTE: Se houver um conjunto de clusters com credenciais de login diferentes, o Playbook do Ansible precisa ser executado em cada cluster. Não são necessárias alterações no arquivo de inventário, pois o Ansible Playbook ignora os clusters para os quais o login falhou.
+
+
+
+Para obter mais informações sobre o comando *ansible-playbook*, consulte e para executar o Ansible link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Documentação do Playbook do Ansible"^] Playbook no modo de verificação (Dry run), link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible: Modo de verificação"^]consulte .
+
+Depois de executar o manual de estratégia, consulte o link:task_validate_firmware_installation.html["Validações de instalação do firmware"] para obter instruções de pós-execução.

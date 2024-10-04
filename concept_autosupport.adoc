@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: concept_autosupport.html 
+keywords: AutoSupport 
+summary: Fornece uma visão geral do AutoSupport. 
+---
+= O que é AutoSupport
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O AutoSupport é um mecanismo de telemetria que monitora proativamente a integridade do sistema e envia automaticamente dados de configuração, status, performance e eventos do sistema para o NetApp.
+
+Esses dados são usados pelo suporte técnico da NetApp para acelerar o diagnóstico e a resolução de problemas e pelo consultor digital para detectar e evitar problemas em potencial proativamente. Ele também pode ser enviado para sua organização de suporte interno e um parceiro de suporte.
+
+
+NOTE: O Digital Advisor exibe dados relacionados ao AutoSupport apenas para sistemas cujos dados AutoSupport tenham menos de 60 dias de idade.
+
+Para sistemas ONTAP, o AutoSupport é ativado por padrão quando você configura o sistema de storage pela primeira vez. Você link:https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sag/GUID-91C43742-E563-442E-8161-17D5C5DA8C19.html["Configure o AutoSupport"^] deve nos sistemas ONTAP para controlar como as informações do AutoSupport são enviadas para o suporte técnico e sua organização de suporte interno.
+
+Se você não quiser habilitar o AutoSupport, use o recurso AutoSupport Upload para fazer o upload manual de dados do AutoSupport para receber recomendações e insights sobre seu ecossistema de storage.
+
+
+NOTE: Os dados do AutoSupport não contêm dados de usuário.
+
+Para obter mais informações sobre o AutoSupport, consulte a documentação apropriada:
+
+* link:https://docs.netapp.com/us-en/ontap/system-admin/manage-autosupport-concept.html["ONTAP (FAS e AFF)"^]
+* link:https://docs.netapp.com/us-en/storagegrid-117/admin/what-is-autosupport.html["StorageGRID"^]
+* link:https://docs.netapp.com/us-en/e-series-santricity/sm-support/autosupport-feature-overview.html["SANtricity (e-Series e EF-Series)"^]
+* link:https://docs.netapp.com/us-en/solidfire-active-iq/concept-active-iq-learn-about-active-iq.html["Elemento (NetApp HCI e SolidFire)"^]
+* link:https://www.netapp.com/pdf.html?item=/media/10438-tr-4444pdf.pdf["Relatório Técnico - ONTAP AutoSupport e AutoSupport sob demanda"^]
+* link:https://www.netapp.com/pdf.html?item=/media/10439-tr4688pdf.pdf["Relatório Técnico - Segurança e Privacidade de dados de Telemetria NetApp"^]
+

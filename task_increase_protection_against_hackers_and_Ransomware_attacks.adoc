@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: task_increase_protection_against_hackers_and_Ransomware_attacks.html 
+keywords: protection, hackers, ransomware, ransomware attacks, attack 
+summary: Fornece informações sobre como aumentar a proteção contra hackers e ataques de ransomware. 
+---
+= Detectar vulnerabilidade de segurança
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O site de segurança da NetApp é a fonte da verdade para a segurança de produtos da NetApp: link:https://security.netapp.com["Segurança do produto NetApp"^]
+
+O Digital Advisor utiliza dados de telemetria e avisos de segurança de produtos publicados para detetar problemas de segurança para produtos abrangidos* e com direitos de suporte. Os dados de telemetria de produtos devem ser transmitidos ao NetApp via AutoSupport para permitir que o Consultor Digital detete riscos.
+
+Para obter informações adicionais sobre a segurança do produto NetApp, incluindo produtos não cobertos pelo Consultor Digital, visite link:https://security.netapp.com["Segurança do produto NetApp"^]
+
+*Produtos cobertos: ONTAP 9 (on-premise and cloud), software controlador SANtricity os, NetApp SolidFire (software Element), StorageGRID, Active IQ Unified Manager, ferramentas ONTAP para VMware (OTV)
+
+.Passos
+. Inicie sessão no Digital Advisor.
+. Clique em *ações* no widget *Security & ransomware Defense*. image:Security_Image 2 Ransomware attacks.png["Widget Vulnerabilidades de Segurança"]
+. Desmarque a caixa de seleção *ransomware Defense*.
+. Para os riscos de segurança de alto impactos, siga a ação recomendada para atualizar o sistema operacional.
+. Clique na guia *riscos exclusivos* e, em seguida, clique no link na coluna *Ação corretiva*. image:Corrective Action_Image 2 Ransomware attacks.png["Coluna Ação Corretiva"]
++
+O risco é fixado em ONTAP 9.7P8 e posterior. image:Remediations_Image 3 Ransomware attacks.png["Separador Remediação"]
+
+. O passo mais importante é Planejar a atualização do sistema operacional no *Upgrade Advisor* no Digital Advisor.
+

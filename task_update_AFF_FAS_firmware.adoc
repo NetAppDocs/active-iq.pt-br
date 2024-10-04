@@ -1,0 +1,50 @@
+---
+sidebar: sidebar 
+permalink: task_update_AFF_FAS_firmware.html 
+keywords: update, AFF, FAS firmware, firmware 
+summary: Fornece informações sobre como atualizar o firmware do AFF e do FAS. 
+---
+= Faça o download do pacote de automação do AFF e do FAS
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Atualize o firmware do AFF e do FAS usando o Ansible para reduzir os riscos identificados e manter seu sistema de storage atualizado.
+
+
+
+== Antes de começar
+
+Antes de atualizar o firmware do AFF e do FAS usando o Ansible, você deve:
+
+* link:https://netapp.io/2018/10/08/getting-started-with-netapp-and-ansible-install-ansible/["Instale e configure o Ansible em seu sistema de storage"^]
+* link:https://netapp.io/2019/09/17/coming-together-nicely/["Instalar o Ansible 2,9 com coleções no seu sistema de storage"^]
+* Atualize seu sistema de storage para o ONTAP 9.1 ou posterior
+* Configure sua conta com uma função de administrador
+
+
+.Passos
+. Clique em qualquer widget de bem-estar no painel ou clique em *Exibir todas as ações* para ver uma lista de todas as ações e riscos.
+. Clique em *Atualização de firmware* para ver todos os riscos de atualização de firmware.
+. Clique em *Atualizar firmware AFF e FAS* para visualizar todos os pacotes de atualização disponíveis ou clique image:update_ansible.png["Atualizar o Ansible"] em junto a cada risco para atualizar o pacote específico a esse risco.
+. Clique em *Download* para baixar os arquivos zip e atualizar seu sistema de armazenamento.
++
+O arquivo zip contém o seguinte:
+
++
+** Ansible Playbook - Um arquivo YAML que contém o script Ansible para executar as atualizações de firmware do disco, do compartimento e do processador de serviços.
+** Inventário - Um arquivo YAML contendo os detalhes dos sistemas aplicáveis às atualizações de firmware.
+** Os pacotes de firmware de disco, gaveta e processador de serviço/BMC são nomeados como *all.zip*, *all_shelf_fw.zip* e * cliente SP/BMC>_<version_number>_fw.zip* respetivamente.
+
+
+
+
+
+NOTE: A adição manual de clusters e controladores ao arquivo de inventário não é suportada.

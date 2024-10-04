@@ -1,0 +1,54 @@
+---
+sidebar: sidebar 
+permalink: get_started_sustainability_dashboard.html 
+keywords: activeiq, sustainability dashboard, bluexp login, sustainability dashboard login, bluexp 
+summary: Comece a usar o painel de sustentabilidade do BlueXP  acessando o BlueXP  ou o consultor digital. 
+---
+= Comece a usar o painel Sustentabilidade
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O painel de sustentabilidade fornece relatórios e pontuação habilitados para AIOps com insights acionáveis para melhorar sua postura de sustentabilidade. Você pode acessar o painel de sustentabilidade por meio do NetApp BlueXP  ou do Consultor Digital.
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+Para fazer login no BlueXP , você pode usar as credenciais do site de suporte da NetApp ou se inscrever para fazer login na nuvem do NetApp usando seu e-mail e uma senha. Saiba mais link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Iniciar sessão no BlueXP "^]sobre o .
+
+.Passos
+. Abra um navegador da Web e vá para o link:https://console.bluexp.netapp.com/["Consola BlueXP"^]. É apresentada a página de início de sessão do NetApp BlueXP .
+. Inicie sessão no BlueXP .
+. Na navegação à esquerda do BlueXP , selecione *Governança* > *Sustentabilidade*. Aparece o painel Sustentabilidade. E image:sustainability_dashboard_bluexp.png["Uma captura de tela da IU que fornece a visão geral do painel de sustentabilidade no BlueXP ."]
+
+
+
+NOTE: Se o painel Sustentabilidade não estiver configurado, a opção *Adicionar conta NSS* será exibida. Forneça suas credenciais do site de suporte da NetApp (NSS) para visualizar seu painel de sustentabilidade e os sistemas associados à sua conta.
+
+--
+.Consultor digital
+--
+Para fazer login no consultor digital, você pode usar as credenciais do site de suporte da NetApp.
+
+.Passos
+. Abra um navegador da Web e vá para a link:https://activeiq.netapp.com/?source=onlinedocs["Consultor digital"^]página de login.
+. Forneça seu nome de usuário e senha e clique em *entrar*.
+. Na navegação à esquerda, selecione *STORAGE HEALTH* > *Sustainability*.
++
+image:sustainability_dashboard.png["Uma captura de tela da IU que fornece a visão geral do painel de sustentabilidade."]
+
+
+
+
+NOTE: A opção *Sustentabilidade* é desativada se a lista de observação não estiver configurada. Para ativá-la, você pode criar uma lista de observação ou realizar uma pesquisa usando nome do cliente, nome do site, nome do grupo, StorageGRID, nome do host, cluster, número de série ou ID do sistema. link:concept_overview_dashboard.html["Saiba mais sobre a watchlist"].
+
+--
+====

@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: BlueXP_sustainability_dashboard_overview.html 
+keywords: activeiq, sustainability dashboard, sustainability score, sustainability, environmental indicators, carbon mitigation, recommended actions, working environments, best practices, support, recommendations,  digital advisor, bluexp, cluster, sustainability initatives 
+summary: Fornece informações sobre o painel, a pontuação de sustentabilidade, os ambientes de trabalho e as ações recomendadas. 
+---
+= Visão geral do painel de sustentabilidade
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O dashboard de sustentabilidade fornece uma avaliação ambiental de seus sistemas de storage e insights práticos para melhorias na forma de ações recomendadas pela NetApp.
+
+image:get_started_sustainability_dashboard.png["Uma captura de tela da IU que mostra o painel de sustentabilidade."]
+
+
+NOTE: O AutoSupport deve ser habilitado para o cálculo preciso da pontuação de sustentabilidade.
+
+*Pontuação de Sustentabilidade*: Exibe a pontuação total indicando a sustentabilidade ambiental de seus sistemas de armazenamento. Você pode avaliar o nível de sustentabilidade dos seus sistemas de storage com base na faixa a seguir:
+
+* 76 - 100: Indica que a sustentabilidade é uma prioridade máxima.
+* 51 - 75: Indica um alto nível de investimento em iniciativas de sustentabilidade.
+* 26 - 50: Indica um bom progresso em direção a iniciativas de sustentabilidade.
+* Menos de 25: Indica a necessidade de melhoria nas práticas de sustentabilidade.
+
+
+Você pode ver a representação gráfica da pontuação por até 5 semanas, que é atualizada semanalmente. Você também pode ver a razão para o aumento ou diminuição da pontuação de sustentabilidade passando o Mouse sobre o gráfico.
+
+image:sustainability_score.png["Uma captura de tela que mostra a pontuação de sustentabilidade junto com o gráfico."]
+
+*Indicadores ambientais*: Exibe projeções para sua energia, uso direto de carbono e emissão de calor para avaliar a saúde ambiental de seus sistemas de armazenamento. Essas projeções são baseadas em valores de energia real, se não estiverem disponíveis, típicos. Você pode visualizar essas projeções mensalmente, trimestralmente ou anualmente selecionando a opção desejada no menu suspenso no canto superior direito desta seção.
+
+*Porcentagens de mitigação de carbono*: Exibe a porcentagem de mitigação de carbono em cada local/cidade, e os valores de linha de base apresentados são baseados em sua localização. Você pode ajustar a porcentagem de mitigação de carbono para locais específicos clicando no image:edit_icon_1.png["Uma captura de tela que mostra um ícone editável."] ícone localizado ao lado dos valores percentuais, e os números de carbono serão ajustados automaticamente de acordo.
+
+image:carbon_mitigation_percentage.png["Uma captura de tela que mostra a porcentagem de mitigação de carbono dos sites e como editar essa porcentagem."]
+
+*Ações recomendadas*: Exibe a lista de ações recomendadas para melhorar a pontuação de sustentabilidade de seus sistemas de armazenamento. Essas ações podem ser tomadas imediatamente ou mais tarde. Para obter mais informações sobre como melhorar a pontuação de sustentabilidade, link:improve_sustainability_score.html["Melhorar a pontuação de sustentabilidade"]consulte .
+
+*Ambientes de trabalho*: Exibe parâmetros ambientais na tabela que podem ajudar na identificação de clusters para a migração para armazenamento mais eficiente. A partir desta tabela, você pode:
+
+* Veja a pontuação de sustentabilidade ao nível do cluster, selecione o nome do cluster para acessar *ClusterViewer*, tome ações específicas recomendadas para melhorar a sustentabilidade. Para obter mais informações, link:improve_sustainability_score.html["Melhorar a pontuação de sustentabilidade no nível do cluster"]consulte .
++
+image:working_environments.png["Uma captura de tela da IU que mostra vários parâmetros ambientais"]
+
+* Ative a monitorização a partir da coluna *Real-Time POWER* (alimentação em tempo real) para visualizar os detalhes de energia em tempo real no nível do cluster. Para obter mais informações, link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^]consulte .
+

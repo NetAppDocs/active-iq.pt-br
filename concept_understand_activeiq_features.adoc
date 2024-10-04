@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: concept_understand_activeiq_features.html 
+keywords: digital advisor, features, upgrade, support offering 
+summary: Fornece informações sobre o painel, listas de observação, recursos e widgets. 
+---
+= Entenda os recursos do Digital Advisor
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode ver o status geral do seu sistema de storage, informações de alto nível sobre o bem-estar do sistema, inventário, Planejamento, atualizações e insights valiosos em um nível de lista de observação usando o Digital Advisor.
+
+Ao acessar o Digital Advisor pela primeira vez, você pode criar uma lista de observação ou procurar um nome de cliente, nome do site, nome do grupo, StorageGRID, nome do host, cluster, número de série ou ID do sistema.
+
+Você também deve estar ciente das cores aplicadas aos cartões, que indicam a gravidade e o tipo de riscos.
+
+A seguir estão alguns dos recursos do Digital Advisor:
+
+* Veja várias listas de observação, visualizações úteis e úteis de informações.
+* Obtenha insights sobre todos os riscos para seu sistema de storage e as ações para reduzir os riscos.
+* Reduza os riscos usando o Active IQ Unified Manager.
+* Atualize seu sistema de storage.
+* Veja a pontuação de sustentabilidade e uso projetado de energia, carbono direto e calor. Com base no índice de sustentabilidade, avalie a eficiência geral dos seus sistemas de storage e alinhe com as ações recomendadas da NetApp para melhorar a pontuação. link:learn_BlueXP_sustainability.html["Saiba mais"^].
+* Visualize a taxa de redução de dados, o espaço lógico usado, o espaço físico usado e o total de dados salvos para sistemas de storage executando o ONTAP 9.1 e posterior.
+* Analise o desempenho dos seus dispositivos de armazenamento visualizando o formato gráfico dos dados de desempenho.
+* Obtenha informações sobre o hardware e o software que expiraram ou estão prestes a expirar nos próximos 6 meses.
+* Atualize o firmware do ONTAP usando o Ansible.
+* Obtenha detalhes sobre sistemas que excederam 90% de capacidade ou estão próximos de 90% de capacidade.
+* Visualize informações detalhadas de configuração física e lógica, incluindo um resumo da configuração do cluster e do nó, as informações de nível e volume local, a interface de rede e informações de porta, um diagrama de pilha detalhando informações sobre os discos e gavetas e algumas visualizações de cabo.
+* Forneça informações e insights entre as pilhas que são benéficos para a solução de problemas, avaliações de atualização, validação de solução e migração.
+* Verifique a compatibilidade dos hosts e forneça recomendações de atualização para sistemas operacionais host, drivers e .
+* Chegue exatamente ao que você quer encontrar de uma maneira mais inteligente e rápida.
+
+
+
+NOTE: Você pode atualizar a oferta de suporte do widget *Configuração* no painel do sistema para obter informações sobre sua base de instalação e receber suporte personalizado.

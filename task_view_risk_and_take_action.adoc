@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: task_view_risk_and_take_action.html 
+keywords: wellness, performance, efficiency, availability, capacity, security vulnerabilities, protection, protect, mitigate, rectify 
+summary: Fornece informações para visualizar e analisar o bem-estar do seu sistema de storage e mitigar os riscos. 
+---
+= Veja o risco e tome manualmente as ações corretivas
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode analisar os atributos de bem-estar do seu sistema de storage visualizando as ações e os riscos associados a eles. Você deve exibir as ações corretivas associadas e mitigar manualmente o risco.
+
+.Passos
+. Clique no widget *Wellness* no painel ou clique em *Exibir todas as ações* para visualizar a lista de todas as ações e riscos.
+. Veja os *ações* e *riscos* associados ao atributo wellness.
+. Clique em *ações* para visualizar os riscos associados às ações, clique em *riscos* para visualizar todos os riscos ou clique em *sistemas afetados* para visualizar os sistemas que requerem atenção.
+. Clique no nome do risco para ver informações sobre o risco.
+. Clique nas ações corretivas associadas e siga as informações para resolver o risco.
+
+
+As etapas para mitigar os riscos são as mesmas para todos os atributos de bem-estar. Você pode exibir o seguinte vídeo para monitorar e corrigir problemas relacionados à segurança:
+
+video::ssXI-FAKMis[youtube,width=848,height=480]

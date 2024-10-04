@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: task_avoid_a_volume_filling_up_to_prevent_an_outage.html 
+keywords: volume filling up, prevent an outage 
+summary: Fornece informações sobre como evitar um enchimento de volume para evitar uma interrupção. 
+---
+= Evite um enchimento de volume para evitar uma interrupção
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Quando você faz login no Digital Advisor e percebe o emblema vermelho no widget *Configuration*. Ao clicar no widget, você vê que o volume está 98% cheio e isso pode causar uma interrupção. Corrigir esse problema evitaria um enchimento de volume, o que faria com que fosse só de leitura, resultando em aplicativos que o acessassem travar e falhar.
+
+.Passos
+. Inicie sessão no Digital Advisor.
+. Clique em *ações* no widget *Configuração*. image:Configuration_image 1 prevent an outage.png["Widget de configuração"]
+. Clique na guia *riscos exclusivos*. Ao clicar no link *Ação corretiva*, você pode alterar os limites de aviso ou alocar mais espaço para o volume. image:Risk summary_image 2 prevent an outage.png["Resumo do risco"]
+

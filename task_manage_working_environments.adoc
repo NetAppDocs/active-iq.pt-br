@@ -1,0 +1,51 @@
+---
+sidebar: sidebar 
+permalink: task_manage_working_environments.html 
+keywords: activeiq, sustainability dashboard, sustainability score, clusterviewer, cloud insights 
+summary: Fornece informações sobre ambientes de trabalho. 
+---
+= Gerenciar ambientes de trabalho
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode personalizar a tabela *ambientes de trabalho* adicionando ou removendo parâmetros ambientais. Você também pode visualizar as ações recomendadas no nível do cluster da sua base instalada e tomar as medidas necessárias para atender às metas de sustentabilidade.
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+. Vá para *Sustentabilidade* na categoria *Governança* disponível na navegação à esquerda do BlueXP .
+. Vá para a tabela *ambientes de trabalho*.
++
+** Você pode personalizar a tabela *ambientes de trabalho* adicionando ou removendo os parâmetros ambientais usando o image:add_icon.png["Um ícone de mais para adicionar ou remover os parâmetros"] ícone.
+** Você pode visualizar a pontuação de sustentabilidade no nível do cluster, acessar *ClusterViewer* selecionando o nome do cluster, tomar ações recomendadas específicas a partir daqui para melhorar a sustentabilidade.
+** Você também pode visualizar os detalhes de energia em tempo real no nível do cluster habilitando o Cloud Insights. link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Saiba mais"^]. E image:working_environments.png["Uma captura de tela da IU que mostra vários parâmetros ambientais"]
+** Você também pode exportar essa tabela no formato valores separados por vírgulas (.csv) usando o image:download_icon.png["Um símbolo de download para exportar o parâmetro"] ícone.
+
+
+
+
+--
+.Consultor digital
+--
+. Vá para *Sustentabilidade* na categoria *INTEGRIDADE DO ARMAZENAMENTO* disponível na navegação à esquerda do painel do Digital Advisor.
+. Vá para a tabela *ambientes de trabalho*.
++
+** Você pode personalizar a tabela *ambientes de trabalho* adicionando ou removendo os parâmetros ambientais usando o image:add_icon.png["Um ícone de mais para adicionar ou remover os parâmetros"] ícone.
+** Você pode visualizar a pontuação de sustentabilidade no nível do cluster, acessar *ClusterViewer* selecionando o nome do cluster, tomar ações recomendadas específicas a partir daqui para melhorar a sustentabilidade.
+** Você também pode visualizar os detalhes de energia em tempo real no nível do cluster habilitando o Cloud Insights. link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Saiba mais"^]. E image:working_environments.png["Uma captura de tela da IU que mostra vários parâmetros ambientais"]
+** Você também pode exportar essa tabela no formato valores separados por vírgulas (.csv) usando o image:download_icon.png["Um símbolo de download para exportar o parâmetro"] ícone.
+
+
+
+
+--
+====

@@ -1,0 +1,105 @@
+---
+sidebar: sidebar 
+permalink: generate_upgrade_plan_single_multiple_clusters.html 
+keywords: Upgrade Advisor, upgrade plan, ONTAP, upgrade recommendation, clusters 
+summary: Forneça etapas para gerar um plano de atualização para uma atualização bem-sucedida do ONTAP ou reverter para um único cluster e vários clusters. 
+---
+= Gerar um plano de atualização para um único cluster e vários clusters
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode usar o Upgrade Advisor para exibir a lista de clusters qualificados ou não qualificados para uma atualização. Você pode visualizar as recomendações de atualização para um cluster qualificado e gerar um plano de atualização. Você pode corrigir os problemas com um cluster não qualificado para torná-lo qualificado para uma atualização.
+
+Siga estas etapas para gerar um plano de atualização para um único cluster e vários clusters:
+
+[role="tabbed-block"]
+====
+.Cluster único
+--
+. No painel, clique em número de clusters no widget *Upgrade Advisor*.
++
+image:ua_widget.png["Uma captura de tela que mostra o número de clusters."]
+
++
+A página *Upgrade Advisor-ONTAP* é exibida.
+
+. Você pode ver uma lista de clusters qualificados e não qualificados para uma atualização.
++
+image:r_enhanced_ua_toggle.png["Uma captura de tela que mostra a alternância aprimorada do Upgrade Advisor está ativada."]
+
+. Selecione um cluster para uma atualização. A coluna *Target os Version* exibe a versão do SO de destino recomendada. Pode clicar no image:edit_icon.png["Imagem do botão de edição"] ícone para selecionar outra versão de SO de destino de um cluster.
++
+image:r_ua_select_target_OS_version_single_cluster.png["Uma imagem que mostra como selecionar a versão de destino."]
+
++
+** Você pode clicar no número de nós na coluna *nós* para ver o resumo do nó de um cluster.
+** Você pode clicar em *resolver problemas* na coluna *Ação recomendada* para corrigir os problemas com um cluster inelegível para torná-lo elegível para uma atualização. E image:r_ua_resolve_issue.png["Uma imagem que mostra o tipo de problema e a resolução necessária para corrigi-lo."]
+
+
+. Clique em *Generate Upgrade Plan*. Você será redirecionado para a página *Recomendação de Atualização*.
+. Na página *Recomendação de Atualização*, você pode visualizar os detalhes dos riscos associados a um cluster através da guia *Risk Advisor*. Você pode visualizar os bloqueadores de atualização, avisos de atualização e ações necessárias através da guia *Verificação de pré-atualização* e informações sobre os novos recursos e aprimoramentos relevantes para a versão do sistema operacional de destino selecionada por meio da guia *recursos avançados e atualizados do ONTAP*.
++
+image:r_ua_upgrade_recommendation_page.png["Uma captura de tela que mostra a visualização geral da página de recomendação de atualização."]
+
++
+** Você pode selecionar outra versão de SO de destino e exibir o resumo de risco, relatório de verificação de pré-atualização e informações sobre novos recursos e aprimoramentos relacionados à versão de SO de destino.
+** Pode clicar no image:ua_export_icon.png["botão export (exportar)"] ícone para exportar o resumo de risco para uma folha do Excel.
+
+
+. Clique em *Generate Upgrade Plan* na página *Upgrade Recommendation*.
+. Forneça os detalhes no pop-up apresentado. E image:ua_generate_single_clusters_plan.png["Um pop-up para preencher os detalhes para enviar a solicitação para gerar o plano de atualização."]
+. Clique em *Generate*. Você será redirecionado para a página *relatórios*.
+. Você pode baixar o plano de atualização da página *relatórios* quando estiver disponível.
++
+
+TIP: Você pode clicar em *Exibir relatórios de recomendações de atualização* para ir para a página *relatórios*. E image:r_ua_view_reports.png["Uma captura de tela que mostra a posição onde o View Upgrade Advisor está localizado para clicar."]
+
+
+
+Há algumas tarefas que você deve executar para confirmar a prontidão do cluster depois de atualizar o ONTAP. Para saber mais, link:https://docs.netapp.com/us-en/ontap/upgrade/task_what_to_do_after_upgrade.html["O que fazer após uma atualização do ONTAP"]consulte .
+
+--
+.Vários clusters
+--
+. No painel, clique em número de clusters no widget *Upgrade Advisor*.
++
+image:ua_widget.png["Uma captura de tela que mostra o número de clusters."]
+
++
+A página *Upgrade Advisor-ONTAP* é exibida.
+
+. Você pode ver uma lista de clusters qualificados e não qualificados para uma atualização.
++
+image:r_enhanced_ua_toggle.png["Uma captura de tela que mostra a alternância aprimorada do Upgrade Advisor está ativada."]
+
+. Selecione clusters para uma atualização. A coluna *Target os Version* exibe a versão de SO de destino recomendada. Você pode clicar no image:edit_icon.png["Imagem do botão de edição"] ícone para selecionar outra versão de SO de destino de um cluster.
++
+image:r_ua_select_target_OS_version.png["Uma imagem que mostra como selecionar a versão de destino."]
+
++
+** Você pode clicar no número de nós na coluna *nós* para ver o resumo do nó de um cluster.
+** Você pode clicar em *resolver problemas* na coluna *Ação recomendada* para corrigir os problemas com clusters não qualificados para torná-los elegíveis para uma atualização. E image:r_ua_resolve_issue.png["Uma imagem que mostra o tipo de problema e a resolução necessária para corrigi-lo."]
+
+
+. Clique em *Generate Upgrade Plan*.
+. Forneça os detalhes no pop-up apresentado. E image:ua_generate_multiple_clusters_plan.png["Um pop-up para preencher os detalhes para enviar a solicitação para gerar o plano de atualização."]
+. Clique em *Generate*. Você será redirecionado para a página *relatórios*.
+. Você pode baixar o plano de atualização da página *relatórios* quando estiver disponível.
++
+
+TIP: Você pode clicar em *Exibir relatórios de recomendações de atualização* para ir para a página *relatórios*. E image:r_ua_view_reports.png["Uma captura de tela que mostra a posição onde o View Upgrade Advisor está localizado para clicar."]
+
+
+
+Há algumas tarefas que você deve executar para confirmar a prontidão do cluster depois de atualizar o ONTAP. Para saber mais, link:https://docs.netapp.com/us-en/ontap/upgrade/task_what_to_do_after_upgrade.html["O que fazer após uma atualização do ONTAP"]consulte .
+
+--
+====

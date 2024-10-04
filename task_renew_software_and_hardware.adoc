@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: task_renew_software_and_hardware.html 
+keywords: renew, hardware, software 
+summary: Fornece informações para renovar o software e o hardware do seu sistema de storage. 
+---
+= Renove o software e o hardware do seu sistema de storage
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode identificar de forma proativa o software e o hardware que expiraram ou estão quase expirados nos próximos 6 meses e enviar uma solicitação para renovar o hardware e o software.
+
+.Passos
+. Clique em *Renewals* no widget *Planning*.
+. Selecione os sistemas que pretende renovar e clique em *Renew*.
+. Opcionalmente, forneça comentários adicionais.
+. Clique em *Enviar*.
+

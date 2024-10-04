@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: task_generate_tokens_API_services.html 
+keywords: generate token, access token, refresh token, API services 
+summary: Fornece informações sobre como gerar token para acessar APIs. 
+---
+= Gerar tokens para usar APIs
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+É fácil se Registrar para Serviços de API e gerar tokens.
+
+.Passos
+. No menu *Links rápidos*, clique em *Serviços API*.
+. Clique em *Register*.
+. Preencha o formulário de solicitação de autorização e clique em *Enviar*.
++
+A ativação é automática e deve ser instantânea. Depois de ter sido autorizado a usar as APIs do Digital Advisor, você pode gerar tokens para usar ao fazer chamadas programáticas de API. Você também pode usar esses tokens para executar "Experimente" dentro do Catálogo de API. Quando obtidos programaticamente, os tokens sempre vêm em conjuntos de dois: Um Token de Acesso e um Token de Atualização. O token de acesso deve ser passado para usar com sucesso todas as APIs (exceto uma - o token de atualização é usado para obter programaticamente um novo conjunto de tokens).
+
+. Na página Serviços de API principais, clique em *Generate Token* para visualizar e baixar o token de acesso e atualizar token para invocar APIs.
++
+O portal oferece várias maneiras de salvar um ou ambos os tokens no conjunto. Você pode copiá-los para a área de transferência, baixá-los como um arquivo de texto ou visualizá-los como texto simples.
+
+
+
+
+NOTE: Você deve baixar e salvar o token de acesso e atualizar o token para uso posterior. Os tokens de acesso expiram uma hora após a geração e os tokens de atualização devem ser regenerados, manualmente, a cada 7 dias e instalados no aplicativo. Para fazer isso, você não precisa fazer login no aplicativo. No entanto, após 90 dias, você precisa fazer login no aplicativo para obter um novo token de acesso e atualização.

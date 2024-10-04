@@ -1,0 +1,79 @@
+---
+sidebar: sidebar 
+permalink: task_execute_ansible_playbook_using_docker.html 
+keywords: Ansible Playbook, Ansible, Playbook, docker 
+summary: Fornece informações sobre como executar o Ansible Playbook usando a imagem do docker. 
+---
+= Execute o Playbook do Ansible usando a imagem do Docker do NetApp
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Antes de executar o Playbook do Ansible, verifique se o arquivo * NetApp_Ansible_**.*zip* foi extraído e o servidor da Web com arquivos de firmware de disco ou prateleira está pronto.
+
+
+
+== Antes de começar
+
+Antes de executar o Playbook do Ansible usando o docker do NetApp, você deve:
+
+* link:task_update_AFF_FAS_firmware.html["Faça o download do pacote de automação do AFF e do FAS"]
+* link:task_hosting_firmware_files_using_web_server.html["Hospede os arquivos de firmware usando o servidor da Web"]
+* link:concept_working_with_inventory_file.html["Trabalhe com o arquivo de inventário"]
+* Certifique-se de que o Docker do NetApp esteja instalado.
+
+
+.Passos
+. link:https://docs.docker.com/get-started/["Configure o Docker"^].
+. Puxe a imagem do Docker do NetApp do DockerHub executando o seguinte comando:
++
+[listing]
+----
+$ docker pull schmots1/netapp-ansible
+
+Using default tag: latest
+latest: Pulling from schmots1/netapp-ansible
+docker.io/schmots1/netapp-ansible:lates
+----
++
+Para obter mais informações sobre o comando docker pull, consulte o link:https://docs.docker.com/engine/reference/commandline/pull/["Documentação do Docker pull"^].
+
+. Execute a imagem do Docker como um contentor e faça login no contentor para executar o Ansible Playbook.
+. Copie o caminho da pasta que contém os arquivos extraídos do Ansible Playbook e inventário, por exemplo, *downloaded_playbook_path*. O Playbook do Ansible e os arquivos de inventário devem estar na mesma pasta para execução bem-sucedida.
+. Monte a pasta como um volume no contentor Docker. Por exemplo, para montar a pasta *container_path*, você deve executar o seguinte comando:
++
+[listing]
+----
+$ docker run -v <downloaded_playbook_path>:/<container_path> -it schmots1/netapp-ansible:latest /bin/bash
+----
++
+O contentor é iniciado e o console está agora no bash shell do contentor. Para obter mais informações sobre o comando Docker Run, consulte o link:https://docs.docker.com/engine/reference/run/["Execute a documentação do Docker"^].
+
+. Execute o Playbook do Ansible dentro do contentor usando o comando *ansible-playbook*:
++
+[listing]
+----
+$ cd <container_path>
+$ ansible-playbook na_ontap_pb_upgrade_firmware.yml
+ 
+Enter your ONTAP admin username: ****
+Enter the password for your ONTAP admin user: ****
+Enter the base URL to the firmware package (using HTTP is recommended): http://<web-server>/path/
+PLAY [ONTAP Firmware Upgrade] ****************************************************************
+----
++
+
+NOTE: Se houver um conjunto de clusters com credenciais de login diferentes, o Playbook do Ansible precisa ser executado em cada cluster. Não são necessárias alterações no arquivo de inventário, pois o Ansible Playbook ignora os clusters para os quais o login falhou.
+
+
+
+Para obter mais informações sobre o comando *ansible-playbook*, consulte o  e para executar o manual do Ansible link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Documentação do Playbook do Ansible"^]no modo de verificação (Dry run), link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible: Modo de verificação"^]consulte .
+
+Depois de executar o Playbook do Ansible, consulte o link:task_validate_firmware_installation.html["Validações de instalação do firmware"] para obter instruções de pós-execução.

@@ -1,0 +1,68 @@
+---
+sidebar: sidebar 
+permalink: concept_report_types.html 
+keywords: reports, report types, reporting, performance reports 
+summary: Fornece informações sobre os diferentes tipos de relatórios que estão disponíveis para o usuário. 
+---
+= Tipos de relatórios
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O Digital Advisor fornece uma variedade de opções de relatórios que permitem monitorar e gerenciar a integridade do sistema e o sucesso da operação.
+
+Veja a seguir os tipos de relatórios disponíveis no Digital Advisor:
+
+[cols="30,70"]
+|===
+| Nome do relatório | Descrição 
+
+
+| Inventário do Ansible | Fornece um arquivo de inventário do Ansible que lista todos os detalhes do inventário do sistema por região ou local. Este arquivo pode ser usado para automação. 
+
+
+| Capacidade e eficiência | Fornece informações sobre os detalhes de capacidade e eficiência no nível de cluster, cliente, local, grupo, lista de observação e nó. 
+
+
+| Relatório do ClusterViewer | Fornece informações sobre um único ou vários clusters em um nível de cliente e lista de observação. Você pode gerar esse relatório apenas para watchlist com até 100 nós. 
+
+
+| FabricPool | Fornece informações sobre dados inativos, inativos, ativos, quentes, dispostos em camadas e não monitorados. Esse relatório também inclui o manual de estratégia do Ansible para habilitar o Relatório de dados inativos em agregados desativados. 
+
+
+| Inventário | Fornece informações sobre a base de instalação para uma lista de observação selecionada, cliente, local, níveis de grupo. Este relatório pode ser gerado como um download direto da página de detalhes do inventário ou pode ser gerado a partir da página relatórios. 
+
+
+| Densidade de e/S | O Relatório de densidade de e/S fornece insights sobre as operações de pico de entrada e saída para os clientes em termos de consumo e densidade de dados e metadados. 
+
+
+| Relatório de desempenho | Fornece informações, no nível da lista de observação, sobre o desempenho de um cluster, nó, nível local (agregado) e volume. Você pode gerar esse relatório apenas para watchlist com até 100 nós. 
+
+
+| Configuração recomendada | Fornece informações sobre as várias lacunas de configuração recomendadas para Configuração de gerenciamento remoto, unidades e peças sobressalentes, par de HA e integridade do SVM. 
+
+
+| Contratos de suporte / hardware EOS | Fornece informações sobre a lista de controladoras, gavetas e discos que alcançaram suporte final (EOS). 
+
+
+| Detalhes técnicos do caso | Fornece um relatório anual sobre todos os casos técnicos e seu status. 
+
+
+| Recomendações de atualização (SW e FW) | Relatório com várias guias sobre a moeda do software e do firmware e as versões recomendadas para cada controlador ou série nos critérios de pesquisa. 
+
+
+| Relatório de desempenho de volume | Fornece informações sobre os detalhes de desempenho dos volumes no nível do cluster. 
+
+
+| Bem-estar | Fornece informações sobre os riscos pendentes e reconhecidos, detalhes de risco, ações corretivas e sistemas afetados. 
+
+
+| Bem-estar – agregado | Fornece um resumo dos riscos pendentes e da contagem dos sistemas afetados. 
+|===

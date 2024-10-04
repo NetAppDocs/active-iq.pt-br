@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: task_manage_watchlists.html 
+keywords: dashboard, watchlist, add watchlist 
+summary: Fornece informações para gerenciar listas de observação. 
+---
+= Gerenciar uma lista de observação
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode exibir o painel de diferentes listas de observação, editar os detalhes de uma lista de observação existente e excluir uma lista de observação.
+
+.Passos
+. No painel esquerdo, clique em *watchlists*.
++
+É apresentado o ecrã *Manage Watchlist* (gerir lista de vigias).
+
+. Clique no nome da lista de observação para exibir os detalhes do painel da lista de observação.
+. Clique em *Editar* para atualizar os detalhes da lista de observação.
+. Clique em *Excluir* para excluir a lista de observação.
+

@@ -1,0 +1,105 @@
+---
+sidebar: sidebar 
+permalink: task-informed-decisions-based-on-cloud-recommendations.html 
+keywords: cloud recommendations, migration, backup and archive, disaster recovery, FabricPool, FabricPool Advisor, inactive data, tiered data, IDR 
+summary: Fornece recomendações com base nas quais decisões informadas podem ser tomadas. 
+---
+= Tome decisões informadas com base nas recomendações da nuvem
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O Digital Advisor analisa constantemente seu sistema e fornece recomendações para melhorar o desempenho, a eficiência e a integridade do sistema.
+
+
+NOTE: O Digital Advisor navega até o BlueXP  para implementar as recomendações.
+
+
+
+== Migração
+
+Fornece informações sobre os diferentes tipos de workloads disponíveis no sistema de storage e identifica os workloads que estão prontos para a nuvem. Mover workloads para a nuvem resulta em economia de custos e recuperação de desastres na nuvem.
+
+Os volumes que atendem aos critérios a seguir são recomendados para migração para o Cloud Volumes ONTAP (CVO) e o Cloud Volumes Service (CVS):
+
+* Os volumes devem estar usando o protocolo NFS, SMB, CIFS, FCP ou iSCSI
+* Os volumes raiz são excluídos
+* As cargas de trabalho no volume são marcadas como ORACLE, SAP, SAP HANA, MSSQL, MYSQL, SHAREPOINT, FILESHARE, VIRTUALIZAÇÃO e Trident
+* A idade do sistema é superior a 1 ano
+* O contrato de suporte termina em 6 meses
+
+
+.Passos
+. No painel esquerdo, clique em *recomendações de nuvem*.
+. Clique em qualquer link no painel *migração*.
+. Clique em *migrar para a nuvem* para iniciar o *BlueXP *.
+
+
+
+
+== Disposição em camadas
+
+Fornece informações sobre dados de camada local inativa (agregados), dados de volume inativos, dados em camadas e dados não monitorados. Você pode reduzir o espaço físico do storage e os custos associados monitorando e categorizando os dados inativos em camadas de storage de objetos de baixo custo.
+
+
+NOTE: É possível habilitar o IDR (Inactive Data Reporting) para gerar um arquivo zip com um arquivo Ansible Playbook. Essas informações estão disponíveis nos níveis de cliente, local, grupo, lista de observação, cluster e nó.
+
+Os volumes que atendem aos critérios a seguir são recomendados para disposição em categorias:
+
+* Os volumes devem estar usando o protocolo NFS, SMB ou CIFS
+* Os volumes raiz são excluídos
+* Os dados inativos são mais de 50%
+* A capacidade agregada é superior a 50%
+
+
+.Passos
+. No painel esquerdo, clique em *recomendações de nuvem*.
+. Clique em qualquer link no painel *Categorização*.
+. Clique em *dados de nível* para iniciar o *BlueXP *.
+
+
+Para saber mais sobre o FabricPool, link:https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["Práticas recomendadas da FabricPool"^]consulte .
+
+
+
+== Backup e arquivamento
+
+Fornece informações sobre os sistemas que devem ser copiados para a nuvem. Você pode usar o backup em nuvem do NetApp para proteger seus sistemas e restaurá-los quando necessário.
+
+Os volumes que atendem aos critérios a seguir são recomendados para fazer backup na nuvem:
+
+* Os volumes raiz são excluídos
+* Os volumes de origem e os sistemas de destino e os volumes que têm backup do SnapVault estão excluídos.
+
+
+.Passos
+. No painel esquerdo, clique em *recomendações de nuvem*.
+. Clique em qualquer link no painel *Backup & Archive*.
+. Clique em *Backup na nuvem* para iniciar o *BlueXP *.
+
+
+
+
+== Replicação
+
+Fornece informações sobre os dados que devem ser replicados na nuvem para ajudar em caso de desastres.
+
+Os volumes que atendem aos critérios a seguir são recomendados para replicação para a nuvem:
+
+* Os volumes raiz são excluídos
+* Os volumes de origem do SnapMirror estão excluídos
+* Os volumes de destino do SnapMirror (tipo de volume LS e DP) são excluídos
+
+
+.Passos
+. No painel esquerdo, clique em *recomendações de nuvem*.
+. Clique em qualquer link no painel *Disaster Recovery*.
+. Clique em *Replicate to Cloud* para iniciar o *BlueXP *.
+

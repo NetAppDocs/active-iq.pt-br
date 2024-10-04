@@ -1,0 +1,50 @@
+---
+sidebar: sidebar 
+permalink: concept_getting_started_2.html 
+keywords: overview, get started, wellness, performance, configuration, renewal, risk, remediation, planning, inventory 
+summary: Ajuda você a entender os fluxos de trabalho e começar a usar o Digital Advisor. 
+---
+= Início rápido para o Digital Advisor
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O Digital Advisor foi aprimorado e redesenhado para ajudá-lo a realizar tarefas com mais eficiência. A interface do usuário foi desenvolvida para orientá-lo a realizar seus objetivos desejados.
+
+Você pode ver o diagrama a seguir para entender os fluxos de trabalho do Digital Advisor.
+
+image:activeiq2_workflow.png["Fluxo de trabalho do Digital Advisor"]
+
+Você pode ver o seguinte vídeo para começar a usar o Digital Advisor:
+
+video::rEPtldosjWM[youtube,width=848,height=480]
+Todos os widgets do Digital Advisor não são suportados em todas as plataformas. O Digital Advisor identifica a plataforma do seu sistema de storage e exibe apenas o conjunto de tarefas que podem ser executadas no seu sistema de storage.
+
+Leia as informações a seguir para estar ciente dos widgets que são suportados no seu sistema de armazenamento.
+
+[cols="4*"]
+|===
+| *Widget* | *Cliente* | *Cluster* | *Nó* 
+
+
+| Bem-estar | Compatível com todas as plataformas | Compatível com todas as plataformas | Compatível com todas as plataformas 
+
+
+| Renovações | Compatível com todas as plataformas | Compatível com todas as plataformas | Compatível com todas as plataformas 
+
+
+| Adições de capacidade | Compatível apenas com Clustered Data ONTAP | Compatível apenas com Clustered Data ONTAP | Compatível apenas com Clustered Data ONTAP 
+
+
+| Inventário | Compatível com todas as plataformas | Compatível apenas com Clustered Data ONTAP | Compatível apenas com Clustered Data ONTAP 
+
+
+| Atualizações | Compatível apenas com Clustered Data ONTAP | Compatível apenas com Clustered Data ONTAP | Compatível apenas com Clustered Data ONTAP 
+|===

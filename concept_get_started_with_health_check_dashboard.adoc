@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: concept_get_started_with_health_check_dashboard.html 
+keywords: activeiq, health check, health, HCA, health check dashboard, autosupport, autosupport adoption, recommended configuration, best practices, support, support and entitlements, support contract, contracts, active contracts, expired contracts, nearing-expiration, key recommendations, recommendations,  digital advisor, features, recommended software 
+summary: Fornece informações sobre o painel, pontuações de integridade, recursos e widgets. 
+---
+= Comece a usar o painel de verificação de integridade
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Este painel fornece um resumo rápido da sua base instalada através dos seguintes widgets:
+
+* *Adoção do AutoSupport*: Exibe o número e a porcentagem de sistemas com o AutoSupport habilitado. Você também pode visualizar os sistemas marcados como "declinados", aqueles com *HTTPS* e *AutoSupport sob demanda* ativados, bem como *perda de sinal* para os sistemas que pararam de enviar dados AutoSupport nos últimos 7 dias. Para ver a pontuação da verificação de integridade e as informações sobre os sistemas na base de instalação, clique no widget *AutoSupport adoption*.
+* *Configuração recomendada*: Exibe sistemas compatíveis e não compatíveis de acordo com o widget *Configuração recomendada*. Ele ajuda você a tomar medidas para garantir que seus sistemas estejam bem configurados em toda a base instalada. Você pode visualizar a pontuação fornecida no painel e tomar ações com base nas principais recomendações fornecidas por ordem de prioridade.
+* *Software recomendado*: Exibe uma lista consolidada de todas as atualizações de software e firmware e recomendações de moeda. Você pode visualizar os sistemas com o AutoSupport habilitado que devem ser no mínimo ou mais recente versões de software ou firmware.
+* *Suporte e direitos*: Exibe contratos de suporte que expiraram e aqueles que estão prestes a expirar dentro de 6 a 12 meses. Ele exibe plataformas de suporte de fim, discos, gavetas, conformidade de direitos, expirações pendentes e fim do suporte para plataforma e hardware não é aplicável. Você pode visualizar a pontuação de verificação de integridade fornecida no painel e tomar medidas com base nas principais recomendações, que são fornecidas por ordem de prioridade. Para ver informações detalhadas sobre contratos de suporte, clique no widget *suporte e direitos*. Você também pode renovar seus contratos de suporte usando este widget.
+* *Melhores práticas*: Exibe a pontuação da verificação de integridade avaliando os atributos de práticas recomendadas do seu sistema de armazenamento: Desempenho e eficiência, disponibilidade e proteção, capacidade, configuração e vulnerabilidades de segurança. As práticas recomendadas da NetApp ajudam a manter a integridade do sistema, o que otimiza o desempenho da sua base instalada.
+* *Casos técnicos*: Fornece uma visão detalhada do seu histórico de casos técnicos, por tipo de caso e status aberto ou fechado, em intervalos de tempo selecionáveis. Você pode perfurar grupos de casos, bem como visualizar detalhes de casos através de link:https://mysupport.netapp.com//["Site de suporte da NetApp"^] ou outros portais de caso.
+

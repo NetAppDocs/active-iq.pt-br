@@ -1,0 +1,21 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_planning.html 
+keywords: overview, planning, increate capacity, renew, software, hardware, expiry, expired 
+summary: Fornece informações para identificar a capacidade do sistema e o software e hardware que estão expirando. 
+---
+= Entenda o Planejamento
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O widget *Planning* ajuda os clientes a identificar requisitos de capacidade que excederam 90% de capacidade ou estão perto de 90% de capacidade e identificar o software e o hardware que expiraram ou estão quase expirados nos próximos 6 meses. Você pode enviar uma solicitação para aumentar a capacidade do sistema de storage e renovar o hardware e o software.
+
+video::ZJwz3WSD2u0[youtube,width=848,height=480]

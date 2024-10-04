@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: reference_ansible_troubleshoot_feedback_support.html 
+keywords: troubleshoot, feedback, support 
+summary: Fornece mais informações sobre o Ansible. 
+---
+= Obtenha mais informações
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode obter ajuda e encontrar mais informações através de vários recursos.
+
+* link:https://netapp.io/2019/08/05/dealing-with-the-unexpected/["Informações de resolução de problemas"^]
+* link:https://netapp.io/["Espaço de trabalho do Slack"^]
+* Enviar mensagem para NetApp.com[Email]
+* Botão de suporte no Digital Advisor para obter suporte e feedback.
+

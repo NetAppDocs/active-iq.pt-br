@@ -1,0 +1,36 @@
+---
+sidebar: sidebar 
+permalink: task-integrating-with-cloud-insights-to-view-vm-details.html 
+keywords: Cloud Insights, VMs, virtual machines 
+summary: Fornece informações sobre as máquinas virtuais no Cloud Insights 
+---
+= Integração com o Cloud Insights para visualizar os detalhes das máquinas virtuais
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O consultor digital agora está integrado à versão básica do Cloud Insights para fornecer um inventário de pilha completa e verificações de interoperabilidade aos clientes.
+
+Os benefícios dessa integração são:
+
+* Monitoramento SaaS simplificado do ONTAP
+* Visibilidade do monitoramento full-stack da VMware
+* Economia de produtividade para os clientes por meio de verificações automatizadas de interoperabilidade para ajudar no Planejamento de atualização do ONTAP. Isso resulta em atualizações mais suaves do ONTAP e reduz os riscos de incompatibilidade com os hosts.
+
+
+
+NOTE: Esse recurso está disponível somente para contratos de atualização do SupportEdge Advisor, do SupportEdge Expert e do consultor digital.
+
+.Passos
+. No widget *Inventário*, clique em *máquinas virtuais* para visualizar os dados disponíveis no Cloud Insights.
+. Clique na guia *Visão geral da máquina virtual*.
+. Clique em *Count of ESX hosts* (contagem de hosts ESX*) para exibir informações sobre o host.
+. Clique no *Nome ESX* para navegar até o Cloud Insights para exibir mais informações.
+

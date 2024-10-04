@@ -1,0 +1,58 @@
+---
+sidebar: sidebar 
+permalink: task_add_config_drift_template.html 
+keywords: config deviation, drift, configuration, add template 
+summary: Fornece informações para adicionar um modelo de desvio de configuração. 
+---
+= Adicione um modelo de deriva de configuração
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você deve adicionar um modelo para comparar as configurações do sistema e do cluster e detetar os desvios de configuração em tempo quase real. Os modelos de deriva de configuração são adicionados usando sistemas que executam dados AutoSupport.
+
+*Sobre esta tarefa*
+
+Os atributos em um modelo de deriva de configuração são editáveis e os seguintes grupos do modelo suportam expressões regulares para algumas seções:
+
+[cols="3*"]
+|===
+| Grupo | Secção | Atributo 
+
+
+| *AGREGADO* | AGGR-INFO.XML | nome 
+
+
+| *CLUSTER* | CLUSTER-INFO.XML | nome do cluster 
+
+
+| *LUN* | LUN.XML | nome 
+
+
+| *SVM* | SVM-INFO.XML | svm 
+
+
+| *REDE* | NETWORK-INTERFACE.XML | vif 
+
+
+| *DNS* | DNS.XML | domínios 
+
+
+| *VOLUME* | VOLUME.XML | vol 
+|===
+Usando uma expressão regular, um usuário pode criar um relatório de desvio de configuração que inclui desvios resultantes de inconsistências de nomes de volumes, agregados, clusters e assim por diante. Por exemplo, se uma expressão regular *aggr-name** for mencionada para o atributo *Name* para a seção *AGGR-info.xml* no grupo *AGGREGATE*, os valores do atributo sem o prefixo *aggr-name* são marcados como um desvio quando o relatório de desvio de configuração é gerado.
+
+.Passos
+. No painel esquerdo, clique em *Config Drift*.
+. Clique em *Adicionar modelo*.
+. Forneça os valores solicitados.
+. Opcional: Você pode personalizar o modelo editando os grupos ou excluindo os grupos não necessários para um modelo.
+. Clique em *Adicionar modelo*.
+

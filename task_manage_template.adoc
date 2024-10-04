@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: task_manage_template.html 
+keywords: templates, share template, clone template, edit template, delete template 
+summary: Fornece informações para gerenciar modelos. 
+---
+= Gerenciar um modelo
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode clonar um modelo, compartilhar um modelo, editar os detalhes de um modelo existente e excluir um modelo.
+
+O compartilhamento de um modelo economiza tempo e esforço necessários para criar e personalizar um modelo que já foi criado por um usuário. Os modelos compartilhados podem ser mutuamente alterados por usuários compartilhados, permitindo que vários usuários façam modificações em um único modelo dourado.
+
+*Sobre esta tarefa*
+
+* O acesso a modelos compartilhados pode ser revogado a qualquer momento.
+* Os usuários compartilhados podem excluir esse modelo de sua conta a qualquer momento.
+
+
+.Passos
+. No painel esquerdo, clique em *Config Drift*.
+. Clique image:clone_icon.png["clone"] para fazer uma cópia do modelo.
+. Clique image:share_icon.png["partilhar"] e insira os nomes de usuário com os quais você deseja compartilhar o modelo.
++
+
+NOTE: Se você inserir o endereço de e-mail do usuário em vez do nome de usuário, o modelo não será compartilhado.
+
+. Clique image:edit_icon.png["editar"] para atualizar os detalhes do modelo.
+. Clique image:delete_icon.png["eliminar"] para eliminar o modelo.
+

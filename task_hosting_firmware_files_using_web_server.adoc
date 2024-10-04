@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: task_hosting_firmware_files_using_web_server.html 
+keywords: firmware, web server, hosting 
+summary: Fornece informações sobre como hospedar os arquivos de firmware usando um servidor web. 
+---
+= Arquivos de firmware do host usando o servidor da Web
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Depois de baixar o pacote de automação, os arquivos de firmware devem ser hospedados em um servidor web.
+
+O servidor Web pode ser configurado de várias maneiras. Para obter instruções para configurar um servidor Web simples usando Python, link:https://docs.python.org/3/library/http.server.html["Webserver usando Python"^]consulte .
+
+.Passo
+. Salve o URL base do servidor da Web. Se os URLs para firmware de disco, firmware de gaveta e firmware do processador de serviço forem * http://<web-server> <web-server>/path/all_shelf_fw.zip*, * http://<web-server>/path/all.zip* e * http://<web-server>/path/ SP/BMC>_<version_number>_fw.zip*, salve * http://URL/* como o caminho base.
+
+
+O nome do arquivo é detetado automaticamente pelo Ansible Playbook.

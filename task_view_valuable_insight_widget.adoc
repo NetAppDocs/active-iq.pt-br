@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: task_view_valuable_insight_widget.html 
+keywords: valuable insight, support cases, storage efficiency savings, mitigated risks 
+summary: Fornece informações sobre o widget de informações valiosas. 
+---
+= Veja insights valiosos
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O widget *Valuable Insights* fornece informações sobre o número de casos de suporte, atualizações de software pendentes, economia de eficiência de armazenamento, riscos mitigados e outros. Ele também lista proativamente as notificações de risco do atributo *Wellness*.
+
+video::QPJY2TWnRxQ[youtube,width=848,height=480]
+.Passos
+. No widget *Inventory*, clique em *Systems* para visualizar as informações do sistema de todas as plataformas ou clique no tipo de plataforma e, em seguida, clique em *Systems* para visualizar os sistemas específicos dessa plataforma.
+. Clique no nó ou cluster para ver informações detalhadas sobre o sistema.
++
+O widget *Valuable Insights* está disponível no painel.
+
+. Revise as informações no widget para entender o valor comercial e técnico recebido de seu contrato de suporte.
+

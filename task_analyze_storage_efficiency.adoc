@@ -1,0 +1,51 @@
+---
+sidebar: sidebar 
+permalink: task_analyze_storage_efficiency.html 
+keywords: renew, hardware, software 
+summary: Fornece informações para renovar o software e o hardware do seu sistema de storage. 
+---
+= Analise a economia de capacidade e eficiência de storage
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode visualizar os detalhes de capacidade e a economia de eficiência de storage do seu sistema e tomar as medidas apropriadas. As informações de capacidade e eficiência de storage podem ser visualizadas no nível do cluster ou no nível de nó.
+
+
+NOTE: Esse recurso não é suportado em sistemas e-Series.
+
+O painel capacidade exibe os detalhes da capacidade e a previsão de capacidade do seu sistema. A previsão de capacidade usa informações históricas de capacidade para identificar a utilização de cada sistema. Com base nos dados históricos (dados de um ano, se disponíveis) da capacidade utilizada e alocada, o algoritmo considera a utilização atual de cada sistema e gera uma previsão para a utilização do sistema nos próximos 1 a 6 meses.
+
+O dashboard de eficiência de storage exibe a taxa de redução de dados, o espaço lógico usado, o espaço físico usado e o total de dados salvos para sistemas de storage que executam o ONTAP 9.1 e posterior. A taxa de redução de dados e a economia podem ser vistas com e sem cópias Snapshot para sistemas AFF, sistemas que não sejam AFF ou ambos. A economia total de dados no storage do cliente pode ser vista por recurso de eficiência, como deduplicação de volume, compressão de volume, compactação, volumes FlexClone e cópias Snapshot. Você pode visualizar os 5 principais sistemas de storage com a melhor taxa de eficiência. Também é possível visualizar a eficiência de SAN e nas sem cópias Snapshot em um nível de nó para sistemas ONTAP, incluindo AFF A-Series, AFF C190, All SAN Array e FAS500 executando o ONTAP 9.10 e posterior.
+
+video::8Ge3_0qlyxA[youtube,width=848,height=480]
+.Passos
+. No painel esquerdo, clique em *capacidade e eficiência*.
++
+Por padrão, a guia *capacidade* está selecionada.
+
+. Veja os detalhes da capacidade no nível do cluster e do nó.
++
+.. Visualizar a previsão de capacidade no nível do nó.
++
+Para sistemas ONTAP, as informações sobre a capacidade RAW estão disponíveis no ClusterViewer.
+
+.. Clique em *Adicionar capacidade* para enviar uma notificação à NetApp ou ao seu parceiro para adicionar capacidade.
+
+
+. Veja a eficiência de storage e a economia de dados do seu sistema de storage.
++
+.. Se a taxa de eficiência de storage do seu sistema de storage for superior à taxa média de eficiência de storage, clique em *compartilhar sua história de sucesso* para nos informar sobre as práticas recomendadas seguidas.
+.. Se a taxa de eficiência de storage do seu sistema de storage for inferior à taxa média de eficiência de storage, clique em *Fale conosco* para nos informar sobre as configurações do seu sistema de storage.
+
+
+
+
+Para obter mais informações sobre capacidade e eficiência de storage, link:reference_aiq_faq.html["Perguntas frequentes sobre o Digital Advisor"]consulte .

@@ -1,0 +1,80 @@
+---
+sidebar: sidebar 
+permalink: concept_working_with_inventory_file.html 
+keywords: inventory file, file format 
+summary: Fornece informações sobre como trabalhar com o arquivo de inventário. 
+---
+= Trabalhar com arquivo de inventário
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O arquivo de inventário consiste nos LIFs de gerenciamento de cluster dos sistemas elegíveis para atualizações de firmware. Ele contém a lista de clusters com informações de nome de arquivo de firmware de disco e gaveta, onde aplicável.
+
+Para atualização do firmware do processador de serviço, nomes de host de nós e IP SP/BMC estão incluídos no arquivo de inventário.
+
+
+
+== Formato de arquivo de inventário
+
+A seguir está um exemplo de formato de arquivo de inventário com atualizações de firmware de disco e de gaveta:
+
+[listing]
+----
+clusters:
+  - clustername: <cluster management LIF-1>
+    disk_fw_file: all.zip
+    shelf_fw_file: all_shelf_fw.zip
+
+  - clustername: <cluster management LIF-2>
+    disk_fw_file: all.zip
+    sp_nodes:
+    - hostname: <node hostname 1>
+      sp_fw_file: SP_FW_308-03990_11.5.zip
+      sp_fw_type: bmc
+      sp_fw_ver: '11.5'
+      sp_ip: <BMC IP>
+    - hostname: <node hostname 2>
+      sp_fw_file: SP_FW_308-03991_5.8.zip
+      sp_fw_type: sp
+      sp_fw_ver: '5.8'
+      sp_ip: <SP IP>
+----
+No exemplo, as atualizações de firmware de gaveta e disco são aplicáveis no cluster-1 e as atualizações de firmware de disco e SP/BMC são aplicáveis no cluster-2.
+
+
+
+== Exclua um cluster do arquivo de inventário
+
+Caso não pretenda aplicar atualizações de firmware num cluster específico, pode remover o cluster do ficheiro de inventário.
+
+Por exemplo, se você não quiser aplicar atualizações de firmware de disco no cluster-2, você pode removê-lo do arquivo de inventário usando o seguinte comando:
+
+[listing]
+----
+clusters:
+  - clustername: <cluster management LIF-1>
+    disk_fw_file: all.zip
+    shelf_fw_file: all_shelf_fw.zip
+----
+Você pode observar que todos os dados do cluster-2 foram excluídos.
+
+Se você quiser aplicar apenas atualizações de firmware de disco em atualizações de firmware de cluster-1 e não de prateleira, você pode fazê-lo usando o seguinte comando:
+
+[listing]
+----
+clusters:
+  - clustername: <cluster management LIF-1>
+    disk_fw_file: all.zip
+----
+Você pode ver que a chave e o valor _shelf_fw_file_ foram removidos do cluster-1.
+
+
+NOTE: A adição manual de clusters ou controladoras não é suportada.

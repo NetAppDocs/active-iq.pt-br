@@ -1,0 +1,45 @@
+---
+sidebar: sidebar 
+permalink: task_add_watchlist.html 
+keywords: dashboard, watchlist, add watchlist 
+summary: Fornece informações para adicionar uma lista de observação ao painel. 
+---
+= Crie uma lista de observação
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode criar uma lista de observação para acessar um conjunto de sistemas de forma rápida e fácil. Pode adicionar os sistemas com base na categoria ou no número de série.
+
+
+NOTE: Você pode adicionar um máximo de 15.000 sistemas em uma categoria e 500 sistemas em um número de série.
+
+.Passos
+. No painel esquerdo, clique em *watchlists*
++
+É apresentado o ecrã *Manage Watchlist* (gerir lista de vigias).
+
+. Clique em *criar lista de observação*.
+. Forneça um nome para a lista de observação.
+. Selecione uma das seguintes opções para adicionar sistemas à lista de observação:
++
+** *Categoria*: Essa opção permite adicionar todo o inventário associado a uma categoria específica, como assinaturas de cliente, site, grupo ou Keystone, à sua lista de observação.
++
+
+NOTE: A opção *Keystone Subscriptions* permite que você inclua todos os números de assinatura associados às assinaturas do Keystone. Ao pesquisar por uma lista de observação, você pode visualizar as assinaturas no widget *assinaturas do Keystone* no painel do Digital Advisor. Para obter mais informações, link:https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-aiq.html#search-by-keystone-watchlists["PESQUISE por Keystone watchlists"^]consulte .
+
+** *Número de série*: Esta opção permite que você inclua o inventário em sua lista de observação com base em números de série especificados. Você pode inserir o número de série diretamente ou selecionar números de série de categorias como cliente, local ou grupo.
+
+
+. Clique em *criar lista de observação*.
++
+É apresentado o painel de controlo da lista de observação.
+
+

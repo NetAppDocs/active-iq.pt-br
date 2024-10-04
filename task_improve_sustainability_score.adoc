@@ -1,0 +1,69 @@
+---
+sidebar: sidebar 
+permalink: task_improve_sustainability_score.html 
+keywords: activeiq, sustainability dashboard, recommended actions, digital advisor, bluexp 
+summary: Fornece etapas para abordar as ações recomendadas imediatamente ou mais tarde. 
+---
+= Melhorar a pontuação de sustentabilidade
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O painel de sustentabilidade do BlueXP  gera ações recomendadas que você pode usar para melhorar sua postura geral de sustentabilidade. Você pode exibir essas ações recomendadas no NetApp BlueXP  ou no Digital Advisor.
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+. Vá para *Sustentabilidade* na categoria *Governança* disponível na navegação à esquerda do BlueXP .
+. Vá para a guia *ações recomendadas*.
++
+** Você pode tomar essas ações imediatamente selecionando *Fix* ou endereço mais tarde selecionando *Later*.
+** Se você planeja abordar as ações imediatamente, selecione *Fix*.
++
+*** Expande a vista da ação recomendada selecionada. Você também pode expandir a exibição de ação recomendada usando a seta para baixo. Na visualização expandida, você pode ver o nome do cluster, a pontuação de sustentabilidade e o aumento subsequente se continuar com a opção *Fix*. Você também pode ver uma mensagem informativa de continuar com a opção *Fix*. E image:recommended_actions.png["Uma captura de tela que mostra a lista de ações na exibição expandida."]
+*** Na exibição expandida, você pode selecionar *Fix* para abordar a ação imediatamente.
+
+
+** Se você pretende abordar as ações mais tarde, selecione *Later*.
++
+*** Se você selecionar *Later*, ela move a ação recomendada selecionada para a guia *ações para mais tarde*. A ação selecionada será adiada por 30 dias. Após 30 dias, essa ação será movida para a guia *ações recomendadas*.
+*** Você também pode revisar as ações adiadas a qualquer momento e movê-las para a guia *ações recomendadas* clicando em *considerar*. E image:actions_for_later.png["Uma captura de tela que mostra ações recomendadas com a opção considerar."]
+
+
+
+
+
+
+--
+.Consultor digital
+--
+. Vá para *Sustentabilidade* na categoria *INTEGRIDADE DO ARMAZENAMENTO* disponível na navegação à esquerda do painel do Digital Advisor.
+. Vá para a guia *ações recomendadas*.
++
+** Você pode tomar essas ações imediatamente selecionando *Fix* ou endereço mais tarde selecionando *Later*.
+** Se você planeja abordar as ações imediatamente, selecione *Fix*.
++
+*** A vista da ação recomendada selecionada expande-se. Você também pode expandir a exibição de ação recomendada usando a seta para baixo. Na visualização expandida, você pode ver o nome do cluster, a pontuação de sustentabilidade e o aumento subsequente se continuar com a opção *Fix*. Você também pode ver uma mensagem informativa de continuar com a opção *Fix*. E image:recommended_actions.png["Uma captura de tela que mostra a lista de ações na exibição expandida."]
+*** Na exibição expandida, você pode selecionar *Fix* para abordar a ação imediatamente.
+
+
+** Se você pretende abordar as ações mais tarde, selecione *Later*.
++
+*** Se você selecionar *Later*, ela move a ação recomendada selecionada para a guia *ações para mais tarde*. A ação selecionada será adiada por 30 dias. Após 30 dias, essa ação será movida para a guia *ações recomendadas*.
+*** Você também pode revisar as ações adiadas a qualquer momento e movê-las para a guia *ações recomendadas* clicando em *considerar*. E image:actions_for_later.png["Uma captura de tela que mostra ações recomendadas com a opção considerar."]
+
+
+
+
+
+
+--
+====

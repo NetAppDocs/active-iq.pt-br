@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: digital-advisor-integration-with-bluexp.html 
+keywords: digital advisor, integration, bluexp 
+summary: 'O consultor digital agora está totalmente integrado ao BlueXP . Agora você pode gerenciar seus clusters e acessar todos os recursos do Digital Advisor a partir da interface de usuário (UI) do BlueXP .' 
+---
+= Integração do consultor digital com o BlueXP 
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O consultor digital agora está totalmente integrado ao BlueXP . Agora você pode gerenciar seus clusters e acessar todos os recursos do Digital Advisor a partir da interface de usuário (UI) do BlueXP .
+
+Com o BlueXP , os especialistas DE TI e os arquitetos de nuvem podem gerenciar centralmente sua infraestrutura multicloud híbrida. Tudo o que você precisa é de uma conta do site de suporte da NetApp (NSS) para acessar o consultor digital no BlueXP .
+
+
+
+== Visão geral da integração
+
+A partir de novembro de 2022, os usuários do Digital Advisor serão incentivados a usar o Digital Advisor no BlueXP . No BlueXP , você terá acesso à mesma interface do Digital Advisor que está acostumado, além de mais. O BlueXP  permite que você crie e administre storage de nuvem (por exemplo, Cloud Volumes ONTAP), use os serviços de dados do NetApp (por exemplo, backup em nuvem) e controle muitos dispositivos de storage no local e na borda.
+
+
+
+== Acesse o consultor digital no BlueXP 
+
+Você pode acessar o Digital Advisor do BlueXP  para gerenciar seu cluster.
+
+.Passos
+. Abra um navegador da Web e vá para https://cloudmanager.netapp.com/app-redirect/active-iq["BlueXP"^].
+. Selecione *inicie sessão com as credenciais do site de suporte da NetApp* e introduza as suas credenciais.
++
+Se você já criou um login do BlueXP  usando um e-mail e senha, então você precisará continuar usando essa opção de login.
+
+. Quando solicitado, faça login com as credenciais do site de suporte da NetApp.
++
+Este login é diferente do login concluído na etapa 2. Na etapa 2, você fez login na plataforma BlueXP . Agora você está logando no Digital Advisor.
+
+
+
+*Resultado*
+
+Todas as suas listas de observação e configurações existentes aparecem e agora você pode usar o Digital Advisor como você normalmente faz.
+
+
+
+== Saiba mais sobre o BlueXP
+
+https://docs.netapp.com/us-en/bluexp-family/index.html["Vá para a documentação do BlueXP  para saber mais"^]

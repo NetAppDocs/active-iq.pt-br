@@ -1,0 +1,59 @@
+---
+sidebar: sidebar 
+permalink: task_generate_reports.html 
+keywords: reports, generate reports 
+summary: Fornece informações para gerar relatórios. 
+---
+= Gerar relatórios
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode gerar relatórios imediatamente ou agendar um relatório para ser gerado semanalmente ou mensalmente. Os relatórios podem ser gerados em diferentes formatos. Com base no relatório selecionado, são apresentados os formatos disponíveis.
+
+*Sobre esta tarefa*
+
+* Não é possível editar os relatórios no Digital Advisor. Você deve excluir o relatório existente e criar um novo relatório.
+
+
+.Passos
+. No painel esquerdo, clique em *relatórios*.
+. Clique em *criar relatório* para gerar um novo relatório.
++
+Você pode gerar um relatório imediatamente ou agendar o relatório para ser gerado semanalmente ou mensalmente.
+
+
+
+[cols="50,50"]
+|===
+| Para gerar um relatório imediatamente | Para programar o relatório a ser gerado semanalmente ou mensalmente 
+
+
+ a| 
+. Selecione o tipo de relatório e forneça os valores solicitados para o relatório.
+. Selecione o formato do relatório.
+. Clique em *Enviar*.
+
+
+
+NOTE: O relatório é salvo no Digital Advisor por 3 dias.
+ a| 
+. Clique na guia *Relatório de Agendamento*.
+. Selecione o tipo de relatório e forneça os valores solicitados para o relatório.
+. Selecione o formato do relatório.
+. Selecione a frequência do relatório.
+. Selecione a data de início e a data de fim para o relatório.
+. Clique em *Enviar*.
+
+
+
+NOTE: Os relatórios programados existentes serão substituídos quando os novos relatórios forem gerados.
+
+|===

@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task_login_activeiq.html 
+keywords: login, log in 
+summary: Fornece informações para efetuar login no Digital Advisor. 
+---
+= Inicie sessão no Digital Advisor
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode fazer login no Digital Advisor a partir de um console baseado na Web para visualizar o status geral do seu sistema de storage.
+
+.Antes de começar
+Você deve ter uma credencial válida do site de suporte da NetApp para fazer login no consultor digital. Se você não tiver uma conta e estiver começando, consulte o seguinte artigo da KB para criar uma conta: link:https://kb.netapp.com/Support/General_Support/How_to_register_for_a_NetApp_Support_Site_account_as_a_Customer_or_a_Guest_user["Como se Registrar para uma conta do site de suporte da NetApp como cliente ou usuário convidado"^].
+
+.Passos
+. Vá para a link:https://activeiq.netapp.com/?source=onlinedocs["Consultor digital"^]página de login.
++
+O Digital Advisor mostra sistemas com um contrato de suporte válido. Se os contratos expirarem, é dado um período de carência de 90 dias, no qual os sistemas continuam visíveis. Depois disso, os sistemas não são pesquisáveis ou visíveis no Digital Advisor.
+
+. Forneça seu nome de usuário e senha e clique em *entrar*.
+

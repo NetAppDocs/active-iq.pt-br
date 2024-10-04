@@ -1,0 +1,51 @@
+---
+sidebar: sidebar 
+permalink: task_generate_drift_timeline_report.html 
+keywords: reports, generate reports, drift timeline, drift timeline report, AutoSupport data 
+summary: Fornece informações para gerar relatórios de linha do tempo de deriva. 
+---
+= Gerar um relatório de linha do tempo de deriva
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode comparar os dados do AutoSupport dos últimos 90 dias e gerar um relatório que forneça informações sobre os eventos e os desvios de configuração que ocorreram.
+
+.Passos
+. No painel esquerdo, clique em *Config Drift*.
+. Selecione o tipo de relatório *Drift Timeline*.
+. Gerar um relatório de linha do tempo de deriva
++
+Você pode gerar um relatório imediatamente ou agendar o relatório para ser gerado semanalmente ou mensalmente.
+
+
+
+[cols="50,50"]
+|===
+| Para gerar um relatório imediatamente | Para programar o relatório a ser gerado semanalmente ou mensalmente 
+
+
+ a| 
+. Selecione uma categoria e forneça os valores solicitados para o relatório.
+. Selecione a opção *include only Drifts* (incluir apenas desvios) para transferir apenas as alterações de desvio de configuração.
+. Clique em *Enviar*.
+. link:task_generate_reports.html["Baixe e veja o relatório de linha do tempo de deriva"].
+
+ a| 
+. Clique na guia *Relatório de Agendamento*.
+. Selecione uma categoria e forneça os valores solicitados para o relatório.
+. Selecione a opção *include only Drifts* (incluir apenas desvios) para transferir apenas as alterações de desvio de configuração.
+. Selecione a frequência do relatório.
+. Selecione a data de início e a data de fim para o relatório.
+. Clique em *Enviar*.
+. link:task_generate_reports.html["Baixe e veja o relatório de linha do tempo de deriva"].
+
+
+|===

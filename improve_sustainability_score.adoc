@@ -1,0 +1,143 @@
+---
+sidebar: sidebar 
+permalink: improve_sustainability_score.html 
+keywords: activeiq, sustainability dashboard, recommended actions, digital advisor, bluexp, sustainability core, cluster level 
+summary: Fornece passos para melhorar a pontuação de sustentabilidade através das ações recomendadas. 
+---
+= Melhorar a pontuação de sustentabilidade
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O painel de sustentabilidade fornece ações recomendadas que você pode implementar para melhorar a pontuação geral de sustentabilidade e a pontuação de sustentabilidade em nível de cluster.
+
+
+NOTE: Para obter os melhores resultados no painel, ative o AutoSupport. Se o AutoSupport não estiver ativado, os dados serão baseados nas especificações do produto. Para obter detalhes de energia em tempo real, você precisa ativar o Cloud Insights. Para obter mais informações sobre como ativar o Cloud Insights, link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^]consulte .
+
+
+
+== Computação da pontuação de sustentabilidade
+
+O escore de sustentabilidade é calculado com base em um conjunto de regras relacionadas aos sistemas de storage, com cada regra abordando riscos específicos e fornecendo ações recomendadas para mitigação. Cada regra recebe uma pontuação para refletir sua importância. Por exemplo, se houver três regras associadas aos sistemas de armazenamento: Manter a temperatura ambiente, garantir a utilização ideal da capacidade e usar uma fonte de alimentação de titânio, com pontuações de 30, 40 e 30 pontos, respetivamente. Adicionar essas pontuações dá um total de 100 pontos, que atua como denominador.
+
+Se os sistemas de storage atendessem perfeitamente a todos os critérios, alcançaria uma pontuação de sustentabilidade de 100%. Se os sistemas tiverem um desempenho na metade do nível ideal, pode atingir uma pontuação de 50%. O total de pontos serve como padrão, e é usado para comparar o desempenho real com o desempenho ideal. Você pode implementar as ações recomendadas para melhorar o cumprimento dessas regras, o que melhorará a pontuação de sustentabilidade.
+
+
+NOTE: A pontuação de sustentabilidade é inicialmente calculada no nível do cluster e, em seguida, é agregada em outros níveis, como o nível do cliente ou da lista de observação.
+
+
+
+== Melhorar a pontuação geral de sustentabilidade
+
+Você pode seguir estes passos para melhorar a pontuação geral de sustentabilidade e que se concentra nos esforços de sustentabilidade a nível da empresa:
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+. Vá para *Sustentabilidade* na categoria *Governança* disponível na navegação à esquerda do BlueXP .
+. Vá para a guia *ações recomendadas*.
++
+** Você pode selecionar *Fix* para executar essas ações imediatamente ou selecionar *Later* para abordar essas ações posteriormente.
+** Se você planeja abordar as ações imediatamente, selecione *Fix*.
++
+*** Expande a vista da ação recomendada selecionada. Você também pode expandir a exibição de ação recomendada usando a seta para baixo. Na visualização expandida, você pode ver o nome do cluster, a pontuação de sustentabilidade e o aumento subsequente se continuar com a opção *Fix*. E image:recommended_actions.png["Uma captura de tela que mostra a lista de ações na exibição expandida."]
+
+
+** Se você pretende abordar as ações mais tarde, selecione *Later*.
++
+*** Se você selecionar *Later*, ela move a ação recomendada selecionada para a guia *ações para mais tarde*. A ação selecionada será adiada por 30 dias. Após 30 dias, essa ação será movida para a guia *ações recomendadas*.
+*** Você também pode revisar as ações adiadas a qualquer momento e clicar em *considerar* para movê-las para a guia *ações recomendadas*. E image:actions_for_later.png["Uma captura de tela que mostra ações recomendadas com a opção considerar."]
+
+
+
+
+
+
+--
+.Consultor digital
+--
+. Vá para *Sustentabilidade* na categoria *INTEGRIDADE DO ARMAZENAMENTO* disponível na navegação à esquerda do painel do Digital Advisor.
+. Vá para a guia *ações recomendadas*.
++
+** Você pode selecionar *Fix* para executar essas ações imediatamente ou selecionar *Later* para abordar essas ações posteriormente.
+** Se você planeja abordar as ações imediatamente, selecione *Fix*.
++
+*** A vista da ação recomendada selecionada expande-se. Você também pode expandir a exibição de ação recomendada usando a seta para baixo. Na visualização expandida, você pode ver o nome do cluster, a pontuação de sustentabilidade e o aumento subsequente se continuar com a opção *Fix*. E image:recommended_actions.png["Uma captura de tela que mostra a lista de ações na exibição expandida."]
+
+
+** Se você pretende abordar as ações mais tarde, selecione *Later*.
++
+*** Se você selecionar *Later*, ela move a ação recomendada selecionada para a guia *ações para mais tarde*. A ação selecionada será adiada por 30 dias. Após 30 dias, essa ação será movida para a guia *ações recomendadas*.
+*** Você também pode revisar as ações adiadas a qualquer momento e clicar em *considerar* para movê-las para a guia *ações recomendadas*. E image:actions_for_later.png["Uma captura de tela que mostra ações recomendadas com a opção considerar."]
+
+
+
+
+
+
+--
+====
+
+
+== Melhorar a pontuação de sustentabilidade no nível do cluster
+
+Você pode seguir estas etapas para melhorar a pontuação de sustentabilidade em nível de cluster que se concentra em melhorar a sustentabilidade de um cluster específico:
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+. Vá para *Sustentabilidade* na categoria *Governança* disponível na navegação à esquerda do BlueXP .
+. Vá para a tabela *ambientes de trabalho*.
+. Clique no número de ações da coluna *ações recomendadas* para o cluster de destino.
++
+image:recommended_actions_cluster.png["Uma captura de tela que mostra o número de ações."]
+
++
+** Você pode selecionar *Fix* para executar essas ações imediatamente ou selecionar *Later* para abordar essas ações posteriormente.
++
+image:recommended_actions_list.png["Uma captura de tela que fornece os detalhes das ações recomendadas com a opção de correção e posterior."]
+
+** Se você selecionar *Later*, ela move a ação recomendada selecionada para a guia *ações para mais tarde*. A ação selecionada será adiada por 30 dias. Após 30 dias, essa ação será movida para a guia *ações recomendadas*.
+** Você também pode revisar as ações adiadas a qualquer momento e clicar em *considerar* para movê-las para a guia *ações recomendadas*.
+
+
+
+
+
+TIP: Você pode adicionar ou remover os parâmetros ambientais na tabela *ambientes de trabalho* usando o image:add_icon.png["Um ícone de mais para adicionar ou remover os parâmetros"] ícone, e pode exportar essa tabela no formato valores separados por vírgulas (.csv) usando o image:download_icon.png["Um símbolo de download para exportar o parâmetro"] ícone.
+
+--
+.Consultor digital
+--
+. Vá para *Sustentabilidade* na categoria *INTEGRIDADE DO ARMAZENAMENTO* disponível na navegação à esquerda do painel do Digital Advisor.
+. Vá para a guia *ações recomendadas*.
+. Vá para a tabela *ambientes de trabalho*.
+. Clique no número de ações da coluna *ações recomendadas* para o cluster de destino.
++
+image:recommended_actions_cluster.png["Uma captura de tela que mostra o número de ações."]
+
++
+** Você pode selecionar *Fix* para executar essas ações imediatamente ou selecionar *Later* para abordar essas ações posteriormente.
++
+image:recommended_actions_list.png["Uma captura de tela que fornece os detalhes das ações recomendadas com a opção de correção e posterior."]
+
+** Se você selecionar *Later*, ela move a ação recomendada selecionada para a guia *ações para mais tarde*. A ação selecionada será adiada por 30 dias. Após 30 dias, essa ação será movida para a guia *ações recomendadas*.
+** Você também pode revisar as ações adiadas a qualquer momento e clicar em *considerar* para movê-las para a guia *ações recomendadas*.
+
+
+
+
+
+TIP: Você pode adicionar ou remover os parâmetros ambientais na tabela *ambientes de trabalho* usando o image:add_icon.png["Um ícone de mais para adicionar ou remover os parâmetros"] ícone, e pode exportar essa tabela no formato valores separados por vírgulas (.csv) usando o image:download_icon.png["Um símbolo de download para exportar o parâmetro"] ícone.
+
+--
+====

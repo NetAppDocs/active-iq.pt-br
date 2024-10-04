@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: learn_BlueXP_sustainability.html 
+keywords: activeiq, sustainability, sustainability score, sustainability dashboard, bluexp, benefits, ONTAP 
+summary: Fornece informações sobre sustentabilidade que permitem reduzir o consumo de energia e permite que você trabalhe em direção aos seus objetivos ambientais. 
+---
+= Saiba mais sobre sustentabilidade
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+A sustentabilidade, como serviço, permite reduzir o consumo de energia e permite que você trabalhe em direção aos seus objetivos ambientais. Isso permite que você alinhe seus sistemas de storage com práticas ecologicamente corretas e alcance as metas de sustentabilidade.
+
+Você pode visualizar a pontuação de sustentabilidade e o uso projetado de energia, carbono direto e calor no painel Sustentabilidade. Você pode ajustar a porcentagem de mitigação de carbono para locais específicos. Você também pode visualizar a pontuação de sustentabilidade no nível do cluster. Com base no escore de sustentabilidade, você pode avaliar a postura de sustentabilidade e implementar as ações recomendadas pela NetApp para melhorar a pontuação. Para saber mais sobre o painel Sustentabilidade, link:BlueXP_sustainability_dashboard_overview.html["Visão geral do painel de sustentabilidade"]acesse .
+
+
+NOTE: A sustentabilidade é compatível com sistemas Cloud Volumes ONTAP, AFF (A-Series e C-Series), e-Series, FAS e StorageGRID.
+
+Você pode ver o vídeo a seguir para entender o painel Sustentabilidade:
+
+video::yNRHeOvbGX8[youtube,width=848,height=480]
+
+
+== Benefícios da sustentabilidade
+
+A sustentabilidade oferece os seguintes benefícios:
+
+* Acelere o desempenho reduzindo o número de dispositivos de armazenamento para armazenar a mesma quantidade de dados.
+* Reduzir os custos de storage otimizando a utilização dos sistemas de storage.
+* Reduzir as pegadas de carbono usando energia renovável em data centers.
+* Melhorar a eficiência energética através da implementação de políticas energeticamente eficientes.
+

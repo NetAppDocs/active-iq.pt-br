@@ -1,0 +1,23 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_dashboard.html 
+keywords: overview, provision, dashboard, widget, watchlist 
+summary: Fornece informações sobre o painel, as listas de observação e os widgets. 
+---
+= Entenda a lista de observação
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+As listas de observação são usadas para acessar sistemas pré-selecionados dentro do Digital Advisor de forma rápida e fácil. Se você visualizar um determinado cliente ou um conjunto de sistemas com frequência, recomendamos que você crie listas de observação. Você pode criar até 100 listas de observação e cada lista de observação pode conter até 15.000 sistemas por categoria ou 500 sistemas por números de série.
+
+Ao acessar o Digital Advisor pela primeira vez, você pode criar uma lista de observação ou pesquisar um nome de cliente, nome do site, nome do grupo, StorageGRID, nome do host, cluster, número de série, ID do sistema ou assinatura do Keystone.
+
+Você também deve estar ciente das cores aplicadas aos cartões, que indicam a gravidade e o tipo de riscos.
