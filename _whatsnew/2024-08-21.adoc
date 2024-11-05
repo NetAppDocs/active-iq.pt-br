@@ -1,0 +1,9 @@
+= Relatórios
+:allow-uri-read: 
+
+
+
+
+=== Relatórios
+
+O relatório *planos de Upgrade Advisor de 7 modos* não está mais disponível, uma vez que os sistemas de 7 modos chegaram ao fim do suporte limitado. Para obter mais informações, link:https://mysupport.netapp.com/site/info/version-support["Suporte à versão de software"^]consulte . Saiba mais link:https://docs.netapp.com/a/ontap/7-mode/8.2.1/Upgrade-And-Revert-Or-Downgrade-Guide-For-7-Mode.pdf["Atualização dos sistemas de storage Data ONTAP que operam no modo 7D."^]sobre o .

@@ -1,0 +1,9 @@
+= Ofertas de suporte
+:allow-uri-read: 
+
+
+
+
+=== Ofertas de suporte
+
+A oferta de serviço do NetApp SupportEdge Basic agora inclui todos os recursos do consultor digital disponíveis no SupportEdge Advisor e no SupportEdge Expert, exceto a topologia de pilha completa (VMware), que não fornece visibilidade sobre o monitoramento de pilha completa do VMware, mesmo se ativado.
