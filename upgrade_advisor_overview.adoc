@@ -23,7 +23,6 @@ Você pode gerar planos de atualização automatizados e sem interrupções para
 [NOTE]
 ====
 * Para cada cluster em uma configuração do MetroCluster, gere um plano de atualização individual para obter instruções completas de atualização.
-* Para clusters que executam o ONTAP 9.6 ou versões anteriores, é possível visualizar as informações sobre novos recursos e aprimoramentos nas recomendações de atualização. O relatório de verificação de pré-atualização e o resumo de riscos não estão disponíveis e você pode gerar um plano de atualização no formato mais antigo.
 
 
 ====
