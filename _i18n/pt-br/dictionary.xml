@@ -1498,4 +1498,13 @@
   <block id="d7e31a0bb5b5ba6257ea5fda3503a013" category="list-text">Clique em *Ver recomendações* para ver a lista de recomendações.</block>
   <block id="11672318e1b710ceb9ea65a5a12aa393" category="list-text">Na coluna *Update Status*, clique em *See Progress* para exibir os clusters que são elegíveis para uma atualização.</block>
   <block id="ea9fb85557d50ae07af62f60044c60d5" category="list-text">Em caso de problemas, clique nos respetivos links para visualizar as etapas para mitigar os problemas.</block>
+  <block id="998e01ff2383d2b9e06b55738a27346b" category="doc">Widget AutoSupport</block>
+  <block id="526c3ba007bad7c7b6408ba4672f5f6e" category="paragraph">O widget AutoSupport foi adicionado à tela principal do painel para alertar os clientes sobre os problemas relacionados ao status do AutoSupport.</block>
+  <block id="92806a8b46867129d50cde3d86748bb6" category="section-title">Widget AutoSupport não disponível para cluster e números de série</block>
+  <block id="03d676ea619bd44dde41c38b2851a15d" category="paragraph">O widget AutoSupport não fornecerá alertas para pesquisas de cluster e número de série.</block>
+  <block id="c0ac6b1bce52487f5b5af28ecef07c1f" category="section-title">O widget AutoSupport não consegue detalhar os detalhes do AutoSupport de nível serial</block>
+  <block id="84262a27dab2047f1176d0c336762208" category="paragraph">Na página relatórios do AutoSupport, clicar em qualquer um dos Estados, sistemas que pararam de enviar recentemente ou sistemas que têm o AutoSupport desativado não navega para o ecrã Verificação de integridade.</block>
+  <block id="82a9da1ab6bff23f72740b42a10ddeb9" category="section-title">Filtragem e classificação não estão disponíveis no widget Inventário</block>
+  <block id="eeb5db985fd60cfebc33e606802e2112" category="paragraph">Não é possível filtrar e classificar dados no widget de inventário. Nenhum dado é exibido se você selecionar ONTAP AFF, ONTAP ASA, ONTAP Edge ou ONTAP Select na lista suspensa "Filtrar por".</block>
+  <block id="4b546cad2ee01a6cbf9ccc96b97242b6" category="section-title">04 de dezembro de 2024</block>
 </blocks>

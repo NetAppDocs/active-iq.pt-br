@@ -30,6 +30,16 @@ Agora você pode visualizar o firmware de armazenamento, o firmware do SP/BMC e 
 
 
 
+== 04 de dezembro de 2024
+
+
+
+=== Widget AutoSupport
+
+O widget AutoSupport foi adicionado à tela principal do painel para alertar os clientes sobre os problemas relacionados ao status do AutoSupport.
+
+
+
 == 23 de setembro de 2024
 
 
