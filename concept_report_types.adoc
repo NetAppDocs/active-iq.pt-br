@@ -20,49 +20,61 @@ O Digital Advisor fornece uma variedade de opções de relatórios que permitem 
 
 Veja a seguir os tipos de relatórios disponíveis no Digital Advisor:
 
-[cols="30,70"]
+[cols="20,50,10,10,10"]
 |===
-| Nome do relatório | Descrição 
+| Nome do relatório | Descrição | Disponível em ONTAP | Disponível em e-Series | Disponível em StorageGRID 
 
 
-| Inventário do Ansible | Fornece um arquivo de inventário do Ansible que lista todos os detalhes do inventário do sistema por região ou local. Este arquivo pode ser usado para automação. 
+| Inventário do Ansible | Fornece um arquivo de inventário do Ansible que lista todos os detalhes do inventário do sistema por região ou local. Este arquivo pode ser usado para automação. | Sim | Não | Não 
 
 
-| Capacidade e eficiência | Fornece informações sobre os detalhes de capacidade e eficiência no nível de cluster, cliente, local, grupo, lista de observação e nó. 
+| Capacidade e eficiência | Fornece informações sobre os detalhes de capacidade e eficiência no nível de cluster, cliente, local, grupo, lista de observação e nó. | Sim | Sim | Sim 
 
 
-| Relatório do ClusterViewer | Fornece informações sobre um único ou vários clusters em um nível de cliente e lista de observação. Você pode gerar esse relatório apenas para watchlist com até 100 nós. 
+| Recomendações de nuvem | Fornece insights e recomendações para otimizar os recursos de nuvem. Ele inclui detalhes sobre recuperação de desastre, backup, disposição em categorias e migração. | Sim | Não | Não 
 
 
-| FabricPool | Fornece informações sobre dados inativos, inativos, ativos, quentes, dispostos em camadas e não monitorados. Esse relatório também inclui o manual de estratégia do Ansible para habilitar o Relatório de dados inativos em agregados desativados. 
+| ClusterViewer | Fornece informações sobre um único ou vários clusters em um nível de cliente e lista de observação. Você pode gerar esse relatório apenas para watchlist com até 100 nós. | Sim | Não | Não 
 
 
-| Inventário | Fornece informações sobre a base de instalação para uma lista de observação selecionada, cliente, local, níveis de grupo. Este relatório pode ser gerado como um download direto da página de detalhes do inventário ou pode ser gerado a partir da página relatórios. 
+| Desvio Config | Permite que os usuários estabeleçam uma "linha de base dourada" para configurações do sistema e os alerte quando ocorrerem desvios dessa linha de base. Ele ajuda a identificar e solucionar alterações de configuração que podem afetar o desempenho ou a segurança do sistema. | Sim | Não | Não 
 
 
-| Densidade de e/S | O Relatório de densidade de e/S fornece insights sobre as operações de pico de entrada e saída para os clientes em termos de consumo e densidade de dados e metadados. 
+| Logística de entrega | Fornece informações sobre a logística de entrega de produtos e serviços. | Sim | Sim | Não 
 
 
-| Relatório de desempenho | Fornece informações, no nível da lista de observação, sobre o desempenho de um cluster, nó, nível local (agregado) e volume. Você pode gerar esse relatório apenas para watchlist com até 100 nós. 
+| Resumo executivo da avaliação de integridade | Fornece informações sobre vários KPIs do Active IQ em um formato PowerPoint (PPT), com diferentes KPIs sendo descritos em diferentes slides. | Sim | Sim | Não 
 
 
-| Configuração recomendada | Fornece informações sobre as várias lacunas de configuração recomendadas para Configuração de gerenciamento remoto, unidades e peças sobressalentes, par de HA e integridade do SVM. 
+| Inventário | Fornece informações sobre a base de instalação para uma lista de observação selecionada, cliente, local, níveis de grupo. Este relatório pode ser gerado como um download direto da página de detalhes do inventário ou pode ser gerado a partir da página relatórios. | Sim | Sim | Sim 
 
 
-| Contratos de suporte / hardware EOS | Fornece informações sobre a lista de controladoras, gavetas e discos que alcançaram suporte final (EOS). 
+| Densidade de e/S | O Relatório de densidade de e/S fornece insights sobre as operações de pico de entrada e saída para os clientes em termos de consumo e densidade de dados e metadados. | Sim | Não | Não 
 
 
-| Detalhes técnicos do caso | Fornece um relatório anual sobre todos os casos técnicos e seu status. 
+| Desempenho | Fornece informações, no nível da lista de observação, sobre o desempenho de um cluster, nó, nível local (agregado) e volume. Você pode gerar esse relatório apenas para watchlist com até 100 nós. | Sim | Sim | Não 
 
 
-| Recomendações de atualização (SW e FW) | Relatório com várias guias sobre a moeda do software e do firmware e as versões recomendadas para cada controlador ou série nos critérios de pesquisa. 
+| Periódico Digest | Resume periodicamente as principais métricas e insights. Ele inclui dados sobre performance, capacidade e eficiência do sistema. | Sim | Não | Não 
 
 
-| Relatório de desempenho de volume | Fornece informações sobre os detalhes de desempenho dos volumes no nível do cluster. 
+| Configuração recomendada | Fornece informações sobre as várias lacunas de configuração recomendadas para configuração de gerenciamento remoto, peças sobressalentes e unidades, par de HA, integridade do SVM, status da bateria e avisos de guru de recuperação. | Sim | Sim | Não 
 
 
-| Bem-estar | Fornece informações sobre os riscos pendentes e reconhecidos, detalhes de risco, ações corretivas e sistemas afetados. 
+| Contratos de suporte / hardware EOS | Fornece informações sobre os detalhes do contrato e a lista de controladoras, gavetas e discos que alcançaram suporte final (EOS). | Sim | Sim | Não 
 
 
-| Bem-estar – agregado | Fornece um resumo dos riscos pendentes e da contagem dos sistemas afetados. 
+| Detalhes técnicos do caso | Fornece um relatório anual sobre todos os casos técnicos e seu status. | Sim | Sim | Sim 
+
+
+| Plano de atualização | Oferece recomendações para atualizações de software e firmware. Ele inclui detalhes sobre as versões recomendadas mais recentes, possíveis problemas e etapas para a realização de atualizações. | Sim | Não | Não 
+
+
+| Recomendações de atualização (SW e FW) | Relatório com várias guias sobre a moeda do software e do firmware e as versões recomendadas para cada controlador ou série nos critérios de pesquisa. | Sim | Sim | Não 
+
+
+| Performance de volume | Fornece informações sobre os detalhes de desempenho dos volumes no nível do cluster. | Sim | Não | Não 
+
+
+| Bem-estar | Fornece informações sobre os riscos pendentes e reconhecidos, detalhes de risco, ações corretivas e sistemas afetados. | Sim | Sim | Sim 
 |===

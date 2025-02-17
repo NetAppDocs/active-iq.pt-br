@@ -201,28 +201,19 @@
   <block id="f34a643181d75dbba89d10d14f0d8041" category="cell">Fornece um arquivo de inventário do Ansible que lista todos os detalhes do inventário do sistema por região ou local. Este arquivo pode ser usado para automação.</block>
   <block id="2d99f2b259d1d48f91090cd494f911f9" category="cell">Capacidade e eficiência</block>
   <block id="5da3b92de536337b0597bb58ef5868ac" category="cell">Fornece informações sobre os detalhes de capacidade e eficiência no nível de cluster, cliente, local, grupo, lista de observação e nó.</block>
-  <block id="7ba03c87de2b2098f95107674c8477ff" category="cell">Relatório do ClusterViewer</block>
   <block id="acaaa059ccc549a29b26a0c1ad515bba" category="cell">Fornece informações sobre um único ou vários clusters em um nível de cliente e lista de observação. Você pode gerar esse relatório apenas para watchlist com até 100 nós.</block>
-  <block id="55449fd175613962d882ab450cfc5f3c" category="cell">FabricPool</block>
-  <block id="7eaee357275d531796b5348076c7abaa" category="cell">Fornece informações sobre dados inativos, inativos, ativos, quentes, dispostos em camadas e não monitorados. Esse relatório também inclui o manual de estratégia do Ansible para habilitar o Relatório de dados inativos em agregados desativados.</block>
   <block id="2a414d2cb2f384ea04369dd0623dab64" category="cell">Fornece informações sobre a base de instalação para uma lista de observação selecionada, cliente, local, níveis de grupo. Este relatório pode ser gerado como um download direto da página de detalhes do inventário ou pode ser gerado a partir da página relatórios.</block>
   <block id="e5f2463f379aba48a0f9ca6c913203cc" category="cell">Densidade de e/S</block>
   <block id="7f5c8fc8352c3e254ac3f5c7cf32c466" category="cell">O Relatório de densidade de e/S fornece insights sobre as operações de pico de entrada e saída para os clientes em termos de consumo e densidade de dados e metadados.</block>
-  <block id="f7ced170f0a650cade73ee4d9d2d75de" category="cell">Relatório de desempenho</block>
   <block id="a26bfd54d2d0360c1432f1b51ff336ad" category="cell">Fornece informações, no nível da lista de observação, sobre o desempenho de um cluster, nó, nível local (agregado) e volume. Você pode gerar esse relatório apenas para watchlist com até 100 nós.</block>
   <block id="8a12eef10db15850c4fa22387e8a4ff9" category="cell">Configuração recomendada</block>
-  <block id="c829d71ff8f116d3f11dc69d03aa4c34" category="cell">Fornece informações sobre as várias lacunas de configuração recomendadas para Configuração de gerenciamento remoto, unidades e peças sobressalentes, par de HA e integridade do SVM.</block>
   <block id="02e55cfbe6e55152bef274ca4a6a3d14" category="cell">Contratos de suporte / hardware EOS</block>
-  <block id="945bdabc5825ce732fb5d22e7dd80610" category="cell">Fornece informações sobre a lista de controladoras, gavetas e discos que alcançaram suporte final (EOS).</block>
   <block id="fca571dd1b59c732f4bccd0d20435b5d" category="cell">Detalhes técnicos do caso</block>
   <block id="d6cb167525a6b69100791b38c109bfe9" category="cell">Fornece um relatório anual sobre todos os casos técnicos e seu status.</block>
   <block id="5cbae6debb1f76f9bf4bec9196da5dc6" category="cell">Recomendações de atualização (SW e FW)</block>
   <block id="9932f2379db681a01520e32c482a3ddb" category="cell">Relatório com várias guias sobre a moeda do software e do firmware e as versões recomendadas para cada controlador ou série nos critérios de pesquisa.</block>
-  <block id="7780a058aaed86fab91b6e7629c71e93" category="cell">Relatório de desempenho de volume</block>
   <block id="2bc63cd07b97ee266354dc14df194285" category="cell">Fornece informações sobre os detalhes de desempenho dos volumes no nível do cluster.</block>
   <block id="8d4f3dea5577dce7739de17b3c022f16" category="cell">Fornece informações sobre os riscos pendentes e reconhecidos, detalhes de risco, ações corretivas e sistemas afetados.</block>
-  <block id="117d48eb5d133fd5a508d66f884c3c85" category="cell">Bem-estar – agregado</block>
-  <block id="df67990129d3bd9cbda01755e666bbee" category="cell">Fornece um resumo dos riscos pendentes e da contagem dos sistemas afetados.</block>
   <block id="ef8a4ebca6f4cc3e64a7ad289ebd3eb6" category="summary">Fornece informações sobre o painel, listas de observação, recursos e widgets.</block>
   <block id="f9d46621c3d43242e4a3984f6d9b49d4" category="doc">Entenda os recursos do Digital Advisor</block>
   <block id="346661910d62d25c1475a0a09bd7a473" category="paragraph">Você pode ver o status geral do seu sistema de storage, informações de alto nível sobre o bem-estar do sistema, inventário, Planejamento, atualizações e insights valiosos em um nível de lista de observação usando o Digital Advisor.</block>
@@ -1507,4 +1498,22 @@
   <block id="82a9da1ab6bff23f72740b42a10ddeb9" category="section-title">Filtragem e classificação não estão disponíveis no widget Inventário</block>
   <block id="eeb5db985fd60cfebc33e606802e2112" category="paragraph">Não é possível filtrar e classificar dados no widget de inventário. Nenhum dado é exibido se você selecionar ONTAP AFF, ONTAP ASA, ONTAP Edge ou ONTAP Select na lista suspensa "Filtrar por".</block>
   <block id="4b546cad2ee01a6cbf9ccc96b97242b6" category="section-title">04 de dezembro de 2024</block>
+  <block id="1ae1cd0b4937cfa4a52d9dd9c59a7bff" category="cell">Disponível em ONTAP</block>
+  <block id="eda9493cdedf376a22ce96af673b5ce1" category="cell">Disponível em e-Series</block>
+  <block id="ae816a91a9239284b014c29def79b1a9" category="cell">Disponível em StorageGRID</block>
+  <block id="93cba07454f06a4a960172bbd6e2a435" category="cell">Sim</block>
+  <block id="bafd7322c6e97d25b6299b5d6fe8920b" category="cell">Não</block>
+  <block id="9c575f87ce93324cdc7902925f6337cc" category="cell">Fornece insights e recomendações para otimizar os recursos de nuvem. Ele inclui detalhes sobre recuperação de desastre, backup, disposição em categorias e migração.</block>
+  <block id="710106984647f0730faca0e1eaeeee6d" category="cell">Permite que os usuários estabeleçam uma "linha de base dourada" para configurações do sistema e os alerte quando ocorrerem desvios dessa linha de base. Ele ajuda a identificar e solucionar alterações de configuração que podem afetar o desempenho ou a segurança do sistema.</block>
+  <block id="cb8da66b45b686427a31e5d56a8122db" category="cell">Logística de entrega</block>
+  <block id="d0606acb5c07dedf89ff7c2b06144f81" category="cell">Fornece informações sobre a logística de entrega de produtos e serviços.</block>
+  <block id="fbd781a535485932684e2fdb756c3913" category="cell">Resumo executivo da avaliação de integridade</block>
+  <block id="0cb0fa6009199e89058c343d1d127fda" category="cell">Fornece informações sobre vários KPIs do Active IQ em um formato PowerPoint (PPT), com diferentes KPIs sendo descritos em diferentes slides.</block>
+  <block id="83009b6eb15f65a7b4a558c0e23269c3" category="cell">Periódico Digest</block>
+  <block id="f4786124ed46b14b49d37f9f8c042ce4" category="cell">Resume periodicamente as principais métricas e insights. Ele inclui dados sobre performance, capacidade e eficiência do sistema.</block>
+  <block id="17b58822f294ceb27e2330591b9224e4" category="cell">Fornece informações sobre as várias lacunas de configuração recomendadas para configuração de gerenciamento remoto, peças sobressalentes e unidades, par de HA, integridade do SVM, status da bateria e avisos de guru de recuperação.</block>
+  <block id="67049dbeb0547988bdd3bb265ef87afc" category="cell">Fornece informações sobre os detalhes do contrato e a lista de controladoras, gavetas e discos que alcançaram suporte final (EOS).</block>
+  <block id="9622c46ac664d07f743905654edd5f26" category="cell">Plano de atualização</block>
+  <block id="1a9aef730533c89cbf56cb32b9856a4a" category="cell">Oferece recomendações para atualizações de software e firmware. Ele inclui detalhes sobre as versões recomendadas mais recentes, possíveis problemas e etapas para a realização de atualizações.</block>
+  <block id="a86c1de3e38559902af8a77c138a08f4" category="cell">Performance de volume</block>
 </blocks>
