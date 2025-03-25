@@ -1516,4 +1516,7 @@
   <block id="9622c46ac664d07f743905654edd5f26" category="cell">Plano de atualização</block>
   <block id="1a9aef730533c89cbf56cb32b9856a4a" category="cell">Oferece recomendações para atualizações de software e firmware. Ele inclui detalhes sobre as versões recomendadas mais recentes, possíveis problemas e etapas para a realização de atualizações.</block>
   <block id="a86c1de3e38559902af8a77c138a08f4" category="cell">Performance de volume</block>
+  <block id="5542dbcb72159ed44fa6bf922b45c1e8" category="list-text">Usando o Pacote de Qualificação de disco (DQP), agora você pode atualizar automaticamente os controladores de disco e o firmware do dispositivo de armazenamento de acordo com critérios predefinidos de integridade e desempenho. Isso reduz possíveis falhas e aumenta a confiabilidade geral do sistema.</block>
+  <block id="90dd6f07c096c3965dc62d991f80f7fd" category="list-text">O banco de dados de fuso horário (DB) foi introduzido para manter automaticamente o alinhamento do sistema com as definições de fuso horário mais recentes. Isso garante que as operações dependentes do tempo continuem sem problemas, mesmo quando as regras de fuso horário mudam.</block>
+  <block id="1b4189ae198caba09051ca2138497fc7" category="section-title">05 de março de 2025</block>
 </blocks>
