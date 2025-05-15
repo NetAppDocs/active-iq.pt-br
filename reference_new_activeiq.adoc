@@ -20,6 +20,28 @@ Os seguintes recursos e aprimoramentos foram introduzidos no Digital Advisor:
 
 
 
+== 08 de maio de 2025
+
+
+
+=== Widget AutoSupport
+
+O widget AutoSupport foi aprimorado para incluir um pop-up para fornecer detalhes sobre sistemas que pararam de enviar dados AutoSupport. A ativação do AutoSupport reduz o risco de inatividade e dá suporte ao gerenciamento proativo da integridade do sistema.
+
+
+
+=== Relatório de contratos de suporte
+
+O relatório de contratos de suporte foi melhorado para incluir o novo campo de sinalização ASP/LSG. Esse campo permite filtrar e identificar sistemas cobertos por um parceiro de suporte autorizado, também conhecido como Certificação em Serviços de ciclo de vida.
+
+
+
+=== Painel de sustentabilidade
+
+Agora você pode lançar o painel Sustentabilidade usando o link incluído na apresentação de sustentabilidade.
+
+
+
 == 05 de março de 2025
 
 

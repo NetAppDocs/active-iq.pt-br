@@ -1489,7 +1489,6 @@
   <block id="d7e31a0bb5b5ba6257ea5fda3503a013" category="list-text">Clique em *Ver recomendações* para ver a lista de recomendações.</block>
   <block id="11672318e1b710ceb9ea65a5a12aa393" category="list-text">Na coluna *Update Status*, clique em *See Progress* para exibir os clusters que são elegíveis para uma atualização.</block>
   <block id="ea9fb85557d50ae07af62f60044c60d5" category="list-text">Em caso de problemas, clique nos respetivos links para visualizar as etapas para mitigar os problemas.</block>
-  <block id="998e01ff2383d2b9e06b55738a27346b" category="doc">Widget AutoSupport</block>
   <block id="526c3ba007bad7c7b6408ba4672f5f6e" category="paragraph">O widget AutoSupport foi adicionado à tela principal do painel para alertar os clientes sobre os problemas relacionados ao status do AutoSupport.</block>
   <block id="92806a8b46867129d50cde3d86748bb6" category="section-title">Widget AutoSupport não disponível para cluster e números de série</block>
   <block id="03d676ea619bd44dde41c38b2851a15d" category="paragraph">O widget AutoSupport não fornecerá alertas para pesquisas de cluster e número de série.</block>
@@ -1519,4 +1518,10 @@
   <block id="5542dbcb72159ed44fa6bf922b45c1e8" category="list-text">Usando o Pacote de Qualificação de disco (DQP), agora você pode atualizar automaticamente os controladores de disco e o firmware do dispositivo de armazenamento de acordo com critérios predefinidos de integridade e desempenho. Isso reduz possíveis falhas e aumenta a confiabilidade geral do sistema.</block>
   <block id="90dd6f07c096c3965dc62d991f80f7fd" category="list-text">O banco de dados de fuso horário (DB) foi introduzido para manter automaticamente o alinhamento do sistema com as definições de fuso horário mais recentes. Isso garante que as operações dependentes do tempo continuem sem problemas, mesmo quando as regras de fuso horário mudam.</block>
   <block id="1b4189ae198caba09051ca2138497fc7" category="section-title">05 de março de 2025</block>
+  <block id="4503a1a889a3b7c3dc4f3af490b089c6" category="doc">Widget AutoSupport</block>
+  <block id="41e1c349288a8b454c83244a4a28b8f7" category="paragraph">O widget AutoSupport foi aprimorado para incluir um pop-up para fornecer detalhes sobre sistemas que pararam de enviar dados AutoSupport. A ativação do AutoSupport reduz o risco de inatividade e dá suporte ao gerenciamento proativo da integridade do sistema.</block>
+  <block id="dc82c5b795e4118bc2472e86475bf5da" category="section-title">Relatório de contratos de suporte</block>
+  <block id="6877ece75d4d613c107eed29f14b3975" category="paragraph">O relatório de contratos de suporte foi melhorado para incluir o novo campo de sinalização ASP/LSG. Esse campo permite filtrar e identificar sistemas cobertos por um parceiro de suporte autorizado, também conhecido como Certificação em Serviços de ciclo de vida.</block>
+  <block id="80604874cd369ef578265c67a223d997" category="paragraph">Agora você pode lançar o painel Sustentabilidade usando o link incluído na apresentação de sustentabilidade.</block>
+  <block id="9b6594622a22e82296250ca296e7a0b3" category="section-title">08 de maio de 2025</block>
 </blocks>
