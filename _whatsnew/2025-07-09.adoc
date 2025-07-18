@@ -1,0 +1,17 @@
+= Consultor de atualização
+:allow-uri-read: 
+
+
+
+
+=== Consultor de atualização
+
+* Uma opção de download multiformato foi incluída nos planos do Upgrade Advisor para simplificar o planejamento de atualizações do ONTAP e solucionar possíveis bloqueios ou avisos. Agora você pode baixar os planos do Upgrade Advisor nos formatos Excel, PDF e JSON.
+* No formato Excel do plano Upgrade Advisor, as seguintes melhorias foram feitas:
++
+** Você pode visualizar as pré-verificações realizadas no cluster, sinalizando os resultados com indicadores como "Aprovado", "Falha" ou "Ignorado". Isso garante que o cluster esteja em condições ideais para concluir a atualização do ONTAP .
+** Você pode visualizar as atualizações de firmware mais recentes recomendadas aplicáveis ao cluster, juntamente com a versão enviada com a versão de destino do ONTAP .
+** Foi incluída uma nova aba que oferece verificações de interoperabilidade para clusters SAN. Ela fornece uma visão das versões de SO do host suportadas para a versão do ONTAP de destino selecionada.
+
+
+

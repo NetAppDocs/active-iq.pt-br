@@ -1524,4 +1524,10 @@
   <block id="6877ece75d4d613c107eed29f14b3975" category="paragraph">O relatório de contratos de suporte foi melhorado para incluir o novo campo de sinalização ASP/LSG. Esse campo permite filtrar e identificar sistemas cobertos por um parceiro de suporte autorizado, também conhecido como Certificação em Serviços de ciclo de vida.</block>
   <block id="80604874cd369ef578265c67a223d997" category="paragraph">Agora você pode lançar o painel Sustentabilidade usando o link incluído na apresentação de sustentabilidade.</block>
   <block id="9b6594622a22e82296250ca296e7a0b3" category="section-title">08 de maio de 2025</block>
+  <block id="e0feed907f4bf22cc0b1ffa18048f926" category="list-text">Uma opção de download multiformato foi incluída nos planos do Upgrade Advisor para simplificar o planejamento de atualizações do ONTAP e solucionar possíveis bloqueios ou avisos. Agora você pode baixar os planos do Upgrade Advisor nos formatos Excel, PDF e JSON.</block>
+  <block id="e78e85c2863b9ed09c47dacdcfda2a1d" category="list-text">No formato Excel do plano Upgrade Advisor, as seguintes melhorias foram feitas:</block>
+  <block id="24a524d6161aca2fe5398b80dd9fa10c" category="list-text">Você pode visualizar as pré-verificações realizadas no cluster, sinalizando os resultados com indicadores como "Aprovado", "Falha" ou "Ignorado". Isso garante que o cluster esteja em condições ideais para concluir a atualização do ONTAP .</block>
+  <block id="081533dbbdd673ebb2632d92a90a4a77" category="list-text">Você pode visualizar as atualizações de firmware mais recentes recomendadas aplicáveis ao cluster, juntamente com a versão enviada com a versão de destino do ONTAP .</block>
+  <block id="6276222a738837860023343f423eb60c" category="list-text">Foi incluída uma nova aba que oferece verificações de interoperabilidade para clusters SAN. Ela fornece uma visão das versões de SO do host suportadas para a versão do ONTAP de destino selecionada.</block>
+  <block id="be5dc5f5e2d7e93e1002f9bc9daa9179" category="section-title">09 de julho de 2025</block>
 </blocks>
