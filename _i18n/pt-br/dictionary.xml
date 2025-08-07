@@ -1331,7 +1331,6 @@
   <block id="1dce9bd049d6c9e9c500be142e33de38" category="inline-link-macro">*Procurar*</block>
   <block id="713451159dacf58d1a99e356169dfb3f" category="list-text">Clique <block ref="9b2adf8ad12dd16d4d2b3750ca65e5de" category="inline-link-macro-rx"></block>no ícone *API Catalog*.</block>
   <block id="54e7835f3f1f70bc142c9b5e847e6ec9" category="paragraph">O Catálogo da API é exibido.</block>
-  <block id="82ee712943040cce957254912d97aba0" category="list-text">Selecione qualquer API</block>
   <block id="04c8967b6880007c6fea1e2c0e66614d" category="list-text">Na parte superior da página, deslize a alternância para "Experimente".</block>
   <block id="835a43b0478137c574edbef583d126a1" category="list-text">Na navegação à esquerda, expanda as categorias e selecione qualquer API para exibir informações detalhadas.</block>
   <block id="fcf9335996c4ed1473286f8644d4b479" category="list-text">Expanda a API.</block>
@@ -1353,7 +1352,6 @@
   <block id="862744f0ea49f8f06aab2a99ec7a3482" category="admonition">Se você não quiser mais que um risco seja reconhecido, você pode ignorar o risco clicando em *UN-Ack* e seguindo os mesmos passos.</block>
   <block id="e4f7548bfc57cb05ec15b81412fadffb" category="summary">Fornece informações sobre o inventário geral que você possui.</block>
   <block id="a8c9ef5b4f3d7f23d67ca929bf6a60ee" category="doc">Ver detalhes do inventário</block>
-  <block id="241d0a5c7d11b08c4b6742aafec7ad3e" category="paragraph">O widget *Inventory* fornece um conjunto dos sistemas totais que você possui. Isso inclui produtos habilitados para o Digital Advisor e não habilitados.</block>
   <block id="95cc9b63edd3c2016f97c0476635528a" category="paragraph">Você também pode gerar o relatório da lista de observação selecionada e enviar o relatório por e-mail para um máximo de 5 destinatários.</block>
   <block id="7a7d4a4667b4536acd427d4c99b2e845" category="list-text">No widget *Inventory*, clique em *Systems* para visualizar as informações do sistema de todas as plataformas ou clique no tipo de plataforma e, em seguida, clique em *Systems* para visualizar os sistemas específicos dessa plataforma.</block>
   <block id="da7363bcf69f8ff499f5f44a09b9c4ac" category="list-text">Clique no nó ou cluster para ver informações detalhadas sobre o sistema.</block>
@@ -1530,4 +1528,29 @@
   <block id="081533dbbdd673ebb2632d92a90a4a77" category="list-text">Você pode visualizar as atualizações de firmware mais recentes recomendadas aplicáveis ao cluster, juntamente com a versão enviada com a versão de destino do ONTAP .</block>
   <block id="6276222a738837860023343f423eb60c" category="list-text">Foi incluída uma nova aba que oferece verificações de interoperabilidade para clusters SAN. Ela fornece uma visão das versões de SO do host suportadas para a versão do ONTAP de destino selecionada.</block>
   <block id="be5dc5f5e2d7e93e1002f9bc9daa9179" category="section-title">09 de julho de 2025</block>
+  <block id="a30ce25654f610d7e9e47c6277028c38" category="doc">Suporte a interruptores autorizados</block>
+  <block id="d98c483ab007e03305ae5655fe6cbaf8" category="inline-link-macro">Aprenda como visualizar os switches com direito a suporte</block>
+  <block id="e71b090a525e98d8d6e64f80e67acf6f" category="paragraph">Agora você pode visualizar informações sobre os switches SAN Fibre Channel Brocade que têm direito a suporte.  Isso inclui detalhes sobre o modelo do switch, número de série e status de suporte. <block ref="0ccb1381392c0ca51f280aad697adc46" category="inline-link-macro-rx"></block> .</block>
+  <block id="adc76ac62c705df3456206213de66002" category="section-title">Limite para dados de AutoSupport RSS</block>
+  <block id="3cdd6b50a4e4c3395ca5fea20c94ee5b" category="paragraph">O limite de Envios Interrompidos Recentemente (RSS), no widget AutoSupport , foi estendido de 48 horas (2 dias) para 216 horas (9 dias) antes que um sistema seja sinalizado como RSS.  Isso é feito para acomodar plataformas como o StorageGRID , que enviam apenas dados semanais do AutoSupport .</block>
+  <block id="bbe4dac655b49c7a3978eb5864452f05" category="section-title">Seção de API obsoleta no catálogo de API do Digital Advisor</block>
+  <block id="4632607b0b76f87d36568a2df2c3a267" category="paragraph">Uma nova seção de API obsoleta está disponível no catálogo de API do Digital Advisor .  Ele lista as APIs que estão programadas para descontinuação, juntamente com cronogramas de descontinuação e APIs alternativas.</block>
+  <block id="9eadf268f4ef55df53b7403a020082b1" category="section-title">Previsão de capacidade V2 e descontinuação dos módulos da API End of Support</block>
+  <block id="bd2055e6fb5a6ca7ecc6d9d52f394548" category="paragraph">Os módulos de previsão de capacidade V2 e API de fim de suporte estão programados para descontinuação.  Para acessar as APIs obsoletas ou saber sobre os cronogramas de obsolescência e APIs alternativas, navegue até *Serviços de API -&gt; Procurar -&gt; APIs obsoletas*.</block>
+  <block id="6e04d6bd41fa83c137f7b99364e843c9" category="admonition">O NetApp Digital Advisor está migrando de APIs REST para GraphQL como sua principal plataforma de API para melhorar o desempenho, a flexibilidade e a escalabilidade.  A transição será em fases, com um período de sobreposição entre APIs REST e APIs GraphQL.  Para cada API REST obsoleta, um aviso de obsolescência será publicado no catálogo da API do Digital Advisor , e você terá 6 meses para migrar esse ponto de extremidade específico para o GraphQL.  Para revisar a lista de APIs programadas para descontinuação, navegue até *Serviços de API -&gt; Navegar -&gt; APIs descontinuadas*</block>
+  <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">06 de agosto de 2025</block>
+  <block id="51aa04f109d45d42868cc0b36f25fd52" category="section-title">Acessar APIs GraphQL</block>
+  <block id="6bdcd3c5aba802a9e7d2f1d96dd5aff5" category="list-text">Clique em *GraphQL* e revise a documentação.</block>
+  <block id="9d4615fe1d2320cc19b894b5d333d7c1" category="inline-link-macro">Esquema de revisão e endpoint da API GraphQL</block>
+  <block id="b546d5412fcbcd954e28c950fb2a6ca4" category="list-text">Acesso<block ref="89a08dcaa38ea8d40daf6964132bb7ee" category="inline-link-macro-rx"></block></block>
+  <block id="e306bcdfb9b3334cf7659705e8358e27" category="inline-link-macro">Digital Advisor GraphQL Studio</block>
+  <block id="b1e54092f36831f6a814e51a7c93bdd8" category="list-text">Experimente as APIs GraphQL usando as consultas de exemplo prontas para execução em<block ref="ae67cca60092e176d8c2dddd34356b5e" category="inline-link-macro-rx"></block> .</block>
+  <block id="637bbe10a2e1fa5eea6be6cb23319cca" category="list-text">Forneça um token de usuário selecionando o campo de autorização no cabeçalho da solicitação de API</block>
+  <block id="85608152841a7f2e1feb0fe64d6e0ea6" category="list-text">Forneça as variáveis necessárias</block>
+  <block id="f957bd87c6ca02f7e8d3b7e94c1b1992" category="list-text">Execute a consulta e revise a saída</block>
+  <block id="56221c5b2b531b839a3cd5c7e9c9cd9f" category="section-title">Acessar APIs REST</block>
+  <block id="35c99013ee51309b261a35e68d7b57ba" category="list-text">Clique em *ActiveIQ-Public* e selecione qualquer API</block>
+  <block id="b564cac98074bd875d810d6572dc9927" category="paragraph">O widget *Inventário* fornece um resumo do total de sistemas e dos switches de suporte que você possui.  Isso inclui produtos habilitados e não habilitados Digital Advisor .</block>
+  <block id="9714b9edaef026c9c44f49389eb60d44" category="section-title">Ver detalhes do switch de suporte</block>
+  <block id="e5449af777fdc7f9d2eec34f87da1138" category="list-text">No widget *Inventário*, clique em *Switches com direito a suporte* para visualizar informações sobre todos os switches com direito a suporte.</block>
 </blocks>

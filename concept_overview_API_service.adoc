@@ -18,6 +18,9 @@ summary: Fornece uma visão geral do recurso de serviços de API.
 [role="lead"]
 O Digital Advisor API Services usa a automação para aumentar a eficiência dos seus fluxos de trabalho. Dentro dos Serviços de API reside o *Catálogo de API*, que descreve mais de 100 pontos de extremidade de API diferentes agrupados em mais de 20 áreas de serviço diferentes. Essas APIs estão disponíveis para você como cliente da NetApp e abrangem diferentes áreas de interesse, como informações do sistema, eficiência de storage, performance, integridade e atualizações.
 
+
+NOTE: O NetApp Digital Advisor está migrando de APIs REST para GraphQL como sua principal plataforma de API para melhorar o desempenho, a flexibilidade e a escalabilidade.  A transição será em fases, com um período de sobreposição entre APIs REST e APIs GraphQL.  Para cada API REST obsoleta, um aviso de obsolescência será publicado no catálogo da API do Digital Advisor , e você terá 6 meses para migrar esse ponto de extremidade específico para o GraphQL.  Para revisar a lista de APIs programadas para descontinuação, navegue até *Serviços de API -> Navegar -> APIs descontinuadas*
+
 As APIs são interfaces que permitem escrever código simples que pode entrar em Contato com o Digital Advisor programaticamente e trazer de volta dados para o seu ambiente de computação. Você pode escrever código de tal forma que ele entre em Contato com o Digital Advisor todos os dias e traga de volta os dados mais recentes nas áreas que são de seu interesse. Em seguida, você pode usar esses dados para preencher seu sistema de tickets ou criar seus próprios painéis, páginas da Web ou relatórios. O Catálogo de API do Digital Advisor tem amostras de código e uma facilidade para você testar as APIs no navegador.
 
 A automação com APIs é uma ótima maneira de adicionar eficiência e precisão a tarefas diárias ou semanais. Ele libera seus recursos para realizar atividades mais complexas ou automatizar novos fluxos de trabalho. Por exemplo, se você tem riscos de integridade do sistema que precisam ser corrigidos, você pode automatizar pelo menos a retirada desses itens do Digital Advisor e o envio para o seu sistema de tickets.
@@ -35,5 +38,3 @@ Qualquer exibição permite que o usuário navegue pelos itens disponíveis usan
 == Usando as APIs
 
 Uma vez que você está autorizado e pode gerar tokens, você pode aproveitar os tokens para fazer consultas programáticas e recuperar dados. Você também pode testar uma API dentro do Catálogo de APIs para ver em primeira mão como a consulta funciona e o tipo de dados retornados. Essa é uma ótima maneira de garantir que você entenda como uma API funcionará antes de criar a estrutura de código em seu sistema.
-
-video::GQskCeCrtQA[youtube,width=848,height=480]
