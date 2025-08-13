@@ -1529,8 +1529,6 @@
   <block id="6276222a738837860023343f423eb60c" category="list-text">Foi incluída uma nova aba que oferece verificações de interoperabilidade para clusters SAN. Ela fornece uma visão das versões de SO do host suportadas para a versão do ONTAP de destino selecionada.</block>
   <block id="be5dc5f5e2d7e93e1002f9bc9daa9179" category="section-title">09 de julho de 2025</block>
   <block id="a30ce25654f610d7e9e47c6277028c38" category="doc">Suporte a interruptores autorizados</block>
-  <block id="d98c483ab007e03305ae5655fe6cbaf8" category="inline-link-macro">Aprenda como visualizar os switches com direito a suporte</block>
-  <block id="e71b090a525e98d8d6e64f80e67acf6f" category="paragraph">Agora você pode visualizar informações sobre os switches SAN Fibre Channel Brocade que têm direito a suporte.  Isso inclui detalhes sobre o modelo do switch, número de série e status de suporte. <block ref="0ccb1381392c0ca51f280aad697adc46" category="inline-link-macro-rx"></block> .</block>
   <block id="adc76ac62c705df3456206213de66002" category="section-title">Limite para dados de AutoSupport RSS</block>
   <block id="3cdd6b50a4e4c3395ca5fea20c94ee5b" category="paragraph">O limite de Envios Interrompidos Recentemente (RSS), no widget AutoSupport , foi estendido de 48 horas (2 dias) para 216 horas (9 dias) antes que um sistema seja sinalizado como RSS.  Isso é feito para acomodar plataformas como o StorageGRID , que enviam apenas dados semanais do AutoSupport .</block>
   <block id="bbe4dac655b49c7a3978eb5864452f05" category="section-title">Seção de API obsoleta no catálogo de API do Digital Advisor</block>
@@ -1553,4 +1551,6 @@
   <block id="b564cac98074bd875d810d6572dc9927" category="paragraph">O widget *Inventário* fornece um resumo do total de sistemas e dos switches de suporte que você possui.  Isso inclui produtos habilitados e não habilitados Digital Advisor .</block>
   <block id="9714b9edaef026c9c44f49389eb60d44" category="section-title">Ver detalhes do switch de suporte</block>
   <block id="e5449af777fdc7f9d2eec34f87da1138" category="list-text">No widget *Inventário*, clique em *Switches com direito a suporte* para visualizar informações sobre todos os switches com direito a suporte.</block>
+  <block id="617f2d0adf2001440f244bf5c45be277" category="inline-link-macro">Aprenda como visualizar o suporte intitulado switches</block>
+  <block id="ef3139c75debdd9ee259a4ea386083d3" category="paragraph">Agora você pode visualizar informações sobre os switches SAN Fibre Channel Brocade que têm direito a suporte. Isso inclui detalhes sobre o modelo do switch, número de série e status de suporte. <block ref="de42528af60c9393a2c8b32539c694f1" category="inline-link-macro-rx"></block> .</block>
 </blocks>

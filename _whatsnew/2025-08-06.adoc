@@ -6,7 +6,7 @@
 
 === Suporte a interruptores autorizados
 
-Agora você pode visualizar informações sobre os switches SAN Fibre Channel Brocade que têm direito a suporte.  Isso inclui detalhes sobre o modelo do switch, número de série e status de suporte. link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["Aprenda como visualizar os switches com direito a suporte"] .
+Agora você pode visualizar informações sobre os switches SAN Fibre Channel Brocade que têm direito a suporte. Isso inclui detalhes sobre o modelo do switch, número de série e status de suporte. link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["Aprenda como visualizar o suporte intitulado switches"] .
 
 
 
