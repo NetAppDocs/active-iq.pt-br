@@ -1328,8 +1328,6 @@
   <block id="87d10a1ebc7440bb06c109388cf143ad" category="doc">Use o Catálogo de API para executar APIs</block>
   <block id="40626d7035cc7f4a6caa9d104fd7d387" category="paragraph">O Catálogo de API permite que você navegue por categorias e as APIs disponíveis em cada uma dessas categorias.</block>
   <block id="2b033bd9dec6fb568acb85aff511102a" category="paragraph">Usando um token de acesso válido e entradas corretas para os campos obrigatórios, você pode fazer uma chamada de teste para uma API.</block>
-  <block id="1dce9bd049d6c9e9c500be142e33de38" category="inline-link-macro">*Procurar*</block>
-  <block id="713451159dacf58d1a99e356169dfb3f" category="list-text">Clique <block ref="9b2adf8ad12dd16d4d2b3750ca65e5de" category="inline-link-macro-rx"></block>no ícone *API Catalog*.</block>
   <block id="54e7835f3f1f70bc142c9b5e847e6ec9" category="paragraph">O Catálogo da API é exibido.</block>
   <block id="04c8967b6880007c6fea1e2c0e66614d" category="list-text">Na parte superior da página, deslize a alternância para "Experimente".</block>
   <block id="835a43b0478137c574edbef583d126a1" category="list-text">Na navegação à esquerda, expanda as categorias e selecione qualquer API para exibir informações detalhadas.</block>
@@ -1539,8 +1537,6 @@
   <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">06 de agosto de 2025</block>
   <block id="51aa04f109d45d42868cc0b36f25fd52" category="section-title">Acessar APIs GraphQL</block>
   <block id="6bdcd3c5aba802a9e7d2f1d96dd5aff5" category="list-text">Clique em *GraphQL* e revise a documentação.</block>
-  <block id="9d4615fe1d2320cc19b894b5d333d7c1" category="inline-link-macro">Esquema de revisão e endpoint da API GraphQL</block>
-  <block id="b546d5412fcbcd954e28c950fb2a6ca4" category="list-text">Acesso<block ref="89a08dcaa38ea8d40daf6964132bb7ee" category="inline-link-macro-rx"></block></block>
   <block id="e306bcdfb9b3334cf7659705e8358e27" category="inline-link-macro">Digital Advisor GraphQL Studio</block>
   <block id="b1e54092f36831f6a814e51a7c93bdd8" category="list-text">Experimente as APIs GraphQL usando as consultas de exemplo prontas para execução em<block ref="ae67cca60092e176d8c2dddd34356b5e" category="inline-link-macro-rx"></block> .</block>
   <block id="637bbe10a2e1fa5eea6be6cb23319cca" category="list-text">Forneça um token de usuário selecionando o campo de autorização no cabeçalho da solicitação de API</block>
@@ -1553,4 +1549,6 @@
   <block id="e5449af777fdc7f9d2eec34f87da1138" category="list-text">No widget *Inventário*, clique em *Switches com direito a suporte* para visualizar informações sobre todos os switches com direito a suporte.</block>
   <block id="617f2d0adf2001440f244bf5c45be277" category="inline-link-macro">Aprenda como visualizar o suporte intitulado switches</block>
   <block id="ef3139c75debdd9ee259a4ea386083d3" category="paragraph">Agora você pode visualizar informações sobre os switches SAN Fibre Channel Brocade que têm direito a suporte. Isso inclui detalhes sobre o modelo do switch, número de série e status de suporte. <block ref="de42528af60c9393a2c8b32539c694f1" category="inline-link-macro-rx"></block> .</block>
+  <block id="1b9abf135ccb7ed2f2cd9c155137c351" category="inline-link-macro">Navegar</block>
+  <block id="2981195e7f0b7a603227ab0ab32a8349" category="list-text">Clique<block ref="3dddd0be9b2e921fda9092125563366a" category="inline-link-macro-rx"></block> sob o ícone *Catálogo de API*.</block>
 </blocks>
