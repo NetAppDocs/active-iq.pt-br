@@ -24,8 +24,8 @@ sidebar:
       url: "/concept_getting_started_2.html"
     - title: Entenda os recursos do Digital Advisor
       url: "/concept_understand_activeiq_features.html"
-    - title: Integração do consultor digital com o BlueXP 
-      url: "/digital-advisor-integration-with-bluexp.html"
+    - title: Integração do Digital Advisor com o NetApp Console
+      url: "/digital-advisor-integration-with-console.html"
     - title: Conceitos-chave
       url: "/concept_key_terms.html"
     - title: O que é AutoSupport
@@ -72,11 +72,11 @@ sidebar:
     - title: Analise a sustentabilidade do seu sistema de storage
       entries:
       - title: Saiba mais sobre sustentabilidade
-        url: "/learn_BlueXP_sustainability.html"
+        url: "/learn-about-sustainability.html"
       - title: Comece a usar o painel Sustentabilidade
         url: "/get_started_sustainability_dashboard.html"
       - title: Visão geral do painel de sustentabilidade
-        url: "/BlueXP_sustainability_dashboard_overview.html"
+        url: "/sustainability-dashboard-overview.html"
       - title: Melhorar a pontuação de sustentabilidade
         url: "/improve_sustainability_score.html"
     - title: Gerar um plano de atualização
@@ -91,8 +91,8 @@ sidebar:
       entries:
       - title: Ver detalhes do inventário
         url: "/task_view_inventory_details.html"
-      - title: Integração com o Cloud Insights para visualizar os detalhes das máquinas
-          virtuais
+      - title: Integração com o Data Infrastructure Insights para visualizar detalhes
+          de máquinas virtuais
         url: "/task-integrating-with-cloud-insights-to-view-vm-details.html"
       - title: Veja insights valiosos
         url: "/task_view_valuable_insight_widget.html"
@@ -187,5 +187,5 @@ sidebar:
   - title: Avisos legais
     url: "/legal-notices.html"
 product-family:
-  name: BlueXP
-  repo: cloud-manager-family
+  name: Netapp Console
+  repo: console-family

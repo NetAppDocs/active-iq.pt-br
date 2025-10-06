@@ -28,7 +28,7 @@ A seguir estão alguns dos recursos do Digital Advisor:
 * Obtenha insights sobre todos os riscos para seu sistema de storage e as ações para reduzir os riscos.
 * Reduza os riscos usando o Active IQ Unified Manager.
 * Atualize seu sistema de storage.
-* Veja a pontuação de sustentabilidade e uso projetado de energia, carbono direto e calor. Com base no índice de sustentabilidade, avalie a eficiência geral dos seus sistemas de storage e alinhe com as ações recomendadas da NetApp para melhorar a pontuação. link:learn_BlueXP_sustainability.html["Saiba mais"^].
+* Veja a pontuação de sustentabilidade e o uso projetado de energia, carbono direto e calor.  Com base na pontuação de sustentabilidade, avalie a eficiência geral dos seus sistemas de armazenamento e alinhe-a com as ações recomendadas pela NetApp para melhorar a pontuação. link:learn-about-sustainability.html["Saiba mais"^] .
 * Visualize a taxa de redução de dados, o espaço lógico usado, o espaço físico usado e o total de dados salvos para sistemas de storage executando o ONTAP 9.1 e posterior.
 * Analise o desempenho dos seus dispositivos de armazenamento visualizando o formato gráfico dos dados de desempenho.
 * Obtenha informações sobre o hardware e o software que expiraram ou estão prestes a expirar nos próximos 6 meses.

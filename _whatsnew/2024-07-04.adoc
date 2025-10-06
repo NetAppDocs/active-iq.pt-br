@@ -6,4 +6,4 @@
 
 === Painel de sustentabilidade
 
-Os indicadores ambientais que fornecem insights sobre a saúde ambiental de seus sistemas de armazenamento agora fornecem valores mais precisos para uso de energia projetado, uso direto de carbono e emissão de calor com base em um modelo preditivo avançado. Para saber mais, link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["Visão geral do painel de sustentabilidade"]consulte .
+Indicadores ambientais que fornecem insights sobre a saúde ambiental dos seus sistemas de armazenamento agora fornecem valores mais precisos para uso de energia projetado, uso direto de carbono e emissão de calor com base em um modelo preditivo avançado. Para saber mais, consultelink:https://docs.netapp.com/us-en/active-iq/sustainability-dashboard-overview.html["Visão geral do painel de sustentabilidade"] .

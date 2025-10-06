@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: digital-advisor-integration-with-console.html 
+keywords: digital advisor, integration, bluexp, NetApp Console 
+summary: 'O Digital Advisor agora está totalmente integrado ao NetApp Console.  Agora você pode gerenciar seus clusters e acessar todos os recursos do Digital Advisor na interface do usuário (IU) do NetApp Console.' 
+---
+= Integração do Digital Advisor com o NetApp Console
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O Digital Advisor agora está totalmente integrado ao NetApp Console.  Agora você pode gerenciar seus clusters e acessar todos os recursos do Digital Advisor na interface do usuário (IU) do Console.
+
+Usando o Console, especialistas em TI e arquitetos de nuvem podem gerenciar centralmente sua infraestrutura de nuvem híbrida multinuvem.  Tudo o que você precisa é de uma conta do NetApp Support Site (NSS) para acessar o Digital Advisor no Console.
+
+
+
+== Console NetApp
+
+O Digital Advisor pode ser acessado pelo NetApp Console.
+
+O NetApp Console fornece gerenciamento centralizado de serviços de armazenamento e dados da NetApp em ambientes locais e na nuvem em nível empresarial.  O Console é necessário para acessar e usar os serviços de dados do NetApp .  Como uma interface de gerenciamento, ele permite que você gerencie muitos recursos de armazenamento a partir de uma única interface.  Os administradores do console podem controlar o acesso ao armazenamento e aos serviços de todos os sistemas da empresa.
+
+Você não precisa de uma licença ou assinatura para começar a usar o NetApp Console e só incorrerá em cobranças quando precisar implantar agentes do Console na sua nuvem para garantir a conectividade com seus sistemas de armazenamento ou serviços de dados do NetApp .  No entanto, alguns serviços de dados da NetApp acessíveis pelo Console são licenciados ou baseados em assinatura.
+
+Saiba mais sobre o https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["Console NetApp"] .
+
+
+
+== Acesse o Digital Advisor no NetApp Console
+
+Você pode acessar o Digital Advisor pelo Console para gerenciar seu cluster.
+
+.Passos
+. Abra um navegador da web e vá para olink:https://console.netapp.com/["Console"^] .
+. Selecione *inicie sessão com as credenciais do site de suporte da NetApp* e introduza as suas credenciais.
++
+Se você já criou um login no Console usando um e-mail e uma senha, será necessário continuar usando essa opção de login.
+
+. Quando solicitado, faça login com as credenciais do site de suporte da NetApp.
++
+Este login é diferente do login concluído na etapa 2.  Na etapa 2, você fez login no Console.  Agora você está efetuando login no Digital Advisor.
+
+
+
+*Resultado*
+
+Todas as suas listas de observação e configurações existentes aparecem e agora você pode usar o Digital Advisor como você normalmente faz.

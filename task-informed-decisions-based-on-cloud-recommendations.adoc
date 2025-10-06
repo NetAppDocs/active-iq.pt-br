@@ -19,7 +19,7 @@ summary: Fornece recomendações com base nas quais decisões informadas podem s
 O Digital Advisor analisa constantemente seu sistema e fornece recomendações para melhorar o desempenho, a eficiência e a integridade do sistema.
 
 
-NOTE: O Digital Advisor navega até o BlueXP  para implementar as recomendações.
+NOTE: O Digital Advisor o direciona ao NetApp Console para implementar as recomendações.
 
 
 
@@ -39,7 +39,7 @@ Os volumes que atendem aos critérios a seguir são recomendados para migração
 .Passos
 . No painel esquerdo, clique em *recomendações de nuvem*.
 . Clique em qualquer link no painel *migração*.
-. Clique em *migrar para a nuvem* para iniciar o *BlueXP *.
+. Clique em *Migrar para a nuvem* para iniciar o *Console*.
 
 
 
@@ -62,7 +62,7 @@ Os volumes que atendem aos critérios a seguir são recomendados para disposiç�
 .Passos
 . No painel esquerdo, clique em *recomendações de nuvem*.
 . Clique em qualquer link no painel *Categorização*.
-. Clique em *dados de nível* para iniciar o *BlueXP *.
+. Clique em *Dados de nível* para iniciar o *Console*.
 
 
 Para saber mais sobre o FabricPool, link:https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["Práticas recomendadas da FabricPool"^]consulte .
@@ -82,7 +82,7 @@ Os volumes que atendem aos critérios a seguir são recomendados para fazer back
 .Passos
 . No painel esquerdo, clique em *recomendações de nuvem*.
 . Clique em qualquer link no painel *Backup & Archive*.
-. Clique em *Backup na nuvem* para iniciar o *BlueXP *.
+. Clique em *Fazer backup na nuvem* para iniciar o *Console*.
 
 
 
@@ -101,5 +101,5 @@ Os volumes que atendem aos critérios a seguir são recomendados para replicaç�
 .Passos
 . No painel esquerdo, clique em *recomendações de nuvem*.
 . Clique em qualquer link no painel *Disaster Recovery*.
-. Clique em *Replicate to Cloud* para iniciar o *BlueXP *.
+. Clique em *Replicar para a nuvem* para iniciar o *Console*.
 

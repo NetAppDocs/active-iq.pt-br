@@ -20,6 +20,18 @@ Os seguintes recursos e aprimoramentos foram introduzidos no Digital Advisor:
 
 
 
+== 06 de outubro de 2025
+
+
+
+=== BlueXP agora é NetApp Console
+
+O NetApp Console, criado com base na base aprimorada e reestruturada do BlueXP , fornece gerenciamento centralizado do armazenamento NetApp e do NetApp Data Services em ambientes locais e na nuvem em nível empresarial, fornecendo insights em tempo real, fluxos de trabalho mais rápidos e administração simplificada, de forma altamente segura e compatível.
+
+Para obter detalhes sobre o que mudou, consulte o https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notas de versão do NetApp Console"] .
+
+
+
 == 06 de agosto de 2025
 
 
@@ -146,7 +158,7 @@ O relatório *planos de Upgrade Advisor de 7 modos* não está mais disponível,
 
 === Painel de sustentabilidade
 
-Os indicadores ambientais que fornecem insights sobre a saúde ambiental de seus sistemas de armazenamento agora fornecem valores mais precisos para uso de energia projetado, uso direto de carbono e emissão de calor com base em um modelo preditivo avançado. Para saber mais, link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["Visão geral do painel de sustentabilidade"]consulte .
+Indicadores ambientais que fornecem insights sobre a saúde ambiental dos seus sistemas de armazenamento agora fornecem valores mais precisos para uso de energia projetado, uso direto de carbono e emissão de calor com base em um modelo preditivo avançado. Para saber mais, consultelink:https://docs.netapp.com/us-en/active-iq/sustainability-dashboard-overview.html["Visão geral do painel de sustentabilidade"] .
 
 
 
@@ -156,7 +168,7 @@ Os indicadores ambientais que fornecem insights sobre a saúde ambiental de seus
 
 === Painel de sustentabilidade
 
-A sustentabilidade agora tem suporte nos sistemas e-Series e StorageGRID. Você pode ver uma lista de ações recomendadas e indicadores ambientais que exibem projeções de energia, uso direto de carbono e calor no painel Sustentabilidade para esses sistemas. Para saber mais, link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["Visão geral do painel de sustentabilidade"^]consulte .
+A sustentabilidade agora é suportada nos sistemas E-Series e StorageGRID .  Você pode visualizar uma lista de ações recomendadas e indicadores ambientais que exibem projeções de energia, uso direto de carbono e calor no painel de Sustentabilidade desses sistemas. Para saber mais, consultelink:https://docs.netapp.com/us-en/active-iq/sustainability-dashboard-overview.html["Visão geral do painel de sustentabilidade"^] .
 
 
 
@@ -176,7 +188,7 @@ A versão mais antiga do Upgrade Advisor agora está obsoleta. Você pode usar a
 
 === Bem-estar
 
-* O fluxo de trabalho Wellness agora inclui o widget Sustentabilidade, que fornece a contagem de ações recomendadas nos níveis do cliente, da lista de observação, do site e do grupo. Você pode clicar no número de ações para uma visualização detalhada dessas ações recomendadas no painel Sustentabilidade. Para saber mais, link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["Analise a sustentabilidade dos seus sistemas de storage"]consulte .
+* O fluxo de trabalho de Bem-estar agora inclui o widget Sustentabilidade, que fornece a contagem de ações recomendadas nos níveis de cliente, lista de observação, site e grupo.  Você pode clicar no número de ações para obter uma visão detalhada dessas ações recomendadas no painel de Sustentabilidade. Para saber mais, consultelink:https://docs.netapp.com/us-en/active-iq/learn-about-sustainability.html["Analise a sustentabilidade dos seus sistemas de storage"] .
 * Os widgets Security Vulnerabilities and ransomware Defense no fluxo de trabalho Wellness são combinados em um único widget, que agora é chamado de Security & ransomware Defense.
 
 
@@ -283,7 +295,7 @@ As contagens de recomendações de atualização técnica estão incluídas no w
 
 === Painel de sustentabilidade
 
-O dashboard de sustentabilidade fornece insights valiosos sobre a sustentabilidade ambiental do seu sistema de storage. Você pode visualizar as informações, como pontuação de sustentabilidade, porcentagem de mitigação de carbono, uso projetado de energia, carbono direto e calor. Você pode ajustar a porcentagem de mitigação de carbono para locais específicos. Você também pode visualizar a pontuação de sustentabilidade no nível do cluster. Com base no índice de sustentabilidade, você pode avaliar a eficiência geral do seu sistema de storage e alinhá-la às ações recomendadas da NetApp para aprimorar a sustentabilidade. link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["Saiba mais"].
+O painel de sustentabilidade fornece insights valiosos sobre a sustentabilidade ambiental do seu sistema de armazenamento.  Você pode visualizar informações como pontuação de sustentabilidade, porcentagem de mitigação de carbono, uso projetado de energia, carbono direto e calor.  Você pode ajustar a porcentagem de mitigação de carbono para locais específicos.  Você também pode visualizar a pontuação de sustentabilidade no nível do cluster.  Com base na pontuação de sustentabilidade, você pode avaliar a eficiência geral do seu sistema de armazenamento e alinhá-lo com as ações recomendadas pela NetApp para aumentar a sustentabilidade. link:https://docs.netapp.com/us-en/active-iq/learn-about-sustainability.html["Saiba mais"] .
 
 
 
@@ -319,7 +331,7 @@ Você pode visualizar a média de operações de leitura, gravação e outras em
 
 === Integração com o BlueXP 
 
-O consultor digital da Active IQ está sendo alterado para consultor digital e agora está integrado ao BlueXP , console de gerenciamento unificado da NetApp para ambientes multinuvem híbridos. link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["Saiba mais"].
+O Active IQ Digital Advisor está sendo alterado para Digital Advisor e agora está integrado ao BlueXP, o console de gerenciamento unificado da NetApp para ambientes multicloud híbridos. link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-console.html["Saiba mais"] .
 
 
 
