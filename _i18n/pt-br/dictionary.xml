@@ -875,7 +875,6 @@
   <block id="571d621f51c49640d8adb2c5bb15554a" category="paragraph">O Digital Advisor analisa constantemente seu sistema e fornece recomendações para melhorar o desempenho, a eficiência e a integridade do sistema.</block>
   <block id="19f59b74448f6a27519db281a44e4b12" category="section-title">Migração</block>
   <block id="4fc6b52f3180163cea93aa7c8da0e7dd" category="paragraph">Fornece informações sobre os diferentes tipos de workloads disponíveis no sistema de storage e identifica os workloads que estão prontos para a nuvem. Mover workloads para a nuvem resulta em economia de custos e recuperação de desastres na nuvem.</block>
-  <block id="46c5977f0ec6a34283e38ed39033952e" category="paragraph">Os volumes que atendem aos critérios a seguir são recomendados para migração para o Cloud Volumes ONTAP (CVO) e o Cloud Volumes Service (CVS):</block>
   <block id="4f18efd74627acd1e83311ad6a450b7c" category="list-text">Os volumes devem estar usando o protocolo NFS, SMB, CIFS, FCP ou iSCSI</block>
   <block id="3c765c5584278c5b7d2bb8a2e48bbea0" category="list-text">Os volumes raiz são excluídos</block>
   <block id="eee58b17a5b1a316e3d557e27113c69e" category="list-text">As cargas de trabalho no volume são marcadas como ORACLE, SAP, SAP HANA, MSSQL, MYSQL, SHAREPOINT, FILESHARE, VIRTUALIZAÇÃO e Trident</block>
@@ -1535,4 +1534,5 @@
   <block id="5e76877e0dc9fe309e6133171cf4f2c7" category="paragraph">O Digital Advisor agora está integrado à versão básica do Data Infrastructure Insights para fornecer um inventário de pilha completa e verificações de interoperabilidade aos clientes.</block>
   <block id="685bbd026f2ca02a1ba1e629c16611de" category="list-text">No widget *Inventário*, clique em *Máquinas Virtuais* para visualizar os dados disponíveis no Data Infrastructure Insights.</block>
   <block id="d4ec3e135a12bb96c4afe463cfa6cb07" category="list-text">Clique no *Nome ESX* para navegar até o Data Infrastructure Insights e ver mais informações.</block>
+  <block id="45c1e1a0501d6b75b99c21659e420c55" category="paragraph">Os volumes que atendem aos seguintes critérios são recomendados para migração para o Cloud Volumes ONTAP (CVO):</block>
 </blocks>
