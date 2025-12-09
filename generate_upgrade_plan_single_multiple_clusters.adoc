@@ -18,6 +18,17 @@ summary: Forneça etapas para gerar um plano de atualização para uma atualiza�
 [role="lead"]
 Você pode usar o Upgrade Advisor para exibir a lista de clusters qualificados ou não qualificados para uma atualização. Você pode visualizar as recomendações de atualização para um cluster qualificado e gerar um plano de atualização. Você pode corrigir os problemas com um cluster não qualificado para torná-lo qualificado para uma atualização.
 
+
+
+== Antes de começar
+
+Antes de gerar um plano de atualização, você deve:
+
+* Certifique-se de que o AutoSupport (ASUP) esteja ativado e configurado corretamente, e que todas as seções necessárias estejam incluídas. Para mais informações, consulte link:hhttps://kb.netapp.com/on-prem/ontap/Ontap_OS/OS-KBs/ONTAP_AutoSupport_Resolution_Guide["Guia de Resolução de Problemas do AutoSupport do ONTAP"].
+* Verifique se os membros do cluster do AutoSupport correspondem à configuração do cluster SAP.  Para obter mais informações,link:https://kb.netapp.com/Support/NSS/Support_Site/How_to_open_a_non-technical_case["abrir um caso não técnico"] .
+
+
+.Passos
 Siga estas etapas para gerar um plano de atualização para um único cluster e vários clusters:
 
 [role="tabbed-block"]

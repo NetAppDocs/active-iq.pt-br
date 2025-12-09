@@ -1535,4 +1535,9 @@
   <block id="685bbd026f2ca02a1ba1e629c16611de" category="list-text">No widget *Inventário*, clique em *Máquinas Virtuais* para visualizar os dados disponíveis no Data Infrastructure Insights.</block>
   <block id="d4ec3e135a12bb96c4afe463cfa6cb07" category="list-text">Clique no *Nome ESX* para navegar até o Data Infrastructure Insights e ver mais informações.</block>
   <block id="45c1e1a0501d6b75b99c21659e420c55" category="paragraph">Os volumes que atendem aos seguintes critérios são recomendados para migração para o Cloud Volumes ONTAP (CVO):</block>
+  <block id="f53ebb0d19beec32f25d5bd12221adf7" category="paragraph">Antes de gerar um plano de atualização, você deve:</block>
+  <block id="9c8a06503c0fcff82a72b9a47d15fdd8" category="inline-link-macro">Guia de Resolução de Problemas do AutoSupport do ONTAP</block>
+  <block id="c04b16bfcb0ae04e942f5b8f40f89958" category="list-text">Certifique-se de que o AutoSupport (ASUP) esteja ativado e configurado corretamente, e que todas as seções necessárias estejam incluídas. Para mais informações, consulte <block ref="d9fca8defeb9ffc51d54bc8014960f3d" category="inline-link-macro-rx"></block>.</block>
+  <block id="5c2f83424a92d9f87bfe784acf51ef8f" category="inline-link-macro">abrir um caso não técnico</block>
+  <block id="ece2db758a882f00813e14d082e4552c" category="list-text">Verifique se os membros do cluster do AutoSupport correspondem à configuração do cluster SAP.  Para obter mais informações,<block ref="eb6134c35f89e9a6ed78736959d7ff7d" category="inline-link-macro-rx"></block> .</block>
 </blocks>
