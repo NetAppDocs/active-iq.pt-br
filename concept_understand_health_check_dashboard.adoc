@@ -4,7 +4,7 @@ permalink: concept_understand_health_check_dashboard.html
 keywords: activeiq, health check, health, HCA, health check dashboard, health check score 
 summary: Fornece informações para se familiarizar com o Painel de verificação de integridade. 
 ---
-= Compreender o painel de verificação de integridade
+= Saiba mais sobre o painel de verificação de saúde no Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

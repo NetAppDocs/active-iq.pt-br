@@ -4,7 +4,7 @@ permalink: task_upgrade_support_offering.html
 keywords: upgrade, support offering, supportedge, premium, standard, basic, expert, secure, purchase 
 summary: Fornece informações sobre como atualizar a oferta de suporte. 
 ---
-= Atualize a oferta de suporte
+= Aprimore sua oferta de suporte no Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

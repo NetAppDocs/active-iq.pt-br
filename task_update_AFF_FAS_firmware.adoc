@@ -4,7 +4,7 @@ permalink: task_update_AFF_FAS_firmware.html
 keywords: update, AFF, FAS firmware, firmware 
 summary: Fornece informações sobre como atualizar o firmware do AFF e do FAS. 
 ---
-= Faça o download do pacote de automação do AFF e do FAS
+= Baixe o pacote Ansible de firmware AFF e FAS do Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

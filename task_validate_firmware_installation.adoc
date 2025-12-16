@@ -4,7 +4,7 @@ permalink: task_validate_firmware_installation.html
 keywords: validate, firmware, firmware installation 
 summary: Fornece informações sobre como validar a instalação do firmware. 
 ---
-= Valide a instalação do firmware
+= Verifique a instalação do firmware AFF e FAS no seu sistema de armazenamento.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

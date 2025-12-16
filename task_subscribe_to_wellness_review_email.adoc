@@ -4,7 +4,7 @@ permalink: task_subscribe_to_wellness_review_email.html
 keywords: wellness, wellness review subscription, unsubscribe, supportedge expert, supportedge advisor 
 summary:  
 ---
-= Assine o e-mail de avaliação de bem-estar
+= Assine as notificações sobre a integridade do sistema de armazenamento do Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,7 +16,7 @@ summary:
 
 
 [role="lead"]
-Você pode se inscrever no e-mail de revisão de bem-estar para receber um e-mail mensal que resume o status de bem-estar, sistemas que estão se aproximando de suas datas de renovação, sistemas que exigem uma atualização para os produtos NetApp na sua base instalada. Você receberá um e-mail de avaliação de bem-estar para que você possa ver um resumo mensal e tomar medidas para seus sistemas. Você também tem opções para exibir, editar, compartilhar e excluir suas assinaturas. A qualquer momento, se você decidir não receber o e-mail, você pode cancelar a inscrição de receber e-mail também.
+Você pode se inscrever no boletim informativo por e-mail para receber um resumo mensal do status de desempenho, dos sistemas de armazenamento que estão próximos da data de renovação e dos sistemas de armazenamento que precisam de atualização para os produtos NetApp em sua base instalada. Você receberá um e-mail com uma avaliação de desempenho para que possa visualizar um resumo mensal e tomar as medidas necessárias para otimizar seus sistemas de armazenamento. Você também tem opções para visualizar, editar, compartilhar e excluir suas assinaturas. A qualquer momento, se você decidir que não deseja mais receber e-mails, poderá cancelar a sua inscrição.
 
 Depois que a assinatura estiver ativada, você deverá selecionar uma data de início ao adicionar uma assinatura. O resumo mensal do e-mail fornece uma visão das ações de bem-estar, renovação, atualização e verificação de integridade excecionais. Você pode confirmar o endereço de e-mail e o e-mail é enviado para o endereço de e-mail especificado. Você também tem a opção de excluir assinaturas.
 

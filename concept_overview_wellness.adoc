@@ -4,7 +4,7 @@ permalink: concept_overview_wellness.html
 keywords: overview, wellness, risk types, risk definition, mitigate risks, performance, configuration, renewal, risk, remediation 
 summary: Fornece informações sobre o bem-estar e os tipos de risco, o que ajuda você a melhorar seu sistema de armazenamento. 
 ---
-= Entenda bem-estar
+= Saiba mais sobre o widget de bem-estar no Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

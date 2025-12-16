@@ -4,7 +4,7 @@ permalink: concept_overview_dashboard.html
 keywords: overview, provision, dashboard, widget, watchlist 
 summary: Fornece informações sobre o painel, as listas de observação e os widgets. 
 ---
-= Entenda a lista de observação
+= Saiba mais sobre listas de monitoramento no Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

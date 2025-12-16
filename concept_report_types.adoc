@@ -4,7 +4,7 @@ permalink: concept_report_types.html
 keywords: reports, report types, reporting, performance reports 
 summary: Fornece informações sobre os diferentes tipos de relatórios que estão disponíveis para o usuário. 
 ---
-= Tipos de relatórios
+= Saiba mais sobre os relatórios do Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

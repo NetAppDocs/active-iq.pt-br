@@ -4,7 +4,7 @@ permalink: concept_working_with_inventory_file.html
 keywords: inventory file, file format 
 summary: Fornece informações sobre como trabalhar com o arquivo de inventário. 
 ---
-= Trabalhar com arquivo de inventário
+= Atualize o arquivo de inventário para a atualização de firmware AFF e FAS .
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

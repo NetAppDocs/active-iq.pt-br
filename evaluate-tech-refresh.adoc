@@ -4,7 +4,7 @@ permalink: evaluate-tech-refresh.html
 keywords: tech refresh, tech support contract, hardware 
 summary: Fornece informações para avaliar a atualização técnica do seu contrato ou hardware de suporte técnico 
 ---
-= Avalie uma atualização de tecnologia
+= Verifique no Digital Advisor se uma atualização tecnológica é recomendada para o seu sistema de armazenamento.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -18,7 +18,6 @@ summary: Fornece informações para avaliar a atualização técnica do seu cont
 [role="lead"]
 Se você quiser identificar se uma atualização de tecnologia é recomendada para seu contrato ou hardware de suporte técnico, use a opção de atualização técnica.
 
-
-NOTE: Você pode acessar esse recurso por meio do planejamento do ciclo de vida (*Armazenamento* > *Planejamento do ciclo de vida*) ou pelo Digital Advisor (*Painel > Widget de planejamento > Atualização tecnológica*).
+Você pode acessar esse recurso por meio do planejamento do ciclo de vida (*Armazenamento* > *Planejamento do ciclo de vida*) ou pelo Digital Advisor (*Painel > Widget de planejamento > Atualização tecnológica*).
 
 Para obter mais informações sobre esse recurso, consultelink:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["Avalie uma atualização de tecnologia"] na documentação do Console.

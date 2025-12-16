@@ -4,7 +4,7 @@ permalink: task_view_valuable_insight_widget.html
 keywords: valuable insight, support cases, storage efficiency savings, mitigated risks 
 summary: Fornece informações sobre o widget de informações valiosas. 
 ---
-= Veja insights valiosos
+= Visualize casos de suporte e detalhes do sistema de armazenamento com o widget Valuable Insights no Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

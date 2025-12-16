@@ -4,7 +4,7 @@ permalink: task_view_API_catalog.html
 keywords: API Catalog, APIs, integrate data, view catalog 
 summary: Fornece informações sobre as APIs disponíveis no Catálogo de APIs. 
 ---
-= Use o Catálogo de API para executar APIs
+= Utilize o catálogo de APIs do Digital Advisor para executar as APIs.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

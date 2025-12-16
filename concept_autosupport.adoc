@@ -4,7 +4,7 @@ permalink: concept_autosupport.html
 keywords: AutoSupport 
 summary: Fornece uma visão geral do AutoSupport. 
 ---
-= O que é AutoSupport
+= Saiba mais sobre o AutoSupport no Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

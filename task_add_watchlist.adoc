@@ -4,7 +4,7 @@ permalink: task_add_watchlist.html
 keywords: dashboard, watchlist, add watchlist 
 summary: Fornece informações para adicionar uma lista de observação ao painel. 
 ---
-= Crie uma lista de observação
+= Crie uma lista de observação no Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,10 +16,10 @@ summary: Fornece informações para adicionar uma lista de observação ao paine
 
 
 [role="lead"]
-Você pode criar uma lista de observação para acessar um conjunto de sistemas de forma rápida e fácil. Pode adicionar os sistemas com base na categoria ou no número de série.
+Você pode criar uma lista de monitoramento para acessar um conjunto de sistemas de armazenamento de forma rápida e fácil. Você pode adicionar sistemas de armazenamento com base na categoria ou no número de série.
 
 
-NOTE: Você pode adicionar um máximo de 15.000 sistemas em uma categoria e 500 sistemas em um número de série.
+NOTE: É possível adicionar no máximo 15.000 sistemas de armazenamento em uma categoria e 500 sistemas de armazenamento em um número de série.
 
 .Passos
 . No painel esquerdo, clique em *watchlists*
@@ -28,7 +28,7 @@ NOTE: Você pode adicionar um máximo de 15.000 sistemas em uma categoria e 500 
 
 . Clique em *criar lista de observação*.
 . Forneça um nome para a lista de observação.
-. Selecione uma das seguintes opções para adicionar sistemas à lista de observação:
+. Selecione uma das seguintes opções para adicionar sistemas de armazenamento à lista de observação:
 +
 ** *Categoria*: Essa opção permite adicionar todo o inventário associado a uma categoria específica, como assinaturas de cliente, site, grupo ou Keystone, à sua lista de observação.
 +

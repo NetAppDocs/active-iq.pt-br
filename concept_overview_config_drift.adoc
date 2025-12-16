@@ -4,7 +4,7 @@ permalink: concept_overview_config_drift.html
 keywords: config drift, configuration deviation, add template, compare template 
 summary: Fornece uma visão geral do recurso de desvio de configuração 
 ---
-= Compreender o desvio de configuração
+= Detecte desvios de configuração no seu sistema de armazenamento com o Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

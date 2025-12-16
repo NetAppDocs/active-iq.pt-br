@@ -4,7 +4,7 @@ permalink: task_manage_watchlists.html
 keywords: dashboard, watchlist, add watchlist 
 summary: Fornece informações para gerenciar listas de observação. 
 ---
-= Gerenciar uma lista de observação
+= Gerencie uma lista de observação no Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

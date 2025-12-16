@@ -4,7 +4,7 @@ permalink: concept_get_started_with_health_check_dashboard.html
 keywords: activeiq, health check, health, HCA, health check dashboard, autosupport, autosupport adoption, recommended configuration, best practices, support, support and entitlements, support contract, contracts, active contracts, expired contracts, nearing-expiration, key recommendations, recommendations,  digital advisor, features, recommended software 
 summary: Fornece informações sobre o painel, pontuações de integridade, recursos e widgets. 
 ---
-= Comece a usar o painel de verificação de integridade
+= Comece a usar o painel de verificação de integridade do Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

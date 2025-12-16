@@ -4,7 +4,7 @@ permalink: task_identify_capacity_system.html
 keywords: capacity, space, increase, ONTAP systems, StorageGRID 
 summary: Fornece informações para aumentar a capacidade do sistema. 
 ---
-= Identificar sistemas que estejam atingindo limites de capacidade
+= Identifique sistemas de armazenamento próximos do limite de capacidade no Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

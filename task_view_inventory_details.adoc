@@ -4,7 +4,7 @@ permalink: task_view_inventory_details.html
 keywords: inventory, platforms, systems, clusters, sites 
 summary: Fornece informações sobre o inventário geral que você possui. 
 ---
-= Ver detalhes do inventário
+= Consulte os detalhes do inventário do seu sistema de armazenamento no Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

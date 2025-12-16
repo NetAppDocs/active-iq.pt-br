@@ -4,7 +4,7 @@ permalink: task-informed-decisions-based-on-cloud-recommendations.html
 keywords: cloud recommendations, migration, backup and archive, disaster recovery, FabricPool, FabricPool Advisor, inactive data, tiered data, IDR 
 summary: Fornece recomendações com base nas quais decisões informadas podem ser tomadas. 
 ---
-= Tome decisões informadas com base nas recomendações da nuvem
+= Analise a integridade do seu sistema de armazenamento com recomendações de nuvem no Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

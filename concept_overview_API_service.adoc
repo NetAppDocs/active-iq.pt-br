@@ -4,7 +4,7 @@ permalink: concept_overview_API_service.html
 keywords: API services, access token, refresh token, API Catalog 
 summary: Fornece uma visão geral do recurso de serviços de API. 
 ---
-= Entenda os Serviços de API
+= Saiba mais sobre os serviços da API do Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

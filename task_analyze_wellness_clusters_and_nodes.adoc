@@ -4,7 +4,7 @@ permalink: task_analyze_wellness_clusters_and_nodes.html
 keywords: cluster, node, clusterviewer, configuration 
 summary: Fornece informações sobre o ClusterViewer. 
 ---
-= Analise o bem-estar dos clusters e dos nós
+= Visualize o estado de clusters e nós usando o widget ClusterViewer no Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

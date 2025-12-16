@@ -4,7 +4,7 @@ permalink: concept_understand_activeiq_features.html
 keywords: digital advisor, features, upgrade, support offering 
 summary: Fornece informações sobre o painel, listas de observação, recursos e widgets. 
 ---
-= Entenda os recursos do Digital Advisor
+= Saiba mais sobre os recursos do Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

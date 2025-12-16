@@ -4,7 +4,7 @@ permalink: generate_upgrade_plan_single_multiple_clusters.html
 keywords: Upgrade Advisor, upgrade plan, ONTAP, upgrade recommendation, clusters 
 summary: Forneça etapas para gerar um plano de atualização para uma atualização bem-sucedida do ONTAP ou reverter para um único cluster e vários clusters. 
 ---
-= Gerar um plano de atualização para um único cluster e vários clusters
+= Gere um plano de atualização do ONTAP para clusters únicos e múltiplos no Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
