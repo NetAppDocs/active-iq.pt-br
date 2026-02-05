@@ -61,6 +61,9 @@ Veja a seguir os tipos de relatórios disponíveis no Digital Advisor:
 | Configuração recomendada | Fornece informações sobre as várias lacunas de configuração recomendadas para configuração de gerenciamento remoto, peças sobressalentes e unidades, par de HA, integridade do SVM, status da bateria e avisos de guru de recuperação. | Sim | Sim | Não 
 
 
+| Segurança | Fornece uma visão geral abrangente e exportável dos riscos de segurança de storage do ONTAP e das lacunas de conformidade em clusters, SVMs e volumes. | Sim | Não | Não 
+
+
 | Contratos de suporte / hardware EOS | Fornece informações sobre os detalhes do contrato e a lista de controladoras, gavetas e discos que alcançaram suporte final (EOS). | Sim | Sim | Não 
 
 

@@ -1589,4 +1589,12 @@
   <block id="aae53b31f1046bfeb5ca553426f2d07e" category="sidebar">Baixe o pacote Ansible de firmware AFF e FAS .</block>
   <block id="b3b883fb818b35e0c1f7289c9e15f2a7" category="sidebar">Valide a instalação do firmware AFF e FAS no sistema de armazenamento.</block>
   <block id="737d0abe4f71a75181ee9d78766bb60f" category="sidebar">Gerar ou agendar um relatório</block>
+  <block id="a0d3399097b7cbf32ef14a3abf47c295" category="doc">Novo relatório de segurança para supervisão de segurança abrangente</block>
+  <block id="9747281be2bd1fc01288f1691f51d2f4" category="paragraph">Digital Advisor agora inclui um Relatório de Segurança que fornece uma visão unificada dos riscos de segurança do ONTAP em todo o seu ambiente de storage. Este relatório permite a detecção mais rápida de configurações incorretas, lacunas de conformidade e problemas de segurança em clusters, SVMs e volumes, ajudando você a manter uma infraestrutura de storage segura.</block>
+  <block id="fb4692a2354d5e0222d888a1c02dabeb" category="section-title">Suporte aprimorado do Upgrade Advisor para níveis de patch mistos</block>
+  <block id="8e292f1433a531a16782fe2593062c78" category="paragraph">Upgrade Advisor agora gera relatórios de atualização para clusters onde os nós executam diferentes níveis de patch dentro da mesma versão principal do ONTAP. Essa melhoria garante que os clientes possam prosseguir com as atualizações sem problemas, desde que o cluster não esteja misturado entre versões principais, proporcionando maior flexibilidade no planejamento de atualizações.</block>
+  <block id="07fc7b1ed8439edcf0a98beca0a29711" category="section-title">Suporte estendido para versões do ONTAP fora do suporte limitado</block>
+  <block id="362a5eae56271693fedd19383a4aad7b" category="paragraph">Upgrade Advisor agora oferece suporte à geração de planos de atualização para versões do ONTAP que atingiram o fim do suporte limitado, com um período de carência de 9 meses. Esse recurso ajuda os clientes a tomarem medidas oportunas e a evitarem interrupções na atualização, fornecendo orientações claras durante o período de transição.</block>
+  <block id="b16c048e2cbb1f91610daa0a614ff050" category="cell">Fornece uma visão geral abrangente e exportável dos riscos de segurança de storage do ONTAP e das lacunas de conformidade em clusters, SVMs e volumes.</block>
+  <block id="3cdc57c34ce94785332eb57eb2d8d56d" category="section-title">04 de fevereiro de 2026</block>
 </blocks>
