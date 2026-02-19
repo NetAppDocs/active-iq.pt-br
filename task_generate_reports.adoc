@@ -43,7 +43,7 @@ Você pode gerar um relatório imediatamente ou agendar o relatório para ser ge
 
 
 
-NOTE: O relatório é salvo no Digital Advisor por 3 dias.
+NOTE: O relatório é salvo no Digital Advisor por 3 meses.
  a| 
 . Clique na guia *Relatório de Agendamento*.
 . Selecione o tipo de relatório e forneça os valores solicitados para o relatório.
