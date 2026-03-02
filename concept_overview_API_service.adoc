@@ -38,3 +38,5 @@ Qualquer exibição permite que o usuário navegue pelos itens disponíveis usan
 == Usando as APIs
 
 Uma vez que você está autorizado e pode gerar tokens, você pode aproveitar os tokens para fazer consultas programáticas e recuperar dados. Você também pode testar uma API dentro do Catálogo de APIs para ver em primeira mão como a consulta funciona e o tipo de dados retornados. Essa é uma ótima maneira de garantir que você entenda como uma API funcionará antes de criar a estrutura de código em seu sistema.
+
+Para obter informações sobre como acessar e usar as APIs do Digital Advisor, consulte link:https://docs.netapp.com/us-en/digital-advisor-automation/["NetApp Digital Advisor documentação da API"].

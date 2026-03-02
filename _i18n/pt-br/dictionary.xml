@@ -1051,15 +1051,6 @@
   <block id="bb8c427c31e76f816f767bd2cad87cfc" category="list-text">Selecione o tipo de relatório e forneça os valores solicitados para o relatório.</block>
   <block id="43c47648912b14ae2e4dae66c4c94e6f" category="list-text">Selecione o formato do relatório.</block>
   <block id="fbdbbae9b17b34243807f99738e169e7" category="admonition">Os relatórios programados existentes serão substituídos quando os novos relatórios forem gerados.</block>
-  <block id="23fc079b14c319bb82e85f2e815d0f03" category="summary">Fornece informações sobre como gerar token para acessar APIs.</block>
-  <block id="3a2fdf84bfcc3c891b43f0d51724ccde" category="paragraph">É fácil se Registrar para Serviços de API e gerar tokens.</block>
-  <block id="1b041cdfdc19a7bdb36e4bb710521c3b" category="list-text">No menu *Links rápidos*, clique em *Serviços API*.</block>
-  <block id="9909e23ede42f2318acada35ac10bd3e" category="list-text">Clique em *Register*.</block>
-  <block id="d3ea808b3d55f3adc011ccc0b25a4a36" category="list-text">Preencha o formulário de solicitação de autorização e clique em *Enviar*.</block>
-  <block id="ee67d4518095f8899eb8244097de7a35" category="paragraph">A ativação é automática e deve ser instantânea. Depois de ter sido autorizado a usar as APIs do Digital Advisor, você pode gerar tokens para usar ao fazer chamadas programáticas de API. Você também pode usar esses tokens para executar "Experimente" dentro do Catálogo de API. Quando obtidos programaticamente, os tokens sempre vêm em conjuntos de dois: Um Token de Acesso e um Token de Atualização. O token de acesso deve ser passado para usar com sucesso todas as APIs (exceto uma - o token de atualização é usado para obter programaticamente um novo conjunto de tokens).</block>
-  <block id="e26d70ef5011218a0e0d472d10f783bb" category="list-text">Na página Serviços de API principais, clique em *Generate Token* para visualizar e baixar o token de acesso e atualizar token para invocar APIs.</block>
-  <block id="99a9cfa523a42e23621796dfca6edb0a" category="paragraph">O portal oferece várias maneiras de salvar um ou ambos os tokens no conjunto. Você pode copiá-los para a área de transferência, baixá-los como um arquivo de texto ou visualizá-los como texto simples.</block>
-  <block id="e404f7c0800eac65e5e44442bb4fd0cc" category="admonition">Você deve baixar e salvar o token de acesso e atualizar o token para uso posterior. Os tokens de acesso expiram uma hora após a geração e os tokens de atualização devem ser regenerados, manualmente, a cada 7 dias e instalados no aplicativo. Para fazer isso, você não precisa fazer login no aplicativo. No entanto, após 90 dias, você precisa fazer login no aplicativo para obter um novo token de acesso e atualização.</block>
   <block id="d30bc95f114574e4f302ff7d56c38197" category="summary">Fornece informações sobre como hospedar os arquivos de firmware usando um servidor web.</block>
   <block id="dc3625ebff827af69b299c8e6fea1420" category="paragraph">Depois de baixar o pacote de automação, os arquivos de firmware devem ser hospedados em um servidor web.</block>
   <block id="5129ab853bf297d4240fcbf65f9e0d46" category="inline-link-macro">Webserver usando Python</block>
@@ -1209,17 +1200,6 @@
   <block id="0ec4134b90582cc935ee8837f4b79494" category="section-title">A validar a instalação do firmware do SP/BMC</block>
   <block id="3caae258f0b7b1933ce92f0c03955521" category="paragraph">O Playbook do Ansible para atualizações de firmware do processador de serviço/BMC está habilitado com a opção de verificar a instalação do firmware mais recente do SP/BMC na controladora. Após a conclusão da verificação (as atualizações podem levar um tempo máximo de duas horas), o manual do Ansible aplica atualizações internas de firmware do switch conetando-se ao console SP/BMC.</block>
   <block id="b80d891d0b3572cb38b140778c2439e6" category="paragraph">As informações de falha e sucesso das instalações de firmware do SP/BMC e do switch interno serão notificadas no final da execução do Playbook do Ansible. Siga as etapas mencionadas no Playbook do Ansible no caso de a instalação do firmware do switch interno/firmware do SP/BMC falhar.</block>
-  <block id="bd006ceeb17633ee0556ac28eaf949f6" category="summary">Fornece informações sobre as APIs disponíveis no Catálogo de APIs.</block>
-  <block id="40626d7035cc7f4a6caa9d104fd7d387" category="paragraph">O Catálogo de API permite que você navegue por categorias e as APIs disponíveis em cada uma dessas categorias.</block>
-  <block id="2b033bd9dec6fb568acb85aff511102a" category="paragraph">Usando um token de acesso válido e entradas corretas para os campos obrigatórios, você pode fazer uma chamada de teste para uma API.</block>
-  <block id="54e7835f3f1f70bc142c9b5e847e6ec9" category="paragraph">O Catálogo da API é exibido.</block>
-  <block id="04c8967b6880007c6fea1e2c0e66614d" category="list-text">Na parte superior da página, deslize a alternância para "Experimente".</block>
-  <block id="835a43b0478137c574edbef583d126a1" category="list-text">Na navegação à esquerda, expanda as categorias e selecione qualquer API para exibir informações detalhadas.</block>
-  <block id="fcf9335996c4ed1473286f8644d4b479" category="list-text">Expanda a API.</block>
-  <block id="3bf0bb81ef29ed72536c933fd264a98e" category="list-text">Clique no botão *Experimente* à direita.</block>
-  <block id="10d2154e0509c65c04341184204f6715" category="list-text">Forneça os parâmetros necessários e clique em *Executar* para visualizar os resultados.</block>
-  <block id="541d1e8525d813225b5812766f70549c" category="paragraph">Você também pode examinar a seção *Responses* da API para entender os dados que serão retornados melhor. Você pode clicar em *valor de exemplo* para ver o formato dos dados ou clicar em *modelo* e clicar nos caretas para expandir as seções para ver a definição de cada elemento.</block>
-  <block id="dd2ac633c61d9191fba57c56e22336db" category="paragraph">Ao deslizar o botão para a vista *Code*, pode ver amostras de código em vários idiomas.</block>
   <block id="e02babead98c40fa29fb8fc1d8fdc331" category="summary">Fornece informações para visualizar e analisar o bem-estar do seu sistema de armazenamento e reconhecer os riscos.</block>
   <block id="271d577ec8f32c51ee101c1c091a870f" category="paragraph">Você pode analisar os atributos de bem-estar do seu sistema de storage visualizando as ações e os riscos associados a eles. Você deve visualizar as ações corretivas e mitigar manualmente o risco.</block>
   <block id="c8c26be9319b332a2b6294dcfb6585b6" category="list-text">Clique no widget de atributo wellness no painel ou clique em *Exibir todas as ações* para ver a lista de todas as ações e riscos.</block>
@@ -1332,7 +1312,6 @@
   <block id="f79801f4d29b490bbe3ea28f5605af09" category="sidebar">Identifique o desvio de configuração</block>
   <block id="5c76b7629087dd257b9ab47efd972727" category="sidebar">Atualize para otimizar sua base de instalação</block>
   <block id="52337cbca028caf9e3f5a7f4d46f0bf5" category="sidebar">Instalar e executar o pacote de automação do AFF e do FAS firmware (iniciantes)</block>
-  <block id="94248bdab6eca12666593501ea5684f7" category="sidebar">Integre dados usando APIs</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">Gerar relatórios personalizados</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conhecimento e apoio</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="sidebar">Registre-se para obter suporte</block>
@@ -1400,22 +1379,11 @@
   <block id="bd2055e6fb5a6ca7ecc6d9d52f394548" category="paragraph">Os módulos de previsão de capacidade V2 e API de fim de suporte estão programados para descontinuação.  Para acessar as APIs obsoletas ou saber sobre os cronogramas de obsolescência e APIs alternativas, navegue até *Serviços de API -&gt; Procurar -&gt; APIs obsoletas*.</block>
   <block id="6e04d6bd41fa83c137f7b99364e843c9" category="admonition">O NetApp Digital Advisor está migrando de APIs REST para GraphQL como sua principal plataforma de API para melhorar o desempenho, a flexibilidade e a escalabilidade.  A transição será em fases, com um período de sobreposição entre APIs REST e APIs GraphQL.  Para cada API REST obsoleta, um aviso de obsolescência será publicado no catálogo da API do Digital Advisor , e você terá 6 meses para migrar esse ponto de extremidade específico para o GraphQL.  Para revisar a lista de APIs programadas para descontinuação, navegue até *Serviços de API -&gt; Navegar -&gt; APIs descontinuadas*</block>
   <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">06 de agosto de 2025</block>
-  <block id="51aa04f109d45d42868cc0b36f25fd52" category="section-title">Acessar APIs GraphQL</block>
-  <block id="6bdcd3c5aba802a9e7d2f1d96dd5aff5" category="list-text">Clique em *GraphQL* e revise a documentação.</block>
-  <block id="e306bcdfb9b3334cf7659705e8358e27" category="inline-link-macro">Digital Advisor GraphQL Studio</block>
-  <block id="b1e54092f36831f6a814e51a7c93bdd8" category="list-text">Experimente as APIs GraphQL usando as consultas de exemplo prontas para execução em<block ref="ae67cca60092e176d8c2dddd34356b5e" category="inline-link-macro-rx"></block> .</block>
-  <block id="637bbe10a2e1fa5eea6be6cb23319cca" category="list-text">Forneça um token de usuário selecionando o campo de autorização no cabeçalho da solicitação de API</block>
-  <block id="85608152841a7f2e1feb0fe64d6e0ea6" category="list-text">Forneça as variáveis necessárias</block>
-  <block id="f957bd87c6ca02f7e8d3b7e94c1b1992" category="list-text">Execute a consulta e revise a saída</block>
-  <block id="56221c5b2b531b839a3cd5c7e9c9cd9f" category="section-title">Acessar APIs REST</block>
-  <block id="35c99013ee51309b261a35e68d7b57ba" category="list-text">Clique em *ActiveIQ-Public* e selecione qualquer API</block>
   <block id="b564cac98074bd875d810d6572dc9927" category="paragraph">O widget *Inventário* fornece um resumo do total de sistemas e dos switches de suporte que você possui.  Isso inclui produtos habilitados e não habilitados Digital Advisor .</block>
   <block id="9714b9edaef026c9c44f49389eb60d44" category="section-title">Ver detalhes do switch de suporte</block>
   <block id="e5449af777fdc7f9d2eec34f87da1138" category="list-text">No widget *Inventário*, clique em *Switches com direito a suporte* para visualizar informações sobre todos os switches com direito a suporte.</block>
   <block id="617f2d0adf2001440f244bf5c45be277" category="inline-link-macro">Aprenda como visualizar o suporte intitulado switches</block>
   <block id="ef3139c75debdd9ee259a4ea386083d3" category="paragraph">Agora você pode visualizar informações sobre os switches SAN Fibre Channel Brocade que têm direito a suporte. Isso inclui detalhes sobre o modelo do switch, número de série e status de suporte. <block ref="de42528af60c9393a2c8b32539c694f1" category="inline-link-macro-rx"></block> .</block>
-  <block id="1b9abf135ccb7ed2f2cd9c155137c351" category="inline-link-macro">Navegar</block>
-  <block id="2981195e7f0b7a603227ab0ab32a8349" category="list-text">Clique<block ref="3dddd0be9b2e921fda9092125563366a" category="inline-link-macro-rx"></block> sob o ícone *Catálogo de API*.</block>
   <block id="56f48a0b7ef64f3dcd95534228f6c5f3" category="paragraph">Indicadores ambientais que fornecem insights sobre a saúde ambiental dos seus sistemas de armazenamento agora fornecem valores mais precisos para uso de energia projetado, uso direto de carbono e emissão de calor com base em um modelo preditivo avançado. Para saber mais, consulte<block ref="a9f485271892e0176d2cdaee960db816" category="inline-link-macro-rx"></block> .</block>
   <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXP agora é NetApp Console</block>
   <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">O NetApp Console, criado com base na base aprimorada e reestruturada do BlueXP , fornece gerenciamento centralizado do armazenamento NetApp e do NetApp Data Services em ambientes locais e na nuvem em nível empresarial, fornecendo insights em tempo real, fluxos de trabalho mais rápidos e administração simplificada, de forma altamente segura e compatível.</block>
@@ -1515,7 +1483,6 @@
   <block id="1d171292f5d993b6b1a0ace428002ae8" category="doc">Execute o playbook do Ansible sem a imagem Docker da NetApp.</block>
   <block id="90f3ab06fb2b5ec1e539116cfe0cd3bb" category="doc">Gere um relatório de linha do tempo de desvio de configuração no Digital Advisor.</block>
   <block id="1b12ad840be07a671cddf255ef0ba4a8" category="doc">Gere ou agende um relatório no Digital Advisor.</block>
-  <block id="fcdc266661735ff673a0dd6db9dee871" category="doc">Gere tokens para usar os serviços da API do Digital Advisor.</block>
   <block id="8bb48da551b9f18b9a7bb8a26c2143b5" category="doc">Hospede os arquivos de firmware AFF e FAS em um servidor web.</block>
   <block id="dbf951fc2e241b15feb7e005fe4a45bf" category="doc">Identifique sistemas de armazenamento próximos do limite de capacidade no Digital Advisor.</block>
   <block id="10dbc72fe842008d2175d0d6c8409b92" category="doc">Detecte riscos de segurança com o Digital Advisor e tome medidas corretivas.</block>
@@ -1532,7 +1499,6 @@
   <block id="35aedce653ee05a4fca3b7e9369bfd70" category="doc">Baixe o pacote Ansible de firmware AFF e FAS do Digital Advisor.</block>
   <block id="36d1684f85846e6901819bfb095f4fc7" category="doc">Aprimore sua oferta de suporte no Digital Advisor.</block>
   <block id="6c96fdceac3302fe4a465f308ef622a1" category="doc">Verifique a instalação do firmware AFF e FAS no seu sistema de armazenamento.</block>
-  <block id="e11965f61e6b60a8c6e2460a84cc204c" category="doc">Utilize o catálogo de APIs do Digital Advisor para executar as APIs.</block>
   <block id="7d8cfcd1375c38dde47d477af932e6f3" category="doc">Analise os atributos de bem-estar no Digital Advisor e reconheça os riscos.</block>
   <block id="e2b13842235a9d8f6222d5443d06264d" category="doc">Consulte os detalhes do inventário do seu sistema de armazenamento no Digital Advisor.</block>
   <block id="55e59275438e24e489c9eedadc22e820" category="doc">Visualize os gráficos de desempenho do sistema de armazenamento no Digital Advisor.</block>
@@ -1597,4 +1563,6 @@
   <block id="b16c048e2cbb1f91610daa0a614ff050" category="cell">Fornece uma visão geral abrangente e exportável dos riscos de segurança de storage do ONTAP e das lacunas de conformidade em clusters, SVMs e volumes.</block>
   <block id="3cdc57c34ce94785332eb57eb2d8d56d" category="section-title">04 de fevereiro de 2026</block>
   <block id="3741bac3a7c9d89c366100cd1cba5405" category="admonition">O relatório é salvo no Digital Advisor por 3 meses.</block>
+  <block id="acdb887b3053b4cb61257e8d616a27a9" category="inline-link-macro">NetApp Digital Advisor documentação da API</block>
+  <block id="ba16647c06b4add5fc0093f31f94dd0d" category="paragraph">Para obter informações sobre como acessar e usar as APIs do Digital Advisor, consulte <block ref="268007c749dcd53dd83a4024c6f56680" category="inline-link-macro-rx"></block>.</block>
 </blocks>

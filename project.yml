@@ -170,14 +170,8 @@ sidebar:
             url: "/task_execute_ansible_playbook_without_docker.html"
           - title: Valide a instalação do firmware AFF e FAS no sistema de armazenamento.
             url: "/task_validate_firmware_installation.html"
-    - title: Integre dados usando APIs
-      entries:
-      - title: Saiba mais sobre os serviços da API do Digital Advisor.
-        url: "/concept_overview_API_service.html"
-      - title: Gere tokens para usar os serviços da API do Digital Advisor.
-        url: "/task_generate_tokens_API_services.html"
-      - title: Utilize o catálogo de APIs do Digital Advisor para executar as APIs.
-        url: "/task_view_API_catalog.html"
+    - title: Saiba mais sobre os serviços da API do Digital Advisor.
+      url: "/concept_overview_API_service.html"
     - title: Gerar relatórios personalizados
       entries:
       - title: Saiba mais sobre os relatórios do Digital Advisor.
