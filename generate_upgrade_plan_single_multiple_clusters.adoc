@@ -24,7 +24,7 @@ Você pode usar o Upgrade Advisor para exibir a lista de clusters qualificados o
 
 Antes de gerar um plano de atualização, você deve:
 
-* Certifique-se de que o AutoSupport (ASUP) esteja ativado e configurado corretamente, e que todas as seções necessárias estejam incluídas. Para mais informações, consulte link:hhttps://kb.netapp.com/on-prem/ontap/Ontap_OS/OS-KBs/ONTAP_AutoSupport_Resolution_Guide["Guia de Resolução de Problemas do AutoSupport do ONTAP"].
+* Certifique-se de que AutoSupport (ASUP) esteja habilitado e configurado corretamente, e que todas as seções necessárias estejam incluídas. Para obter mais informações, consulte link:https://kb.netapp.com/on-prem/ontap/Ontap_OS/OS-KBs/ONTAP_AutoSupport_Resolution_Guide["Guia de Resolução de Problemas do AutoSupport do ONTAP"].
 * Verifique se os membros do cluster do AutoSupport correspondem à configuração do cluster SAP.  Para obter mais informações,link:https://kb.netapp.com/Support/NSS/Support_Site/How_to_open_a_non-technical_case["abrir um caso não técnico"] .
 
 
