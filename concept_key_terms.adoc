@@ -67,10 +67,10 @@ summary: Fornece informações sobre os principais termos usados no Digital Advi
 ** *Gerar um relatório:* gera o relatório da lista de observação selecionada e envia um e-mail para um máximo de 5 destinatários.
 
 
-* *Widget de Planejamento:* exibe informações sobre a adição de capacidade, software e hardware que precisam ser renovados.
+* *Widget de planejamento:* Exibe informações sobre a expansão de storage, software e hardware que precisam ser renovados.
 +
-** * Adições de capacidade: * Identifica sistemas que excederam ou estão próximos a 90% de capacidade e locais DE GRADE que excederam ou estão próximos a 70% de capacidade. É possível fazer uma solicitação para aumentar a capacidade do sistema de storage.
-** *Renewals:* fornece informações sobre o software e o hardware que expirou ou estão próximos ao vencimento nos próximos 6 meses.
+** *Expansão de storage:* Identifica sistemas que ultrapassaram ou estão próximos de atingir 90% da capacidade e sites GRID que ultrapassaram ou estão próximos de atingir 70% da capacidade. Você pode solicitar o aumento da capacidade do seu sistema de storage.
+** *Renovação de Suporte:* Fornece informações sobre o software e o hardware que expiraram ou estão perto de expirar nos próximos 6 meses.
 
 
 * * Widget de atualizações:* fornece o número de atualizações disponíveis para sistemas ONTAP e e-Series:

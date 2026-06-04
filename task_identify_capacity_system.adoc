@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_identify_capacity_system.html 
-keywords: capacity, space, increase, ONTAP systems, StorageGRID 
+keywords: capacity, space, increase, ONTAP systems, StorageGRID, storage expansion 
 summary: Fornece informações para aumentar a capacidade do sistema. 
 ---
 = Identifique sistemas de armazenamento próximos do limite de capacidade no Digital Advisor.
@@ -21,7 +21,7 @@ Identifique sistemas que estejam atingindo limites de capacidade proativamente e
 No ONTAP, você pode visualizar sistemas que excederam 90% da capacidade ou excederam 90% da capacidade em 1, 3 e 6 meses. No StorageGRID, você pode visualizar sistemas que excederam 70% da capacidade ou excederam 70% da capacidade em 1, 3 e 6 meses.
 
 .Passos
-. No widget *Planning*, clique em *Capacity Additions*.
+. No widget *Planejamento*, clique em *Expansão de storage*.
 +
 Por padrão, os sistemas ONTAP que excederam 90% de capacidade ou estão próximos a 90% de capacidade são exibidos.
 
@@ -30,5 +30,5 @@ Por padrão, os sistemas ONTAP que excederam 90% de capacidade ou estão próxim
 . Clique em *View Capacity Forecast* (Visualizar previsão de capacidade) para visualizar a previsão de capacidade para os próximos 6 meses.
 . Clique em *solicitar para adicionar capacidade*.
 . Opcionalmente, forneça quaisquer comentários.
-. Clique em *Enviar* para enviar a solicitação à equipe de armazenamento do NetApp para auxiliar na adição de capacidade para os sistemas selecionados.
+. Clique em *Enviar* para enviar a solicitação à equipe de armazenamento da NetApp para auxiliar na expansão de storage dos sistemas selecionados.
 

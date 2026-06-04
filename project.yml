@@ -111,8 +111,8 @@ sidebar:
         url: "/task_identify_capacity_system.html"
       - title: Gerenciar limites de capacidade de armazenamento de volume
         url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
-      - title: Determine se uma atualização tecnológica é recomendada para o sistema
-          de armazenamento.
+      - title: Determine se é recomendada uma atualização do sistema para sistema
+          de storage
         url: "/evaluate-tech-refresh.html"
       - title: Renovar o software e o hardware do sistema de armazenamento
         url: "/task_renew_software_and_hardware.html"

@@ -37,10 +37,10 @@ Leia as informações a seguir para estar ciente dos widgets que são suportados
 | Bem-estar | Compatível com todas as plataformas | Compatível com todas as plataformas | Compatível com todas as plataformas 
 
 
-| Renovações | Compatível com todas as plataformas | Compatível com todas as plataformas | Compatível com todas as plataformas 
+| Renovações de suporte | Compatível com todas as plataformas | Compatível com todas as plataformas | Compatível com todas as plataformas 
 
 
-| Adições de capacidade | Compatível apenas com Clustered Data ONTAP | Compatível apenas com Clustered Data ONTAP | Compatível apenas com Clustered Data ONTAP 
+| Expansão de storage | Compatível apenas com Clustered Data ONTAP | Compatível apenas com Clustered Data ONTAP | Compatível apenas com Clustered Data ONTAP 
 
 
 | Inventário | Compatível com todas as plataformas | Compatível apenas com Clustered Data ONTAP | Compatível apenas com Clustered Data ONTAP 
