@@ -20,6 +20,7 @@ Após a execução do manual de estratégia, faça login no cluster como adminis
 
 
 
+[[validate-disk-firmware-installation]]
 == Valide a instalação do firmware do disco
 
 .Passos
@@ -52,6 +53,7 @@ Para obter mais informações sobre o comando, consulte [system controller flash
 
 
 
+[[validate-shelf-firmware-installation]]
 == Valide a instalação do firmware do compartimento
 
 .Passos
@@ -103,6 +105,7 @@ Para obter mais informações sobre o comando, consulte [storage shelf acp confi
 
 
 
+[[validating-spbmc-firmware-installation]]
 == A validar a instalação do firmware do SP/BMC
 
 O Playbook do Ansible para atualizações de firmware do processador de serviço/BMC está habilitado com a opção de verificar a instalação do firmware mais recente do SP/BMC na controladora. Após a conclusão da verificação (as atualizações podem levar um tempo máximo de duas horas), o manual do Ansible aplica atualizações internas de firmware do switch conetando-se ao console SP/BMC.

@@ -4,6 +4,7 @@
 
 
 
+[[upgrade-advisor]]
 === Consultor de atualização
 
 * Uma opção de download multiformato foi incluída nos planos do Upgrade Advisor para simplificar o planejamento de atualizações do ONTAP e solucionar possíveis bloqueios ou avisos. Agora você pode baixar os planos do Upgrade Advisor nos formatos Excel, PDF e JSON.

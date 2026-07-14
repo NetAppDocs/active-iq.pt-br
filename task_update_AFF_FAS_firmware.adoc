@@ -20,6 +20,7 @@ Atualize o firmware do AFF e do FAS usando o Ansible para reduzir os riscos iden
 
 
 
+[[before-you-begin]]
 == Antes de começar
 
 Antes de atualizar o firmware do AFF e do FAS usando o Ansible, você deve:

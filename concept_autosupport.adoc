@@ -36,6 +36,6 @@ Para obter mais informações sobre o AutoSupport, consulte a documentação apr
 * link:https://docs.netapp.com/us-en/storagegrid-117/admin/what-is-autosupport.html["StorageGRID"^]
 * link:https://docs.netapp.com/us-en/e-series-santricity/sm-support/autosupport-feature-overview.html["SANtricity (e-Series e EF-Series)"^]
 * link:https://docs.netapp.com/us-en/solidfire-active-iq/concept-active-iq-learn-about-active-iq.html["Elemento (NetApp HCI e SolidFire)"^]
-* link:https://www.netapp.com/pdf.html?item=/media/10438-tr-4444pdf.pdf["Relatório Técnico - ONTAP AutoSupport e AutoSupport sob demanda"^]
+* link:https://www.netapp.com/pdf.html?item=/media/10438-tr-4444.pdf["Relatório Técnico - ONTAP AutoSupport e AutoSupport sob demanda"^]
 * link:https://www.netapp.com/pdf.html?item=/media/10439-tr4688pdf.pdf["Relatório Técnico - Segurança e Privacidade de dados de Telemetria NetApp"^]
 

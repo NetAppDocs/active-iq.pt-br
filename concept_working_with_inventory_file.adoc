@@ -22,6 +22,7 @@ Para atualização do firmware do processador de serviço, nomes de host de nós
 
 
 
+[[inventory-file-format]]
 == Formato de arquivo de inventário
 
 A seguir está um exemplo de formato de arquivo de inventário com atualizações de firmware de disco e de gaveta:
@@ -51,6 +52,7 @@ No exemplo, as atualizações de firmware de gaveta e disco são aplicáveis no 
 
 
 
+[[delete-a-cluster-from-the-inventory-file]]
 == Exclua um cluster do arquivo de inventário
 
 Caso não pretenda aplicar atualizações de firmware num cluster específico, pode remover o cluster do ficheiro de inventário.

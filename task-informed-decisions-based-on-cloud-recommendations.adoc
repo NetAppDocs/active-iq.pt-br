@@ -23,6 +23,7 @@ NOTE: O Digital Advisor o direciona ao NetApp Console para implementar as recome
 
 
 
+[[migration]]
 == Migração
 
 Fornece informações sobre os diferentes tipos de workloads disponíveis no sistema de storage e identifica os workloads que estão prontos para a nuvem. Mover workloads para a nuvem resulta em economia de custos e recuperação de desastres na nuvem.
@@ -44,6 +45,7 @@ Os volumes que atendem aos seguintes critérios são recomendados para migraçã
 
 
 
+[[tiering]]
 == Disposição em camadas
 
 Fornece informações sobre dados de camada local inativa (agregados), dados de volume inativos, dados em camadas e dados não monitorados. Você pode reduzir o espaço físico do storage e os custos associados monitorando e categorizando os dados inativos em camadas de storage de objetos de baixo custo.
@@ -69,6 +71,7 @@ Para saber mais sobre o FabricPool, link:https://www.netapp.com/pdf.html?item=/m
 
 
 
+[[backup-archive]]
 == Backup e arquivamento
 
 Fornece informações sobre os sistemas que devem ser copiados para a nuvem. Você pode usar o backup em nuvem do NetApp para proteger seus sistemas e restaurá-los quando necessário.
@@ -87,6 +90,7 @@ Os volumes que atendem aos critérios a seguir são recomendados para fazer back
 
 
 
+[[replication]]
 == Replicação
 
 Fornece informações sobre os dados que devem ser replicados na nuvem para ajudar em caso de desastres.

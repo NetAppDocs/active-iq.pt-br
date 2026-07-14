@@ -27,6 +27,7 @@ A automação com APIs é uma ótima maneira de adicionar eficiência e precisã
 
 
 
+[[api-catalog]]
 == Catálogo de API
 
 A alternância na parte superior da página permite que o usuário alterne entre os dois modos para visualizar o Catálogo. A exibição Código se concentra nos parâmetros de entrada necessários, no conteúdo e no formato dos dados de retorno e nas amostras de código para que o usuário comece a colocar o código no lugar. A visualização de experiência oferece ao usuário a chance de "testar" a API no navegador usando um token gerado obtido a partir da página principal de Serviços de API.
@@ -35,6 +36,7 @@ Qualquer exibição permite que o usuário navegue pelos itens disponíveis usan
 
 
 
+[[using-the-apis]]
 == Usando as APIs
 
 Uma vez que você está autorizado e pode gerar tokens, você pode aproveitar os tokens para fazer consultas programáticas e recuperar dados. Você também pode testar uma API dentro do Catálogo de APIs para ver em primeira mão como a consulta funciona e o tipo de dados retornados. Essa é uma ótima maneira de garantir que você entenda como uma API funcionará antes de criar a estrutura de código em seu sistema.

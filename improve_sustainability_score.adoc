@@ -23,6 +23,7 @@ NOTE: Para obter os melhores resultados do painel, você deve habilitar o AutoSu
 
 
 
+[[sustainability-score-computation]]
 == Computação da pontuação de sustentabilidade
 
 O escore de sustentabilidade é calculado com base em um conjunto de regras relacionadas aos sistemas de storage, com cada regra abordando riscos específicos e fornecendo ações recomendadas para mitigação. Cada regra recebe uma pontuação para refletir sua importância. Por exemplo, se houver três regras associadas aos sistemas de armazenamento: Manter a temperatura ambiente, garantir a utilização ideal da capacidade e usar uma fonte de alimentação de titânio, com pontuações de 30, 40 e 30 pontos, respetivamente. Adicionar essas pontuações dá um total de 100 pontos, que atua como denominador.
@@ -34,6 +35,7 @@ NOTE: A pontuação de sustentabilidade é inicialmente calculada no nível do c
 
 
 
+[[improve-overall-sustainability-score]]
 == Melhorar a pontuação geral de sustentabilidade
 
 Você pode seguir estes passos para melhorar a pontuação geral de sustentabilidade e que se concentra nos esforços de sustentabilidade a nível da empresa:
@@ -87,6 +89,7 @@ Você pode seguir estes passos para melhorar a pontuação geral de sustentabili
 ====
 
 
+[[improve-sustainability-score-at-cluster-level]]
 == Melhorar a pontuação de sustentabilidade no nível do cluster
 
 Você pode seguir estas etapas para melhorar a pontuação de sustentabilidade em nível de cluster que se concentra em melhorar a sustentabilidade de um cluster específico:

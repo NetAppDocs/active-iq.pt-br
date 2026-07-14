@@ -4,6 +4,7 @@
 
 
 
+[[sustainability-dashboard]]
 === Painel de sustentabilidade
 
 Indicadores ambientais que fornecem insights sobre a saúde ambiental dos seus sistemas de armazenamento agora fornecem valores mais precisos para uso de energia projetado, uso direto de carbono e emissão de calor com base em um modelo preditivo avançado. Para saber mais, consultelink:https://docs.netapp.com/us-en/active-iq/sustainability-dashboard-overview.html["Visão geral do painel de sustentabilidade"] .

@@ -31,36 +31,42 @@ Existem as seguintes limitações:
 
 
 
+[[editing-a-watchlist-may-take-60-minutes-to-reflect-in-digital-advisor]]
 == Editar uma lista de observação pode levar 60 minutos para refletir no Digital Advisor
 
 Editar uma lista de observação não atualiza as informações no Digital Advisor imediatamente. Pode levar até 60 minutos para que as alterações reflitam no Digital Advisor.
 
 
 
+[[a-blank-report-is-displayed-while-scheduling-reports]]
 == Um relatório em branco é exibido durante o agendamento de relatórios
 
 Os relatórios programados estão disponíveis apenas com um contrato de suporte da SupportEdge Advisor ou da SupportEdge Expert. Se seus sistemas não estiverem sob o SupportEdge Advisor ou um contrato de suporte da SupportEdge Expert, você poderá obter um relatório em branco durante o agendamento de relatórios.
 
 
 
+[[acknowledged-and-unacknowledged-risks-may-take-60-minutes-to-reflect-in-digital-advisor]]
 == Os riscos reconhecidos e não reconhecidos podem levar 60 minutos para serem refletidos no Digital Advisor
 
 O status dos riscos reconhecidos e não reconhecidos não se reflete imediatamente no Digital Advisor. Pode levar até 60 minutos para que as alterações reflitam no Digital Advisor e no relatório de bem-estar.
 
 
 
+[[autosupport-widget-not-available-for-cluster-and-serial-numbers]]
 == Widget AutoSupport não disponível para cluster e números de série
 
 O widget AutoSupport não fornecerá alertas para pesquisas de cluster e número de série.
 
 
 
+[[autosupport-widget-not-able-to-drill-down-to-serial-level-autosupport-details]]
 == O widget AutoSupport não consegue detalhar os detalhes do AutoSupport de nível serial
 
 Na página relatórios do AutoSupport, clicar em qualquer um dos Estados, sistemas que pararam de enviar recentemente ou sistemas que têm o AutoSupport desativado não navega para o ecrã Verificação de integridade.
 
 
 
+[[filtering-and-sorting-are-not-available-in-the-inventory-widget]]
 == Filtragem e classificação não estão disponíveis no widget Inventário
 
 Não é possível filtrar e classificar dados no widget de inventário. Nenhum dado é exibido se você selecionar ONTAP AFF, ONTAP ASA, ONTAP Edge ou ONTAP Select na lista suspensa "Filtrar por".

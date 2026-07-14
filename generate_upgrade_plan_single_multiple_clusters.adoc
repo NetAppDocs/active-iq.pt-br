@@ -20,6 +20,7 @@ Você pode usar o Upgrade Advisor para exibir a lista de clusters qualificados o
 
 
 
+[[before-you-begin]]
 == Antes de começar
 
 Antes de gerar um plano de atualização, você deve:

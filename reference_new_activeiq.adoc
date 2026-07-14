@@ -20,10 +20,12 @@ Os seguintes recursos e aprimoramentos foram introduzidos no Digital Advisor:
 
 
 
+[[29-june-2026]]
 == 29 de junho de 2026
 
 
 
+[[health-check-graphql-migration-and-data-accuracy-improvements]]
 === Verificação de integridade GraphQL: migração e melhorias na precisão dos dados
 
 O módulo de Verificação de Saúde foi aprimorado com maior precisão de dados e recomendações de versão alinhadas aos padrões atuais. Como parte desta versão, ele foi migrado da Public API para GraphQL, proporcionando melhor desempenho, consultas flexíveis e suporte a longo prazo.
@@ -58,10 +60,12 @@ Execute novamente o procedimento AutoSupport nos sistemas afetados listados acim
 
 
 
+[[3-june-2026]]
 == 3 de junho de 2026
 
 
 
+[[digital-advisor-widget-name-updates]]
 === Atualizações de nome do widget Digital Advisor
 
 Os seguintes recursos do Digital Advisor tiveram seus nomes alterados:
@@ -73,42 +77,50 @@ Os seguintes recursos do Digital Advisor tiveram seus nomes alterados:
 
 
 
+[[18-may-2026]]
 == 18 de maio de 2026
 
 
 
+[[wellness-review]]
 === Revisão de bem-estar
 
 A partir de julho de 2026, o recurso de Wellness Review não estará mais disponível no Digital Advisor. Para qualquer dúvida, envie um e-mail para mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#].
 
 
 
+[[04-february-2026]]
 == 04 de fevereiro de 2026
 
 
 
+[[new-security-report-for-comprehensive-security-oversight]]
 === Novo relatório de segurança para supervisão de segurança abrangente
 
 Digital Advisor agora inclui um Relatório de Segurança que fornece uma visão unificada dos riscos de segurança do ONTAP em todo o seu ambiente de storage. Este relatório permite a detecção mais rápida de configurações incorretas, lacunas de conformidade e problemas de segurança em clusters, SVMs e volumes, ajudando você a manter uma infraestrutura de storage segura.
 
 
 
+[[enhanced-upgrade-advisor-support-for-mixed-patch-levels]]
 === Suporte aprimorado do Upgrade Advisor para níveis de patch mistos
 
 Upgrade Advisor agora gera relatórios de atualização para clusters onde os nós executam diferentes níveis de patch dentro da mesma versão principal do ONTAP. Essa melhoria garante que os clientes possam prosseguir com as atualizações sem problemas, desde que o cluster não esteja misturado entre versões principais, proporcionando maior flexibilidade no planejamento de atualizações.
 
 
 
+[[extended-support-for-end-of-limited-support-ontap-versions]]
 === Suporte estendido para versões do ONTAP fora do suporte limitado
 
 Upgrade Advisor agora oferece suporte à geração de planos de atualização para versões do ONTAP que atingiram o fim do suporte limitado, com um período de carência de 9 meses. Esse recurso ajuda os clientes a tomarem medidas oportunas e a evitarem interrupções na atualização, fornecendo orientações claras durante o período de transição.
 
 
 
+[[06-october-2025]]
 == 06 de outubro de 2025
 
 
 
+[[bluexp-is-now-netapp-console]]
 === BlueXP agora é NetApp Console
 
 O NetApp Console, criado com base na base aprimorada e reestruturada do BlueXP , fornece gerenciamento centralizado do armazenamento NetApp e do NetApp Data Services em ambientes locais e na nuvem em nível empresarial, fornecendo insights em tempo real, fluxos de trabalho mais rápidos e administração simplificada, de forma altamente segura e compatível.
@@ -117,38 +129,45 @@ Para obter detalhes sobre o que mudou, consulte o https://docs.netapp.com/us-en/
 
 
 
+[[06-august-2025]]
 == 06 de agosto de 2025
 
 
 
+[[support-entitled-switches]]
 === Suporte a interruptores autorizados
 
 Agora você pode visualizar informações sobre os switches SAN Fibre Channel Brocade que têm direito a suporte. Isso inclui detalhes sobre o modelo do switch, número de série e status de suporte. link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["Aprenda como visualizar o suporte intitulado switches"] .
 
 
 
+[[threshold-for-rss-autosupport-data]]
 === Limite para dados de AutoSupport RSS
 
 O limite de Envios Interrompidos Recentemente (RSS), no widget AutoSupport , foi estendido de 48 horas (2 dias) para 216 horas (9 dias) antes que um sistema seja sinalizado como RSS.  Isso é feito para acomodar plataformas como o StorageGRID , que enviam apenas dados semanais do AutoSupport .
 
 
 
+[[deprecated-api-section-in-digital-advisor-api-catalog]]
 === Seção de API obsoleta no catálogo de API do Digital Advisor
 
 Uma nova seção de API obsoleta está disponível no catálogo de API do Digital Advisor .  Ele lista as APIs que estão programadas para descontinuação, juntamente com cronogramas de descontinuação e APIs alternativas.
 
 
 
+[[capacity-forecast-v2-and-end-of-support-api-modules-deprecation]]
 === Previsão de capacidade V2 e descontinuação dos módulos da API End of Support
 
 Os módulos de previsão de capacidade V2 e API de fim de suporte estão programados para descontinuação.  Para acessar as APIs obsoletas ou saber sobre os cronogramas de obsolescência e APIs alternativas, navegue até *Serviços de API -> Procurar -> APIs obsoletas*.
 
 
 
+[[09-july-2025]]
 == 09 de julho de 2025
 
 
 
+[[upgrade-advisor]]
 === Consultor de atualização
 
 * Uma opção de download multiformato foi incluída nos planos do Upgrade Advisor para simplificar o planejamento de atualizações do ONTAP e solucionar possíveis bloqueios ou avisos. Agora você pode baixar os planos do Upgrade Advisor nos formatos Excel, PDF e JSON.
@@ -163,32 +182,38 @@ Os módulos de previsão de capacidade V2 e API de fim de suporte estão program
 
 
 
+[[08-may-2025]]
 == 08 de maio de 2025
 
 
 
+[[autosupport-widget]]
 === Widget AutoSupport
 
 O widget AutoSupport foi aprimorado para incluir um pop-up para fornecer detalhes sobre sistemas que pararam de enviar dados AutoSupport. A ativação do AutoSupport reduz o risco de inatividade e dá suporte ao gerenciamento proativo da integridade do sistema.
 
 
 
+[[support-contracts-report]]
 === Relatório de contratos de suporte
 
 O relatório de contratos de suporte foi melhorado para incluir o novo campo de sinalização ASP/LSG. Esse campo permite filtrar e identificar sistemas cobertos por um parceiro de suporte autorizado, também conhecido como Certificação em Serviços de ciclo de vida.
 
 
 
+[[sustainability-dashboard]]
 === Painel de sustentabilidade
 
 Agora você pode lançar o painel Sustentabilidade usando o link incluído na apresentação de sustentabilidade.
 
 
 
+[[05-march-2025]]
 == 05 de março de 2025
 
 
 
+[[upgrade-advisor]]
 === Consultor de atualização
 
 * Usando o Pacote de Qualificação de disco (DQP), agora você pode atualizar automaticamente os controladores de disco e o firmware do dispositivo de armazenamento de acordo com critérios predefinidos de integridade e desempenho. Isso reduz possíveis falhas e aumenta a confiabilidade geral do sistema.
@@ -197,80 +222,96 @@ Agora você pode lançar o painel Sustentabilidade usando o link incluído na ap
 
 
 
+[[12-december-2024]]
 == 12 de dezembro de 2024
 
 
 
+[[upgrade-advisor]]
 === Consultor de atualização
 
 Agora você pode visualizar o firmware de armazenamento, o firmware do SP/BMC e o Autonomous ransomware Package (ARP) recomendados para uma atualização. link:https://docs.netapp.com/us-en/active-iq/view-firmware-update-recommendations.html["Saiba como visualizar as recomendações de atualização de firmware"].
 
 
 
+[[04-december-2024]]
 == 04 de dezembro de 2024
 
 
 
+[[autosupport-widget]]
 === Widget AutoSupport
 
 O widget AutoSupport foi adicionado à tela principal do painel para alertar os clientes sobre os problemas relacionados ao status do AutoSupport.
 
 
 
+[[23-september-2024]]
 == 23 de setembro de 2024
 
 
 
+[[support-offerings]]
 === Ofertas de suporte
 
 A oferta de serviço do NetApp SupportEdge Basic agora inclui todos os recursos do consultor digital disponíveis no SupportEdge Advisor e no SupportEdge Expert, exceto a topologia de pilha completa (VMware), que não fornece visibilidade sobre o monitoramento de pilha completa do VMware, mesmo se ativado.
 
 
 
+[[21-august-2024]]
 == 21 de agosto de 2024
 
 
 
+[[reports]]
 === Relatórios
 
 O relatório *planos de Upgrade Advisor de 7 modos* não está mais disponível, uma vez que os sistemas de 7 modos chegaram ao fim do suporte limitado. Para obter mais informações, link:https://mysupport.netapp.com/site/info/version-support["Suporte à versão de software"^]consulte . Saiba mais link:https://docs.netapp.com/a/ontap/7-mode/8.2.1/Upgrade-And-Revert-Or-Downgrade-Guide-For-7-Mode.pdf["Atualização dos sistemas de storage Data ONTAP que operam no modo 7D."^]sobre o .
 
 
 
+[[04-july-2024]]
 == 04 de julho de 2024
 
 
 
+[[sustainability-dashboard]]
 === Painel de sustentabilidade
 
 Indicadores ambientais que fornecem insights sobre a saúde ambiental dos seus sistemas de armazenamento agora fornecem valores mais precisos para uso de energia projetado, uso direto de carbono e emissão de calor com base em um modelo preditivo avançado. Para saber mais, consultelink:https://docs.netapp.com/us-en/active-iq/sustainability-dashboard-overview.html["Visão geral do painel de sustentabilidade"] .
 
 
 
+[[15-may-2024]]
 == 15 de maio de 2024
 
 
 
+[[sustainability-dashboard]]
 === Painel de sustentabilidade
 
 A sustentabilidade agora é suportada nos sistemas E-Series e StorageGRID .  Você pode visualizar uma lista de ações recomendadas e indicadores ambientais que exibem projeções de energia, uso direto de carbono e calor no painel de Sustentabilidade desses sistemas. Para saber mais, consultelink:https://docs.netapp.com/us-en/active-iq/sustainability-dashboard-overview.html["Visão geral do painel de sustentabilidade"^] .
 
 
 
+[[28-march-2024]]
 == 28 de março de 2024
 
 
 
+[[upgrade-advisor]]
 === Consultor de atualização
 
 A versão mais antiga do Upgrade Advisor agora está obsoleta. Você pode usar a versão aprimorada do Upgrade Advisor para gerar planos de atualização para um único cluster e vários clusters. link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["Saiba como visualizar recomendações de atualização e gerar um plano de atualização."]
 
 
 
+[[15-march-2024]]
 == 15 de março de 2024
 
 
 
+[[wellness]]
 === Bem-estar
 
 * O fluxo de trabalho de Bem-estar agora inclui o widget Sustentabilidade, que fornece a contagem de ações recomendadas nos níveis de cliente, lista de observação, site e grupo.  Você pode clicar no número de ações para obter uma visão detalhada dessas ações recomendadas no painel de Sustentabilidade. Para saber mais, consultelink:https://docs.netapp.com/us-en/active-iq/learn-about-sustainability.html["Analise a sustentabilidade dos seus sistemas de storage"] .
@@ -279,58 +320,69 @@ A versão mais antiga do Upgrade Advisor agora está obsoleta. Você pode usar a
 
 
 
+[[health-check-dashboard]]
 === Painel de controlo de verificação de integridade
 
 O cronograma para casos técnicos é aprimorado para visualizar o histórico completo de casos por 6 ou 12 meses.
 
 
 
+[[29-february-2024]]
 == 29 de fevereiro de 2024
 
 
 
+[[watchlist]]
 === Lista de observação
 
 Agora você pode criar uma lista de observação com base nos números de assinatura do Keystone e pesquisar uma assinatura do Keystone usando os três primeiros carateres de um número de assinatura ou nome da lista de observação.
 
 
 
+[[08-february-2024]]
 == 08 de fevereiro de 2024
 
 
 
+[[sustainability-dashboard]]
 === Painel de sustentabilidade
 
 Agora você pode acessar as métricas de Sustentabilidade do seu painel padrão ou lista de observação diretamente usando o link:https://activeiq.netapp.com/redirect/sustainability["Painel de sustentabilidade"^] link.
 
 
 
+[[clusterviewer]]
 === ClusterViewer
 
 Agora você pode exibir informações sobre RPM do disco na seção Resumo do disco, que está disponível na guia armazenamento e nos relatórios do ClusterViewer.
 
 
 
+[[03-january-2024]]
 == 03 de janeiro de 2024
 
 
 
+[[upgrade-advisor]]
 === Consultor de atualização
 
 O Upgrade Advisor é aprimorado para fornecer planos de atualização automatizados sem interrupções para um único cluster e vários clusters. Você pode exibir a recomendação de atualização apenas para um único cluster, que inclui um resumo de risco, um relatório de verificação de pré-atualização e informações sobre novos recursos e aprimoramentos. link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["Saiba como visualizar recomendações de atualização e gerar um plano de atualização."]
 
 
 
+[[16-november-2023]]
 == 16 de novembro de 2023
 
 
 
+[[watchlist]]
 === Lista de observação
 
 Agora você pode criar um máximo de 100 listas de observação.
 
 
 
+[[planning-widget]]
 === Widget de Planejamento
 
 * As recomendações de atualização técnica agora estão disponíveis em painéis de controle, site e grupo.
@@ -339,20 +391,24 @@ Agora você pode criar um máximo de 100 listas de observação.
 
 
 
+[[04-october-2023]]
 == 04 de outubro de 2023
 
 
 
+[[planning-widget]]
 === Widget de Planejamento
 
 As contagens de recomendações de atualização técnica estão incluídas no widget de Planejamento do painel de nível do cliente. Essas recomendações ajudam a Planejar atividades de atualização técnica de hardware quando o hardware ficar sem suporte ou estiver próximo ao fim do suporte.
 
 
 
+[[27-september-2023]]
 == 27 de setembro de 2023
 
 
 
+[[upgrade-advisor]]
 === Consultor de atualização
 
 * Você pode acessar a página Upgrade Advisor para sua lista de observação padrão usando o link:https://activeiq.netapp.com/redirect/upgrade-advisor["Consultor de atualização"^]link.
@@ -361,10 +417,12 @@ As contagens de recomendações de atualização técnica estão incluídas no w
 
 
 
+[[16-july-2023]]
 == 16 de julho de 2023
 
 
 
+[[storage-efficiency]]
 === Eficiência de storage
 
 * O rótulo *eficiência de armazenamento*, que exibe a relação de eficiência, é renomeado para *redução de dados*.
@@ -374,72 +432,86 @@ As contagens de recomendações de atualização técnica estão incluídas no w
 
 
 
+[[21-june-2023]]
 == 21 de junho de 2023
 
 
 
+[[sustainability-dashboard]]
 === Painel de sustentabilidade
 
 O painel de sustentabilidade fornece insights valiosos sobre a sustentabilidade ambiental do seu sistema de armazenamento.  Você pode visualizar informações como pontuação de sustentabilidade, porcentagem de mitigação de carbono, uso projetado de energia, carbono direto e calor.  Você pode ajustar a porcentagem de mitigação de carbono para locais específicos.  Você também pode visualizar a pontuação de sustentabilidade no nível do cluster.  Com base na pontuação de sustentabilidade, você pode avaliar a eficiência geral do seu sistema de armazenamento e alinhá-lo com as ações recomendadas pela NetApp para aumentar a sustentabilidade. link:https://docs.netapp.com/us-en/active-iq/learn-about-sustainability.html["Saiba mais"] .
 
 
 
+[[22-february-2023]]
 == 22 de fevereiro de 2023
 
 
 
+[[performance-charts]]
 === Gráficos de desempenho
 
 É possível exibir a média de operações de leitura, gravação e outras no gráfico de IOPS de volume.
 
 
 
+[[storage-efficiency]]
 === Eficiência de storage
 
 A eficiência de STORAGE DE SAN e nas está disponível em um nível de nó para sistemas ONTAP, incluindo AFF A-Series, AFF C190, All SAN Array e FAS500 executando o ONTAP 9.10 e posterior.
 
 
 
+[[12-january-2023]]
 == 12 de janeiro de 2023
 
 
 
+[[performance-reports]]
 === Relatórios de desempenho
 
 Você pode visualizar a média de operações de leitura, gravação e outras em relatórios de desempenho em um nível de volume.
 
 
 
+[[01-november-2022]]
 == 01 de novembro de 2022
 
 
 
+[[digital-advisor-integrating-with-bluexp]]
 === Integração com o BlueXP 
 
 O Active IQ Digital Advisor está sendo alterado para Digital Advisor e agora está integrado ao BlueXP, o console de gerenciamento unificado da NetApp para ambientes multicloud híbridos. link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-console.html["Saiba mais"] .
 
 
 
+[[25-august-2022]]
 == 25 de agosto de 2022
 
 
 
+[[inventory]]
 === Inventário
 
 As informações de ativos da VMware sobre vCenters, hosts ESXi e máquinas virtuais agora estão incluídas nos detalhes do inventário, para fornecer verificações completas de inventário e interoperabilidade da pilha. link:https://docs.netapp.com/us-en/active-iq/task-integrating-with-cloud-insights-to-view-vm-details.html["Saiba como"].
 
 
 
+[[multi-hop-upgrade]]
 === Atualização multi-hop
 
 Para algumas atualizações automatizadas sem interrupções (ANDU) para versões não adjacentes, você pode instalar a imagem de software para uma versão intermediária, bem como a versão de destino. O processo de atualização automatizada usa a imagem intermediária em segundo plano para concluir a atualização para a versão de destino. Por exemplo, se o cluster estiver executando 9,3 e você quiser atualizar para 9,7, você carregaria os pacotes de instalação do ONTAP para 9,5 e 9,7, em seguida, iniciaria ANDU para 9,7. Em seguida, o ONTAP atualiza automaticamente o cluster primeiro para 9,5 e depois para 9,7. Você deve esperar várias operações de aquisição/giveback e reinicializações relacionadas durante o processo.
 
 
 
+[[14-july-2022]]
 == 14 de julho de 2022
 
 
 
+[[health-check-dashboard]]
 === Painel de verificação de integridade
 
 * Agora você pode ver os detalhes técnicos do caso criados para sistemas Cloud Volumes ONTAP no Painel de Verificação de integridade.
@@ -448,40 +520,47 @@ Para algumas atualizações automatizadas sem interrupções (ANDU) para versõe
 
 
 
+[[e-series-systems]]
 === Sistemas e-Series
 
 Você pode visualizar a versão do sistema operacional SANtricity na versão recomendada e KPIs de verificação de integridade.
 
 
 
+[[wellness]]
 === Bem-estar
 
 Introduziu codificação de cores para identificar de forma rápida e fácil sistemas que não requerem atualizações de software ou versão de firmware.
 
 
 
+[[upgrade-workflow]]
 === Atualizar fluxo de trabalho
 
 Agora você pode visualizar as recomendações de atualização para sistemas e-Series.
 
 
 
+[[22-june-2022]]
 == 22 de junho de 2022
 
 
 
+[[storagegrid]]
 === StorageGRID
 
 O Gerenciamento do ciclo de vida das informações (ILM) para StorageGRID foi incluído no Visualizador DE GRADE.
 
 
 
+[[cloud-recommendations]]
 === Recomendações de nuvem
 
 O fornece recomendações para workloads e seus respectivos volumes que podem ser movidos para o NetApp Cloud Volumes ONTAP, NetApp Cloud Volumes Service e NetApp Cloud Backup (antigo AltaVault) usando a replicação de dados do SnapMirror. link:https://docs.netapp.com/us-en/active-iq/task-informed-decisions-based-on-cloud-recommendations.html["Saiba como"].
 
 
 
+[[reports]]
 === Relatórios
 
 * Agora você pode gerar relatórios usando os critérios definidos para um relatório já gerado.
@@ -491,10 +570,12 @@ O fornece recomendações para workloads e seus respectivos volumes que podem se
 
 
 
+[[01-june-2022]]
 == 01 de junho de 2022
 
 
 
+[[inventory]]
 === Inventário
 
 * Agora você pode visualizar as informações do representante de vendas para sistemas no Inventário.
@@ -503,28 +584,33 @@ O fornece recomendações para workloads e seus respectivos volumes que podem se
 
 
 
+[[12-may-2022]]
 == 12 de maio de 2022
 
 
 
+[[storagegrid]]
 === StorageGRID
 
 Métricas de capacidade adicionais estão incluídas nos relatórios de capacidade e capacidade do StorageGRID.
 
 
 
+[[clusterviewer]]
 === ClusterViewer
 
 O resumo do SnapMirror (proteção de dados) para clusters agora está incluído no ClusterViewer.
 
 
 
+[[upgrade-workflow]]
 === Atualizar fluxo de trabalho
 
 Agora você pode usar o fluxo de trabalho de atualização para visualizar as recomendações de atualização e um resumo dos novos recursos disponíveis na versão de e-Series de destino.
 
 
 
+[[wellness]]
 === Bem-estar
 
 * Os Playbooks do Ansible foram aprimorados para reduzir os riscos de configuração de software.
@@ -533,10 +619,12 @@ Agora você pode usar o fluxo de trabalho de atualização para visualizar as re
 
 
 
+[[07-april-2022]]
 == 07 de abril de 2022
 
 
 
+[[wellness]]
 === Bem-estar
 
 * A pontuação das principais recomendações para a versão mais recente do sistema operacional e os KPIs de "6 meses" para contratos de suporte e fim de suporte foi reduzida para se alinhar com a menor urgência de resolução.
@@ -545,20 +633,24 @@ Agora você pode usar o fluxo de trabalho de atualização para visualizar as re
 
 
 
+[[31-march-2022]]
 == 31 de março de 2022
 
 
 
+[[storagegrid]]
 === StorageGRID
 
 Pode ver informações sobre inquilinos e baldes no Visualizador DE GRELHA.
 
 
 
+[[24-march-2022]]
 == 24 de março de 2022
 
 
 
+[[health-check-dashboard]]
 === Painel de verificação de integridade
 
 * Melhorias e correções de bugs para avaliação de Saúde Resumo Executivo PPT.
@@ -568,22 +660,26 @@ Pode ver informações sobre inquilinos e baldes no Visualizador DE GRELHA.
 
 
 
+[[storagegrid]]
 === StorageGRID
 
 Pode visualizar os detalhes da configuração da grelha no Visualizador DE grelha.
 
 
 
+[[bluexp]]
 === BlueXP
 
 Os usuários do BlueXP  agora podem abrir links de consultores digitais em novas guias, sempre que aplicável, semelhantes à funcionalidade existente no Consultor Digital.
 
 
 
+[[12-january-2022]]
 == 12 de janeiro de 2022
 
 
 
+[[config-drift]]
 === Desvio Config
 
 * Você pode clonar um modelo para fazer uma cópia do modelo original.
@@ -592,10 +688,12 @@ Os usuários do BlueXP  agora podem abrir links de consultores digitais em nova
 
 
 
+[[15-december-2021]]
 == 15 de dezembro de 2021
 
 
 
+[[reports]]
 === Relatórios
 
 * *Relatório do Visualizador de Cluster*: Este relatório fornece informações sobre um único cluster ou vários clusters em um nível de cliente e lista de observação. Você pode usar o relatório ClusterViewer para baixar todas as informações em um único arquivo. Você pode gerar esse relatório apenas para watchlist com até 100 nós.
@@ -604,26 +702,31 @@ Os usuários do BlueXP  agora podem abrir links de consultores digitais em nova
 
 
 
+[[integration-with-e-series-systems]]
 === Integração com sistemas e-Series
 
 Pode visualizar os detalhes da capacidade e o gráfico de desempenho de um sistema e-series selecionado no Digital Advisor.
 
 
 
+[[18-november-2021]]
 == 18 de novembro de 2021
 
 
 
+[[storage-efficiency]]
 === Eficiência de storage
 
 Você pode visualizar os detalhes da eficiência de storage dos nós mantidos e monitorados pelo NetApp Cloud Insights.
 
 
 
+[[11-november-2021]]
 == 11 de novembro de 2021
 
 
 
+[[health-check-dashboard]]
 === Painel de verificação de integridade
 
 * Ícones adicionados nos blocos de verificação de integridade que são aplicáveis apenas para sistemas com as ofertas de suporte do SupportEdge Advisor e do SupportEdge Expert. As melhorias foram feitas nas seções Software-Software Currency e firmware Currency recomendadas, Configuração recomendada e melhores práticas.
@@ -632,58 +735,68 @@ Você pode visualizar os detalhes da eficiência de storage dos nós mantidos e 
 
 
 
+[[wellness-and-upgrade-widgets]]
 === Widgets de bem-estar e atualização
 
 Melhorado o painel com recomendações de atualização do e-Series e data acionada pelo risco adicionada à coluna no histórico de ações de bem-estar.
 
 
 
+[[clusterviewer]]
 === ClusterViewer
 
 O módulo de visualização de pilha do ClusterViewer foi aprimorado para incluir o recurso Zoom in/Zoom out e Save Image.
 
 
 
+[[storage-efficiency]]
 === Eficiência de storage
 
 Você pode visualizar os detalhes de eficiência de storage de sistemas mantidos e monitorados pelo NetApp Cloud Insights.
 
 
 
+[[14-october-2021]]
 == 14 de outubro de 2021
 
 
 
+[[ansible-inventory]]
 === Inventário do Ansible
 
 Agora é possível gerar arquivos de inventário do Ansible nos formatos de arquivo .yml e .ini no nível da região e do site. link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["Saiba como"].
 
 
 
+[[inactive-data-reporting-idr]]
 === Relatório de dados inativos (IDR)
 
 Na tela do FabricPool Advisor, você pode ativar o relatório de dados inativos (IDR) para monitorar agregados e gerar um manual do Ansible.
 
 
 
+[[drift-timeline-report]]
 === Relatório da linha de tempo de deriva
 
 Você pode comparar os dados do AutoSupport dos últimos 90 dias e gerar um relatório de linha do tempo de deriva. link:https://docs.netapp.com/us-en/active-iq/task_generate_drift_timeline_report.html["Saiba como"].
 
 
 
+[[compliant-systems-toggle]]
 === Alternância de sistemas compatíveis
 
 O painel de controlo de integridade foi melhorado com uma alternância para as guias SO mínimo e SO mais recente para que possa visualizar os sistemas, que estão em conformidade e não estão em conformidade com os requisitos mínimos da versão recomendada e mais recente.
 
 
 
+[[key-recommendations-summary]]
 === Resumo das principais recomendações
 
 No painel Verificação de integridade, você pode visualizar um resumo das 5 principais recomendações gerais.
 
 
 
+[[tabs-for-netapp-cloud-volumes-ontap-and-e-series-platforms]]
 === Guias para plataformas NetApp Cloud Volumes ONTAP e e-Series
 
 O painel de verificação de integridade foi aprimorado com as guias Cloud Volumes ONTAP ** e e-Series para que você possa visualizar os KPIs de verificação de integridade e os detalhes dessas plataformas.
@@ -692,22 +805,26 @@ Uma guia para 'ONTAP' também foi adicionada juntamente com as outras plataforma
 
 
 
+[[capacity]]
 === Capacidade
 
 Você pode visualizar os detalhes de capacidade sobre os sistemas NetApp Cloud Volumes ONTAP no consultor digital.
 
 
 
+[[reports]]
 === Relatórios
 
 O cronograma dos relatórios foi estendido para 12 meses. Você também receberá uma notificação quando o relatório de agendamento estiver prestes a expirar.
 
 
 
+[[30-september-2021]]
 == 30 de setembro de 2021
 
 
 
+[[customer-qualified-version]]
 === Versão qualificada pelo cliente
 
 A versão qualificada do cliente ajuda um gerente de conta de suporte (SAM) a gerenciar uma parte da base de instalação de seus clientes, que hospeda aplicativos que exigem:
@@ -718,28 +835,33 @@ A versão qualificada do cliente ajuda um gerente de conta de suporte (SAM) a ge
 
 
 
+[[technical-case-workflow]]
 === Fluxo de trabalho do caso técnico
 
 Tanto no painel quanto no painel de instrumentos, melhorias gráficas foram feitas no gráfico de dados e no gráfico de linhas. Você também tem uma opção para exibir esses dados em um gráfico de barras. Na janela de gráfico de linha, você pode visualizar, selecionar e desmarcar gráficos para casos abertos, fechados e totais em ambas as interfaces de usuário.
 
 
 
+[[performance-graphs]]
 === Gráficos de desempenho
 
 Agora você pode fazer o download dos gráficos de desempenho em formato PNG e JPG, além do formato CSV.
 
 
 
+[[end-of-support-eos-controllers-beyond-12-months]]
 === Controladores de fim de suporte (EOS) além de 12 meses
 
 O Painel de controlo da verificação do estado foi melhorado com um separador que apresenta controladores com uma EOS superior a 12 meses.
 
 
 
+[[16-september-2021]]
 == 16 de setembro de 2021
 
 
 
+[[wellness]]
 === Bem-estar
 
 * O widget ransomware Defense agora faz parte do fluxo de trabalho Wellness em vez de um widget autônomo.
@@ -748,22 +870,26 @@ O Painel de controlo da verificação do estado foi melhorado com um separador q
 
 
 
+[[capacity]]
 === Capacidade
 
 Você pode visualizar os detalhes de capacidade sobre os sistemas NetApp ONTAP Select no Consultor Digital.
 
 
 
+[[clusterviewer]]
 === ClusterViewer
 
 Você pode visualizar as falhas de cabeamento e outros erros na guia visualização do ClusterViewer.
 
 
 
+[[06-september-2021]]
 == 06 de setembro de 2021
 
 
 
+[[storagegrid]]
 === StorageGRID
 
 * Exibir AutoSupport: Exibir os logs do AutoSupport para o StorageGRID e os nós subjacentes.
@@ -774,16 +900,19 @@ Você pode visualizar as falhas de cabeamento e outros erros na guia visualizaç
 
 
 
+[[capacity-forecast]]
 === Previsão capacidade
 
 O widget Capacity Forecast foi atualizado com um algoritmo melhorado que melhor conta para reconfigurações do sistema. link:https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html#capacity["Saiba mais"].
 
 
 
+[[26-august-2021]]
 == 26 de agosto de 2021
 
 
 
+[[digital-advisor-mobile-application]]
 === Aplicativo móvel do Digital Advisor
 
 Agora você pode ativar a autenticação biométrica no aplicativo móvel Digital Advisor. As opções disponíveis para autenticação variam, dependendo das funcionalidades suportadas pelo seu telemóvel.
@@ -792,50 +921,59 @@ Baixe o aplicativo para saber mais: link:https://play.google.com/store/apps/deta
 
 
 
+[[wellness]]
 === Bem-estar
 
 O widget de bem-estar foi aprimorado com o atributo ransomware Defense. Agora você pode visualizar os riscos e as ações corretivas associadas à detecção, prevenção e recuperação de ransomware.
 
 
 
+[[16-august-2021]]
 == 16 de agosto de 2021
 
 
 
+[[wellness-review]]
 === Revisão de bem-estar
 
 Agora você pode gerar o relatório sob demanda. Além disso, você pode baixar o último relatório agendado na tela Wellness Review Subscription (assinatura de Revisão de bem-estar).
 
 
 
+[[inventory]]
 === Inventário
 
 Na guia Inventário de Grade, agora você pode visualizar os detalhes do nó com base no nível do site em um formato expansível e dobrável.
 
 
 
+[[mixed-model-cluster-flag]]
 === Sinalizador de cluster de modelo misto
 
 Nos clusters com modelos de hardware misto, a versão do sistema operacional aplicada no cluster é aquela que todos os nós podem usar. Como resultado, a versão do sistema operacional de alguns nós de modelos de hardware mais recentes pode ser downrev de onde eles devem estar. Para tornar esses clusters de modelos mistos mais visíveis, aplicamos um ícone de "modelo misto".
 
 
 
+[[recommended-configuration-storage-virtual-machine-svm-health-volume-level-summary]]
 === Configuração recomendada/integridade da máquina virtual de storage (SVM): Resumo em nível de volume
 
 Ao clicar na caixa azul "Resumo de volume" na tabela SVM, um "pop-out" exibe informações detalhadas sobre os volumes que estão hospedados ou anexados ao número de série específico ou nó físico.
 
 
 
+[[12-july-2021]]
 == 12 de julho de 2021
 
 
 
+[[system-firmware]]
 === Firmware do sistema
 
 Agora você pode ver informações sobre o firmware do sistema que é fornecido juntamente com as versões principais e de patch do ONTAP. Pode aceder a esta funcionalidade a partir do menu ligações rápidas.
 
 
 
+[[health-check-dashboard]]
 === Painel de verificação de integridade
 
 * O Painel de Verificação de integridade foi aprimorado para incluir um banner azul notificando os usuários de que os sistemas que não são suportados pelo SupportEdge Advisor e pelo SupportEdge Expert não serão fatorados durante o cálculo da pontuação de integridade.
@@ -846,12 +984,14 @@ Agora você pode ver informações sobre o firmware do sistema que é fornecido 
 
 
 
+[[inventory]]
 === Inventário
 
 Você pode exibir as datas de término dos contratos de suporte para hardware, software e discos não retornáveis na página de inventário detalhado.
 
 
 
+[[support-offering-upgrade]]
 === Atualização da oferta de suporte
 
 * A interface do utilizador foi melhorada para apresentar a oferta de suporte específica à qual está inscrito no Digital Advisor.
@@ -860,10 +1000,12 @@ Você pode exibir as datas de término dos contratos de suporte para hardware, s
 
 
 
+[[25-june-2021]]
 == 25 de junho de 2021
 
 
 
+[[keystone-subscription-widget]]
 === Widget do Keystone Subscription
 
 * Se você optou pelo Coletor ONTAP para obter dados sobre seu uso de capacidade, poderá visualizar os detalhes de seus compartilhamentos de arquivos e discos nas guias compartilhamentos e discos. Você pode economizar espaço de armazenamento identificando aqueles que se aproximam da capacidade comprometida.
@@ -872,22 +1014,26 @@ Você pode exibir as datas de término dos contratos de suporte para hardware, s
 
 
 
+[[17-june-2021]]
 == 17 de junho de 2021
 
 
 
+[[reports]]
 === Relatórios
 
 Agora você pode gerar relatórios agregados de performance de volume para todos os volumes em uma VM de storage para qualquer dia, semana ou mês.
 
 
 
+[[wellness-review-email]]
 === Email de revisão de bem-estar
 
 O e-mail de revisão de bem-estar foi aprimorado para incluir informações sobre o suporte e direitos das ações de verificação de integridade e atualização.
 
 
 
+[[upgrade-workflow]]
 === Atualizar fluxo de trabalho
 
 * A interface do utilizador foi melhorada para lhe fornecer uma vista de tabela das informações.
@@ -896,6 +1042,7 @@ O e-mail de revisão de bem-estar foi aprimorado para incluir informações sobr
 
 
 
+[[config-drift]]
 === Desvio Config
 
 * O Config Drift agora oferece suporte a mais de 200 seções do AutoSupport para criar modelos dourados e gerar relatórios de deriva em clientes, sites, grupos, listas de observação, cluster e host.
@@ -904,36 +1051,43 @@ O e-mail de revisão de bem-estar foi aprimorado para incluir informações sobr
 
 
 
+[[health-check-dashboard]]
 === Painel de verificação de integridade
 
 Esse recurso foi aprimorado para comparar sua VM de storage (SVM) com um catálogo predefinido de riscos, a fim de avaliar lacunas e recomendar as ações corretivas associadas.
 
 
 
+[[09-june-2021]]
 == 09 de junho de 2021
 
 
 
+[[health-check-dashboard]]
 === Painel de verificação de integridade
 
 Agora você pode ver o número de sistemas com base nos quais a pontuação de integridade é calculada. Esse aprimoramento é aplicável a todos os atributos do Painel de Verificação de integridade.
 
 
 
+[[20-may-2021]]
 == 20 de maio de 2021
 
 
 
+[[drift-chat-for-capacity-addition-requests]]
 === Drift Chat para solicitações de adição de capacidade
 
 Para obter assistência em tempo real em suas solicitações de adição de capacidade, converse com um vendedor diretamente do seu painel. link:https://docs.netapp.com/us-en/active-iq/task_identify_capacity_system.html["Saiba como"].
 
 
 
+[[29-april-2021]]
 == 29 de abril de 2021
 
 
 
+[[protect-against-hackers-and-attacks]]
 === Proteja-se contra hackers e ataques
 
 * Veja como proteger seus sistemas contra hackers e ataques de ransomware. link:https://docs.netapp.com/us-en/active-iq/task_increase_protection_against_hackers_and_Ransomware_attacks.html["Saiba como"].
@@ -943,20 +1097,24 @@ Para obter assistência em tempo real em suas solicitações de adição de capa
 
 
 
+[[07-april-2021]]
 == 07 de abril de 2021
 
 
 
+[[watchlist]]
 === Lista de observação
 
 Quando você acessa o Digital Advisor pela primeira vez, agora você deve criar uma lista de observação em vez de um painel. Você também pode exibir o painel de diferentes listas de observação, editar os detalhes de uma lista de observação existente e excluir uma lista de observação.
 
 
 
+[[24-february-2021]]
 == 24 de fevereiro de 2021
 
 
 
+[[config-drift]]
 === Desvio Config
 
 Esta versão fornece a seguinte funcionalidade:
@@ -968,16 +1126,19 @@ Esta versão fornece a seguinte funcionalidade:
 
 
 
+[[reports]]
 === Relatórios
 
 Você pode gerar ou programar relatórios de capacidade e eficiência para visualizar informações detalhadas sobre a economia de capacidade e eficiência de storage do seu sistema.
 
 
 
+[[10-february-2021]]
 == 10 de fevereiro de 2021
 
 
 
+[[storagegrid]]
 === StorageGRID
 
 O Painel do StorageGRID é ativado usando a estrutura da API NextGen.
@@ -1004,22 +1165,26 @@ Esta versão fornece a seguinte funcionalidade:
 
 
 
+[[fabricpool-advisor]]
 === Consultor da FabricPool
 
 O botão dados de categorias foi adicionado ao painel do FabricPool e permite categorizar dados em camadas de storage de objetos de baixo custo usando o NetApp BlueXP .
 
 
 
+[[cloud-ready-workloads]]
 === Workloads prontos para a nuvem
 
 Você pode visualizar os diferentes tipos de workloads que estão disponíveis no sistema de storage e identificar os workloads que estão prontos para a nuvem.
 
 
 
+[[21-december-2020]]
 == 21 de dezembro de 2020
 
 
 
+[[health-check-dashboard]]
 === Painel de verificação de integridade
 
 Os seguintes widgets foram adicionados ao painel:
@@ -1030,96 +1195,113 @@ Os seguintes widgets foram adicionados ao painel:
 
 
 
+[[12-november-2020]]
 == 12 de novembro de 2020
 
 
 
+[[integrating-data-using-apis]]
 === Integração de dados usando APIs
 
 Você pode usar as APIs do Digital Advisor para extrair dados de interesse e integrá-los diretamente ao fluxo de trabalho da sua empresa. link:https://docs.netapp.com/us-en/active-iq/concept_overview_API_service.html["Saiba mais"].
 
 
 
+[[wellness-upgrades-widget]]
 === Wellness - widget de upgrades
 
 As guias Supervisor de risco aprimorado e Supervisor de Atualização permitem visualizar todos os riscos do sistema e ajudá-lo a Planejar uma atualização para mitigar todos os riscos.
 
 
 
+[[health-check-dashboard]]
 === Painel de verificação de integridade
 
 O widget Configuração recomendada foi adicionado ao painel e fornece um resumo sobre o número de sistemas monitorados quanto a riscos de gerenciamento remoto, peças sobressalentes e falhas de unidades e riscos de par de HA.
 
 
 
+[[fabricpool-advisor]]
 === Consultor da FabricPool
 
 Você pode reduzir o espaço físico do storage e os custos associados monitorando seus clusters, que foram classificados em quatro categorias: Dados de camada local inativa (agregados), dados de volume inativos, dados em categorias e aqueles que não estão habilitados para IDR.
 
 
 
+[[localization-in-simplified-chinese-and-japanese]]
 === Localização em chinês simplificado e japonês
 
 O Digital Advisor está agora disponível em três idiomas - chinês, inglês e japonês.
 
 
 
+[[reports]]
 === Relatórios
 
 Você pode gerar ou programar relatórios do ClusterViewer para exibir informações detalhadas sobre a configuração física e lógica de seus sistemas. link:https://docs.netapp.com/us-en/active-iq/task_generate_reports.html["Saiba como"].
 
 
 
+[[15-october-2020]]
 == 15 de outubro de 2020
 
 
 
+[[health-check-dashboard]]
 === Painel de verificação de integridade
 
 O Painel de verificação de integridade do Digital Advisor fornece uma revisão pontual do seu ambiente geral. Com base no índice de verificação de integridade, você pode alinhar os sistemas de storage às práticas recomendadas da NetApp para facilitar o Planejamento a longo prazo e melhorar a integridade da base instalada.
 
 
 
+[[config-drift]]
 === Desvio Config
 
 Esse recurso permite comparar as configurações do sistema e do cluster e detetar desvios de configuração em tempo quase real. link:https://docs.netapp.com/us-en/active-iq/task_add_config_drift_template.html["Saiba como adicionar um modelo de deriva de configuração"].
 
 
 
+[[autosupport]]
 === AutoSupport
 
 Pode visualizar os seus dados do AutoSupport e rever os detalhes.
 
 
 
+[[wellness-review-subscription]]
 === Subscrição de revisão de bem-estar
 
 Você pode se inscrever para receber notificações mensais por e-mail que resumem o status de bem-estar dos sistemas, que estão se aproximando das datas de renovação e exigem um upgrade para os produtos NetApp na sua base instalada. link:https://docs.netapp.com/us-en/active-iq/task_subscribe_to_wellness_review_email.html["Inscreva-se agora"].
 
 
 
+[[reports]]
 === Relatórios
 
 Você pode usar o recurso relatórios para gerar relatórios imediatamente ou agendar um relatório para ser gerado semanalmente ou mensalmente. link:https://docs.netapp.com/us-en/active-iq/task_generate_reports.html["Saiba como"].
 
 
 
+[[manual-autosupport-upload]]
 === Carregamento manual do AutoSupport
 
 O carregamento manual do AutoSupport foi melhorado para melhorar a experiência do utilizador. Foi fornecida uma coluna adicional para comentários sobre o estado de carregamento.
 
 
 
+[[keystone-subscription-widget]]
 === Widget do Keystone Subscription
 
 Você pode monitorar a capacidade de storage com compromisso, consumo e sobrecarga do seu Serviço de assinatura NetApp Keystone.
 
 
 
+[[30-september-2020]]
 == 30 de setembro de 2020
 
 
 
+[[aff-and-fas-firmware-using-ansible-playbook]]
 === Firmware do AFF e do FAS usando o Playbook do Ansible
 
 A documentação foi aprimorada para incluir informações sobre download, instalação e execução do pacote de automação ansible do firmware AFF e FAS.
@@ -1128,172 +1310,203 @@ link:https://docs.netapp.com/us-en/active-iq/task_update_AFF_FAS_firmware.html["
 
 
 
+[[18-august-2020]]
 == 18 de agosto de 2020
 
 
 
+[[performance]]
 === Desempenho
 
 Os gráficos de desempenho foram melhorados para permitir-lhe avaliar o desempenho do volume. Você pode navegar e alternar entre a guia nó, a guia cluster, a guia nível local e a guia volume na mesma tela. link:https://docs.netapp.com/us-en/active-iq/task_view_performance_graphs.html["Saiba como"].
 
 
 
+[[aff-and-fas-firmware-using-ansible-playbook]]
 === Firmware do AFF e do FAS usando o Playbook do Ansible
 
 O ecrã de firmware AFF e FAS foi melhorado para proporcionar uma melhor experiência ao utilizador.
 
 
 
+[[17-july-2020]]
 == 17 de julho de 2020
 
 
 
+[[performance]]
 === Desempenho
 
 Os gráficos de desempenho foram aprimorados para permitir que você avalie o desempenho do nível local. Você pode navegar e alternar entre a guia nó, a guia cluster e a guia nível local na mesma tela.
 
 
 
+[[wellness]]
 === Bem-estar
 
 Os atributos de bem-estar foram aprimorados para visualizar todos os sistemas afetados sem ter que detalhar as ações e os riscos.
 
 
 
+[[19-june-2020]]
 == 19 de junho de 2020
 
 
 
+[[generate-report-for-inventory]]
 === Gerar relatório para inventário
 
 Agora você pode gerar relatório da lista de observação selecionada e enviar e-mails para um máximo de 5 destinatários. link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["Saiba como"].
 
 
 
+[[performance]]
 === Desempenho
 
 Os gráficos de desempenho foram aprimorados para permitir que você avalie o desempenho do cluster de seu sistema de armazenamento. Você pode navegar e alternar entre a guia nó e a guia cluster na mesma tela.
 
 
 
+[[storage-efficiency]]
 === Eficiência de storage
 
 O widget de eficiência de storage foi aprimorado para permitir que você visualize a taxa de eficiência de storage e a economia no nível do cluster. Você pode navegar e alternar entre a guia nó e a guia cluster na mesma tela.
 
 
 
+[[update-the-default-home-page]]
 === Atualize a página inicial predefinida
 
 Agora você pode fornecer seus comentários e nos informar o motivo pelo qual você está atualizando a tela padrão da página inicial do Digital Advisor.
 
 
 
+[[update-to-the-inventory-widget]]
 === Atualize para o widget de inventário
 
 O widget de inventário foi aprimorado para melhorar a experiência do usuário, fornecendo formatos de data fáceis de usar, colunas adicionais para suporte ao final da plataforma e suporte ao final da versão.
 
 
 
+[[19-may-2020]]
 == 19 de maio de 2020
 
 
 
+[[set-the-default-home-page]]
 === Defina a página inicial padrão
 
 Agora você pode definir a tela inicial padrão para o Digital Advisor. Você pode configurá-lo para Digital Advisor ou Classic.
 
 
 
+[[storage-efficiency]]
 === Eficiência de storage
 
 Você pode visualizar a taxa de eficiência de storage e a economia do seu sistema de storage com e sem cópias Snapshot para sistemas AFF, sistemas que não são AFF ou ambos. Você pode visualizar as informações de eficiência de storage em um nível de nó. link:https://docs.netapp.com/us-en/active-iq/task_analyze_storage_efficiency.html["Saiba como"].
 
 
 
+[[performance]]
 === Desempenho
 
 Os gráficos de desempenho permitem avaliar o desempenho dos seus dispositivos de armazenamento em diferentes áreas significativas.
 
 
 
+[[aff-and-fas-firmware-upgrades-using-ansible-playbook]]
 === Atualizações de firmware do AFF e do FAS com o Playbook do Ansible
 
 Atualize o firmware do AFF e do FAS usando o Ansible no seu sistema de storage para reduzir os riscos identificados e manter seu sistema de storage atualizado.
 
 
 
+[[disabling-the-wellness-score-feature]]
 === Desativar a funcionalidade de pontuação de bem-estar
 
 O recurso de pontuação de bem-estar está sendo temporariamente desativado para melhorar o algoritmo de pontuação e simplificar a experiência geral.
 
 
 
+[[02-april-2020]]
 == 02 de abril de 2020
 
 
 
+[[onboarding-overview-video]]
 === Vídeo de visão geral de integração
 
 O vídeo de integração ajuda os usuários a se familiarizarem rapidamente com as opções e recursos do Digital Advisor.
 
 
 
+[[wellness-score]]
 === Pontuação de bem-estar
 
 A pontuação de bem-estar fornece aos clientes uma pontuação consolidada de sua base instalada com base no número de altos riscos e nos contratos expirados. A pontuação pode ser boa, média ou ruim.
 
 
 
+[[risk-summary]]
 === Resumo do risco
 
 O resumo do risco fornece informações detalhadas sobre o risco, o impactos do risco, as ações corretivas.
 
 
 
+[[support-for-acknowledging-and-disregarding-risks]]
 === Apoio para reconhecer e desconsiderar riscos
 
 Fornece a opção de reconhecer um risco se você quiser mitigar ou não conseguir mitigar o risco.
 
 
 
+[[19-march-2020]]
 == 19 de março de 2020
 
 
 
+[[upgrade-workflow]]
 === Atualizar fluxo de trabalho
 
 Você pode usar o fluxo de trabalho de atualização para visualizar as recomendações de atualização e um resumo dos novos recursos disponíveis na versão de destino do ONTAP. link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["Saiba como"].
 
 
 
+[[valuable-insights]]
 === Insights valiosos
 
 Você pode ver o resumo dos benefícios recebidos por meio do Digital Advisor e do seu contrato de suporte. Para sistemas selecionados, o relatório de valor consolida os benefícios do último ano. link:https://docs.netapp.com/us-en/active-iq/task_view_valuable_insight_widget.html["Veja agora"].
 
 
 
+[[drill-into-details]]
 === Aprofunda os detalhes
 
 Fornece informações mais profundas, que é uma maneira poderosa de aprofundar os dados e obter insights imediatos sobre a composição de informações agregadas, conforme necessário.
 
 
 
+[[capacity-additions]]
 === Adições de capacidade
 
 Você pode identificar proativamente sistemas que excederam a capacidade ou que estão chegando a 90% da capacidade e enviar uma solicitação para aumentar a capacidade.
 
 
 
+[[29-february-2020]]
 == 29 de fevereiro de 2020
 
 
 
+[[enhanced-user-interfaces]]
 === Interfaces de usuário aprimoradas
 
 Os painéis mais recentes do Digital Advisor oferecem uma experiência personalizada. Permite uma navegação suave e perfeita, com a sua intuitividade, em diferentes painéis, widgets e ecrãs. Ele fornece uma experiência tudo-em-um. Ele comunica comparações, relacionamentos e tendências. Ele fornece insights que ajudam a detetar e validar relacionamentos importantes e diferenças significativas com base nos dados apresentados por diferentes painéis.
 
 
 
+[[customizable-dashboards]]
 === Painéis personalizáveis
 
 Ajuda você a monitorar seus sistemas rapidamente, fornecendo insights e análises importantes sobre seus dados em uma ou mais páginas ou telas. Você também pode criar até 10 dashboards e tomar decisões de negócios eficazes.
@@ -1302,12 +1515,14 @@ link:https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html["Sa
 
 
 
+[[mitigate-risks-using-active-iq-unified-manager]]
 === Reduza os riscos usando o Active IQ Unified Manager
 
 Você pode visualizar os riscos e corrigi-los usando o Active IQ Unified Manager. link:https://docs.netapp.com/us-en/active-iq/task_view_risks_remediated_unified_manager.html["Saiba como"].
 
 
 
+[[wellness]]
 === Bem-estar
 
 Fornece informações detalhadas sobre o status do seu sistema de armazenamento que é classificado nos seguintes widgets 6:
@@ -1324,6 +1539,7 @@ link:https://docs.netapp.com/us-en/active-iq/concept_overview_wellness.html["Ana
 
 
 
+[[smarter-and-faster-search]]
 === Pesquisa mais inteligente e rápida
 
 Permite pesquisar parâmetros, como número de série, ID do sistema, nome do host, nome do site, nome do grupo e nome do cluster usando a exibição de sistema único. Você também pode pesquisar por grupo de sistemas, além disso, você pode pesquisar por nome de um cliente, nome do site ou nome de grupo por grupo de sistemas.

@@ -39,7 +39,6 @@
   <block id="cc959aa92b96d7ed4154da16e0bc5de4" category="inline-link-macro">Elemento (NetApp HCI e SolidFire)</block>
   <block id="4f0ba3197c25744bb644bb7e83a43b5f" category="list-text"><block ref="4f0ba3197c25744bb644bb7e83a43b5f" category="inline-link-macro-rx"></block></block>
   <block id="67c2a0578ac58d1bcfb4fc00eb6e05ba" category="inline-link-macro">Relatório Técnico - ONTAP AutoSupport e AutoSupport sob demanda</block>
-  <block id="836b35da2a4494ce20730d485e090b9b" category="list-text"><block ref="836b35da2a4494ce20730d485e090b9b" category="inline-link-macro-rx"></block></block>
   <block id="1629a9318eb60c2f7422a0ca0be6bfcb" category="inline-link-macro">Relatório Técnico - Segurança e Privacidade de dados de Telemetria NetApp</block>
   <block id="58789b5243f3cbb2a8a30f59de135896" category="list-text"><block ref="58789b5243f3cbb2a8a30f59de135896" category="inline-link-macro-rx"></block></block>
   <block id="ba5f7135032775c8c999ecabfd7ec65b" category="summary">Fornece mais informações sobre o Digital Advisor.</block>
@@ -47,12 +46,9 @@
   <block id="3334f093f94c914eeabb709448d36d67" category="paragraph">Você pode obter ajuda e encontrar mais informações através de vários recursos.</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="inline-link-macro">Comunidade NetApp</block>
   <block id="2eb6f862ee3ec494c6f43826c23b83da" category="list-text"><block ref="2eb6f862ee3ec494c6f43826c23b83da" category="inline-link-macro-rx"></block></block>
-  <block id="2250dada69ecec08ffc29ac659683495" category="inline-link-macro">Recursos de documentação</block>
-  <block id="847b7c4d19d7d7ef0daee103975b7b83" category="list-text"><block ref="847b7c4d19d7d7ef0daee103975b7b83" category="inline-link-macro-rx"></block></block>
   <block id="2fc27556f44d8a6724ac003effded441" category="inline-link-macro">Segurança e Privacidade de dados de telemetria NetApp</block>
   <block id="2a4b13cd943c24cfe2735c05922d1427" category="list-text"><block ref="2a4b13cd943c24cfe2735c05922d1427" category="inline-link-macro-rx"></block></block>
   <block id="338fec277abf8dd8a9f3f83288b2911d" category="inline-link-macro">ONTAP AutoSupport e AutoSupport sob demanda</block>
-  <block id="7581b2408d4adfb3df4e98d5f1f96473" category="list-text"><block ref="7581b2408d4adfb3df4e98d5f1f96473" category="inline-link-macro-rx"></block></block>
   <block id="a0a811ca28574ec3a01b64693e2fe336" category="summary">Fornece informações sobre o painel, pontuações de integridade, recursos e widgets.</block>
   <block id="f316bc2d9abc434547fa8fee1b52c8ca" category="doc">Comece a usar o painel de verificação de integridade</block>
   <block id="0283692678f3caa0a73dcdba11b167a0" category="paragraph">Este painel fornece um resumo rápido da sua base instalada através dos seguintes widgets:</block>
@@ -1592,4 +1588,6 @@
   <block id="e20432694f9004583c0756c875ad9910" category="cell">Sistemas que não enviaram um AutoSupport nos últimos 30 dias</block>
   <block id="17666cbe1713f97c57ab98489a603022" category="paragraph">Execute novamente o procedimento AutoSupport nos sistemas afetados listados acima para restaurar os dados atuais nas visualizações de Verificação de Integridade.</block>
   <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">29 de junho de 2026</block>
+  <block id="78c07c506154e08621f506935129d56b" category="list-text"><block ref="78c07c506154e08621f506935129d56b" category="inline-link-macro-rx"></block></block>
+  <block id="47f181ab6ea1bbd9a2696556081c4ba8" category="list-text"><block ref="47f181ab6ea1bbd9a2696556081c4ba8" category="inline-link-macro-rx"></block></block>
 </blocks>

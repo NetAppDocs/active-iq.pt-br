@@ -20,6 +20,7 @@ Usuários experientes podem instalar e executar o pacote de automação de firmw
 
 
 
+[[firmware-update-with-ansible-using-netapp-docker-image]]
 == Atualização de firmware com o Ansible usando a imagem Docker do NetApp
 
 .Passos
@@ -75,6 +76,7 @@ NOTE: Se os URLs para firmware de disco, firmware de gaveta e firmware do proces
 
 
 
+[[firmware-update-if-ansible-is-already-used]]
 == Atualização de firmware se o Ansible já for usado
 
 .Passos

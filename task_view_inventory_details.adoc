@@ -23,6 +23,7 @@ Você também pode gerar o relatório da lista de observação selecionada e env
 video::ttbpbT5uTBI[youtube,width=848,height=480]
 
 
+[[view-system-details]]
 == Ver detalhes do sistema
 
 .Passos
@@ -37,6 +38,7 @@ Os arquivos do Ansible Inventory podem ser usados com arquivos personalizados do
 
 
 
+[[view-support-entitled-switch-details]]
 == Ver detalhes do switch de suporte
 
 .Passos

@@ -20,6 +20,7 @@ As perguntas a seguir dão respostas às suas perguntas frequentes sobre o Digit
 
 
 
+[[technical-case]]
 == Caso técnico
 
 *Quando crio um caso técnico?*
@@ -45,6 +46,7 @@ Casos técnicos são criados para buscar assistência com qualquer um dos produt
 
 
 
+[[non-technical-case]]
 == Caso não técnico
 
 *O que é um caso não técnico?*
@@ -78,6 +80,7 @@ Para fornecer feedback ou fazer perguntas, envie um e-mail para mailto:ng-active
 
 
 
+[[storage-efficiency]]
 == Eficiência de storage
 
 *Como faço para acessar a eficiência de armazenamento no Digital Advisor?*
@@ -221,6 +224,7 @@ A redução de dados é mostrada mais alta quando os volumes de proteção de da
 
 
 
+[[inventory]]
 == Inventário
 
 *Por que não consigo encontrar determinados sistemas no Digital Advisor?* Você pode não ser capaz de pesquisar determinados sistemas ou visualizá-los na página de inventário devido a um dos seguintes motivos:
@@ -235,6 +239,7 @@ Se você não conseguir visualizar os sistemas por qualquer outro motivo, tiver 
 
 
 
+[[capacity]]
 == Capacidade
 
 *Como as capacidades são calculadas no Digital Advisor?* As capacidades do Digital Advisor são calculadas para cluster e nó, excluindo raiz e incluindo cópias Snapshot
@@ -343,6 +348,7 @@ Para StorageGRID, as capacidades são exibidas na base 10 e a unidade de capacid
 
 
 
+[[miscellaneous]]
 == Diversos
 
 *Por que os recursos em INTEGRIDADE DE ARMAZENAMENTO no painel de navegação esquerdo estão desativados?* A disponibilidade dos recursos em *INTEGRIDADE DO ARMAZENAMENTO* depende do tipo e nível do sistema. Por exemplo, o ClusterViewer está disponível para sistemas ONTAP e Cloud Volumes ONTAP (CVO) nos níveis de cluster e nó. Você pode passar o Mouse sobre o ícone *i* ao lado de cada recurso para saber mais sobre os tipos e níveis de sistema aplicáveis.

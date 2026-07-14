@@ -28,6 +28,7 @@ Você pode ver o vídeo a seguir para entender o painel Sustentabilidade:
 video::yNRHeOvbGX8[youtube,width=848,height=480]
 
 
+[[benefits-of-sustainability]]
 == Benefícios da sustentabilidade
 
 A sustentabilidade oferece os seguintes benefícios:

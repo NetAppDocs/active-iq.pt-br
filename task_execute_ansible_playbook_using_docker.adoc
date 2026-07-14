@@ -20,6 +20,7 @@ Antes de executar o Playbook do Ansible, verifique se o arquivo * NetApp_Ansible
 
 
 
+[[before-you-begin]]
 == Antes de começar
 
 Antes de executar o Playbook do Ansible usando o docker do NetApp, você deve:
