@@ -1305,7 +1305,6 @@
   <block id="39ca8580b0e6a065fa25faac2a2acc86" category="inline-link-macro">Saiba como visualizar as recomendações de atualização de firmware</block>
   <block id="af79dd5dc56c84e383198dba47e6f6fe" category="paragraph">Agora você pode visualizar o firmware de armazenamento, o firmware do SP/BMC e o Autonomous ransomware Package (ARP) recomendados para uma atualização. <block ref="bb189956f648b21665d5198deffedcc8" category="inline-link-macro-rx"></block>.</block>
   <block id="e3f867c1e04dce86520c139a0ae60b18" category="section-title">12 de dezembro de 2024</block>
-  <block id="85384a7ec038b3ed06c50841a285d5fc" category="summary">Veja recomendações de atualização de firmware de armazenamento, firmware SP/BMC, arquivos de sistema e arquivos de segurança.</block>
   <block id="432405c0f2c1d2289f6d8e3b11ebfd8b" category="doc">Ver recomendações de atualização de firmware</block>
   <block id="789b0be6ddd32dcc2218519990c16b5c" category="paragraph">Agora, os clientes podem economizar tempo e esforço, permitindo que a Control Tower atualize automaticamente seus sistemas com as versões de firmware mais recentes, eliminando a necessidade de intervenção manual ou agendamento. Esta atualização reduz o risco de encontrar problemas devido a versões de firmware desatualizadas ou incompatíveis, garantindo o desempenho, estabilidade e segurança do sistema ideais.</block>
   <block id="715a43f582d65ce08f118788f9800f7d" category="paragraph">Os clientes receberão notificações e alertas oportunos sobre o status das atualizações de firmware, com opções para ativar as configurações de AutoSupport e atualização automática.</block>
@@ -1475,7 +1474,6 @@
   <block id="72b48ce9fe92eb0c8e3daa730f3b40d4" category="list-text">Selecione os sistemas de armazenamento que deseja renovar e clique em *Renovar*.</block>
   <block id="af8b8a799d4d3f00f43e2a15c03d0b3e" category="doc">Renove seus contratos de suporte no Digital Advisor.</block>
   <block id="fec0069eb53aaf302edb450eb9a816d9" category="doc">Assine as notificações sobre a integridade do sistema de armazenamento do Digital Advisor.</block>
-  <block id="f7f16f63ab4db119d5fadbab01ead079" category="paragraph">Você pode se inscrever no boletim informativo por e-mail para receber um resumo mensal do status de desempenho, dos sistemas de armazenamento que estão próximos da data de renovação e dos sistemas de armazenamento que precisam de atualização para os produtos NetApp em sua base instalada. Você receberá um e-mail com uma avaliação de desempenho para que possa visualizar um resumo mensal e tomar as medidas necessárias para otimizar seus sistemas de armazenamento. Você também tem opções para visualizar, editar, compartilhar e excluir suas assinaturas. A qualquer momento, se você decidir que não deseja mais receber e-mails, poderá cancelar a sua inscrição.</block>
   <block id="35aedce653ee05a4fca3b7e9369bfd70" category="doc">Baixe o pacote Ansible de firmware AFF e FAS do Digital Advisor.</block>
   <block id="36d1684f85846e6901819bfb095f4fc7" category="doc">Aprimore sua oferta de suporte no Digital Advisor.</block>
   <block id="6c96fdceac3302fe4a465f308ef622a1" category="doc">Verifique a instalação do firmware AFF e FAS no seu sistema de armazenamento.</block>
@@ -1590,4 +1588,11 @@
   <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">29 de junho de 2026</block>
   <block id="78c07c506154e08621f506935129d56b" category="list-text"><block ref="78c07c506154e08621f506935129d56b" category="inline-link-macro-rx"></block></block>
   <block id="47f181ab6ea1bbd9a2696556081c4ba8" category="list-text"><block ref="47f181ab6ea1bbd9a2696556081c4ba8" category="inline-link-macro-rx"></block></block>
+  <block id="3cf43920c00fe2ea8865c490f81428d4" category="doc">Aviso de descontinuação do Wellness Review</block>
+  <block id="b5b841825c6795b46db86f189bb6b292" category="paragraph">O recurso Wellness Review foi descontinuado e não está mais disponível no Digital Advisor a partir de julho de 2026.</block>
+  <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">Para dúvidas ou para compartilhar comentários, envie um e-mail para mailto:ng-activeiq-feedback@netapp.com[entre em contato com a equipe do Active IQ].</block>
+  <block id="593b7503b2bb0ab3939f80c599e28d01" category="section-title">15 de julho de 2026</block>
+  <block id="0e1f11a16da786670316988e6939f0dc" category="paragraph">Você pode se inscrever para receber o e-mail de revisão de bem-estar e receber um e-mail mensal que resume o status de bem-estar, os sistemas de armazenamento que estão próximos das datas de renovação e os sistemas de armazenamento que exigem uma atualização para os produtos NetApp na sua base instalada. Você receberá um e-mail de revisão de bem-estar para que possa visualizar um resumo mensal e tomar medidas para seus sistemas de armazenamento.</block>
+  <block id="5dc75508ba4ef965dd5e67e824749acf" category="paragraph">Você também tem opções para visualizar, editar, compartilhar e excluir suas assinaturas. A qualquer momento, se você decidir que não deseja mais receber e-mails, também pode cancelar a assinatura de e-mails.</block>
+  <block id="9700c329d00878c280440dc2e026802a" category="summary">Veja as recomendações de atualização do firmware de storage, firmware de SP e BMC, arquivos de sistema e arquivos de segurança.</block>
 </blocks>
