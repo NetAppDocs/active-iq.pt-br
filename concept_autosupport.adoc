@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept_autosupport.html 
-keywords: AutoSupport 
+keywords: autosupport 
 summary: Fornece uma visão geral do AutoSupport. 
 ---
 = Saiba mais sobre o AutoSupport no Digital Advisor.

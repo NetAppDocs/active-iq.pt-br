@@ -61,9 +61,6 @@ Por exemplo, selecione a guia 2 meses para exibir dados por 2 meses. Isso permit
 
 |  | Taxa de transferência de rede |  |  
 |===
-
-NOTE: Os gráficos de latência do nó, nível local (agregado) e desempenho de volume são compatíveis apenas em sistemas que executam o ONTAP 9.2 e versões posteriores.
-
 . Os seguintes gráficos de desempenho com as métricas necessárias estão disponíveis para os controladores e-Series:
 +
 ** Utilização de CPU

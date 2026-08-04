@@ -20,4 +20,4 @@ Se você deseja identificar se uma atualização do sistema é recomendada para 
 
 Você pode acessar esse recurso por meio do Lifecycle planning (*Storage* > *Lifecycle planning*) ou por meio do Digital Advisor (*Dashboard > Planning widget > System Refresh*).
 
-Para obter mais informações sobre esse recurso, consulte link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["Avalie uma atualização do sistema"] na documentação do Console.
+Para obter mais informações sobre esse recurso, consulte link:https://docs.netapp.com/us-en/console-lifecycle-planning/use/tech-refresh.html["Avalie uma atualização do sistema"] na documentação do Console.

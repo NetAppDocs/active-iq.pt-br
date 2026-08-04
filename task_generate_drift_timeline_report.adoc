@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_generate_drift_timeline_report.html 
-keywords: reports, generate reports, drift timeline, drift timeline report, AutoSupport data 
+keywords: reports, generate reports, drift timeline, drift timeline report, autosupport data 
 summary: Fornece informações para gerar relatórios de linha do tempo de deriva. 
 ---
 = Gere um relatório de linha do tempo de desvio de configuração no Digital Advisor.

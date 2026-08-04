@@ -43,7 +43,7 @@ Veja a seguir os tipos de relatórios disponíveis no Digital Advisor:
 | Logística de entrega | Fornece informações sobre a logística de entrega de produtos e serviços. | Sim | Sim | Não 
 
 
-| Resumo executivo da avaliação de integridade | Fornece informações sobre vários KPIs do Active IQ em um formato PowerPoint (PPT), com diferentes KPIs sendo descritos em diferentes slides. | Sim | Sim | Não 
+| Resumo executivo da avaliação de integridade | Fornece informações sobre vários KPIs do Digital Advisor em formato PowerPoint (PPT), com diferentes KPIs descritos em slides diferentes. | Sim | Sim | Não 
 
 
 | Inventário | Fornece informações sobre a base de instalação para uma lista de observação selecionada, cliente, local, níveis de grupo. Este relatório pode ser gerado como um download direto da página de detalhes do inventário ou pode ser gerado a partir da página relatórios. | Sim | Sim | Sim 

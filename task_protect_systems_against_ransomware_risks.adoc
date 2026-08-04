@@ -18,7 +18,7 @@ summary:
 [role="lead"]
 Ao fazer login no Digital Advisor, você pode exibir as *ações* destacadas no widget *Defesa de Segurança e ransomware*, que mostra a contagem de riscos.
 
-Você pode visualizar os riscos de criação, retenção e FPolicy do ONTAP do Snapshot e, em seguida, tomar medidas para corrigi-los.
+Você pode visualizar os riscos relacionados à criação de snapshots, retenção e FPolicy do ONTAP e, em seguida, tomar medidas para corrigi-los.
 
 .Passos
 . Inicie sessão no Digital Advisor.

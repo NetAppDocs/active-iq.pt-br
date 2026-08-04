@@ -52,7 +52,6 @@
   <block id="a0a811ca28574ec3a01b64693e2fe336" category="summary">Fornece informações sobre o painel, pontuações de integridade, recursos e widgets.</block>
   <block id="f316bc2d9abc434547fa8fee1b52c8ca" category="doc">Comece a usar o painel de verificação de integridade</block>
   <block id="0283692678f3caa0a73dcdba11b167a0" category="paragraph">Este painel fornece um resumo rápido da sua base instalada através dos seguintes widgets:</block>
-  <block id="820ed668f5824044ba24b743388d94f8" category="list-text">*Adoção do AutoSupport*: Exibe o número e a porcentagem de sistemas com o AutoSupport habilitado. Você também pode visualizar os sistemas marcados como "declinados", aqueles com *HTTPS* e *AutoSupport sob demanda* ativados, bem como *perda de sinal* para os sistemas que pararam de enviar dados AutoSupport nos últimos 7 dias. Para ver a pontuação da verificação de integridade e as informações sobre os sistemas na base de instalação, clique no widget *AutoSupport adoption*.</block>
   <block id="5a203b8ad736b84e1741fd3d04b50fd8" category="list-text">*Configuração recomendada*: Exibe sistemas compatíveis e não compatíveis de acordo com o widget *Configuração recomendada*. Ele ajuda você a tomar medidas para garantir que seus sistemas estejam bem configurados em toda a base instalada. Você pode visualizar a pontuação fornecida no painel e tomar ações com base nas principais recomendações fornecidas por ordem de prioridade.</block>
   <block id="e94ebb58e29dcb4765fa5c479c8e07d7" category="list-text">*Software recomendado*: Exibe uma lista consolidada de todas as atualizações de software e firmware e recomendações de moeda. Você pode visualizar os sistemas com o AutoSupport habilitado que devem ser no mínimo ou mais recente versões de software ou firmware.</block>
   <block id="63d26e96496f498e8ddc517162407ad9" category="list-text">*Suporte e direitos*: Exibe contratos de suporte que expiraram e aqueles que estão prestes a expirar dentro de 6 a 12 meses. Ele exibe plataformas de suporte de fim, discos, gavetas, conformidade de direitos, expirações pendentes e fim do suporte para plataforma e hardware não é aplicável. Você pode visualizar a pontuação de verificação de integridade fornecida no painel e tomar medidas com base nas principais recomendações, que são fornecidas por ordem de prioridade. Para ver informações detalhadas sobre contratos de suporte, clique no widget *suporte e direitos*. Você também pode renovar seus contratos de suporte usando este widget.</block>
@@ -75,7 +74,6 @@
   <block id="32a07c6643e39bb3fe494292db9ae233" category="cell">Bem-estar</block>
   <block id="fe40d8b49a8a95c2a28179b7ef3039d6" category="cell">Compatível com todas as plataformas</block>
   <block id="61583caaac5d274ab78d4c71e3dc0ae8" category="cell">Renovações</block>
-  <block id="7c3098d5e7bbe4908e01ab684d9cd021" category="cell">Compatível apenas com Clustered Data ONTAP</block>
   <block id="4d604dd8f008145471dc845683399189" category="cell">Inventário</block>
   <block id="240f9686efc9548a1d556d924c143924" category="cell">Atualizações</block>
   <block id="39c8987e43727590806ec031b3dd0a86" category="summary">Fornece informações sobre os principais termos usados no Digital Advisor.</block>
@@ -111,13 +109,11 @@
   <block id="0df29eb5c3a3cf627598e14216743f20" category="list-text">* Histórico de bem-estar: * Exibe informações sobre os riscos do sistema que ocorrem nos últimos três meses, para que você possa aprender como eles estão se aproximando de horas extras.</block>
   <block id="927c2765ee865261a716c54a2fde3878" category="list-text">*Acknowledge risks (Ack):* permite que você reconheça os riscos e sistemas que foram afetados. Você pode reconhecer esses riscos e se familiarizar com as ações que você pode executar para mitigar esses riscos.</block>
   <block id="91351fc68db7f9bca112a2fb897a0902" category="list-text">*Unrecognition risks (un-ACK):* permite que você desreconheça os riscos e sistemas que foram reconhecidos.</block>
-  <block id="0f4f0d8eb7497054f3f3160501e62e20" category="list-text">*Fix it:* corrige os riscos para o sistema usando o Gerenciador Unido do Active IQ (UM) 9,7 ou superior. Clique neste botão para iniciar O UM e executar as etapas para mitigar os riscos.</block>
   <block id="acf7d20d0268fb3265f641fbc7ac8d68" category="list-text">* Widget de inventário:* exibe um conjunto de sistemas totais que você possui. Isso inclui produtos habilitados para o Digital Advisor e não habilitados.</block>
   <block id="70997d9cb46f1884262203c0386ee9ba" category="list-text">*Gerar um relatório:* gera o relatório da lista de observação selecionada e envia um e-mail para um máximo de 5 destinatários.</block>
   <block id="893c77a9be3c9d01629801789ac3c684" category="list-text">* Widget de atualizações:* fornece o número de atualizações disponíveis para sistemas ONTAP e e-Series:</block>
   <block id="802c8daa153570ef0dadaf2d8be9ee78" category="list-text">Para sistemas ONTAP, você pode exibir informações sobre o número de sistemas que exigem uma atualização e solicitar um plano de atualização.</block>
   <block id="ac697c7fc74ba789f9ec5a46df7312c6" category="list-text">Para sistemas e-Series, você só pode exibir informações sobre o número de sistemas que exigem uma atualização.</block>
-  <block id="c7d11c557339c95279902ee082ba9f5b" category="list-text">*Eficiência de storage:* identifica a taxa de eficiência de storage e a economia do seu sistema de storage com e sem cópias Snapshot para sistemas AFF, sistemas que não sejam AFF ou ambos.</block>
   <block id="b397fac92f5d136f7fe3fb94680c6e6f" category="list-text">*Gráfico de desempenho:* permite analisar o desempenho de seus dispositivos de armazenamento visualizando o formato gráfico dos dados de desempenho. Pode visualizar gráficos de desempenho detalhados do cluster ONTAP para o nó selecionado.</block>
   <block id="c6a6fbd3c93831286955b654f3a43c2d" category="list-text">* Widget Insights valiosos: * Fornece informações sobre o número de casos de suporte, atualizações de software pendentes, economia de eficiência de armazenamento, riscos mitigados e outros. Ele também lista proativamente as notificações de risco do atributo Wellness.</block>
   <block id="d949398a0cd9559b70782bfb2f9ac159" category="list-text">*AutoSupport:* permite visualizar instâncias do AutoSupport em alto nível ou em detalhes. Os detalhes incluem detalhes do sistema, possíveis razões para o problema e ações sugeridas.</block>
@@ -125,11 +121,9 @@
   <block id="56f4dbda16e117456735f4152501a126" category="list-text">* Links rápidos:* fornece a lista de aplicativos que podem ser iniciados usando o Digital Advisor.</block>
   <block id="9739d4ffc25558588df6f57e8041f639" category="list-text">*ClusterViewer:* permite que você veja informações detalhadas de configuração física e lógica. Os detalhes são apresentados em várias tabelas fáceis de visualizar em várias guias que incluem um resumo da configuração do cluster e do nó, as informações de nível e volume local, a interface de rede e informações de porta, um diagrama de pilha detalhando informações sobre os discos e gavetas e algumas visualizações de cabo. Você também pode baixar os gráficos de visualizações de cabo no formato SVG.</block>
   <block id="e10554f48e3ad865c8bd3aa251010031" category="paragraph">O recurso ClusterViewer não é suportado em sistemas e-Series.</block>
-  <block id="c3ee6b10a82ee8a739a196c0f92e9cc7" category="list-text">*API Services:* permite extrair dados de interesse e integrá-los diretamente no fluxo de trabalho da sua empresa.</block>
   <block id="cf6603053c3facd929d0e865e9f65807" category="list-text">*Carregamento do AutoSupport:* permite analisar os defeitos ou problemas nos sistemas ONTAP e e-Series. Os defeitos ou problemas são revisados e corrigidos manualmente pelo pessoal do site de suporte.</block>
   <block id="37adb256aff16968048142b85e04d7cc" category="list-text">*Firmware do sistema:* permite que você visualize informações sobre o firmware do sistema que é fornecido juntamente com cada versão principal e patch do ONTAP.</block>
   <block id="87b3d4ff312f3761998135fad1e654e6" category="list-text">*Pesquisa:* permite pesquisar sistemas com base em várias categorias, como nome do cliente, número de série, cluster, nome do site, nome do grupo, nome do host e outros.</block>
-  <block id="8b4015616b4ebb333b0bb005e28e4b8e" category="list-text">*Cliente:* permite visualizar e gerenciar a base instalada de um cliente. O Painel do Cliente é o portal central do Digital Advisor.</block>
   <block id="18679057e5312924c976a6bd4b05d9ed" category="list-text">*Cluster:* fornece informações sobre clusters ONTAP. O Dashboard também consolida insights de integridade, capacidade, eficiência de storage e performance.</block>
   <block id="ad2084b929b7ea214a5005875f3f854d" category="list-text">*Número de série:* fornece informações sobre o número de série atribuído ao cliente.</block>
   <block id="ca2539d7307d0d34f3e2f7bbef6876a0" category="summary">Fornece uma visão geral do recurso de serviços de API.</block>
@@ -200,7 +194,6 @@
   <block id="36cec47f7689f0259d19d5b01531f4e9" category="list-text">Reduza os riscos usando o Active IQ Unified Manager.</block>
   <block id="2c1d81e3772d9ef164c64b411ca4e8f2" category="list-text">Atualize seu sistema de storage.</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link-macro">Saiba mais</block>
-  <block id="d37f37bcec2c93811716d3be7ec8bc92" category="list-text">Visualize a taxa de redução de dados, o espaço lógico usado, o espaço físico usado e o total de dados salvos para sistemas de storage executando o ONTAP 9.1 e posterior.</block>
   <block id="125859f7a75ea087ef61995849562e3b" category="list-text">Analise o desempenho dos seus dispositivos de armazenamento visualizando o formato gráfico dos dados de desempenho.</block>
   <block id="dacf9744e039d2c6cd15d0001ef8a424" category="list-text">Obtenha informações sobre o hardware e o software que expiraram ou estão prestes a expirar nos próximos 6 meses.</block>
   <block id="bb684054961f57c4a18794310f91e0e7" category="list-text">Atualize o firmware do ONTAP usando o Ansible.</block>
@@ -228,7 +221,6 @@
   <block id="75a224357589706495901ad497cb3098" category="paragraph">Você pode ver que a chave e o valor _shelf_fw_file_ foram removidos do cluster-1.</block>
   <block id="dd2f14a8d126300e4d4b5f68789f76c1" category="admonition">A adição manual de clusters ou controladoras não é suportada.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Passos</block>
-  <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="inline-link">BlueXP</block>
   <block id="3d8ba78e98400d1897334797f80e1dae" category="list-text">Selecione *inicie sessão com as credenciais do site de suporte da NetApp* e introduza as suas credenciais.</block>
   <block id="468fcd95163fdf7aa102458d21bf0cf2" category="list-text">Quando solicitado, faça login com as credenciais do site de suporte da NetApp.</block>
   <block id="600901e70afccc50e18676048766ba78" category="paragraph">*Resultado*</block>
@@ -384,23 +376,17 @@
   <block id="f30fbe64196609d84d8615d57fc452c4" category="list-text">Clique em *eficiência de armazenamento* na navegação à esquerda.</block>
   <block id="b9fc81c6a264c571164cb5ed34f3d618" category="admonition">Os painéis criados usando uma lista de observação não serão exibidos no widget eficiência de armazenamento.</block>
   <block id="2206003195e83e7dfa4c2c9011926729" category="paragraph">*O Digital Advisor exibe relações para todos os sistemas ONTAP?*</block>
-  <block id="2c66ccfb9136989ebd0b2f7794383ba0" category="paragraph">O Digital Advisor exibe relações para sistemas que executam o ONTAP 9.1 e posterior.</block>
-  <block id="2a3684ac064fb92899057c9c77be7b70" category="paragraph">*O que é o botão 'with Snapshots Copies' no painel de controle de eficiência?*</block>
-  <block id="f8ce983c20863d5ca1224cd961651189" category="paragraph">O Digital Advisor Efficiency Dashboard calcula a taxa de redução de dados em vários níveis, incluindo cliente, local, grupo, cluster e nó. Se você ativar a opção *with Snapshots copy*, o cálculo da taxa de redução de dados inclui as seguintes tecnologias de eficiência de storage:</block>
   <block id="83f45cad5e6f535ff10e564a526baad0" category="list-text">Deduplicação</block>
   <block id="82af841589057aa8922b1ac3bb4a28a4" category="list-text">Compactação</block>
   <block id="14c3c56ff2a98d1a9c47b63a917f67a3" category="list-text">Compactação de dados</block>
   <block id="999cc42b236c7aee1157ff02d6f1bcd5" category="list-text">Clones</block>
   <block id="9147e5e61a7b9260dec09f3a6eb3e5be" category="list-text">Instantâneos</block>
-  <block id="461662a7d362f24e412be63da5d820a7" category="paragraph">Por padrão, o cálculo da taxa de redução de dados não inclui a tecnologia de eficiência de storage Snapshots.</block>
   <block id="4607346b33eee4e6a2891bed9f7bd75f" category="paragraph">*O que são dados físicos usados e dados lógicos usados?*</block>
   <block id="fa23175e7bcd622e3124ac47ad2ac225" category="list-text">Blocos físicos consumidos/dados físicos utilizados</block>
   <block id="eccc5f12f48e88329c29d59f7fb7399f" category="list-text">A quantidade de espaço que está sendo usada para dados agora (em vez de ser reservada para uso futuro)</block>
-  <block id="c299ceefe4739c6609844682b86349c4" category="list-text">Inclui espaço usado por cópias Snapshot agregadas</block>
   <block id="fa72b749302bf3b8957c8abf2acf2d82" category="list-text">Espaço realmente consumido/escrito pelo cliente</block>
   <block id="de71714b6d790e6f2a901c6c63045604" category="list-text">Dados lógicos totais utilizados</block>
   <block id="522573efa17813e55f87c7cbae5c665d" category="list-text">Exibe o tamanho lógico usado no agregado.</block>
-  <block id="76961ec33cf185290a8b0dced033a18b" category="list-text">Isso inclui volumes, clones e snapshots no agregado.</block>
   <block id="43f302f7ba1d2f90ab1fb1a174f89e61" category="list-text">O tamanho lógico é calculado com base no uso físico (gravações reais) e na economia obtida no agregado.</block>
   <block id="770b033112d1f3ec483eae3f0376cba5" category="list-text">Não inclui espaço reservado para uso futuro</block>
   <block id="be76c1509b98001f6c35cf3715776135" category="paragraph">*Quais instâncias do AutoSupport são usadas para calcular a taxa de redução de dados?*</block>
@@ -414,30 +400,12 @@
   <block id="27b228cdac26ea1e1d4677c11f66b9c3" category="paragraph">*Como posso ver a tendência na taxa de redução de dados?*</block>
   <block id="4f6485dbcd25eeb2c74e5217258dfeca" category="paragraph">Atualmente, a taxa de redução de dados é calculada com base na última instância semanal ou acionada pelo usuário do AutoSupport. A tendência pode ser considerada para um lançamento futuro.</block>
   <block id="f8af0e51ad03daa14cc1051c4aaeacde" category="paragraph">*Como são calculadas as taxas de nível do cliente e a economia de redução de dados?*</block>
-  <block id="df0e3b60c8f0dc2c364d159e4dd455e0" category="paragraph">O dashboard de eficiência de storage no nível do cliente fornece a taxa de redução de dados com e sem cópias Snapshot para sistemas AFF e não AFF. Além disso, ele é combinado na base instalada do cliente para sistemas que executam o ONTAP 9.1 e posterior. Os parâmetros necessários para os seguintes cálculos são retirados do ONTAP AutoSupport:</block>
-  <block id="5104ffb6ada9a72f38b9cfe6696d45ef" category="paragraph">Sem cópias Snapshot (calculado para por primeiro Aggr):</block>
   <block id="aee8bfb2d0d5d3e3c92513c62e58c58e" category="cell">*Operação*</block>
   <block id="fa556b827144248698e8b0105e5108b3" category="cell">*Fórmula*</block>
-  <block id="8cc25718cb08fca5f9a9711a17f71e9b" category="cell">Aggr Logical usado sem cópias Snapshot</block>
-  <block id="93e1642b9a2163d0e286ed5b4dd986a4" category="cell">Tamanho lógico usado por volumes, clones e cópias Snapshot no agregado – tamanho lógico usado por cópias Snapshot</block>
-  <block id="c13349c903de3c465840d6a0c76af43c" category="cell">Aggrr físico usado sem cópias Snapshot</block>
-  <block id="296178570f2543b72c33dc745457e4a8" category="cell">Total físico utilizado – (tamanho físico utilizado pelas cópias Snapshot/taxa de redução de dados agregados)</block>
-  <block id="08cef9a368702eeeac7161ce30e64036" category="cell">Taxa de eficiência do cliente sem cópias Snapshot</block>
-  <block id="f567b2b8924d3eb6ec09c5dc410cbffc" category="cell">Soma [Aggr Logical usado sem cópias Snapshot para todos os agregados e para todos os nós de um cliente] / soma [Aggr físico usado sem cópias Snapshot para todos os agregados e para todos os nós de um cliente] : 1</block>
-  <block id="202ef30b2f3a15d4c82c8b78c06fa753" category="paragraph">Com cópias Snapshot:</block>
-  <block id="888f76b18cd7638b969e9ac5eebc981e" category="cell">Tamanho lógico do cliente com cópias Snapshot</block>
-  <block id="5e172371942a821fe719bb9927e028ac" category="cell">Soma [tamanho lógico usado por volumes, clones e cópias Snapshot para todos os agregados e para todos os nós de um cliente]</block>
-  <block id="ad553b325f74022f6cdb9816eef8e372" category="cell">Tamanho físico do cliente usado com cópias Snapshot</block>
   <block id="caac557a2f6913ad1dc30764cebdcb51" category="cell">Soma [tamanho físico total usado para todos os agregados e para todos os nós de um cliente]</block>
-  <block id="ef57ca9e5d4bfb77cfc6e251d21a1763" category="cell">Taxa de eficiência do cliente com cópias Snapshot</block>
-  <block id="94ac4db23e5bf0c5c79c132d9e499226" category="cell">Tamanho lógico do cliente com cópias e clones do Snapshot / tamanho físico do cliente usado com cópias e clones do Snapshot : 1</block>
   <block id="504e36e2268a4abc438382c6e58210df" category="paragraph">Cálculos da tabela de recursos de eficiência:</block>
   <block id="b12bcb5d643bed309360544737bf24d4" category="cell">Espaço físico do cliente utilizado</block>
   <block id="d27940afaa3670698836aa97aaaf5284" category="cell">Soma do espaço físico usado pelo agregado para todos os agregados e de todos os nós de um cliente</block>
-  <block id="625abfc517917229cf36b11cf3bdec00" category="cell">Tamanho lógico do cliente usado sem cópias Snapshot</block>
-  <block id="cac9b390967d1a57de89a94a58768553" category="cell">Soma do tamanho lógico usada por volumes, clones e cópias Snapshot - tamanho lógico usado por cópias Snapshot para todos os agregados de todos os nós de um cliente</block>
-  <block id="35861b17dd609cc6e380a872314d8539" category="cell">Tamanho lógico do cliente usado com cópias Snapshot</block>
-  <block id="f4c53520bd67a034cfda9f5ab6850807" category="cell">Soma do tamanho lógico usado por volumes, clones e cópias Snapshot no agregado para todos os agregados de todos os nós de um cliente</block>
   <block id="32fe127357a619e7e7f62af1d2f3819c" category="cell">Espaço total guardado</block>
   <block id="39769b329c3be86894154b7e697acdb4" category="cell">Espaço lógico Total usado – espaço físico Total usado</block>
   <block id="755336e4aa89a7752f104b5a608365fc" category="cell">Economia com deduplicação</block>
@@ -451,7 +419,6 @@
   <block id="57b49fee86d691b1f71efb03f0ec9eb6" category="cell">Economia com o FlexClone</block>
   <block id="0399cea9f76ca035b776ca55a99908ef" category="cell">Soma de (tamanho lógico usado por volumes FlexClone - tamanho físico usado por volumes FlexClone) de cada agregado de todos os nós de um cliente</block>
   <block id="9eb91200dfeecc085364dc670f2b9143" category="cell">O Snapshot copia economia com o backup</block>
-  <block id="1f5c59c0f85bb3e3a1746576ff27a1f2" category="cell">Soma de (tamanho lógico usado por cópias Snapshot - tamanho físico usado por cópias Snapshot) de todos os agregados de todos os nós de um cliente</block>
   <block id="caabfdbc0d0287aff339e2db76b3c8ed" category="paragraph">*Por que adicionar todas as economias individuais de redução de dados não aumenta a economia de redução de dados?*</block>
   <block id="567b01f0b5cd67001d808012ef0e7dd2" category="paragraph">A economia de redução de dados é mostrada no painel eficiência de storage para volumes e camadas locais (agregados). Você não pode adicionar economia de volume e economia agregada, pois ambas acontecem em objetos de storage diferentes.</block>
   <block id="fb8e35ae91d9f2d1bbfa26a865e3bdde" category="paragraph">*Por que a redução de dados foi relatada como maior ou incorreta antes de atualizar para o ONTAP?*</block>
@@ -465,7 +432,6 @@
   <block id="8e52de0d4b03d5fe87dc88da09616c7f" category="inline-xref">aqui.</block>
   <block id="8dd3258635f25ed56f238af521960f2b" category="paragraph">Se você não conseguir visualizar os sistemas por qualquer outro motivo, tiver dúvidas ou desejar solicitar acesso, <block ref="09587a48f092e0d3b236776f889d19c2" category="inline-link-macro-rx"></block>. Para saber mais sobre casos não técnicos, clique em <block ref="cbc6291335aebce77afe28d818ce153c" category="inline-xref-macro-rx"></block></block>
   <block id="3b8f7696879f77dfc8c74aa8df8db24b" category="section-title">Capacidade</block>
-  <block id="b158ad6d14f96b16232682ec9719f63d" category="paragraph">*Como as capacidades são calculadas no Digital Advisor?* As capacidades do Digital Advisor são calculadas para cluster e nó, excluindo raiz e incluindo cópias Snapshot</block>
   <block id="97b94c75518b90d30aeab5f6ccdd903e" category="cell">*Capacidade*</block>
   <block id="2c132960410953edab40f07fdeedf275" category="cell">*Calculado adicionando cada agregado...*</block>
   <block id="e09dc7945acb6ec6caf41c962f679916" category="cell">Capacidade bruta</block>
@@ -479,11 +445,8 @@
   <block id="6bec843fabf7f6cd4135638b444c3d76" category="cell">Capacidade física (real)</block>
   <block id="bb5423bbb1fc0323b5236bc5dc1d9e20" category="cell">Total físico usado de "AGGR-EFFICIENCY.xml"</block>
   <block id="1e1a0981d9d71863eca6149c902bbb20" category="cell">Capacidade lógica (efetiva)</block>
-  <block id="dcf1f48a16982fe7600e5723a145d50f" category="cell">Tamanho lógico usado por volumes, clones e cópias Snapshot no agregado de "AGGR-EFFICIENCY.xml"</block>
-  <block id="c3b80bbabb8e4b1ce4ee6427b05862ed" category="paragraph">*Para nível local (agregado com cópias Snapshot)*</block>
   <block id="0316961c4a7633e0b942acc96b6339e9" category="cell">*Calculado usando...*</block>
   <block id="2c5ce898cb91b251aea8073cb30504b1" category="cell">Kbytes (alocado) de "DF -A"</block>
-  <block id="b91181e4331aac3998cc67a3414d845b" category="paragraph">*Para volume (volume com cópias Snapshot)*</block>
   <block id="69ba447dc5e9ab1619f330f106eabbf3" category="cell">Capacidade de volume</block>
   <block id="031c81f326ba7c94b87e1cb512182696" category="cell">Tamanho do volume de "volume.xml"</block>
   <block id="dbaabc345dc2b075bd176cd810e7ab94" category="cell">Tamanho usado de "volume.xml"</block>
@@ -495,13 +458,10 @@
   <block id="9f949105f5563a86c9335097398679a2" category="list-text">Espaço realmente consumido ou escrito pelo cliente</block>
   <block id="9132eec7c7956d6b79d64f13ce5ce15e" category="list-text">Capacidade lógica (efetiva) dados lógicos usados</block>
   <block id="2f5b8aad51a721e7769a29a26b16a760" category="list-text">Exibe o tamanho lógico usado no agregado</block>
-  <block id="e02b370212cb3372e44be273e3f9dd04" category="list-text">O agregado inclui volumes, clones e cópias Snapshot.</block>
   <block id="c1430459f384e529728a1369a5ad1347" category="admonition">Não inclui espaço reservado para uso futuro.</block>
   <block id="acf8af6ea046a9190f032ee604a25ac1" category="list-text">Total de dados utilizados/capacidade utilizada (com reserva)</block>
-  <block id="f220560d0803053aa622dc91a4c63fc2" category="list-text">A soma de todo o espaço usado ou reservado no agregado por volumes, metadados ou cópias Snapshot</block>
   <block id="004016a613c0ec93cc34b1dd36fd4bfc" category="admonition">Ele inclui espaço reservado para volumes que são do tipo de garantia de arquivo ou volume. Ele inclui liberações atrasadas, blog aggr e metadados, além de reservas. Ele aparece como espaço usado até que os blocos livres atrasados sejam purgados. Depois que é purgado, o espaço usado diminui.</block>
   <block id="00de952105fc077b1333ac55d8d0bb98" category="paragraph">*Como é calculada a previsão de capacidade?* O Capacity Forecast utiliza dados de capacidade usados no último ano para calcular a taxa média de crescimento semanal de um sistema. Essa taxa de alteração no uso do sistema é então extrapolada para a frente da capacidade atual usada, para demonstrar como a utilização do sistema deve mudar nos próximos 6 meses (assumindo que a capacidade utilizável total permaneça a mesma).</block>
-  <block id="62b464a696f86c90363b4594cfca87f4" category="paragraph">*Por que a capacidade usada adicionada de cada volume não corresponde à capacidade usada agregada no nível do nó?* A capacidade usada no nível de nó inclui espaço reservado por volumes, metadados e cópias Snapshot. Ele também inclui espaço reservado para volumes, como tipo de garantia de volume ou arquivo. Portanto, ambos podem não corresponder.</block>
   <block id="d7a018b0994fcd8c73438187d3cd257d" category="paragraph">*As capacidades são mostradas no Digital Advisor base 2 ou base 10?* Todas as capacidades exibidas no Digital Advisor são a base 2 (dividir por 1024) e representam capacidades em GiB/TIB. O armazenamento ONTAP e outros produtos NetApp também exibem o uso da capacidade na base 2.</block>
   <block id="5144b142028342a902f17914b7d8eeb1" category="paragraph">Para StorageGRID, as capacidades são exibidas na base 10 e a unidade de capacidade é expressa em TB.</block>
   <block id="387baf0199e7c9cc944fae94e96448fa" category="section-title">Diversos</block>
@@ -516,10 +476,7 @@
   <block id="6d18f9cdd03d3a175d54504f01f0c78b" category="summary">Fornece informações sobre as limitações na versão.</block>
   <block id="482723983a4f2af954e36ff41e567451" category="doc">Limitações conhecidas</block>
   <block id="1eba71d64e6c5e410e558530711e835b" category="paragraph">As limitações conhecidas identificam plataformas, dispositivos ou funções que não são suportadas por esta versão do produto ou que não interoperam corretamente com ele. Revise essas limitações com cuidado.</block>
-  <block id="30c68d7c9821acafb85ce89d3dd5cf9e" category="paragraph">Existem as seguintes limitações:</block>
-  <block id="6f4abdbff187f79e2ea1ac06a9e104b5" category="list-text">Para sistemas de armazenamento Data ONTAP que operam apenas no modo 7 (os sistemas de armazenamento Data ONTAP que operam no modo 7 estão próximos do fim da vida útil de suporte)</block>
   <block id="e10f6958064ae5f36e8b132d4142e626" category="list-text">Gráficos de desempenho</block>
-  <block id="2a6091be36acbf3db3bd34443d143abf" category="list-text">O Supervisor de Atualização não oferecerá suporte a planos de atualização para o Clustered ONTAP anteriores a 9,0.</block>
   <block id="d429c03a130ff961e12409aee8fa2b9a" category="section-title">Editar uma lista de observação pode levar 60 minutos para refletir no Digital Advisor</block>
   <block id="de1371cd93c5974f25486b1d0496e7ff" category="paragraph">Editar uma lista de observação não atualiza as informações no Digital Advisor imediatamente. Pode levar até 60 minutos para que as alterações reflitam no Digital Advisor.</block>
   <block id="2bdc4897dd362e50492e84b2adbd474b" category="section-title">Um relatório em branco é exibido durante o agendamento de relatórios</block>
@@ -573,16 +530,13 @@
   <block id="91b681e174a782226d26fb4056e14081" category="section-title">Eficiência de storage</block>
   <block id="520e6a90f7dfce96c54641856d8584f2" category="list-text">O rótulo *eficiência de armazenamento*, que exibe a relação de eficiência, é renomeado para *redução de dados*.</block>
   <block id="cc50d008d8b1e1f6ba13bbe127a1bf29" category="list-text">O rótulo *dados salvos pela eficiência de armazenamento* é renomeado para *economia de redução de dados*.</block>
-  <block id="2a88859b894ead28756789553bc66754" category="list-text">A alternância *Poupança sem cópias Snapshot* é renomeada para *com cópias Snapshot*, juntamente com uma alteração na sua funcionalidade. <block ref="3a01d99aaa6c74ce8f92a2ac5ca4e5e9" category="inline-link-macro-rx"></block>.</block>
   <block id="325e4e14529c96a60b99d9cecba4d5a6" category="section-title">21 de junho de 2023</block>
   <block id="7002d0318dc4f195c464ca83f3d2ca86" category="section-title">22 de fevereiro de 2023</block>
   <block id="1c6ca21b0d3e6f38c91e416032c3b178" category="paragraph">É possível exibir a média de operações de leitura, gravação e outras no gráfico de IOPS de volume.</block>
-  <block id="80a2eb22b09cbe781077565f06b74dbf" category="paragraph">A eficiência de STORAGE DE SAN e nas está disponível em um nível de nó para sistemas ONTAP, incluindo AFF A-Series, AFF C190, All SAN Array e FAS500 executando o ONTAP 9.10 e posterior.</block>
   <block id="65ad691748c94924b6f326c7c9439c6f" category="section-title">12 de janeiro de 2023</block>
   <block id="af8ffc565aa8e5b74351ac5b3619d11e" category="section-title">Relatórios de desempenho</block>
   <block id="da1d47d31f2c9af4c95e87ea269228d6" category="paragraph">Você pode visualizar a média de operações de leitura, gravação e outras em relatórios de desempenho em um nível de volume.</block>
   <block id="ae90f5ddd6bedf0784aa3f4496ea1cad" category="section-title">01 de novembro de 2022</block>
-  <block id="8170292c601a72e4a24d3cbac63d8070" category="section-title">Integração com o BlueXP </block>
   <block id="58ca82356452d9a9a7ccfcd96b19f5cf" category="section-title">25 de agosto de 2022</block>
   <block id="3348dcc393bde37af6464ca44f92a231" category="inline-link-macro">Saiba como</block>
   <block id="685c75c1df83c508b4344c2b7bddc69a" category="paragraph">As informações de ativos da VMware sobre vCenters, hosts ESXi e máquinas virtuais agora estão incluídas nos detalhes do inventário, para fornecer verificações completas de inventário e interoperabilidade da pilha. <block ref="a4fd8b50f9fa1d3acd0018ed3d197139" category="inline-link-macro-rx"></block>.</block>
@@ -624,7 +578,6 @@
   <block id="a3b957b59d881117bf09ee6ca7366bb9" category="list-text">Capacidade de gerar um plano de atualização de versão mínimo recomendado.</block>
   <block id="93023f3e4204331d859903eed4894e42" category="list-text">Melhorias nos blocos de verificação de integridade para identificar o número de nós que exigem atenção para cada KPI.</block>
   <block id="a6c3d2af64b360b39a28cdb59292357b" category="paragraph">Pode visualizar os detalhes da configuração da grelha no Visualizador DE grelha.</block>
-  <block id="f668b17ee05cd74c11dbf1d1d949072e" category="paragraph">Os usuários do BlueXP  agora podem abrir links de consultores digitais em novas guias, sempre que aplicável, semelhantes à funcionalidade existente no Consultor Digital.</block>
   <block id="d5fe749824528d36ebfda1e6d68028c4" category="section-title">12 de janeiro de 2022</block>
   <block id="2ffefe6c8c1d57527c2c86448a467c08" category="section-title">Desvio Config</block>
   <block id="1f11edbc13f039765fac872c257a9a13" category="list-text">Você pode clonar um modelo para fazer uma cópia do modelo original.</block>
@@ -671,7 +624,6 @@
   <block id="2fab76159eccef44ca8dd94e1dee4665" category="paragraph">O Painel de controlo da verificação do estado foi melhorado com um separador que apresenta controladores com uma EOS superior a 12 meses.</block>
   <block id="1201772d73bae2bd2ca29d21ab61238f" category="section-title">16 de setembro de 2021</block>
   <block id="e334c16b25916f028d0cccfe5500fd69" category="list-text">O widget ransomware Defense agora faz parte do fluxo de trabalho Wellness em vez de um widget autônomo.</block>
-  <block id="0452e82e921087d7b1a83c2f02b68e57" category="list-text">No e-mail de revisão de bem-estar, você encontrará informações sobre a defesa contra ransomware em vez de renovações.</block>
   <block id="c397a59d56241a37734ccf60bff818c1" category="paragraph">Você pode visualizar os detalhes de capacidade sobre os sistemas NetApp ONTAP Select no Consultor Digital.</block>
   <block id="9ee1a0b7aa28c278380f54797be2bc29" category="paragraph">Você pode visualizar as falhas de cabeamento e outros erros na guia visualização do ClusterViewer.</block>
   <block id="6be3e4cc137acae41c32679736c4a678" category="section-title">06 de setembro de 2021</block>
@@ -695,7 +647,6 @@
   <block id="9d8ce84c0bf081ce006dd3eb8e15fffe" category="section-title">Sinalizador de cluster de modelo misto</block>
   <block id="eb2249e8ced682cca59b7347422fd3ae" category="paragraph">Nos clusters com modelos de hardware misto, a versão do sistema operacional aplicada no cluster é aquela que todos os nós podem usar. Como resultado, a versão do sistema operacional de alguns nós de modelos de hardware mais recentes pode ser downrev de onde eles devem estar. Para tornar esses clusters de modelos mistos mais visíveis, aplicamos um ícone de "modelo misto".</block>
   <block id="cc85a81e9d6e17fbea80420c8dbe7efa" category="section-title">Configuração recomendada/integridade da máquina virtual de storage (SVM): Resumo em nível de volume</block>
-  <block id="3a48ac5fd188547db06b9f51266e7df6" category="paragraph">Ao clicar na caixa azul "Resumo de volume" na tabela SVM, um "pop-out" exibe informações detalhadas sobre os volumes que estão hospedados ou anexados ao número de série específico ou nó físico.</block>
   <block id="a9fc8b0c7515ed8f092626e8b6dfe6ae" category="section-title">12 de julho de 2021</block>
   <block id="5d74c31f1e66f6dedf097f9a9ae5f31d" category="section-title">Firmware do sistema</block>
   <block id="18f3c6e410315e65fda0ade6fb1eb520" category="paragraph">Agora você pode ver informações sobre o firmware do sistema que é fornecido juntamente com as versões principais e de patch do ONTAP. Pode aceder a esta funcionalidade a partir do menu ligações rápidas.</block>
@@ -743,7 +694,6 @@
   <block id="7a02010f1fdbb3243b633245324dbadf" category="list-text">*Widget de inventário:* Veja o inventário dos sistemas StorageGRID disponíveis no nível selecionado.</block>
   <block id="b9928cfa30ad75fb5efb2c79cc8b812e" category="list-text">*Widget de bem-estar:* Veja todos os riscos e ações, incluindo os relacionados ao StorageGRID se eles são aplicáveis com base nas regras de ARS existentes para os sistemas disponíveis.</block>
   <block id="5c9ed548c23a9e1a91cf1c652e779a1a" category="list-text">*Widget de Planejamento:*</block>
-  <block id="b1022932a0a6c2bc62b19907e4e14bea" category="list-text">*Renovações:* para quaisquer sistemas StorageGRID para os quais o contrato de licença tenha expirado ou esteja prestes a expirar nos próximos 6 meses, você será notificado. Você pode selecionar um ou mais sistemas para solicitar a renovação à equipe de suporte da NetApp.</block>
   <block id="c4e80074735e6ff2daec051071dbc429" category="list-text">*Painel de GRADE:* o painel DE GRADE fornece detalhes de bem-estar, Planejamento e configuração para a GRADE selecionada.</block>
   <block id="b71490eeea3abb6f9a0c159a3418dd5e" category="list-text">*Widget de configuração:* fornece detalhes básicos do StorageGRID selecionado no widget, como Nome DA GRADE, Nome do host, número de série, modelo, versão do sistema operacional, Nome do cliente, localização enviada e Detalhes de Contato.</block>
   <block id="a22fe4c7486ab7ffb8d4bc05dcab6336" category="list-text">* Visualizador DE GRADE:* a partir do widget *Configuração*, você pode visualizar a configuração DA GRADE em detalhes clicando no link *Visualizador DE GRADE*. A partir do widget *Configuração*, você pode baixar os Detalhes do Site e os Detalhes da capacidade do StorageGRID selecionado clicando no botão *Download* na tela *Visualizador de Grade*.</block>
@@ -751,7 +701,6 @@
   <block id="666d5831344c81a6bb17a82cba51d507" category="list-text">* Resumo DA GRADE: * Contém informações básicas, como tipo de licença, capacidade da licença, número de nós instalados, termo de suporte (data de término do contrato de licença), nó de administrador principal e local principal do nó de administração principal. Esta guia também fornece o nome do Site e o número de nós de storage marcados sob o site correspondente. Nesta versão, você pode exibir a lista de nomes de nós clicando no hiperlink disponível para visualização de nós de storage para o site correspondente.</block>
   <block id="d2f225914092c41360983fad88f32684" category="list-text">*Guia Detalhes da capacidade:* fornece os detalhes do nível da Grade e da capacidade do Site configurados para a GRADE. Os detalhes da capacidade, como capacidade de armazenamento instalada, capacidade de armazenamento disponível, capacidade de armazenamento total utilizada e capacidade utilizada para dados e metadados. Esses detalhes estão disponíveis nos níveis Grade e Site.</block>
   <block id="67cd8350911a2c5c4d5ea70ff9f7a77e" category="section-title">Consultor da FabricPool</block>
-  <block id="e07c66941c84e7feebe88312021581ff" category="paragraph">O botão dados de categorias foi adicionado ao painel do FabricPool e permite categorizar dados em camadas de storage de objetos de baixo custo usando o NetApp BlueXP .</block>
   <block id="5c1cbbba646e78bf69e01be8602cbe41" category="section-title">Workloads prontos para a nuvem</block>
   <block id="b07b6b80fae4b5c609f71c937ae1f913" category="paragraph">Você pode visualizar os diferentes tipos de workloads que estão disponíveis no sistema de storage e identificar os workloads que estão prontos para a nuvem.</block>
   <block id="e68cf4e683901ace045287e72cebd33c" category="section-title">21 de dezembro de 2020</block>
@@ -760,7 +709,6 @@
   <block id="665aadbe4be879e060b8e8fac4ef8d2d" category="list-text">Perda de sinal: Este widget fornece pontuações e informações sobre os sistemas, que pararam de enviar dados AutoSupport por algum motivo. Ele fornece informações se nenhum dado AutoSupport foi recebido de um nome de host dentro de um período de 7 dias.</block>
   <block id="241b4f2209980b6ad5d063befe23d87b" category="section-title">12 de novembro de 2020</block>
   <block id="8c0d8ca7bc36fd1c788f07ffdf479f1a" category="section-title">Integração de dados usando APIs</block>
-  <block id="109fc841d00ef808e65701bf12c832d9" category="paragraph">Você pode usar as APIs do Digital Advisor para extrair dados de interesse e integrá-los diretamente ao fluxo de trabalho da sua empresa. <block ref="1cadb4b3b896f461880aeba67b4bebd1" category="inline-link-macro-rx"></block>.</block>
   <block id="624736396a8b3a77e9c686953fd15366" category="section-title">Wellness - widget de upgrades</block>
   <block id="8dbd4b3ccf50a85cd67f91386a8bb3d0" category="paragraph">As guias Supervisor de risco aprimorado e Supervisor de Atualização permitem visualizar todos os riscos do sistema e ajudá-lo a Planejar uma atualização para mitigar todos os riscos.</block>
   <block id="202bdb919d7843a2b9915cfbbdc58b90" category="paragraph">O widget Configuração recomendada foi adicionado ao painel e fornece um resumo sobre o número de sistemas monitorados quanto a riscos de gerenciamento remoto, peças sobressalentes e falhas de unidades e riscos de par de HA.</block>
@@ -805,7 +753,6 @@
   <block id="5a0f42f64fb533926accae7152c26173" category="section-title">19 de maio de 2020</block>
   <block id="c43f08e4b3393556316dfdcf0ac2adec" category="section-title">Defina a página inicial padrão</block>
   <block id="242af7c119838a4ad767c52325947075" category="paragraph">Agora você pode definir a tela inicial padrão para o Digital Advisor. Você pode configurá-lo para Digital Advisor ou Classic.</block>
-  <block id="99019cd797a33c2f1f0354aa51829694" category="paragraph">Você pode visualizar a taxa de eficiência de storage e a economia do seu sistema de storage com e sem cópias Snapshot para sistemas AFF, sistemas que não são AFF ou ambos. Você pode visualizar as informações de eficiência de storage em um nível de nó. <block ref="a712d09976009a64cc618b068e6daeda" category="inline-link-macro-rx"></block>.</block>
   <block id="5c38b1bfe8fc19ace289c4b181898cc3" category="paragraph">Os gráficos de desempenho permitem avaliar o desempenho dos seus dispositivos de armazenamento em diferentes áreas significativas.</block>
   <block id="79a857f77fa2d44ca5fa8f7eb514d82b" category="section-title">Atualizações de firmware do AFF e do FAS com o Playbook do Ansible</block>
   <block id="71bfa4dc9b5da9a689d2f3e561ce94a2" category="paragraph">Atualize o firmware do AFF e do FAS usando o Ansible no seu sistema de storage para reduzir os riscos identificados e manter seu sistema de storage atualizado.</block>
@@ -931,8 +878,6 @@
   <block id="a789bbd5cd15d75a39f05ef8f875cf51" category="summary">Fornece informações para renovar o software e o hardware do seu sistema de storage.</block>
   <block id="d05dbf74dd4a436186ee08c15e9b81d8" category="paragraph">Você pode visualizar os detalhes de capacidade e a economia de eficiência de storage do seu sistema e tomar as medidas apropriadas. As informações de capacidade e eficiência de storage podem ser visualizadas no nível do cluster ou no nível de nó.</block>
   <block id="17c1d72dbea38c3c03aed0e08dbb37f9" category="admonition">Esse recurso não é suportado em sistemas e-Series.</block>
-  <block id="1b7b69815feec90db643b8ced3964b38" category="paragraph">O painel capacidade exibe os detalhes da capacidade e a previsão de capacidade do seu sistema. A previsão de capacidade usa informações históricas de capacidade para identificar a utilização de cada sistema. Com base nos dados históricos (dados de um ano, se disponíveis) da capacidade utilizada e alocada, o algoritmo considera a utilização atual de cada sistema e gera uma previsão para a utilização do sistema nos próximos 1 a 6 meses.</block>
-  <block id="49e5c79c17d604001b21c104016f13ab" category="paragraph">O dashboard de eficiência de storage exibe a taxa de redução de dados, o espaço lógico usado, o espaço físico usado e o total de dados salvos para sistemas de storage que executam o ONTAP 9.1 e posterior. A taxa de redução de dados e a economia podem ser vistas com e sem cópias Snapshot para sistemas AFF, sistemas que não sejam AFF ou ambos. A economia total de dados no storage do cliente pode ser vista por recurso de eficiência, como deduplicação de volume, compressão de volume, compactação, volumes FlexClone e cópias Snapshot. Você pode visualizar os 5 principais sistemas de storage com a melhor taxa de eficiência. Também é possível visualizar a eficiência de SAN e nas sem cópias Snapshot em um nível de nó para sistemas ONTAP, incluindo AFF A-Series, AFF C190, All SAN Array e FAS500 executando o ONTAP 9.10 e posterior.</block>
   <block id="ee810de9566deba98dbe4a46fbcf7410" category="list-text">No painel esquerdo, clique em *capacidade e eficiência*.</block>
   <block id="672a98e16d598ad5d32b32f96bbf4db5" category="paragraph">Por padrão, a guia *capacidade* está selecionada.</block>
   <block id="283c169bd8b723905691a0368b1eaf2a" category="list-text">Veja os detalhes da capacidade no nível do cluster e do nó.</block>
@@ -1111,7 +1056,6 @@
   <block id="170bb6f16db0d4bbf5962cd0bdb83cdc" category="list-text">Clique em *Editar* para atualizar os detalhes da lista de observação.</block>
   <block id="71c11d072ed3800acd07298b9da0447f" category="list-text">Clique em *Excluir* para excluir a lista de observação.</block>
   <block id="994ea9e16920acdbe0ac6e35ae6fffad" category="paragraph">Ao fazer login no Digital Advisor, você pode exibir as *ações* destacadas no widget *Defesa de Segurança e ransomware*, que mostra a contagem de riscos.</block>
-  <block id="a65c2a1d83d8e29315151edd9cb20614" category="paragraph">Você pode visualizar os riscos de criação, retenção e FPolicy do ONTAP do Snapshot e, em seguida, tomar medidas para corrigi-los.</block>
   <block id="e8563fdf2c4612622ba50a5e8cfcb99a" category="list-text">Clique em *ações* no widget *Security &amp; ransomware Defense*.</block>
   <block id="4d7b0b036dd7f28233ff7e59c3c1dbf5" category="list-text">Desmarque a caixa de verificação *Vulnerabilidades de segurança*.</block>
   <block id="5e0e2c126796ee31f891f0f923d864f9" category="list-text">Para os riscos apresentados, verifique o nível de impactos e siga as acões recomendadas.</block>
@@ -1139,7 +1083,6 @@
   <block id="ae60d74a912ddc26168a3645463cc941" category="list-text"><block ref="ae60d74a912ddc26168a3645463cc941" category="inline-link-macro-rx"></block></block>
   <block id="5c5c784bf4fbab90a4f6348de576d5da" category="inline-link-macro">Instalar o Ansible 2,9 com coleções no seu sistema de storage</block>
   <block id="801b554762e480a183c2424cbe8c2fb6" category="list-text"><block ref="801b554762e480a183c2424cbe8c2fb6" category="inline-link-macro-rx"></block></block>
-  <block id="b6b47e144c6cacc9e6c8bdaafc85da05" category="list-text">Atualize seu sistema de storage para o ONTAP 9.1 ou posterior</block>
   <block id="15236e2742dc8cb603caee435694fbe2" category="list-text">Configure sua conta com uma função de administrador</block>
   <block id="ffc6cdcd4e33637452d7cabcc86954ab" category="list-text">Clique em qualquer widget de bem-estar no painel ou clique em *Exibir todas as ações* para ver uma lista de todas as ações e riscos.</block>
   <block id="cd6050a6bccf4f0492eade7e0a8b22b4" category="list-text">Clique em *Atualização de firmware* para ver todos os riscos de atualização de firmware.</block>
@@ -1224,7 +1167,6 @@
   <block id="26ae7bdd1d6fb8c4886e6fde8d12601c" category="cell">Latência</block>
   <block id="363feef65df9d9b2c15feec5eeae6961" category="cell">Utilização média</block>
   <block id="52d04ac041f40e180ee13d2d46edbfc6" category="cell">Protocolo de IOPS</block>
-  <block id="8ab2cb8f529884d0aa70d068b846421e" category="admonition">Os gráficos de latência do nó, nível local (agregado) e desempenho de volume são compatíveis apenas em sistemas que executam o ONTAP 9.2 e versões posteriores.</block>
   <block id="194a23f51af9ff2576303b43382ec1b9" category="list-text">Os seguintes gráficos de desempenho com as métricas necessárias estão disponíveis para os controladores e-Series:</block>
   <block id="cc2748501c3e7b4010b19883a07f8053" category="list-text">Utilização de CPU</block>
   <block id="0b85467ebafa7ca3c47e82dc38184484" category="list-text">Taxa de transferência</block>
@@ -1330,7 +1272,6 @@
   <block id="cb8da66b45b686427a31e5d56a8122db" category="cell">Logística de entrega</block>
   <block id="d0606acb5c07dedf89ff7c2b06144f81" category="cell">Fornece informações sobre a logística de entrega de produtos e serviços.</block>
   <block id="fbd781a535485932684e2fdb756c3913" category="cell">Resumo executivo da avaliação de integridade</block>
-  <block id="0cb0fa6009199e89058c343d1d127fda" category="cell">Fornece informações sobre vários KPIs do Active IQ em um formato PowerPoint (PPT), com diferentes KPIs sendo descritos em diferentes slides.</block>
   <block id="83009b6eb15f65a7b4a558c0e23269c3" category="cell">Periódico Digest</block>
   <block id="f4786124ed46b14b49d37f9f8c042ce4" category="cell">Resume periodicamente as principais métricas e insights. Ele inclui dados sobre performance, capacidade e eficiência do sistema.</block>
   <block id="17b58822f294ceb27e2330591b9224e4" category="cell">Fornece informações sobre as várias lacunas de configuração recomendadas para configuração de gerenciamento remoto, peças sobressalentes e unidades, par de HA, integridade do SVM, status da bateria e avisos de guru de recuperação.</block>
@@ -1368,10 +1309,7 @@
   <block id="617f2d0adf2001440f244bf5c45be277" category="inline-link-macro">Aprenda como visualizar o suporte intitulado switches</block>
   <block id="ef3139c75debdd9ee259a4ea386083d3" category="paragraph">Agora você pode visualizar informações sobre os switches SAN Fibre Channel Brocade que têm direito a suporte. Isso inclui detalhes sobre o modelo do switch, número de série e status de suporte. <block ref="de42528af60c9393a2c8b32539c694f1" category="inline-link-macro-rx"></block> .</block>
   <block id="56f48a0b7ef64f3dcd95534228f6c5f3" category="paragraph">Indicadores ambientais que fornecem insights sobre a saúde ambiental dos seus sistemas de armazenamento agora fornecem valores mais precisos para uso de energia projetado, uso direto de carbono e emissão de calor com base em um modelo preditivo avançado. Para saber mais, consulte<block ref="a9f485271892e0176d2cdaee960db816" category="inline-link-macro-rx"></block> .</block>
-  <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXP agora é NetApp Console</block>
-  <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">O NetApp Console, criado com base na base aprimorada e reestruturada do BlueXP , fornece gerenciamento centralizado do armazenamento NetApp e do NetApp Data Services em ambientes locais e na nuvem em nível empresarial, fornecendo insights em tempo real, fluxos de trabalho mais rápidos e administração simplificada, de forma altamente segura e compatível.</block>
   <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link">Notas de versão do NetApp Console</block>
-  <block id="377c338b114283d24b3f1ef1a73bd1a9" category="paragraph">Para obter detalhes sobre o que mudou, consulte o<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block> .</block>
   <block id="72f7167f9069924b2f82beb448023d6b" category="list-text">Veja a pontuação de sustentabilidade e o uso projetado de energia, carbono direto e calor.  Com base na pontuação de sustentabilidade, avalie a eficiência geral dos seus sistemas de armazenamento e alinhe-a com as ações recomendadas pela NetApp para melhorar a pontuação. <block ref="88471609a02ffbaf7f222a2aedb3d7f2" category="inline-link-macro-rx"></block> .</block>
   <block id="a9aa66a7b3cfc4542dbfc9211a6c428b" category="summary">O Digital Advisor agora está totalmente integrado ao NetApp Console.  Agora você pode gerenciar seus clusters e acessar todos os recursos do Digital Advisor na interface do usuário (IU) do NetApp Console.</block>
   <block id="ab8fdb90e4f7afafc378a1b57c166a3f" category="paragraph">O Digital Advisor agora está totalmente integrado ao NetApp Console.  Agora você pode gerenciar seus clusters e acessar todos os recursos do Digital Advisor na interface do usuário (IU) do Console.</block>
@@ -1379,14 +1317,10 @@
   <block id="3c031b939f6ec312ee601d021e7a6644" category="section-title">Console NetApp</block>
   <block id="fc5428c3e9353a1232f1b8d1121de46a" category="paragraph">O Digital Advisor pode ser acessado pelo NetApp Console.</block>
   <block id="0a0979a6d279475a420ea5c279943daa" category="paragraph">O NetApp Console fornece gerenciamento centralizado de serviços de armazenamento e dados da NetApp em ambientes locais e na nuvem em nível empresarial.  O Console é necessário para acessar e usar os serviços de dados do NetApp .  Como uma interface de gerenciamento, ele permite que você gerencie muitos recursos de armazenamento a partir de uma única interface.  Os administradores do console podem controlar o acesso ao armazenamento e aos serviços de todos os sistemas da empresa.</block>
-  <block id="7118a6b22768dabe4720d84710ea1e43" category="paragraph">Você não precisa de uma licença ou assinatura para começar a usar o NetApp Console e só incorrerá em cobranças quando precisar implantar agentes do Console na sua nuvem para garantir a conectividade com seus sistemas de armazenamento ou serviços de dados do NetApp .  No entanto, alguns serviços de dados da NetApp acessíveis pelo Console são licenciados ou baseados em assinatura.</block>
-  <block id="4d0bb76e32bfe205406b10f5dfa9d47b" category="paragraph">Saiba mais sobre o<block ref="e6368f2dd82be1e975475a1098863578" category="inline-link-rx"></block> .</block>
   <block id="be1012f6c753487e150ce4e491128d61" category="section-title">Acesse o Digital Advisor no NetApp Console</block>
   <block id="d22b3faa7b5960ccee52656e53fbe17c" category="paragraph">Você pode acessar o Digital Advisor pelo Console para gerenciar seu cluster.</block>
   <block id="bccaa4aa80831b76c11240a16447975f" category="inline-link-macro">Console</block>
   <block id="70eb71406501e224ffe5e1e4571fcc65" category="list-text">Abra um navegador da web e vá para o<block ref="24972d13214bf960aed8a7602883d866" category="inline-link-macro-rx"></block> .</block>
-  <block id="5bf5d855aa43f8908638c956b6a6ef8b" category="paragraph">Se você já criou um login no Console usando um e-mail e uma senha, será necessário continuar usando essa opção de login.</block>
-  <block id="e55f1920f154b5cf14dc8dc4428d7185" category="paragraph">Este login é diferente do login concluído na etapa 2.  Na etapa 2, você fez login no Console.  Agora você está efetuando login no Digital Advisor.</block>
   <block id="251a116e3518821c4cb40f8abb066a2f" category="summary">Comece a usar o painel de sustentabilidade acessando o NetApp Console ou o Digital Advisor.</block>
   <block id="eb78fdcbf8bbae675c7ee0f97a884a74" category="paragraph">O painel de sustentabilidade fornece relatórios e pontuações habilitados para AIOps com insights acionáveis ​​para melhorar sua postura de sustentabilidade.  Você pode acessar o painel de sustentabilidade por meio do NetApp Console ou do Digital Advisor.</block>
   <block id="f5d302c73eacff7b76d482bf489706b0" category="inline-link-macro">fazendo login no Console</block>
@@ -1403,12 +1337,10 @@
   <block id="daaa41b894b4479d1b6d9615f338eeb9" category="admonition">Você pode adicionar ou remover os parâmetros ambientais na tabela *Sistemas* usando o<block ref="2152c38f4a2771e87024e1e087a05f24" category="inline-image-macro-rx" type="image"></block> ícone e pode exportar esta tabela no formato de valores separados por vírgula (.csv) usando o<block ref="12f258362dcb80dcb781736a1d5e0dbf" category="inline-image-macro-rx" type="image"></block> ícone.</block>
   <block id="18e85132fdad5a7fcc03bc34aefafe82" category="list-text">Acesse *Sustentabilidade* disponível na navegação à esquerda do painel do Digital Advisor .</block>
   <block id="07837f561e3ee48313730477a0ce7e0f" category="paragraph">A sustentabilidade permite que você reduza o consumo de energia e trabalhe para atingir seus objetivos ambientais.  Isso permite que você alinhe seus sistemas de armazenamento com práticas ecológicas e alcance as metas de sustentabilidade.</block>
-  <block id="6fed10fa3a6c658947e3629cf7d4000f" category="paragraph">Você pode visualizar a pontuação de sustentabilidade e o uso projetado de energia, carbono direto e calor no painel de Sustentabilidade.  Você pode ajustar a porcentagem de mitigação de carbono para locais específicos.  Você também pode visualizar a pontuação de sustentabilidade no nível do cluster.  Com base na pontuação de sustentabilidade, você pode avaliar a postura de sustentabilidade e implementar as ações recomendadas pela NetApp para melhorar a pontuação.  Para saber mais sobre o painel de Sustentabilidade, acesse<block ref="ad420490bfb0f9b164f2afe15fdac1a6" category="inline-link-macro-rx"></block> .</block>
   <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">06 de outubro de 2025</block>
   <block id="1ca03fcdf1edff8f13c5ab3d96f71ef4" category="paragraph">A sustentabilidade agora é suportada nos sistemas E-Series e StorageGRID .  Você pode visualizar uma lista de ações recomendadas e indicadores ambientais que exibem projeções de energia, uso direto de carbono e calor no painel de Sustentabilidade desses sistemas. Para saber mais, consulte<block ref="324fa1323a5d1b555b99e90b4dfa69b7" category="inline-link-macro-rx"></block> .</block>
   <block id="e0bce4b165696e8af8dc9f23db141bb9" category="list-text">O fluxo de trabalho de Bem-estar agora inclui o widget Sustentabilidade, que fornece a contagem de ações recomendadas nos níveis de cliente, lista de observação, site e grupo.  Você pode clicar no número de ações para obter uma visão detalhada dessas ações recomendadas no painel de Sustentabilidade. Para saber mais, consulte<block ref="0cf51c2fcac81ed872c11f6f85a6fa1e" category="inline-link-macro-rx"></block> .</block>
   <block id="c0271ca41d216c76fc4707af387b19ff" category="paragraph">O painel de sustentabilidade fornece insights valiosos sobre a sustentabilidade ambiental do seu sistema de armazenamento.  Você pode visualizar informações como pontuação de sustentabilidade, porcentagem de mitigação de carbono, uso projetado de energia, carbono direto e calor.  Você pode ajustar a porcentagem de mitigação de carbono para locais específicos.  Você também pode visualizar a pontuação de sustentabilidade no nível do cluster.  Com base na pontuação de sustentabilidade, você pode avaliar a eficiência geral do seu sistema de armazenamento e alinhá-lo com as ações recomendadas pela NetApp para aumentar a sustentabilidade. <block ref="573ac558e55731509c8353e25f1ec473" category="inline-link-macro-rx"></block> .</block>
-  <block id="fb15b2b9b96abb2a3da191b2524b19ae" category="paragraph">O Active IQ Digital Advisor está sendo alterado para Digital Advisor e agora está integrado ao BlueXP, o console de gerenciamento unificado da NetApp para ambientes multicloud híbridos. <block ref="7cc56b953de24cf166f6b18ad0920a18" category="inline-link-macro-rx"></block> .</block>
   <block id="f33417edb722273e609d7466e4031b36" category="summary">Fornece informações sobre o painel, pontuação de sustentabilidade, sistemas e ações recomendadas.</block>
   <block id="cc3f62c281ad35f63b6650989fb52283" category="paragraph"><block ref="cc3f62c281ad35f63b6650989fb52283" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e24b0640f322a3589a6a2425105a8a7b" category="paragraph">*Sistemas*: Exibe parâmetros ambientais na tabela que podem ajudar a identificar clusters para migração para um armazenamento mais eficiente.  A partir desta tabela, você pode:</block>
@@ -1563,9 +1495,7 @@
   <block id="ae7c8af4913d5ed60eee9eba144d34f2" category="paragraph">Se você deseja identificar se uma atualização do sistema é recomendada para o seu contrato de suporte técnico ou hardware, pode usar a opção de atualização do sistema.</block>
   <block id="b673e7cded650c08d6c0289225510337" category="paragraph">Você pode acessar esse recurso por meio do Lifecycle planning (*Storage* &gt; *Lifecycle planning*) ou por meio do Digital Advisor (*Dashboard &gt; Planning widget &gt; System Refresh*).</block>
   <block id="dcd5d8e34e28517df35c9ef34326b7f8" category="inline-link-macro">Avalie uma atualização do sistema</block>
-  <block id="4b6c29e1e0ca5888882f9afb85d41460" category="paragraph">Para obter mais informações sobre esse recurso, consulte <block ref="60246966bc8fb02ea32471ffe11e7654" category="inline-link-macro-rx"></block> na documentação do Console.</block>
   <block id="ded0a309adbbd30fc9482b49a9ac79cd" category="section-title">3 de junho de 2026</block>
-  <block id="2014a31fd7c5aa735efd9b3eab46bae2" category="list-text">*Aumento de Capacidade:* Você será notificado caso algum site GRID ultrapasse o limite de 70% da capacidade existente. Você terá a opção de adicionar capacidade para os StorageGRIDs no site, para os próximos 1, 3 e 6 meses, se houver probabilidade de o limite de capacidade ultrapassar 70%.</block>
   <block id="0cd056bd26e169de7bcb1a020c6b1264" category="list-text">No widget *Planejamento*, clique em *Expansão de storage*.</block>
   <block id="2e703d88e9f579295840057715d9e123" category="list-text">Clique em *Enviar* para enviar a solicitação à equipe de armazenamento da NetApp para auxiliar na expansão de storage dos sistemas selecionados.</block>
   <block id="9db2bee503b4dd39ee519c9d3147cd82" category="list-text">Clique em *Support Renewals* no widget *Planning*.</block>
@@ -1594,5 +1524,71 @@
   <block id="593b7503b2bb0ab3939f80c599e28d01" category="section-title">15 de julho de 2026</block>
   <block id="0e1f11a16da786670316988e6939f0dc" category="paragraph">Você pode se inscrever para receber o e-mail de revisão de bem-estar e receber um e-mail mensal que resume o status de bem-estar, os sistemas de armazenamento que estão próximos das datas de renovação e os sistemas de armazenamento que exigem uma atualização para os produtos NetApp na sua base instalada. Você receberá um e-mail de revisão de bem-estar para que possa visualizar um resumo mensal e tomar medidas para seus sistemas de armazenamento.</block>
   <block id="5dc75508ba4ef965dd5e67e824749acf" category="paragraph">Você também tem opções para visualizar, editar, compartilhar e excluir suas assinaturas. A qualquer momento, se você decidir que não deseja mais receber e-mails, também pode cancelar a assinatura de e-mails.</block>
-  <block id="9700c329d00878c280440dc2e026802a" category="summary">Veja as recomendações de atualização do firmware de storage, firmware de SP e BMC, arquivos de sistema e arquivos de segurança.</block>
+  <block id="03c5b42b885a94fc682f43b75d5086a9" category="doc">NetApp Console (anteriormente conhecido como BlueXP)</block>
+  <block id="096e72f185cd5ba74fed5d48c1f555a9" category="paragraph">O NetApp Console, construído sobre a base aprimorada e reestruturada do NetApp Console, oferece gerenciamento centralizado do storage NetApp e dos NetApp Data Services em ambientes locais e em nuvem com nível empresarial, proporcionando insights em tempo real, fluxos de trabalho mais rápidos e administração simplificada, com alta segurança e conformidade.</block>
+  <block id="9a46da86154f0e764fc998d06fe64b60" category="paragraph">Para obter detalhes sobre o que mudou, consulte o <block ref="55233a601a39d3cf31ec58df3f760d9b" category="inline-link-rx"></block>.</block>
+  <block id="7d6ce3bee9fd5da819af4cfb0b2ade4f" category="list-text">*AutoSupport Adoption*: Exibe o número e a porcentagem de sistemas com AutoSupport ativado. Você também pode visualizar os sistemas marcados como "Declined", aqueles com *HTTPS* e *AutoSupport on Demand* ativados, assim como *Loss of Signal* para os sistemas que pararam de enviar dados do AutoSupport nos últimos 7 dias. Para visualizar sua pontuação de verificação de integridade e informações sobre os sistemas em sua base instalada, clique no widget *AutoSupport Adoption*.</block>
+  <block id="3730e1e889435130618fcdb87bf46f1c" category="cell">Compatível apenas com ONTAP</block>
+  <block id="1e6ddc0aa4336129b8430dfbbb3741bb" category="admonition">Todas as plataformas significa ONTAP, E-Series, StorageGRID, ONTAP Select e Cloud Volumes ONTAP.</block>
+  <block id="ba541209b2d31087fd8081e9f1a7235f" category="list-text">*Corrigir:* Corrige os riscos para o sistema usando Active IQ Unified Manager. Clique neste botão para iniciar Unified Manager e executar as etapas para mitigar os riscos.</block>
+  <block id="a7c3a3c652c30011db60f3b6078330ce" category="list-text">*Eficiência de storage:* Identifica a taxa de eficiência de storage e a economia do seu sistema de storage com e sem cópias de snapshot para sistemas AFF, sistemas não-AFF ou ambos.</block>
+  <block id="57fd96c602ee5183b4c64c101687c0a4" category="list-text">*Serviços de API:* Permitem extrair dados de interesse e integrá-los diretamente ao fluxo de trabalho da sua empresa.</block>
+  <block id="fd7b263f8186cddb5aa64a9ee6549eec" category="list-text">*Cliente:* Permite que você visualize e gerencie a base instalada do cliente. O Painel do Cliente é o portal central do Digital Advisor.</block>
+  <block id="729605c82c0bbf0ebd4f4377813faf0a" category="cell">Fornece informações sobre vários KPIs do Digital Advisor em formato PowerPoint (PPT), com diferentes KPIs descritos em slides diferentes.</block>
+  <block id="05801be000263018d476e6ba066f50ea" category="list-text">Visualize a taxa de redução de dados, o espaço lógico utilizado, o espaço físico utilizado e o total de dados economizados.</block>
+  <block id="874065797510ef71853078d085cab4b0" category="paragraph">Você não precisa de licença ou assinatura para começar a usar NetApp Console e só incorre em custos quando precisa implantar agentes do Console em sua nuvem para garantir a conectividade com seus sistemas de armazenamento ou NetApp data services. No entanto, alguns NetApp data services acessíveis pelo Console são licenciados ou baseados em assinatura.</block>
+  <block id="1a90436cad6b2c834a6f0bf4b63bb676" category="paragraph">Saiba mais sobre o <block ref="185be9890bef04443cd0fba90b4aff11" category="inline-link-rx"></block>.</block>
+  <block id="53c621ae7df9116f8ec407452e8efdbb" category="paragraph">Se você já criou um login no Console usando um e-mail e uma senha, então será necessário continuar usando essa opção de login.</block>
+  <block id="51603e563844ec78e7e14a188fd184f2" category="paragraph">Este login é diferente do login realizado na etapa 2. Na etapa 2, você fez login no Console. Agora você está fazendo login no Digital Advisor.</block>
+  <block id="eb4c4556f1e58a659f927289beefed42" category="paragraph">Para obter mais informações sobre esse recurso, consulte <block ref="c9db3d27e451d67dba90184b9b5622ce" category="inline-link-macro-rx"></block> na documentação do Console.</block>
+  <block id="92f74741b9959f2b8786b8d7b3059c90" category="paragraph">Você pode visualizar a pontuação de sustentabilidade e a projeção de consumo de energia, carbono direto e calor no painel de Sustentabilidade. Você pode ajustar a porcentagem de mitigação de carbono para sites específicos. Você também pode visualizar a pontuação de sustentabilidade no nível do cluster. Com base na pontuação de sustentabilidade, você pode avaliar a postura de sustentabilidade e implementar as ações recomendadas da NetApp para melhorar a pontuação. Para saber mais sobre o painel de Sustentabilidade, acesse <block ref="ad420490bfb0f9b164f2afe15fdac1a6" category="inline-link-macro-rx"></block>.</block>
+  <block id="b624efa5cd5831fb1d5596ba38fe16f7" category="paragraph">Sim, Digital Advisor exibe índices para todos os sistemas ONTAP.</block>
+  <block id="aa21fcf62250f4d3f0ad1ad5dbb93684" category="paragraph">*O que é a opção "Com cópias de snapshots" no painel de eficiência?*</block>
+  <block id="7c1596561a20622c6421671b4004ef67" category="paragraph">O painel de eficiência do Digital Advisor calcula a razão de redução de dados em vários níveis, incluindo cliente, site, grupo, cluster e nó. Se você ativar a opção *Com cópias de snapshot*, o cálculo da razão de redução de dados incluirá as seguintes tecnologias de eficiência de storage:</block>
+  <block id="3449d54ebb7743bfc41d56127465f788" category="paragraph">Por padrão, o cálculo da taxa de redução de dados não inclui tecnologia de eficiência de storage de snapshots.</block>
+  <block id="dc18671c8ac768094a8eceee997d8206" category="list-text">Inclui o espaço usado pelas cópias de snapshot do agregado</block>
+  <block id="ecee7cf76c131bce9c79b4b445548b50" category="list-text">Isso inclui volumes, clones e snapshots no agregado.</block>
+  <block id="f598a38eae9b19934d4734c48d6c184e" category="paragraph">O painel de eficiência de storage em nível de cliente fornece a taxa de redução de dados com e sem cópias de snapshot para sistemas AFF e não-AFF, e são combinados em toda a base instalada do cliente. Os parâmetros necessários para os cálculos a seguir são obtidos do ONTAP AutoSupport:</block>
+  <block id="8be3c4972895cb750e7d1545a84cae53" category="paragraph">Sem cópias instantâneas (calculado primeiro por Aggr):</block>
+  <block id="8699da88f887f27157f0d8de19ecd4c0" category="cell">Aggr lógico usado sem cópias de snapshot</block>
+  <block id="f31b4c494b555a36aca7fdc6249631eb" category="cell">Tamanho lógico usado por volumes, clones e cópias de snapshot no agregado – Tamanho lógico usado por cópias de snapshot</block>
+  <block id="ec3132bbe2406c82db49707e0f19b733" category="cell">Aggr físico usado sem cópias de snapshot</block>
+  <block id="60a1c30b93883611ccf2331a39b65b47" category="cell">Total de espaço físico utilizado (Tamanho físico utilizado pelas cópias instantâneas / Taxa de redução de dados agregada)</block>
+  <block id="19523cdb9890b6c04a57e90e3afad053" category="cell">Índice de Eficiência do Cliente sem cópias snapshot</block>
+  <block id="924a9f5bb78f486cf0b6146377a782a4" category="cell">Soma [Uso lógico do agregado sem cópias de snapshot para todos os agregados e para todos os nós de um cliente] / Soma [Uso físico do agregado sem cópias de snapshot para todos os agregados e para todos os nós de um cliente]: 1</block>
+  <block id="64b706fea0ebc99d0ec25de4338a3336" category="paragraph">Com cópias instantâneas:</block>
+  <block id="2da26b7d02f4f3f1a5ee2ab38444b452" category="cell">Tamanho lógico do cliente com cópias de snapshot</block>
+  <block id="bad4044d371664f2415d2264532aafe4" category="cell">Soma [Tamanho lógico usado por volumes, clones, cópias de snapshot para todos os agregados e para todos os nós de um cliente]</block>
+  <block id="ded18883ed012593f39f0cb85406ba6e" category="cell">Tamanho físico do cliente usado com snapshot copies</block>
+  <block id="556a71abb60368aa19e053fe0c6425b2" category="cell">Índice de eficiência do cliente com cópias snapshot</block>
+  <block id="5ad6fd88c67d2f747e3cb192dc23722e" category="cell">Tamanho lógico do cliente com cópias de snapshot e clones / Tamanho físico do cliente usado com cópias de snapshot e clones : 1</block>
+  <block id="2fd9b8396f5cfa5d207f028308c0a691" category="cell">Tamanho lógico do cliente usado sem cópias de snapshot</block>
+  <block id="f511ea9bc03aa281621a5ed459cbe3c5" category="cell">Soma do tamanho lógico usado por volumes, clones e cópias de snapshot - tamanho lógico usado por cópias de snapshot para todos os agregados de todos os nós de um cliente</block>
+  <block id="99f1f407245a73f2e52dc0516700b1d4" category="cell">Tamanho lógico do cliente usado com cópias de snapshot</block>
+  <block id="1c7b695bec8cb63b774940bea7e08df1" category="cell">Soma do tamanho lógico usado por volumes, clones e cópias de snapshot no agregado para todos os agregados de todos os nós de um cliente</block>
+  <block id="c8fcef6ef9da5513972a1ae959911375" category="cell">Soma de (Tamanho Lógico usado pelas cópias de snapshot - Tamanho Físico usado pelas cópias de snapshot) de todos os agregados de todos os nós de um cliente</block>
+  <block id="efb492f880e7c0d2d44315e144bf6184" category="paragraph">*Como as capacidades são calculadas no Digital Advisor?* As capacidades no Digital Advisor são calculadas para cluster e nó, excluindo a raiz e incluindo cópias de snapshot</block>
+  <block id="793f7fde2f13274833e3854bacf92203" category="cell">Tamanho lógico usado por volumes, clones e cópias de snapshot no agregado de "AGGR-EFFICIENCY.XML"</block>
+  <block id="266a9e94309647563ad313e8d3bc1905" category="paragraph">*Para camada local (aggregate com cópias de snapshot)*</block>
+  <block id="2535aca3fd66300e3669db36061fbd17" category="paragraph">*Para Volume (Volume com cópias instantâneas)*</block>
+  <block id="4e120127561301cb3c475983093b3ec0" category="list-text">O agregado inclui volumes, clones e cópias instantâneas.</block>
+  <block id="43f936f277529ec87f2d4975d0ca9dc2" category="list-text">A soma de todo o espaço usado ou reservado no agregado por volumes, metadados ou cópias instantâneas</block>
+  <block id="e45cbb9ba1cce708236dcc659175f496" category="paragraph">*Por que a Capacidade Utilizada adicional de cada volume não corresponde à Capacidade Utilizada agregada no nível do nó?* A Capacidade Utilizada no nível do nó inclui o espaço reservado por volumes, metadados e cópias de snapshot. Também inclui o espaço reservado para volumes, do tipo arquivo ou garantia de volume. Portanto, os dois valores podem não coincidir.</block>
+  <block id="03a5f3ddae5fd6b026773636a8ca0009" category="list-text">A opção *Salvar sem backups instantâneos* foi renomeada para *Com cópias instantâneas*, juntamente com uma alteração em sua funcionalidade. <block ref="3a01d99aaa6c74ce8f92a2ac5ca4e5e9" category="inline-link-macro-rx"></block>.</block>
+  <block id="4cd079cf19920ecfc0164e586d40e795" category="paragraph">A eficiência de storage SAN e NAS está disponível, em nível de nó, para sistemas ONTAP, incluindo AFF A-Series, AFF C190, All SAN Array e FAS500.</block>
+  <block id="d507c23704c3e103d5201e1a43b0828e" category="section-title">Digital Advisor integrando-se ao NetApp Console</block>
+  <block id="8de0b8b02d2bfd48482512c91fa6e18e" category="paragraph">Active IQ Digital Advisor está sendo alterado para Digital Advisor e agora está integrado ao NetApp Console, o console de gerenciamento unificado da NetApp para ambientes híbridos multicloud. <block ref="7cc56b953de24cf166f6b18ad0920a18" category="inline-link-macro-rx"></block>.</block>
+  <block id="c37f219aa571929728262a5acf740a28" category="paragraph">NetApp Console agora permite que você abra links do Digital Advisor em novas guias, sempre que aplicável, de forma semelhante à funcionalidade já existente no Digital Advisor.</block>
+  <block id="a6c74eb040ea726fb2c4e5feca0368c2" category="list-text">No e-mail de Avaliação de Bem-Estar, você encontrará informações sobre a Defesa contra Ransomware em vez de Renewals.</block>
+  <block id="b6eeb808a3c1a36cdf1c37ebd476b922" category="paragraph">Ao clicar na caixa azul "Resumo do Volume" na tabela SVM, uma janela pop-up exibe informações detalhadas sobre os volumes que estão hospedados ou associados ao número de série ou nó físico específico.</block>
+  <block id="b9cf4e905e96b235770e49865f22f11e" category="list-text">*Aumento de capacidade:* você será notificado caso algum site GRID ultrapasse o limite de 70% da capacidade existente. Você terá a opção de adicionar capacidade para os StorageGRIDs no site, para os próximos 1, 3 e 6 meses, se houver probabilidade de o limite de capacidade ultrapassar 70%.</block>
+  <block id="599bbd3b519be9802a8dfd330b44eee9" category="list-text">*Renovação:* Para qualquer sistema StorageGRID cujo contrato de licença tenha expirado ou esteja próximo da expiração nos próximos 6 meses, você será notificado. Você pode selecionar um ou mais sistemas para solicitar à equipe de suporte da NetApp a renovação.</block>
+  <block id="5e3cf62c27b7f1398ad383a1c7dab255" category="paragraph">O botão Tier Data foi adicionado ao painel do FabricPool e permite que você faça tier dos dados para camadas de storage de objetos de baixo custo usando o NetApp Console.</block>
+  <block id="6af6c61735431a6255a872b1464ad115" category="paragraph">Você pode usar as APIs do Digital Advisor para extrair dados de seu interesse e integrá-los diretamente ao fluxo de trabalho da sua empresa. <block ref="1cadb4b3b896f461880aeba67b4bebd1" category="inline-link-macro-rx"></block>.</block>
+  <block id="c411645bc88deb98a18a62a7fdb66c40" category="paragraph">Você pode visualizar a taxa de eficiência de storage e a economia do seu sistema de storage com e sem cópias de snapshot para sistemas AFF, sistemas não-AFF ou ambos. Você pode visualizar as informações de eficiência de storage no nível do nó. <block ref="a712d09976009a64cc618b068e6daeda" category="inline-link-macro-rx"></block>.</block>
+  <block id="d35680f69bb80e4d2980c78ac22f986c" category="summary">Veja detalhes sobre a capacidade e as economias de eficiência de storage para o seu sistema de storage.</block>
+  <block id="54ccc6028941c31a0165a2963a324aab" category="paragraph">O painel de controle de capacidade exibe os detalhes de capacidade e a previsão de capacidade do seu sistema. A previsão de capacidade utiliza informações históricas de capacidade para identificar a utilização de cada sistema. Com base nos dados históricos (dados de um ano, se disponíveis) de capacidade utilizada e alocada, o algoritmo considera a utilização atual de cada sistema e gera uma previsão para a utilização do sistema nos próximos 1 a 6 meses.</block>
+  <block id="7c1309f4b0731ed18fb594c6d632c067" category="paragraph">O painel de eficiência de storage exibe a razão de redução de dados, o espaço lógico utilizado, o espaço físico utilizado e o total de dados economizados. A razão de redução de dados e a economia podem ser visualizadas com e sem cópias de snapshot para sistemas AFF, sistemas não-AFF ou ambos. A economia total de dados em todo o storage do cliente pode ser visualizada por recurso de eficiência, como deduplicação de volume, compressão de volume, compactação, volumes FlexClone e cópias de snapshot. Você pode visualizar os 5 principais sistemas de storage com a melhor razão de eficiência. Você também pode visualizar a eficiência de SAN e NAS sem cópias de snapshot em nível de nó para sistemas ONTAP, incluindo AFF A-Series, AFF C190, All SAN Array e FAS500.</block>
+  <block id="6bb86861540256654ad78af590cbca2e" category="paragraph">Você pode visualizar os riscos relacionados à criação de snapshots, retenção e FPolicy do ONTAP e, em seguida, tomar medidas para corrigi-los.</block>
+  <block id="85384a7ec038b3ed06c50841a285d5fc" category="summary">Veja as recomendações de atualização do firmware de storage, firmware do SP/BMC, arquivos de sistema e arquivos de segurança.</block>
 </blocks>

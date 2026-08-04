@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: task_analyze_storage_efficiency.html 
-keywords: renew, hardware, software 
-summary: Fornece informações para renovar o software e o hardware do seu sistema de storage. 
+keywords: capacity, storage efficiency, data reduction, savings 
+summary: Veja detalhes sobre a capacidade e as economias de eficiência de storage para o seu sistema de storage. 
 ---
 = Visualize as economias de capacidade e eficiência de armazenamento no Digital Advisor.
 :hardbreaks:
@@ -21,9 +21,9 @@ Você pode visualizar os detalhes de capacidade e a economia de eficiência de s
 
 NOTE: Esse recurso não é suportado em sistemas e-Series.
 
-O painel capacidade exibe os detalhes da capacidade e a previsão de capacidade do seu sistema. A previsão de capacidade usa informações históricas de capacidade para identificar a utilização de cada sistema. Com base nos dados históricos (dados de um ano, se disponíveis) da capacidade utilizada e alocada, o algoritmo considera a utilização atual de cada sistema e gera uma previsão para a utilização do sistema nos próximos 1 a 6 meses.
+O painel de controle de capacidade exibe os detalhes de capacidade e a previsão de capacidade do seu sistema. A previsão de capacidade utiliza informações históricas de capacidade para identificar a utilização de cada sistema. Com base nos dados históricos (dados de um ano, se disponíveis) de capacidade utilizada e alocada, o algoritmo considera a utilização atual de cada sistema e gera uma previsão para a utilização do sistema nos próximos 1 a 6 meses.
 
-O dashboard de eficiência de storage exibe a taxa de redução de dados, o espaço lógico usado, o espaço físico usado e o total de dados salvos para sistemas de storage que executam o ONTAP 9.1 e posterior. A taxa de redução de dados e a economia podem ser vistas com e sem cópias Snapshot para sistemas AFF, sistemas que não sejam AFF ou ambos. A economia total de dados no storage do cliente pode ser vista por recurso de eficiência, como deduplicação de volume, compressão de volume, compactação, volumes FlexClone e cópias Snapshot. Você pode visualizar os 5 principais sistemas de storage com a melhor taxa de eficiência. Também é possível visualizar a eficiência de SAN e nas sem cópias Snapshot em um nível de nó para sistemas ONTAP, incluindo AFF A-Series, AFF C190, All SAN Array e FAS500 executando o ONTAP 9.10 e posterior.
+O painel de eficiência de storage exibe a razão de redução de dados, o espaço lógico utilizado, o espaço físico utilizado e o total de dados economizados. A razão de redução de dados e a economia podem ser visualizadas com e sem cópias de snapshot para sistemas AFF, sistemas não-AFF ou ambos. A economia total de dados em todo o storage do cliente pode ser visualizada por recurso de eficiência, como deduplicação de volume, compressão de volume, compactação, volumes FlexClone e cópias de snapshot. Você pode visualizar os 5 principais sistemas de storage com a melhor razão de eficiência. Você também pode visualizar a eficiência de SAN e NAS sem cópias de snapshot em nível de nó para sistemas ONTAP, incluindo AFF A-Series, AFF C190, All SAN Array e FAS500.
 
 video::8Ge3_0qlyxA[youtube,width=848,height=480]
 .Passos
