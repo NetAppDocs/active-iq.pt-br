@@ -45,7 +45,6 @@
   <block id="bf07f432276ee2fe7e55f9ea12c2ba5a" category="doc">Obtenha mais informações</block>
   <block id="3334f093f94c914eeabb709448d36d67" category="paragraph">Você pode obter ajuda e encontrar mais informações através de vários recursos.</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="inline-link-macro">Comunidade NetApp</block>
-  <block id="2eb6f862ee3ec494c6f43826c23b83da" category="list-text"><block ref="2eb6f862ee3ec494c6f43826c23b83da" category="inline-link-macro-rx"></block></block>
   <block id="2fc27556f44d8a6724ac003effded441" category="inline-link-macro">Segurança e Privacidade de dados de telemetria NetApp</block>
   <block id="2a4b13cd943c24cfe2735c05922d1427" category="list-text"><block ref="2a4b13cd943c24cfe2735c05922d1427" category="inline-link-macro-rx"></block></block>
   <block id="338fec277abf8dd8a9f3f83288b2911d" category="inline-link-macro">ONTAP AutoSupport e AutoSupport sob demanda</block>
@@ -483,7 +482,6 @@
   <block id="6eeadd9a025ffd894de9d068b4e77d24" category="paragraph">Os relatórios programados estão disponíveis apenas com um contrato de suporte da SupportEdge Advisor ou da SupportEdge Expert. Se seus sistemas não estiverem sob o SupportEdge Advisor ou um contrato de suporte da SupportEdge Expert, você poderá obter um relatório em branco durante o agendamento de relatórios.</block>
   <block id="d46650e342e5c88508541b7bf48a859f" category="section-title">Os riscos reconhecidos e não reconhecidos podem levar 60 minutos para serem refletidos no Digital Advisor</block>
   <block id="de031b37ae88787ef3cdc870e9177445" category="paragraph">O status dos riscos reconhecidos e não reconhecidos não se reflete imediatamente no Digital Advisor. Pode levar até 60 minutos para que as alterações reflitam no Digital Advisor e no relatório de bem-estar.</block>
-  <block id="9ca3a412ada6ce6666248783cc1577f6" category="summary">Fornece informações sobre os novos recursos na versão.</block>
   <block id="ddd5bde8e3e027f9a9efab7fcfa90542" category="doc">O que há de novo no Digital Advisor</block>
   <block id="67b15699a3be9f040c8687b7005f0de8" category="paragraph">Os seguintes recursos e aprimoramentos foram introduzidos no Digital Advisor:</block>
   <block id="67f165f48588df98eb8f59d8a7c512d8" category="section-title">23 de setembro de 2024</block>
@@ -1591,4 +1589,9 @@
   <block id="7c1309f4b0731ed18fb594c6d632c067" category="paragraph">O painel de eficiência de storage exibe a razão de redução de dados, o espaço lógico utilizado, o espaço físico utilizado e o total de dados economizados. A razão de redução de dados e a economia podem ser visualizadas com e sem cópias de snapshot para sistemas AFF, sistemas não-AFF ou ambos. A economia total de dados em todo o storage do cliente pode ser visualizada por recurso de eficiência, como deduplicação de volume, compressão de volume, compactação, volumes FlexClone e cópias de snapshot. Você pode visualizar os 5 principais sistemas de storage com a melhor razão de eficiência. Você também pode visualizar a eficiência de SAN e NAS sem cópias de snapshot em nível de nó para sistemas ONTAP, incluindo AFF A-Series, AFF C190, All SAN Array e FAS500.</block>
   <block id="6bb86861540256654ad78af590cbca2e" category="paragraph">Você pode visualizar os riscos relacionados à criação de snapshots, retenção e FPolicy do ONTAP e, em seguida, tomar medidas para corrigi-los.</block>
   <block id="85384a7ec038b3ed06c50841a285d5fc" category="summary">Veja as recomendações de atualização do firmware de storage, firmware do SP/BMC, arquivos de sistema e arquivos de segurança.</block>
+  <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Aviso de descontinuação para o Config Drift</block>
+  <block id="8f757d9b6264af1a2e6069cf7b5b18f9" category="paragraph">O recurso Config Drift será descontinuado no Digital Advisor em setembro de 2026.</block>
+  <block id="1cf5700bf190dbae716a593be587283a" category="list-text"><block ref="1cf5700bf190dbae716a593be587283a" category="inline-link-macro-rx"></block></block>
+  <block id="d71ef8f8c3bc3420442db2005d522d56" category="summary">Saiba mais sobre os novos recursos e melhorias no Digital Advisor.</block>
+  <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">12 de agosto de 2026</block>
 </blocks>
