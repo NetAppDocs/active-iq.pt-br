@@ -56,7 +56,7 @@ Você pode seguir estes passos para melhorar a pontuação geral de sustentabili
 ** Se você pretende abordar as ações mais tarde, selecione *Later*.
 +
 *** Se você selecionar *Later*, ela move a ação recomendada selecionada para a guia *ações para mais tarde*. A ação selecionada será adiada por 30 dias. Após 30 dias, essa ação será movida para a guia *ações recomendadas*.
-*** Você também pode revisar as ações adiadas a qualquer momento e clicar em *considerar* para movê-las para a guia *ações recomendadas*. E image:actions_for_later.png["Uma captura de tela que mostra ações recomendadas com a opção considerar."]
+*** Você também pode revisar as ações adiadas a qualquer momento e selecionar *Considerar* para movê-las para a guia *Ações recomendadas*. + image:actions_for_later.png["Uma captura de tela que mostra ações recomendadas com a opção considerar."]
 
 
 
@@ -78,7 +78,7 @@ Você pode seguir estes passos para melhorar a pontuação geral de sustentabili
 ** Se você pretende abordar as ações mais tarde, selecione *Later*.
 +
 *** Se você selecionar *Later*, ela move a ação recomendada selecionada para a guia *ações para mais tarde*. A ação selecionada será adiada por 30 dias. Após 30 dias, essa ação será movida para a guia *ações recomendadas*.
-*** Você também pode revisar as ações adiadas a qualquer momento e clicar em *considerar* para movê-las para a guia *ações recomendadas*. E image:actions_for_later.png["Uma captura de tela que mostra ações recomendadas com a opção considerar."]
+*** Você também pode revisar as ações adiadas a qualquer momento e selecionar *Considerar* para movê-las para a guia *Ações recomendadas*. + image:actions_for_later.png["Uma captura de tela que mostra ações recomendadas com a opção considerar."]
 
 
 
@@ -100,7 +100,7 @@ Você pode seguir estas etapas para melhorar a pontuação de sustentabilidade e
 --
 . Acesse *Sustentabilidade* na categoria *Saúde* disponível na navegação à esquerda do Console.
 . Vá para a tabela *Sistemas*.
-. Clique no número de ações da coluna *ações recomendadas* para o cluster de destino.
+. Selecione o número de ações na coluna *Ações recomendadas* para o cluster de destino.
 +
 image:recommended_actions_cluster.png["Uma captura de tela que mostra o número de ações."]
 
@@ -110,7 +110,7 @@ image:recommended_actions_cluster.png["Uma captura de tela que mostra o número 
 image:recommended_actions_list.png["Uma captura de tela que fornece os detalhes das ações recomendadas com a opção de correção e posterior."]
 
 ** Se você selecionar *Later*, ela move a ação recomendada selecionada para a guia *ações para mais tarde*. A ação selecionada será adiada por 30 dias. Após 30 dias, essa ação será movida para a guia *ações recomendadas*.
-** Você também pode revisar as ações adiadas a qualquer momento e clicar em *considerar* para movê-las para a guia *ações recomendadas*.
+** Você também pode revisar as ações adiadas a qualquer momento e selecionar *Considerar* para movê-las para a guia *Ações recomendadas*.
 
 
 
@@ -124,7 +124,7 @@ TIP: Você pode adicionar ou remover os parâmetros ambientais na tabela *Sistem
 . Acesse *Sustentabilidade* disponível na navegação à esquerda do painel do Digital Advisor .
 . Vá para a guia *ações recomendadas*.
 . Vá para a tabela *Sistemas*.
-. Clique no número de ações da coluna *ações recomendadas* para o cluster de destino.
+. Selecione o número de ações na coluna *Ações recomendadas* para o cluster de destino.
 +
 image:recommended_actions_cluster.png["Uma captura de tela que mostra o número de ações."]
 
@@ -134,7 +134,7 @@ image:recommended_actions_cluster.png["Uma captura de tela que mostra o número 
 image:recommended_actions_list.png["Uma captura de tela que fornece os detalhes das ações recomendadas com a opção de correção e posterior."]
 
 ** Se você selecionar *Later*, ela move a ação recomendada selecionada para a guia *ações para mais tarde*. A ação selecionada será adiada por 30 dias. Após 30 dias, essa ação será movida para a guia *ações recomendadas*.
-** Você também pode revisar as ações adiadas a qualquer momento e clicar em *considerar* para movê-las para a guia *ações recomendadas*.
+** Você também pode revisar as ações adiadas a qualquer momento e selecionar *Considerar* para movê-las para a guia *Ações recomendadas*.
 
 
 

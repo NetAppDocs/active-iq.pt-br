@@ -19,8 +19,8 @@ summary: Fornece informações para renovar o software e o hardware do seu siste
 Você pode identificar proativamente o software e o hardware do seu sistema de armazenamento que expiraram ou estão perto de expirar nos próximos 6 meses e enviar uma solicitação para renová-los.
 
 .Passos
-. Clique em *Support Renewals* no widget *Planning*.
-. Selecione os sistemas de armazenamento que deseja renovar e clique em *Renovar*.
+. Selecione *Support Renewals* no widget *Planning*.
+. Selecione os sistemas de storage que você deseja renovar e selecione *Renovar*.
 . Opcionalmente, forneça comentários adicionais.
-. Clique em *Enviar*.
+. Selecione *Enviar*.
 

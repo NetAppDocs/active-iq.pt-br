@@ -20,8 +20,8 @@ O widget *Valuable Insights* fornece informações sobre o número de casos de s
 
 video::QPJY2TWnRxQ[youtube,width=848,height=480]
 .Passos
-. No widget *Inventory*, clique em *Systems* para visualizar as informações do sistema de todas as plataformas ou clique no tipo de plataforma e, em seguida, clique em *Systems* para visualizar os sistemas específicos dessa plataforma.
-. Clique no nó ou cluster para ver informações detalhadas sobre o sistema.
+. No widget *Inventário*, selecione *Sistemas* para visualizar as informações do sistema de todas as plataformas ou selecione o tipo de plataforma e, em seguida, selecione *Sistemas* para visualizar sistemas específicos dessa plataforma.
+. Selecione o nó ou o cluster para visualizar informações detalhadas sobre o sistema.
 +
 O widget *Valuable Insights* está disponível no painel.
 

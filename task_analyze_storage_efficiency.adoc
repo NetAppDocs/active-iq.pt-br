@@ -27,7 +27,7 @@ O painel de eficiência de storage exibe a razão de redução de dados, o espa�
 
 video::8Ge3_0qlyxA[youtube,width=848,height=480]
 .Passos
-. No painel esquerdo, clique em *capacidade e eficiência*.
+. No painel esquerdo, selecione *Capacidade e Eficiência*.
 +
 Por padrão, a guia *capacidade* está selecionada.
 
@@ -37,13 +37,13 @@ Por padrão, a guia *capacidade* está selecionada.
 +
 Para sistemas ONTAP, as informações sobre a capacidade RAW estão disponíveis no ClusterViewer.
 
-.. Clique em *Adicionar capacidade* para enviar uma notificação à NetApp ou ao seu parceiro para adicionar capacidade.
 
 
+. Selecione *Adicionar Capacidade* para enviar uma notificação ao NetApp ou ao seu parceiro para adicionar capacidade.
 . Veja a eficiência de storage e a economia de dados do seu sistema de storage.
 +
-.. Se a taxa de eficiência de storage do seu sistema de storage for superior à taxa média de eficiência de storage, clique em *compartilhar sua história de sucesso* para nos informar sobre as práticas recomendadas seguidas.
-.. Se a taxa de eficiência de storage do seu sistema de storage for inferior à taxa média de eficiência de storage, clique em *Fale conosco* para nos informar sobre as configurações do seu sistema de storage.
+.. Se a eficiência de storage do seu sistema de storage for superior à eficiência de storage média, selecione *Compartilhe sua história de sucesso* para nos informar sobre as melhores práticas adotadas.
+.. Se a eficiência de storage do seu sistema de storage for inferior à eficiência de storage média, selecione *Fale Conosco* para nos informar as configurações do seu sistema de storage.
 
 
 

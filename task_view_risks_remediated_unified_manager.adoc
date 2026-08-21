@@ -20,8 +20,8 @@ Visualize as ações e os riscos e reduza-os usando o Playbook do Active IQ Unif
 
 video::XusFvXM7h-E[youtube,width=848,height=480]
 .Passos
-. Clique em *Exibir todas as ações* no painel.
-. Clique em *ações* para visualizar os riscos associados às ações, clique em *riscos* para visualizar todos os riscos ou clique em *sistemas afetados* para visualizar os sistemas que requerem atenção.
+. Selecione *Ver todas as ações* no dashboard.
+. Selecione *Ações* para visualizar os riscos associados às ações, selecione *Riscos* para visualizar todos os riscos ou selecione *Sistemas Afetados* para visualizar os sistemas que requerem atenção.
 +
 Se o risco puder ser atenuado usando o Active IQ Unified Manager, o image:spanner.png["Chave"] ícone será destacado e se o risco puder ser atenuado usando o Ansible Playbook, o image:update_ansible.png["Atualizar o Ansible"] ícone será destacado.
 
@@ -33,14 +33,14 @@ Se o risco puder ser atenuado usando o Active IQ Unified Manager, o image:spanne
 
 
  a| 
-. Clique no image:spanner.png["Chave"] ícone.
-. Clique em *Fix it* para iniciar o Active IQ Unified Manager.
-. Clique em *Instalar* para instalar o Active IQ Unified Manager 9,7 ou posterior para usar a opção *corrigir*.
-. Clique em *Upgrade* para atualizar para o Active IQ Unified Manager 9,7 ou posterior para usar a opção *Fix it*.
+. Selecione o image:spanner.png["Chave"] ícone.
+. Selecione *Corrigir* para iniciar o Active IQ Unified Manager.
+. Selecione *Instalar* para instalar o Active IQ Unified Manager 9.7 ou posterior para usar a opção *Corrigir*.
+. Selecione *Atualizar* para atualizar para o Active IQ Unified Manager 9.7 ou posterior para usar a opção *Corrigir*.
 
  a| 
-. Clique no image:update_ansible.png["Atualizar o Ansible"] ícone.
-. Clique em *Download* para fazer o download do pacote de automação do Ansible do firmware do AFF e do FAS.
+. Selecione o image:update_ansible.png["Atualizar o Ansible"] ícone.
+. Selecione *Download* para baixar o pacote de automação Ansible de firmware AFF e FAS.
 
 
 |===

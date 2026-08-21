@@ -38,6 +38,7 @@ A seguir estão alguns dos recursos do Digital Advisor:
 * Forneça informações e insights entre as pilhas que são benéficos para a solução de problemas, avaliações de atualização, validação de solução e migração.
 * Verifique a compatibilidade dos hosts e forneça recomendações de atualização para sistemas operacionais host, drivers e .
 * Chegue exatamente ao que você quer encontrar de uma maneira mais inteligente e rápida.
+* link:concept_value_insights.html["Descubra Value Insights"], que fornece informações gerais sobre saúde, economia, estabilidade e segurança do seu sistema ONTAP.
 
 
 

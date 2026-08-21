@@ -22,10 +22,10 @@ Você pode visualizar os riscos relacionados à criação de snapshots, retenç�
 
 .Passos
 . Inicie sessão no Digital Advisor.
-. Clique em *ações* no widget *Security & ransomware Defense*.
+. Selecione *Ações* no widget *Segurança & Defesa contra Ransomware*.
 . Desmarque a caixa de verificação *Vulnerabilidades de segurança*.
 . Para os riscos apresentados, verifique o nível de impactos e siga as acões recomendadas.
-. Clique na guia riscos exclusivos e no link na coluna *Ação corretiva*.
-. Clique na guia *sistemas afetados* para visualizar sistemas com riscos.
-. Siga as ações de correção recomendadas para proteger os sistemas.
+. Selecione a guia *Riscos Exclusivos* e selecione o link na coluna *Ação Corretiva*.
+. Selecione a aba *Sistemas Afetados* para visualizar os sistemas com riscos.
+. Selecione as ações corretivas recomendadas para proteger os sistemas.
 

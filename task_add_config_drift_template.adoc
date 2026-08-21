@@ -50,9 +50,9 @@ Os atributos em um modelo de deriva de configuração são editáveis e os segui
 Usando uma expressão regular, um usuário pode criar um relatório de desvio de configuração que inclui desvios resultantes de inconsistências de nomes de volumes, agregados, clusters e assim por diante. Por exemplo, se uma expressão regular *aggr-name** for mencionada para o atributo *Name* para a seção *AGGR-info.xml* no grupo *AGGREGATE*, os valores do atributo sem o prefixo *aggr-name* são marcados como um desvio quando o relatório de desvio de configuração é gerado.
 
 .Passos
-. No painel esquerdo, clique em *Config Drift*.
-. Clique em *Adicionar modelo*.
+. No painel esquerdo, selecione *Config Drift*.
+. Selecione *Adicionar modelo*.
 . Forneça os valores solicitados.
 . Opcional: Você pode personalizar o modelo editando os grupos ou excluindo os grupos não necessários para um modelo.
-. Clique em *Adicionar modelo*.
+. Selecione *Adicionar modelo*.
 

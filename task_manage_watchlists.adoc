@@ -19,11 +19,11 @@ summary: Fornece informações para gerenciar listas de observação.
 Você pode exibir o painel de diferentes listas de observação, editar os detalhes de uma lista de observação existente e excluir uma lista de observação.
 
 .Passos
-. No painel esquerdo, clique em *watchlists*.
+. No painel esquerdo, selecione *Watchlists*.
 +
 É apresentado o ecrã *Manage Watchlist* (gerir lista de vigias).
 
-. Clique no nome da lista de observação para exibir os detalhes do painel da lista de observação.
-. Clique em *Editar* para atualizar os detalhes da lista de observação.
-. Clique em *Excluir* para excluir a lista de observação.
+. Selecione o nome da lista de observação para visualizar os detalhes da lista de observação no painel de controle.
+. Selecione *Editar* para atualizar os detalhes da watchlist.
+. Selecione *Excluir* para excluir a watchlist.
 

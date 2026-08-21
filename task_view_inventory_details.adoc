@@ -27,10 +27,10 @@ video::ttbpbT5uTBI[youtube,width=848,height=480]
 == Ver detalhes do sistema
 
 .Passos
-. No widget *Inventory*, clique em *Systems* para visualizar as informações do sistema de todas as plataformas ou clique no tipo de plataforma e, em seguida, clique em *Systems* para visualizar os sistemas específicos dessa plataforma.
-. Clique no nó ou cluster para ver informações detalhadas sobre o sistema.
-. Faça o download do relatório *Inventory* para visualizar os detalhes do sistema no formato .xls.
-. Faça o download do relatório *Ansible Inventory* para visualizar os detalhes do sistema nos formatos .yml e .ini no nível da região ou do site.
+. No widget *Inventário*, selecione *Sistemas* para visualizar as informações do sistema de todas as plataformas ou selecione o tipo de plataforma e, em seguida, selecione *Sistemas* para visualizar sistemas específicos dessa plataforma.
+. Selecione o nó ou o cluster para visualizar informações detalhadas sobre o sistema.
+. Selecione *Download* para baixar o relatório de *Inventory* e visualizar os detalhes do sistema em formato .xls.
+. Selecione *Download* para baixar o relatório *Ansible Inventory* e visualizar os detalhes do sistema nos formatos .yml e .ini no nível da região ou do site.
 +
 Os arquivos do Ansible Inventory podem ser usados com arquivos personalizados do Ansible Playbook para fazer alterações na configuração da infraestrutura.
 
@@ -42,5 +42,5 @@ Os arquivos do Ansible Inventory podem ser usados com arquivos personalizados do
 == Ver detalhes do switch de suporte
 
 .Passos
-. No widget *Inventário*, clique em *Switches com direito a suporte* para visualizar informações sobre todos os switches com direito a suporte.
+. No widget *Inventário*, selecione *Switches com direito a suporte* para visualizar informações sobre todos os switches com direito a suporte.
 

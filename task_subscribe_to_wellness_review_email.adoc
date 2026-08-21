@@ -28,10 +28,10 @@ Depois que a assinatura estiver ativada, você deverá selecionar uma data de in
 NOTE: Esse recurso está disponível somente por meio das ofertas de serviços do NetApp SupportEdge Advisor e do SupportEdge Expert.
 
 .Passos
-. No painel esquerdo, clique em *Revisão de bem-estar*.
-. Clique em *Adicionar assinatura*.
+. No painel esquerdo, selecione *Wellness Review*.
+. Selecione *Adicionar assinatura*.
 . Forneça as informações necessárias nos campos *nomeie a assinatura*, *escolha Categoria*, *pesquisar Cliente* e *Email* na caixa de diálogo *Adicionar nova assinatura*.
-. Clique em *Subscribe*.
+. Selecione *Inscrever-se*.
 +
 Após a assinatura bem-sucedida, você receberá uma mensagem *assinatura adicionada*.
 

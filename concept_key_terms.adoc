@@ -59,7 +59,7 @@ summary: Fornece informações sobre os principais termos usados no Digital Advi
 ** * Histórico de bem-estar: * Exibe informações sobre os riscos do sistema que ocorrem nos últimos três meses, para que você possa aprender como eles estão se aproximando de horas extras.
 ** *Acknowledge risks (Ack):* permite que você reconheça os riscos e sistemas que foram afetados. Você pode reconhecer esses riscos e se familiarizar com as ações que você pode executar para mitigar esses riscos.
 ** *Unrecognition risks (un-ACK):* permite que você desreconheça os riscos e sistemas que foram reconhecidos.
-** *Corrigir:* Corrige os riscos para o sistema usando Active IQ Unified Manager. Clique neste botão para iniciar Unified Manager e executar as etapas para mitigar os riscos.
+** *Corrigir:* Corrige os riscos do sistema usando o Active IQ Unified Manager. Selecione este botão para iniciar o Unified Manager e executar as etapas para mitigar os riscos.
 
 
 * * Widget de inventário:* exibe um conjunto de sistemas totais que você possui. Isso inclui produtos habilitados para o Digital Advisor e não habilitados.

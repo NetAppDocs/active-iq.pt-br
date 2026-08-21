@@ -38,9 +38,9 @@ Os volumes que atendem aos seguintes critérios são recomendados para migraçã
 
 
 .Passos
-. No painel esquerdo, clique em *recomendações de nuvem*.
-. Clique em qualquer link no painel *migração*.
-. Clique em *Migrar para a nuvem* para iniciar o *Console*.
+. No painel esquerdo, selecione *Cloud Recommendations*.
+. Selecione qualquer um dos links no painel *Migração*.
+. Selecione *Migrar para a Nuvem* para iniciar o *Console*.
 
 
 
@@ -62,9 +62,9 @@ Os volumes que atendem aos critérios a seguir são recomendados para disposiç�
 
 
 .Passos
-. No painel esquerdo, clique em *recomendações de nuvem*.
-. Clique em qualquer link no painel *Categorização*.
-. Clique em *Dados de nível* para iniciar o *Console*.
+. No painel esquerdo, selecione *Cloud Recommendations*.
+. Selecione qualquer um dos links no painel *Tiering*.
+. Selecione *Tier Data* para iniciar o *Console*.
 
 
 Para saber mais sobre o FabricPool, link:https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["Práticas recomendadas da FabricPool"^]consulte .
@@ -83,9 +83,9 @@ Os volumes que atendem aos critérios a seguir são recomendados para fazer back
 
 
 .Passos
-. No painel esquerdo, clique em *recomendações de nuvem*.
-. Clique em qualquer link no painel *Backup & Archive*.
-. Clique em *Fazer backup na nuvem* para iniciar o *Console*.
+. No painel esquerdo, selecione *Cloud Recommendations*.
+. Selecione qualquer um dos links no painel *Backup & Archive*.
+. Selecione *Fazer backup na nuvem* para iniciar o *Console*.
 
 
 
@@ -103,7 +103,7 @@ Os volumes que atendem aos critérios a seguir são recomendados para replicaç�
 
 
 .Passos
-. No painel esquerdo, clique em *recomendações de nuvem*.
-. Clique em qualquer link no painel *Disaster Recovery*.
-. Clique em *Replicar para a nuvem* para iniciar o *Console*.
+. No painel esquerdo, selecione *Cloud Recommendations*.
+. Selecione qualquer um dos links no painel *Disaster Recovery*.
+. Selecione *Replicar para a Nuvem* para iniciar o *Console*.
 

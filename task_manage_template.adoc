@@ -27,13 +27,13 @@ O compartilhamento de um modelo economiza tempo e esforço necessários para cri
 
 
 .Passos
-. No painel esquerdo, clique em *Config Drift*.
-. Clique image:clone_icon.png["clone"] para fazer uma cópia do modelo.
-. Clique image:share_icon.png["partilhar"] e insira os nomes de usuário com os quais você deseja compartilhar o modelo.
+. No painel esquerdo, selecione *Config Drift*.
+. Selecione image:clone_icon.png["clone"] para fazer uma cópia do modelo.
+. Selecione image:share_icon.png["partilhar"] e insira os nomes de usuário com quem você deseja compartilhar o modelo.
 +
 
 NOTE: Se você inserir o endereço de e-mail do usuário em vez do nome de usuário, o modelo não será compartilhado.
 
-. Clique image:edit_icon.png["editar"] para atualizar os detalhes do modelo.
-. Clique image:delete_icon.png["eliminar"] para eliminar o modelo.
+. Selecione image:edit_icon.png["editar"] para atualizar os detalhes do modelo.
+. Selecione image:delete_icon.png["eliminar"] para excluir o modelo.
 

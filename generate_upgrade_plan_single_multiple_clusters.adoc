@@ -36,7 +36,7 @@ Siga estas etapas para gerar um plano de atualização para um único cluster e 
 ====
 .Cluster único
 --
-. No painel, clique em número de clusters no widget *Upgrade Advisor*.
+. No painel de controle, selecione o número de clusters no widget *Upgrade Advisor*.
 +
 image:ua_widget.png["Uma captura de tela que mostra o número de clusters."]
 
@@ -47,32 +47,32 @@ A página *Upgrade Advisor-ONTAP* é exibida.
 +
 image:r_enhanced_ua_toggle.png["Uma captura de tela que mostra a alternância aprimorada do Upgrade Advisor está ativada."]
 
-. Selecione um cluster para uma atualização. A coluna *Target os Version* exibe a versão do SO de destino recomendada. Pode clicar no image:edit_icon.png["Imagem do botão de edição"] ícone para selecionar outra versão de SO de destino de um cluster.
+. Selecione um cluster para atualização. A coluna *Versão do SO de destino* exibe a versão recomendada do SO de destino. Você pode selecionar o ícone image:edit_icon.png["Imagem do botão de edição"] para escolher outra versão do SO de destino para um cluster.
 +
 image:r_ua_select_target_OS_version_single_cluster.png["Uma imagem que mostra como selecionar a versão de destino."]
 
 +
-** Você pode clicar no número de nós na coluna *nós* para ver o resumo do nó de um cluster.
-** Você pode clicar em *resolver problemas* na coluna *Ação recomendada* para corrigir os problemas com um cluster inelegível para torná-lo elegível para uma atualização. E image:r_ua_resolve_issue.png["Uma imagem que mostra o tipo de problema e a resolução necessária para corrigi-lo."]
+** Você pode selecionar o número de nós na coluna *Nodes* para visualizar o resumo dos nós de um cluster.
+** Você pode selecionar *Resolve Issues* na coluna *Recommended Action* para corrigir os problemas com um cluster inelegível para torná-lo elegível para uma atualização. + image:r_ua_resolve_issue.png["Uma imagem que mostra o tipo de problema e a resolução necessária para corrigi-lo."]
 
 
-. Clique em *Generate Upgrade Plan*. Você será redirecionado para a página *Recomendação de Atualização*.
+. Selecione *Gerar Plano de Atualização*. Você será redirecionado para a página *Recomendação de Atualização*.
 . Na página *Recomendação de Atualização*, você pode visualizar os detalhes dos riscos associados a um cluster através da guia *Risk Advisor*. Você pode visualizar os bloqueadores de atualização, avisos de atualização e ações necessárias através da guia *Verificação de pré-atualização* e informações sobre os novos recursos e aprimoramentos relevantes para a versão do sistema operacional de destino selecionada por meio da guia *recursos avançados e atualizados do ONTAP*.
 +
 image:r_ua_upgrade_recommendation_page.png["Uma captura de tela que mostra a visualização geral da página de recomendação de atualização."]
 
 +
 ** Você pode selecionar outra versão de SO de destino e exibir o resumo de risco, relatório de verificação de pré-atualização e informações sobre novos recursos e aprimoramentos relacionados à versão de SO de destino.
-** Pode clicar no image:ua_export_icon.png["botão export (exportar)"] ícone para exportar o resumo de risco para uma folha do Excel.
+** Você pode selecionar o ícone image:ua_export_icon.png["botão export (exportar)"] para exportar o resumo de risco para uma planilha do Excel.
 
 
-. Clique em *Generate Upgrade Plan* na página *Upgrade Recommendation*.
+. Selecione *Gerar Plano de Atualização* na página *Recomendação de Atualização*.
 . Forneça os detalhes no pop-up apresentado. E image:ua_generate_single_clusters_plan.png["Um pop-up para preencher os detalhes para enviar a solicitação para gerar o plano de atualização."]
-. Clique em *Generate*. Você será redirecionado para a página *relatórios*.
+. Selecione *Gerar*. Você será redirecionado para a página *Relatórios*.
 . Você pode baixar o plano de atualização da página *relatórios* quando estiver disponível.
 +
 
-TIP: Você pode clicar em *Exibir relatórios de recomendações de atualização* para ir para a página *relatórios*. E image:r_ua_view_reports.png["Uma captura de tela que mostra a posição onde o View Upgrade Advisor está localizado para clicar."]
+TIP: Você pode selecionar *Visualizar Relatórios do Assistente de Atualização* para acessar a página *Relatórios*. + image:r_ua_view_reports.png["Uma captura de tela que mostra a posição onde o View Upgrade Advisor está localizado para seleção."]
 
 
 
@@ -81,7 +81,7 @@ Há algumas tarefas que você deve executar para confirmar a prontidão do clust
 --
 .Vários clusters
 --
-. No painel, clique em número de clusters no widget *Upgrade Advisor*.
+. No painel de controle, selecione o número de clusters no widget *Upgrade Advisor*.
 +
 image:ua_widget.png["Uma captura de tela que mostra o número de clusters."]
 
@@ -92,22 +92,22 @@ A página *Upgrade Advisor-ONTAP* é exibida.
 +
 image:r_enhanced_ua_toggle.png["Uma captura de tela que mostra a alternância aprimorada do Upgrade Advisor está ativada."]
 
-. Selecione clusters para uma atualização. A coluna *Target os Version* exibe a versão de SO de destino recomendada. Você pode clicar no image:edit_icon.png["Imagem do botão de edição"] ícone para selecionar outra versão de SO de destino de um cluster.
+. Selecione os clusters para atualização. A coluna *Versão do SO de destino* exibe a versão recomendada do SO de destino. Você pode selecionar o ícone image:edit_icon.png["Imagem do botão de edição"] para escolher outra versão do SO de destino de um cluster.
 +
 image:r_ua_select_target_OS_version.png["Uma imagem que mostra como selecionar a versão de destino."]
 
 +
-** Você pode clicar no número de nós na coluna *nós* para ver o resumo do nó de um cluster.
-** Você pode clicar em *resolver problemas* na coluna *Ação recomendada* para corrigir os problemas com clusters não qualificados para torná-los elegíveis para uma atualização. E image:r_ua_resolve_issue.png["Uma imagem que mostra o tipo de problema e a resolução necessária para corrigi-lo."]
+** Você pode selecionar o número de nós na coluna *Nodes* para visualizar o resumo dos nós de um cluster.
+** Você pode selecionar *Resolve Issues* na coluna *Recommended Action* para corrigir os problemas com clusters inelegíveis para torná-los elegíveis para um upgrade. + image:r_ua_resolve_issue.png["Uma imagem que mostra o tipo de problema e a resolução necessária para corrigi-lo."]
 
 
-. Clique em *Generate Upgrade Plan*.
+. Selecione *Gerar Plano de Atualização*.
 . Forneça os detalhes no pop-up apresentado. E image:ua_generate_multiple_clusters_plan.png["Um pop-up para preencher os detalhes para enviar a solicitação para gerar o plano de atualização."]
-. Clique em *Generate*. Você será redirecionado para a página *relatórios*.
+. Selecione *Gerar*. Você será redirecionado para a página *Relatórios*.
 . Você pode baixar o plano de atualização da página *relatórios* quando estiver disponível.
 +
 
-TIP: Você pode clicar em *Exibir relatórios de recomendações de atualização* para ir para a página *relatórios*. E image:r_ua_view_reports.png["Uma captura de tela que mostra a posição onde o View Upgrade Advisor está localizado para clicar."]
+TIP: Você pode selecionar *Visualizar Relatórios do Assistente de Atualização* para acessar a página *Relatórios*. + image:r_ua_view_reports.png["Uma captura de tela que mostra a posição onde o View Upgrade Advisor está localizado para seleção."]
 
 
 

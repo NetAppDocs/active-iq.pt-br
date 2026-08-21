@@ -29,19 +29,19 @@ Casos técnicos são criados para buscar assistência com qualquer um dos produt
 
 *Como faço para criar um caso técnico?*
 
-. Clique link:https://mysupport.netapp.com/site/global/dashboard["aqui"^] para abrir o site de suporte da NetApp.
-. No menu superior, clique em *Meus casos*.
-. Clique em *criar um caso*.
-. Selecione uma categoria, forneça os detalhes necessários e clique em *Nova Pesquisa* para procurar um sistema em seu inventário.
+. Selecione link:https://mysupport.netapp.com/site/global/dashboard["aqui"^] para abrir o site de suporte da NetApp.
+. No menu superior, selecione *Meus Casos*.
+. Selecione *Criar um caso*.
+. Selecione uma categoria, forneça os detalhes necessários e selecione *Nova pesquisa* para procurar um sistema em seu inventário.
 . Na lista de sistemas apresentada, selecione o sistema para criar o caso.
 . Selecione a prioridade para o novo caso.
 . Selecione a categoria apropriada na lista suspensa *Categoria do problema*.
-. Digite a descrição do problema no campo Descrição do problema e clique em *Proceed*.
+. Insira a descrição do problema no campo Descrição do Problema e selecione *Proceed*.
 . Forneça detalhes adicionais sobre o problema.
-. Clique em *Select Files* (Selecionar ficheiros) para carregar ficheiros ou imagens que possam ajudar a diagnosticar o problema.
-. Clique em *Proceed*.
+. Selecione *Selecionar arquivos* para carregar arquivos ou imagens que possam ajudar a diagnosticar o problema.
+. Selecione *Proceed*.
 . Forneça os seus dados de contacto.
-. Clique em *criar caso*.
+. Selecione *Criar Caso*.
 
 
 
@@ -66,10 +66,10 @@ Um caso não técnico deve ser criado para os seguintes casos:
 
 *Como faço para criar um caso não técnico?*
 
-. Clique link:https://mysupport.netapp.com/site/help["aqui"^] para abrir a "ferramenta de comentários não técnicos" no site de suporte da NetApp.
+. Selecione link:https://mysupport.netapp.com/site/help["aqui"^] para abrir a "Ferramenta de Feedback Não Técnico" no site de suporte da NetApp.
 . Selecione a categoria apropriada na lista suspensa *Categoria de feedback*.
 . Insira os detalhes necessários e forneça informações adicionais na caixa "Comentários".
-. Clique em *Enviar*.
+. Selecione *Enviar*.
 
 
 Um caso é criado e um número de caso é fornecido para sua referência.
@@ -87,7 +87,7 @@ Para fornecer feedback ou fazer perguntas, envie um e-mail para mailto:ng-active
 
 . Abra a página inicial do link:https://activeiq.netapp.com/?source=onlinedocs["Consultor digital"^].
 . Procure um cliente, site, grupo, cluster ou nó na caixa de pesquisa superior direita para acessar o respetivo painel.
-. Clique em *eficiência de armazenamento* na navegação à esquerda.
+. Selecione *eficiência de storage* no painel de navegação à esquerda.
 
 
 
@@ -235,7 +235,7 @@ A redução de dados é mostrada mais alta quando os volumes de proteção de da
 * Os sistemas estão inativos, arquivados ou desativados no SAP.
 
 
-Se você não conseguir visualizar os sistemas por qualquer outro motivo, tiver dúvidas ou desejar solicitar acesso, link:https://mysupport.netapp.com/site/help["crie um caso não técnico"^]. Para saber mais sobre casos não técnicos, clique em <<Caso não técnico,aqui.>>
+Se você não conseguir visualizar os sistemas por qualquer outro motivo, tiver dúvidas ou desejar solicitar acesso, link:https://mysupport.netapp.com/site/help["crie um caso não técnico"^]. Para saber mais sobre casos não técnicos, selecione <<Caso não técnico,aqui.>>
 
 
 

@@ -20,6 +20,23 @@ Os seguintes recursos e aprimoramentos foram introduzidos no Digital Advisor:
 
 
 
+[[20-august-2026]]
+== 20 de agosto de 2026
+
+
+
+[[introducing-value-insights]]
+=== Apresentando o Value Insights
+
+O recurso Value Insights consolida informações gerais sobre saúde, economia, estabilidade e segurança dos sistemas ONTAP. Você pode usar essas informações para melhorar a saúde e o desempenho do sistema por meio de uma visão contínua e baseada em dados do seu ambiente ONTAP.
+
+
+NOTE: O Value Insights está disponível apenas para sistemas ONTAP.
+
+Saiba mais sobre link:https://docs.netapp.com/us-en/active-iq/concept_value_insights.html["Value Insights"].
+
+
+
 [[12-august-2026]]
 == 12 de agosto de 2026
 
@@ -342,7 +359,7 @@ A versão mais antiga do Upgrade Advisor agora está obsoleta. Você pode usar a
 [[wellness]]
 === Bem-estar
 
-* O fluxo de trabalho de Bem-estar agora inclui o widget Sustentabilidade, que fornece a contagem de ações recomendadas nos níveis de cliente, lista de observação, site e grupo.  Você pode clicar no número de ações para obter uma visão detalhada dessas ações recomendadas no painel de Sustentabilidade. Para saber mais, consultelink:https://docs.netapp.com/us-en/active-iq/learn-about-sustainability.html["Analise a sustentabilidade dos seus sistemas de storage"] .
+* O fluxo de trabalho de Wellness agora inclui o widget de Sustainability, que fornece a contagem de ações recomendadas nos níveis de cliente, lista de monitoramento, site e grupo. Você pode selecionar o número de ações para ver uma visualização detalhada dessas ações recomendadas no painel de Sustainability. Para saber mais, consulte link:https://docs.netapp.com/us-en/active-iq/learn-about-sustainability.html["Analise a sustentabilidade dos seus sistemas de storage"].
 * Os widgets Security Vulnerabilities and ransomware Defense no fluxo de trabalho Wellness são combinados em um único widget, que agora é chamado de Security & ransomware Defense.
 
 
@@ -985,7 +1002,7 @@ Nos clusters com modelos de hardware misto, a versão do sistema operacional apl
 [[recommended-configuration-storage-virtual-machine-svm-health-volume-level-summary]]
 === Configuração recomendada/integridade da máquina virtual de storage (SVM): Resumo em nível de volume
 
-Ao clicar na caixa azul "Resumo do Volume" na tabela SVM, uma janela pop-up exibe informações detalhadas sobre os volumes que estão hospedados ou associados ao número de série ou nó físico específico.
+Ao selecionar a caixa azul "Resumo do Volume" na tabela SVM, uma janela pop-up exibe informações detalhadas sobre os volumes que estão hospedados ou anexados ao número de série ou nó físico específico.
 
 
 
@@ -1185,9 +1202,9 @@ Esta versão fornece a seguinte funcionalidade:
 
 * *Painel de GRADE:* o painel DE GRADE fornece detalhes de bem-estar, Planejamento e configuração para a GRADE selecionada.
 * *Widget de configuração:* fornece detalhes básicos do StorageGRID selecionado no widget, como Nome DA GRADE, Nome do host, número de série, modelo, versão do sistema operacional, Nome do cliente, localização enviada e Detalhes de Contato.
-* * Visualizador DE GRADE:* a partir do widget *Configuração*, você pode visualizar a configuração DA GRADE em detalhes clicando no link *Visualizador DE GRADE*. A partir do widget *Configuração*, você pode baixar os Detalhes do Site e os Detalhes da capacidade do StorageGRID selecionado clicando no botão *Download* na tela *Visualizador de Grade*.
+* *Visualizador GRID*: No widget *Configuração*, você pode visualizar a configuração do GRID em detalhes selecionando o link *GRID Viewer*. No widget *Configuração*, você pode baixar os Detalhes do Site e os Detalhes da Capacidade para o StorageGRID selecionando o botão *Download* na tela do *GRID Viewer*.
 * *Detalhes do site:* esta guia fornece o Resumo de Grade e os nós de armazenamento disponíveis para cada site.
-* * Resumo DA GRADE: * Contém informações básicas, como tipo de licença, capacidade da licença, número de nós instalados, termo de suporte (data de término do contrato de licença), nó de administrador principal e local principal do nó de administração principal. Esta guia também fornece o nome do Site e o número de nós de storage marcados sob o site correspondente. Nesta versão, você pode exibir a lista de nomes de nós clicando no hiperlink disponível para visualização de nós de storage para o site correspondente.
+* *Resumo do GRID:* Contém informações básicas, como Tipo de Licença, Capacidade da Licença, número de nós instalados, Período de Suporte (Data de término do contrato de licença), Nó de Administração Primário e Site Primário do Nó de Administração Primário. Esta aba também fornece o nome do site e o número de nós de storage associados ao site correspondente. Nesta versão, você pode visualizar a lista de nomes de nós ao selecionar o hiperlink disponível para visualizar os nós de storage do site correspondente.
 * *Guia Detalhes da capacidade:* fornece os detalhes do nível da Grade e da capacidade do Site configurados para a GRADE. Os detalhes da capacidade, como capacidade de armazenamento instalada, capacidade de armazenamento disponível, capacidade de armazenamento total utilizada e capacidade utilizada para dados e metadados. Esses detalhes estão disponíveis nos níveis Grade e Site.
 
 

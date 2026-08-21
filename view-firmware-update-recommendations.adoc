@@ -21,8 +21,8 @@ Agora, os clientes podem economizar tempo e esforço, permitindo que a Control T
 Os clientes receberão notificações e alertas oportunos sobre o status das atualizações de firmware, com opções para ativar as configurações de AutoSupport e atualização automática.
 
 .Passos
-. Na página do painel, clique em *outras recomendações* no widget *Upgrade Advisor*.
-. Clique em *Ver recomendações* para ver a lista de recomendações.
-. Na coluna *Update Status*, clique em *See Progress* para exibir os clusters que são elegíveis para uma atualização.
-. Em caso de problemas, clique nos respetivos links para visualizar as etapas para mitigar os problemas.
+. Na página do painel de controle, selecione *Outras recomendações* no widget *Upgrade Advisor*.
+. Selecione *Ver recomendações* para visualizar a lista de recomendações.
+. Na coluna *Status da atualização*, selecione *Ver progresso* para visualizar os clusters que são elegíveis para uma atualização.
+. Em caso de problemas, selecione os links correspondentes para visualizar as etapas para mitigar os problemas.
 

@@ -19,8 +19,8 @@ summary: Fornece informações para comparar um modelo de desvio de configuraç�
 Você pode comparar as configurações do sistema e do cluster e detetar os desvios de configuração em tempo quase real.
 
 .Passos
-. No painel esquerdo, clique em *Config Drift*.
-. Selecione um dos modelos existentes ou clique em *Adicionar modelo* para adicionar um novo modelo.
+. No painel esquerdo, selecione *Config Drift*.
+. Selecione um dos modelos existentes ou selecione *Adicionar modelo* para adicionar um novo modelo.
 . Gerar um relatório de desvio de configuração
 +
 Você pode gerar um relatório imediatamente ou agendar o relatório para ser gerado semanalmente ou mensalmente.
@@ -35,17 +35,17 @@ Você pode gerar um relatório imediatamente ou agendar o relatório para ser ge
  a| 
 . Selecione uma categoria e forneça os valores solicitados para o relatório.
 . Selecione a opção *include only Drifts* (incluir apenas desvios) para transferir apenas as alterações de desvio de configuração.
-. Clique em *Enviar*.
+. Selecione *Enviar*.
 . link:task_generate_reports.html["Baixe e veja o relatório de deriva de configuração"].
 . Execute o Ansible Playbook (incluído como parte do relatório de desvio de configuração) para mitigar as desvios.
 
  a| 
-. Clique na guia *Relatório de Agendamento*.
+. Selecione a guia *Schedule Report*.
 . Selecione uma categoria e forneça os valores solicitados para o relatório.
 . Selecione a opção *include only Drifts* (incluir apenas desvios) para transferir apenas as alterações de desvio de configuração.
 . Selecione a frequência do relatório.
 . Selecione a data de início e a data de fim para o relatório.
-. Clique em *Enviar*.
+. Selecione *Enviar*.
 . link:task_generate_reports.html["Baixe e veja o relatório de deriva de configuração"].
 . Execute o Ansible Playbook (incluído como parte do relatório de desvio de configuração) para mitigar as desvios.
 

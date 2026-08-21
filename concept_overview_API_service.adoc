@@ -32,7 +32,7 @@ A automação com APIs é uma ótima maneira de adicionar eficiência e precisã
 
 A alternância na parte superior da página permite que o usuário alterne entre os dois modos para visualizar o Catálogo. A exibição Código se concentra nos parâmetros de entrada necessários, no conteúdo e no formato dos dados de retorno e nas amostras de código para que o usuário comece a colocar o código no lugar. A visualização de experiência oferece ao usuário a chance de "testar" a API no navegador usando um token gerado obtido a partir da página principal de Serviços de API.
 
-Qualquer exibição permite que o usuário navegue pelos itens disponíveis usando o painel de navegação à esquerda. Os itens são organizados por serviço em ordem alfabética. Em um determinado serviço, você pode expandir o cabeçalho para mostrar os Endpoints individuais da API. Ao clicar no cabeçalho do serviço ou em um endpoint da API, você chegará a essa seção do Catálogo no painel central.
+Ambas as visualizações permitem que o usuário navegue pelos itens disponíveis usando o painel de navegação à esquerda. Os itens são organizados por serviço em ordem alfabética. Dentro de um determinado serviço, você pode expandir o cabeçalho para exibir os endpoints da API individuais. Selecionar o cabeçalho do serviço ou um endpoint da API levará você a essa seção do Catálogo no painel central.
 
 
 

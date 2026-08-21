@@ -19,7 +19,7 @@ summary: Fornece informações sobre como renovar contratos de suporte para seus
 Você pode ver a pontuação e o resumo de todos os contratos de suporte ativos no painel. Você pode tomar ações com base nas principais recomendações fornecidas por ordem de prioridade.
 
 .Passos
-. No Painel de verificação de integridade, clique no widget *suporte e direitos*.
-. Se algum dos contratos de suporte do seu sistema tiver expirado ou estiver prestes a expirar, clique no widget *contratos de suporte ativo*.
-. Marque as caixas de seleção e clique em *renovar* para iniciar o processo de renovação para os sistemas selecionados.
+. No Painel de Verificação de Saúde, selecione o widget *Support & Entitlements*.
+. Se algum dos seus contratos de suporte de sistema expirou ou está perto de expirar, selecione o widget *Active Support Contracts*.
+. Selecione as caixas de seleção e selecione *Renovar* para iniciar o processo de renovação dos sistemas selecionados.
 

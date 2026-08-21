@@ -25,6 +25,6 @@ Você pode exibir visualizações ou representações gráficas da configuraçã
 video::FVbb2bbIY9E[youtube,width=848,height=480]
 .Passos
 . No widget *Inventory*, selecione o cluster ou nó (host) desejado.
-. No nível de cluster ou nó, clique em *ClusterViewer* ao lado do widget *Configuration*.
-. Clique na guia *Visualization* para exibir uma representação gráfica do cluster.
+. No nível do cluster ou do nó, selecione *ClusterViewer* ao lado do widget *Configuração*.
+. Selecione a aba *Visualização* para ver uma representação gráfica do cluster.
 

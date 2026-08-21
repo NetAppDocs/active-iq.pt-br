@@ -40,7 +40,7 @@ Para fazer login no consultor digital, você pode usar as credenciais do site de
 
 .Passos
 . Abra um navegador da Web e vá para a link:https://activeiq.netapp.com/?source=onlinedocs["Consultor digital"^]página de login.
-. Forneça seu nome de usuário e senha e clique em *entrar*.
+. Digite seu nome de usuário e senha e selecione *Entrar*.
 . Na navegação à esquerda, selecione *Sustentabilidade*.
 +
 image:sustainability_dashboard.png["Uma captura de tela da IU que fornece a visão geral do painel de sustentabilidade."]

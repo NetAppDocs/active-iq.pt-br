@@ -20,15 +20,15 @@ Os gráficos de desempenho permitem analisar o desempenho dos seus dispositivos 
 
 Você tem uma opção para definir preferências, por exemplo, você pode exibir um gráfico para três nós ou dois gráficos para três nós.
 
-Quando o gráfico é exibido pela primeira vez, uma guia de 1 semanas é pré-selecionada e apresenta dados por 1 semana em um formato gráfico para facilitar a compreensão de grandes quantidades de dados e sua relação entre diferentes séries de dados. Se você quiser redefinir o intervalo de datas, por exemplo, você pode clicar na guia de 1 meses e selecionar datas no calendário.
+Ao exibir o gráfico pela primeira vez, a aba de 1 semana é pré-selecionada e apresenta os dados de 1 semana em formato gráfico para facilitar a compreensão de grandes quantidades de dados e da relação entre diferentes séries de dados. Se você quiser redefinir o intervalo de datas, por exemplo, pode selecionar a aba de 1 mês e selecionar as datas no calendário.
 
 Você também tem uma opção para ampliar o gráfico de desempenho; os pontos de dados individuais são exibidos.
 
 video::fWrHYX17xT8[youtube,width=848,height=480]
 .Passos
-. No Dashboard, clique em *Performance*.
+. No painel, selecione *Desempenho*.
 +
-Para sistemas ONTAP, você pode clicar na guia *nó* para exibir o desempenho de um único nó de um cluster ONTAP, clique na guia *nível local* para exibir o desempenho do nível local ou clique na guia *volume* para exibir o desempenho do volume. Por padrão, o desempenho do cluster é exibido.
+Para os sistemas ONTAP, você pode selecionar a guia *Nó* para visualizar o desempenho de um único nó de um cluster ONTAP, selecionar a guia *Camada Local* para visualizar o desempenho da camada local ou selecionar a guia *Volume* para visualizar o desempenho do volume. Por padrão, o desempenho do cluster é exibido.
 
 +
 Para sistemas e-Series, você pode visualizar os gráficos apenas a um nível de controlador.

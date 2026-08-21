@@ -24,18 +24,22 @@ Você pode atualizar sua oferta de suporte atual para otimizar sua base de insta
 NOTE: Você pode optar por upgrade do AIQ somente se você usar atualmente as ofertas de suporte seguro do SupportEdge Premium ou do SupportEdge.
 
 .Passos
-. Clique em *Exibir todos os sistemas* ao lado do widget *Inventário*.
+. Selecione *Exibir todos os sistemas* ao lado do widget *Inventory*.
 . No Painel de Inventário, selecione o nó (host) que você deseja atualizar. Você será redirecionado para o painel do sistema ou nó.
-. Clique em *Upgrade* no widget *Configuration*.
+. Selecione *Upgrade* no widget *Configuration*.
 +
 image:Configuration widget_Support offering upgrade.PNG["Widget de configuração"]
 
-. Opcionalmente, clique em *comparar ofertas de suporte* para visualizar o gráfico de comparação e escolher a oferta de suporte que se adapta aos seus requisitos. Alternativamente, você pode clicar em *ofertas de suporte* no menu de navegação à esquerda para visualizar o gráfico de comparação.
+. Opcionalmente, selecione *Comparar ofertas de suporte* para visualizar a tabela comparativa e escolher a oferta de suporte que melhor atenda às suas necessidades.
+. Alternativamente, você pode selecionar *Ofertas de suporte* no menu de navegação à esquerda para visualizar a tabela comparativa.
 . Selecione o tipo de atualização desejado.
 +
 .. Adicione o upgrade do AIQ às ofertas de suporte do SupportEdge Premium ou do SupportEdge Secure
 .. Qualquer outra solicitação de atualização
++
+... Adicione quaisquer comentários que você tiver e selecione *Enviar*. Uma solicitação para adquirir a atualização da oferta de suporte é enviada para a equipe de Renovação da NetApp.
 
 
-. Adicione quaisquer comentários que você tenha e clique em *Enviar*. Uma solicitação para adquirir o upgrade da oferta de suporte é enviada para a equipe de renovações do NetApp.
+
+
 

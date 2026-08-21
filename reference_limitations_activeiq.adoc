@@ -51,7 +51,7 @@ O widget AutoSupport não fornecerá alertas para pesquisas de cluster e número
 [[autosupport-widget-not-able-to-drill-down-to-serial-level-autosupport-details]]
 == O widget AutoSupport não consegue detalhar os detalhes do AutoSupport de nível serial
 
-Na página relatórios do AutoSupport, clicar em qualquer um dos Estados, sistemas que pararam de enviar recentemente ou sistemas que têm o AutoSupport desativado não navega para o ecrã Verificação de integridade.
+Na página de Relatórios do AutoSupport, selecionar qualquer um dos status, sistemas que pararam de enviar recentemente ou sistemas que têm o AutoSupport desativado não leva à tela de verificação de integridade.
 
 
 

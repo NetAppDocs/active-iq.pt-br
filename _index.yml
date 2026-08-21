@@ -41,6 +41,8 @@ indexpage:
       url: task_view_performance_graphs.html
     - title: Gerar relatórios
       url: task_generate_reports.html
+    - title: Descubra Value Insights
+      url: concept_value_insights.html
   - title: Analise usando o Digital Advisor
     links:
     - title: Veja as recomendações de atualização do ONTAP
@@ -58,7 +60,7 @@ indexpage:
     - title: Vídeos do Digital Advisor
       url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7kWBxqwLYBchpMW4k9Z6Vum
     - title: Comunidade NetApp – Assessor Digital
-      url: https://community.netapp.com/t5/Active-IQ-and-AutoSupport/ct-p/autosupport-and-my-autosupport
+      url: https://community.netapp.com/community/
     - title: Aplicação móvel Digital Advisor (Android)
       url: https://play.google.com/store/apps/details?id=com.netapp.myautosupport
     - title: Aplicativo Digital Advisor Mobile (iOS)

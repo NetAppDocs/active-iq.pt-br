@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: concept_value_insights.html 
+keywords: value insights, health, savings, stability, security, ontap systems 
+summary: Fornece informações sobre a saúde geral, economia, estabilidade e métricas de segurança do seu sistema ONTAP. 
+---
+= Descubra informações valiosas no Digital Advisor
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O recurso Value Insights consolida informações gerais sobre saúde, economia, estabilidade e segurança do seu sistema ONTAP. Você pode usar essas informações para melhorar a saúde e o desempenho do sistema por meio de uma visão contínua e baseada em dados do seu ambiente ONTAP.
+
+
+NOTE: O Value Insights está disponível apenas para sistemas ONTAP.
+
+O Value Insights fornece as seguintes informações:
+
+* A saúde geral do seu sistema ONTAP é uma métrica de pontuação composta por nove indicadores-chave de desempenho. Cada seção possui uma análise detalhada do KPI e da respectiva pontuação.
+* As pontuações de economia e estabilidade indicam como obter economia de capacidade e de storage por meio do uso eficiente de recursos. Acesse informação de tendência sobre o tempo de atividade do storage e o tempo de inatividade não planejado, incluindo a possibilidade de baixar arquivos EMS.
+* A segurança e o planejamento futuro detalham os riscos evitados e os problemas prevenidos. A economia de custos é calculada a partir das eficiências de storage.
+* Maximizar o valor da infraestrutura recomenda recursos adicionais para melhorar ainda mais o desempenho da infraestrutura e obter eficiência máxima.
+
+
+.O que vem a seguir
+link:task_view_value_insights_dashboard.html["Veja o painel de controle do Value Insights"]

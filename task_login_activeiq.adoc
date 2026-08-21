@@ -26,5 +26,5 @@ Você deve ter uma credencial válida do site de suporte da NetApp para fazer lo
 +
 O Digital Advisor mostra sistemas com um contrato de suporte válido. Se os contratos expirarem, é dado um período de carência de 90 dias, no qual os sistemas continuam visíveis. Depois disso, os sistemas não são pesquisáveis ou visíveis no Digital Advisor.
 
-. Forneça seu nome de usuário e senha e clique em *entrar*.
+. Digite seu nome de usuário e senha e selecione *Entrar*.
 
