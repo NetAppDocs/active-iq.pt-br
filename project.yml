@@ -28,7 +28,7 @@ sidebar:
       url: "/concept_understand_activeiq_features.html"
     - title: Acesse o Digital Advisor no NetApp Console
       url: "/digital-advisor-integration-with-console.html"
-    - title: Saiba mais sobre o Digital Advisor
+    - title: Termos e definições essenciais no o Digital Advisor
       url: "/concept_key_terms.html"
     - title: Saiba mais sobre o AutoSupport
       url: "/concept_autosupport.html"
@@ -94,8 +94,8 @@ sidebar:
       entries:
       - title: Veja os detalhes do inventário do sistema de armazenamento.
         url: "/task_view_inventory_details.html"
-      - title: Visualize os dados de máquinas virtuais disponíveis no Data Infrastructure
-          Insights.
+      - title: Visualize os dados de máquina virtual disponíveis no Data Infrastructure
+          Insights
         url: "/task-integrating-with-cloud-insights-to-view-vm-details.html"
       - title: Visualize casos de suporte e detalhes do sistema de armazenamento com
           o widget Valuable Insights.
@@ -153,8 +153,8 @@ sidebar:
         entries:
         - title: Baixe o pacote Ansible de firmware AFF e FAS .
           url: "/task_update_AFF_FAS_firmware.html"
-        - title: Atualize o firmware AFF e FAS usando um pacote Ansible (para usuários
-            experientes).
+        - title: Atualize o firmware dos AFF e FAS usando um pacote Ansible para usuários
+            experientes
           url: "/task_install_execute_firmware_update_exp_user.html"
         - title: Instalar e executar o pacote de automação do AFF e do FAS firmware
             (iniciantes)

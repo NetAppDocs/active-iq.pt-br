@@ -41,7 +41,6 @@
   <block id="1629a9318eb60c2f7422a0ca0be6bfcb" category="inline-link-macro">Relatório Técnico - Segurança e Privacidade de dados de Telemetria NetApp</block>
   <block id="58789b5243f3cbb2a8a30f59de135896" category="list-text"><block ref="58789b5243f3cbb2a8a30f59de135896" category="inline-link-macro-rx"></block></block>
   <block id="ba5f7135032775c8c999ecabfd7ec65b" category="summary">Fornece mais informações sobre o Digital Advisor.</block>
-  <block id="bf07f432276ee2fe7e55f9ea12c2ba5a" category="doc">Obtenha mais informações</block>
   <block id="3334f093f94c914eeabb709448d36d67" category="paragraph">Você pode obter ajuda e encontrar mais informações através de vários recursos.</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="inline-link-macro">Comunidade NetApp</block>
   <block id="2fc27556f44d8a6724ac003effded441" category="inline-link-macro">Segurança e Privacidade de dados de telemetria NetApp</block>
@@ -1242,14 +1241,12 @@
   <block id="2b1a2e89f1b2f5c6d6515a6dc429c7fd" category="doc">Limitações conhecidas do Digital Advisor</block>
   <block id="f2a73885c1e995cc3311a29291a28fde" category="doc">Saiba mais sobre os recursos do painel de Sustentabilidade no Digital Advisor.</block>
   <block id="e44ce4d3422f101f306224bb091ea2db" category="doc">Analise a integridade do seu sistema de armazenamento com recomendações de nuvem no Digital Advisor.</block>
-  <block id="b9456a2df38d30018b5aa1d2c39d55ba" category="doc">Utilize o Digital Advisor para visualizar os dados de máquinas virtuais disponíveis no Data Infrastructure Insights.</block>
   <block id="6b067412319dd9485298444d9a34fc87" category="doc">Adicione um modelo de desvio de configuração para seu sistema de armazenamento no Digital Advisor.</block>
   <block id="e67ed4f24a1e1077c5eb307d08729f7c" category="doc">Crie uma lista de observação no Digital Advisor.</block>
   <block id="a526a7fadbc4d3ff6b76aeace82c0a35" category="paragraph">Você pode criar uma lista de monitoramento para acessar um conjunto de sistemas de armazenamento de forma rápida e fácil. Você pode adicionar sistemas de armazenamento com base na categoria ou no número de série.</block>
   <block id="186b444c7e1538546cd3797bc4e13f6b" category="admonition">É possível adicionar no máximo 15.000 sistemas de armazenamento em uma categoria e 500 sistemas de armazenamento em um número de série.</block>
   <block id="ade07d6bbbe7ba4dca1efb40aa7352bd" category="list-text">Selecione uma das seguintes opções para adicionar sistemas de armazenamento à lista de observação:</block>
   <block id="9e626aab5b921b3ca1f8a803c59e26c3" category="doc">Visualize as economias de capacidade e eficiência de armazenamento no Digital Advisor.</block>
-  <block id="f20d4ff4105f49a3027ff751b2efde6c" category="doc">Visualize o estado de clusters e nós usando o widget ClusterViewer no Digital Advisor.</block>
   <block id="9ac4aca4ac0756136b6042d0474cfcf3" category="doc">Gerencie os limites de capacidade de armazenamento de volume no Digital Advisor.</block>
   <block id="8aed0befb763089b90784f7bb6c222cd" category="doc">Use o Digital Advisor para corrigir riscos críticos identificados no widget de Disponibilidade e Proteção.</block>
   <block id="65185bbce1d7f537b3c14697168318fc" category="doc">Compare os modelos de desvio de configuração no Digital Advisor.</block>
@@ -1260,7 +1257,6 @@
   <block id="8bb48da551b9f18b9a7bb8a26c2143b5" category="doc">Hospede os arquivos de firmware AFF e FAS em um servidor web.</block>
   <block id="dbf951fc2e241b15feb7e005fe4a45bf" category="doc">Identifique sistemas de armazenamento próximos do limite de capacidade no Digital Advisor.</block>
   <block id="10dbc72fe842008d2175d0d6c8409b92" category="doc">Detecte riscos de segurança com o Digital Advisor e tome medidas corretivas.</block>
-  <block id="a7780228d5aa137f7cb990b61a022315" category="doc">Atualize o firmware AFF e FAS usando um pacote Ansible (para usuários experientes).</block>
   <block id="8a88e2413d4f95f64b219b6c28f57a07" category="doc">Gerencie modelos de deriva de configuração no Digital Advisor.</block>
   <block id="8b7cb0834e8dc268b50c925ad45b6ddd" category="doc">Gerencie uma lista de observação no Digital Advisor.</block>
   <block id="6b8c1d667d3b152f62b23882186f49ef" category="doc">Proteja os sistemas de armazenamento gerenciados pela Digital Advisor contra riscos de ransomware.</block>
@@ -1302,7 +1298,6 @@
   <block id="bac3163878d2374ee594903ac6c1802c" category="sidebar">Saiba mais sobre como gerar um plano de atualização do ONTAP.</block>
   <block id="114d8ec8c75a41f7a77d940bbedc89ba" category="sidebar">Gere um plano de atualização do ONTAP para clusters únicos e múltiplos.</block>
   <block id="ebc19daf25c395407a52101068117655" category="sidebar">Veja os detalhes do inventário do sistema de armazenamento.</block>
-  <block id="8c3ce1cbbe048dec5ffdc13f56c2ccf4" category="sidebar">Visualize os dados de máquinas virtuais disponíveis no Data Infrastructure Insights.</block>
   <block id="aa80415eea92e632f36c8f4c62c4b138" category="sidebar">Visualize casos de suporte e detalhes do sistema de armazenamento com o widget Valuable Insights.</block>
   <block id="d89f3b8963bef2ec6e2b190588136909" category="sidebar">Gerencie os requisitos de capacidade do sistema de armazenamento com o widget de Planejamento.</block>
   <block id="670c1f5b09d4ee058170a248707f6cf0" category="sidebar">Identificar sistemas de armazenamento próximos do limite de capacidade</block>
@@ -1674,4 +1669,12 @@
   <block id="681c88be2de4220c0cbacb47fed97b82" category="list-text">Em caso de problemas, selecione os links correspondentes para visualizar as etapas para mitigar os problemas.</block>
   <block id="e7a471dd8d8c761a219d09c2091e92a1" category="sidebar">Saiba mais sobre Value Insights</block>
   <block id="729a2290f604400a065ab66e68e8365c" category="sidebar">Veja o painel Value Insights</block>
+  <block id="e3bf61ee8c8fee9ffb69993bd28d87a8" category="doc">Recursos adicionais para o Digital Advisor</block>
+  <block id="1b7791b3614101fe0419ae77deeacf88" category="doc">Termos e definições essenciais no o Digital Advisor</block>
+  <block id="182708895bd34a37bc21f98f7d14d0a2" category="doc">Recursos de resolução de problemas e suporte para o Digital Advisor</block>
+  <block id="e124694694f1a62071bd7725254b9327" category="doc">Utilize o Digital Advisor para visualizar os dados de máquinas virtuais disponíveis no Data Infrastructure Insights</block>
+  <block id="155f865ff2277e5b3d0c9cabfd7007d7" category="doc">Visualize o estado de clusters e nós usando o widget ClusterViewer no Digital Advisor</block>
+  <block id="e5054a84cf54978ce838e701041a4239" category="doc">Atualize o AFF e o FAS firmware usando um pacote Ansible</block>
+  <block id="9331d73e3c99004c7679e085ea303447" category="sidebar">Visualize os dados de máquina virtual disponíveis no Data Infrastructure Insights</block>
+  <block id="608a46677d36b132542feed4a0445c56" category="sidebar">Atualize o firmware dos AFF e FAS usando um pacote Ansible para usuários experientes</block>
 </blocks>
