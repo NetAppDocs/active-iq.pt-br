@@ -123,3 +123,5 @@ NOTE: Este recurso é exclusivo dos sistemas ONTAP e não está disponível para
 
 
 
+
+Saiba mais sobre link:https://kb.netapp.com/data-mgmt/Digital-Advisor-KBs/How_to_use_Value_Insights_Dashboard_in_Digital_Advisor["como usar o painel Value Insights no Digital Advisor"^].
