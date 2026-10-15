@@ -1459,9 +1459,7 @@
   <block id="6c972d629a4b8ce6dde8752e4413ad48" category="list-text"><block ref="b444585736ac78c423532d41fccd5521" category="inline-link-macro-rx"></block>, que fornece informações gerais sobre saúde, economia, estabilidade e segurança do seu sistema ONTAP.</block>
   <block id="bca0dd4752d962832123c179d6f29ae3" category="summary">Fornece informações sobre a saúde geral, economia, estabilidade e métricas de segurança do seu sistema ONTAP.</block>
   <block id="17b21ea825fede0731081b59fb813a26" category="doc">Descubra informações valiosas no Digital Advisor</block>
-  <block id="e810df921218b2ae3c2ae8c157e80003" category="paragraph">O recurso Value Insights consolida informações gerais sobre saúde, economia, estabilidade e segurança do seu sistema ONTAP. Você pode usar essas informações para melhorar a saúde e o desempenho do sistema por meio de uma visão contínua e baseada em dados do seu ambiente ONTAP.</block>
   <block id="3970e17ab0355896a02ce146a4b6a41b" category="paragraph">O Value Insights fornece as seguintes informações:</block>
-  <block id="fb3197cd95658195a5685c80f2cf096f" category="list-text">A saúde geral do seu sistema ONTAP é uma métrica de pontuação composta por nove indicadores-chave de desempenho. Cada seção possui uma análise detalhada do KPI e da respectiva pontuação.</block>
   <block id="071a5902c78d3712cf6ca92b6e3ffed7" category="list-text">As pontuações de economia e estabilidade indicam como obter economia de capacidade e de storage por meio do uso eficiente de recursos. Acesse informação de tendência sobre o tempo de atividade do storage e o tempo de inatividade não planejado, incluindo a possibilidade de baixar arquivos EMS.</block>
   <block id="f23694bbe7451573bb87ca1b5c04b7d0" category="list-text">A segurança e o planejamento futuro detalham os riscos evitados e os problemas prevenidos. A economia de custos é calculada a partir das eficiências de storage.</block>
   <block id="4d059f5635fea2016015f6e1469efea7" category="list-text">Maximizar o valor da infraestrutura recomenda recursos adicionais para melhorar ainda mais o desempenho da infraestrutura e obter eficiência máxima.</block>
@@ -1602,7 +1600,6 @@
   <block id="1f51cfdc5fa1daf48bec5fe331ef373d" category="list-text">Selecione *Download* para baixar o pacote de automação Ansible de firmware AFF e FAS.</block>
   <block id="bbd590fe13d8dd24702f484b96583127" category="summary">Consulte o painel de controle Value Insights para acessar informações sobre saúde, economia, estabilidade e segurança do seu sistema ONTAP.</block>
   <block id="f650563cfd75874602716b4ff731fff3" category="list-text">Selecione *Customer Success &gt; Value Insights*.</block>
-  <block id="127eba23a5c4e6b42ae1b92d1960b6b7" category="list-text">Na área *Saúde geral e como a NetApp pode ajudar*, você pode visualizar a pontuação geral de saúde do seu sistema ONTAP em porcentagem. Essa pontuação é baseada nos KPIs.</block>
   <block id="431d370ffae7b3191357c28b56dcd569" category="list-text">Selecione *Mais recomendações* para ver todos os KPIs:</block>
   <block id="f2ba2dce0328465674c26a76d33915f0" category="cell">KPI</block>
   <block id="40fd61ecb915e6889c685487160de14e" category="cell">Sugestões de endereçamento para operações sustentáveis</block>
@@ -1686,4 +1683,13 @@
   <block id="e42ab0e8d9793691952fb221a6554811" category="paragraph">O recurso Config Drift foi descontinuado e não está mais disponível no Digital Advisor a partir de setembro de 2026.</block>
   <block id="29ab9f8e858bfc9db154cff0f6b76d83" category="section-title">25 de setembro de 2026</block>
   <block id="1d2715b65bd9e5fca57122f543d61e60" category="paragraph">Para obter mais informações sobre o comando ansible-galaxy, consulte <block ref="a42b19d985084b52ec12dfca2fc50aad" category="inline-link-macro-rx"></block> e, para obter mais informações sobre a coleção Ansible da NetApp, consulte <block ref="d786fc4574d9c68470d2f8b53d708c65" category="inline-link-macro-rx"></block>.</block>
+  <block id="d6705c5666d00557618ae9bce3d12c37" category="doc">Suporte para a E-Series e o StorageGRID no Value Insights</block>
+  <block id="f7074f3c85b7a79fbc50870db7f09881" category="paragraph">O Value Insights agora inclui os sistemas ONTAP, E-Series e StorageGRID nos totais de integridade, risco, risco de segurança e ciclo de vida. Você pode filtrar o painel por plataforma para visualizar detalhes específicos da plataforma. As economias entregues e projetadas continuam disponíveis apenas para sistemas ONTAP.</block>
+  <block id="5f7557e3e7c5d2167dadb72a1bb3fc0e" category="paragraph"><block ref="81a04c9dae4ab018e9b02972f88cb56a" category="inline-link-macro-rx"></block>.</block>
+  <block id="5e8c477e3e0719f7edf2927c1d933b6c" category="paragraph">O recurso Value Insights consolida a pontuação geral de integridade, economia, estabilidade e as informações de segurança dos seus sistemas E-Series, ONTAP e StorageGRID. Você pode usar essas informações para melhorar a pontuação de integridade e o desempenho do sistema por meio de uma visão contínua e baseada em dados do seu ambiente E-Series, ONTAP e StorageGRID.</block>
+  <block id="c5f6b0719211ae09e8aba87dc0d9cb6f" category="admonition">O Value Insights está disponível para os sistemas E-Series, ONTAP e StorageGRID.</block>
+  <block id="85b2022a323e43c4ae8c4065c865e789" category="list-text">A saúde geral do seu sistema é uma métrica de pontuação de integridade composta por nove indicadores-chave de desempenho. Cada seção tem um detalhamento do KPI e da pontuação.</block>
+  <block id="f633c86b0317ff4aa3fa992245e2b77a" category="section-title">15 de outubro de 2026</block>
+  <block id="f2829ff704f24f01c25064041d022f39" category="paragraph">Consulte o painel Value Insights para acessar informações sobre indicadores de integridade, economia, estabilidade e segurança dos seus sistemas E-Series, ONTAP e StorageGRID.</block>
+  <block id="291aee6b8ad3956987850224f2960ac6" category="list-text">Na área *Saúde geral e como NetApp pode ajudar*, você pode visualizar a pontuação geral de saúde dos seus sistemas E-Series, ONTAP e StorageGRID como uma porcentagem. Essa pontuação é baseada nos KPIs.</block>
 </blocks>

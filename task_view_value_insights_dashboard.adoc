@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_view_value_insights_dashboard.html 
-keywords: value insights, health, savings, stability, security, ontap systems 
+keywords: value insights, health, savings, stability, security, ontap, e-series, storagegrid 
 summary: Consulte o painel de controle Value Insights para acessar informações sobre saúde, economia, estabilidade e segurança do seu sistema ONTAP. 
 ---
 = Veja o painel de controle do Value Insights
@@ -16,11 +16,11 @@ summary: Consulte o painel de controle Value Insights para acessar informações
 
 
 [role="lead"]
-Consulte o painel de controle Value Insights para acessar informações sobre saúde, economia, estabilidade e segurança do seu sistema ONTAP.
+Consulte o painel Value Insights para acessar informações sobre indicadores de integridade, economia, estabilidade e segurança dos seus sistemas E-Series, ONTAP e StorageGRID.
 
 .Passos
 . Selecione *Customer Success > Value Insights*.
-. Na área *Saúde geral e como a NetApp pode ajudar*, você pode visualizar a pontuação geral de saúde do seu sistema ONTAP em porcentagem. Essa pontuação é baseada nos KPIs.
+. Na área *Saúde geral e como NetApp pode ajudar*, você pode visualizar a pontuação geral de saúde dos seus sistemas E-Series, ONTAP e StorageGRID como uma porcentagem. Essa pontuação é baseada nos KPIs.
 +
 ** Selecione *Mais recomendações* para ver todos os KPIs:
 +
