@@ -17,7 +17,7 @@ summary: Fornece informações sobre como executar o Ansible Playbook usando a i
 
 .Passos
 [role="lead"]
-. Instale link:https://docs.python.org/3/using/windows.html["Python"^] e link:https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html["Ansible"^].
+. Instale link:https://docs.python.org/3/using/windows.html["Python"^] e link:https://docs.ansible.com/projects/ansible/latest/installation_guide/intro_installation.html["Ansible"^].
 . Instale os pacotes Python necessários usando *pip*:
 +
 [listing]

@@ -895,7 +895,6 @@
   <block id="09fb789b79f3191a076b495425e54de6" category="paragraph">Depois de executar o Playbook do Ansible, consulte o <block ref="e7460fd6e68b3cae327d70e23589cd2e" category="inline-link-macro-rx"></block> para obter instruções de pós-execução.</block>
   <block id="a7f5f35426b927411fc9231b56382173" category="inline-link-macro">Python</block>
   <block id="d51d5ee15f404c2f4f7863bebcde1fac" category="inline-link-macro">Ansible</block>
-  <block id="0abfb28c0c42381f5bdaaa9ae0da77db" category="list-text">Instale <block ref="245307cfb046e79d0ebccdf0bb3e7396" category="inline-link-macro-rx"></block> e <block ref="b37d22802e31da3263bb8117bdd516f1" category="inline-link-macro-rx"></block>.</block>
   <block id="e7c02bb7153fb9b42ed0dd17ac63ab65" category="list-text">Instale os pacotes Python necessários usando *pip*:</block>
   <block id="bc9eaf8dbca65e51b0aa7bd8ddc04278" category="list-text">Instale a coleção do NetApp Ansible usando o comando *Ansible-Galaxy*:</block>
   <block id="5834961728fb1e8689bb80975152a998" category="inline-link-macro">Documentação do Ansible Galaxy</block>
@@ -1692,4 +1691,5 @@
   <block id="f633c86b0317ff4aa3fa992245e2b77a" category="section-title">15 de outubro de 2026</block>
   <block id="f2829ff704f24f01c25064041d022f39" category="paragraph">Consulte o painel Value Insights para acessar informações sobre indicadores de integridade, economia, estabilidade e segurança dos seus sistemas E-Series, ONTAP e StorageGRID.</block>
   <block id="291aee6b8ad3956987850224f2960ac6" category="list-text">Na área *Saúde geral e como NetApp pode ajudar*, você pode visualizar a pontuação geral de saúde dos seus sistemas E-Series, ONTAP e StorageGRID como uma porcentagem. Essa pontuação é baseada nos KPIs.</block>
+  <block id="e44972e0feb4e8ce723a5b8e319c7632" category="list-text">Instale <block ref="245307cfb046e79d0ebccdf0bb3e7396" category="inline-link-macro-rx"></block> e <block ref="335afa7963b775a01549fa6757d9b16e" category="inline-link-macro-rx"></block>.</block>
 </blocks>
