@@ -890,7 +890,6 @@
   <block id="bb478311862b399ec7fa1f80b95d035f" category="admonition">Se houver um conjunto de clusters com credenciais de login diferentes, o Playbook do Ansible precisa ser executado em cada cluster. Não são necessárias alterações no arquivo de inventário, pois o Ansible Playbook ignora os clusters para os quais o login falhou.</block>
   <block id="1714e9fb6abdf2199b4b533dbc09e449" category="inline-link-macro">Documentação do Playbook do Ansible</block>
   <block id="722b950e7c3cbec69bb9c0beac55297d" category="inline-link-macro">Ansible: Modo de verificação</block>
-  <block id="2a0dd6c3bcb96a2f49ec6fd9a82e2f4a" category="paragraph">Para obter mais informações sobre o comando *ansible-playbook*, consulte o  e para executar o manual do Ansible <block ref="8c04b73445737bcfc4025ef8f1a9a540" category="inline-link-macro-rx"></block>no modo de verificação (Dry run), <block ref="81862bc1dc3b588f731b84b986e9994e" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="5769cb0edb876ded60913f5ed79c0ed3" category="inline-link-macro">Validações de instalação do firmware</block>
   <block id="09fb789b79f3191a076b495425e54de6" category="paragraph">Depois de executar o Playbook do Ansible, consulte o <block ref="e7460fd6e68b3cae327d70e23589cd2e" category="inline-link-macro-rx"></block> para obter instruções de pós-execução.</block>
   <block id="a7f5f35426b927411fc9231b56382173" category="inline-link-macro">Python</block>
@@ -900,7 +899,6 @@
   <block id="5834961728fb1e8689bb80975152a998" category="inline-link-macro">Documentação do Ansible Galaxy</block>
   <block id="509364058559184a4e13280292a2e466" category="inline-link-macro">Página de coleção do NetApp Ansible</block>
   <block id="338486320c79b4d1c52d4b4142a79ae2" category="list-text">Execute o Playbook do Ansible usando o comando *Ansible-playbook*:</block>
-  <block id="85da219929dec7990a12ce28aff47903" category="paragraph">Para obter mais informações sobre o comando *ansible-playbook*, consulte e para executar o Ansible <block ref="8c04b73445737bcfc4025ef8f1a9a540" category="inline-link-macro-rx"></block> Playbook no modo de verificação (Dry run), <block ref="81862bc1dc3b588f731b84b986e9994e" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="207d610de4ff42212b921026752872d2" category="paragraph">Depois de executar o manual de estratégia, consulte o <block ref="e7460fd6e68b3cae327d70e23589cd2e" category="inline-link-macro-rx"></block> para obter instruções de pós-execução.</block>
   <block id="33ff2e9459330445a2f8efc828105eb4" category="summary">Fornece informações para gerar relatórios de linha do tempo de deriva.</block>
   <block id="377be568d398496d62e94ceb54a8e1af" category="doc">Gerar um relatório de linha do tempo de deriva</block>
@@ -1692,4 +1690,6 @@
   <block id="f2829ff704f24f01c25064041d022f39" category="paragraph">Consulte o painel Value Insights para acessar informações sobre indicadores de integridade, economia, estabilidade e segurança dos seus sistemas E-Series, ONTAP e StorageGRID.</block>
   <block id="291aee6b8ad3956987850224f2960ac6" category="list-text">Na área *Saúde geral e como NetApp pode ajudar*, você pode visualizar a pontuação geral de saúde dos seus sistemas E-Series, ONTAP e StorageGRID como uma porcentagem. Essa pontuação é baseada nos KPIs.</block>
   <block id="e44972e0feb4e8ce723a5b8e319c7632" category="list-text">Instale <block ref="245307cfb046e79d0ebccdf0bb3e7396" category="inline-link-macro-rx"></block> e <block ref="335afa7963b775a01549fa6757d9b16e" category="inline-link-macro-rx"></block>.</block>
+  <block id="39cfe90c31baec382584c29b304120ee" category="paragraph">Para obter mais informações sobre o comando *ansible-playbook*, consulte o <block ref="3d297fe59aeab4f52033a16e4cb1092d" category="inline-link-macro-rx"></block> e, para executar o playbook do Ansible no modo de verificação (simulação), consulte <block ref="65608cec1d866267bc1786752d36cf72" category="inline-link-macro-rx"></block>.</block>
+  <block id="d285978e658e21733e1a83f07dcbabbb" category="paragraph">Para obter mais informações sobre o comando *ansible-playbook*, consulte o <block ref="3d297fe59aeab4f52033a16e4cb1092d" category="inline-link-macro-rx"></block> e, para executar o Ansible Playbook no modo de verificação (simulação), consulte <block ref="65608cec1d866267bc1786752d36cf72" category="inline-link-macro-rx"></block>.</block>
 </blocks>

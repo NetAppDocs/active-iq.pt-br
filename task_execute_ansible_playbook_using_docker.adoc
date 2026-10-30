@@ -75,6 +75,6 @@ NOTE: Se houver um conjunto de clusters com credenciais de login diferentes, o P
 
 
 
-Para obter mais informações sobre o comando *ansible-playbook*, consulte o  e para executar o manual do Ansible link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Documentação do Playbook do Ansible"^]no modo de verificação (Dry run), link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible: Modo de verificação"^]consulte .
+Para obter mais informações sobre o comando *ansible-playbook*, consulte o link:https://docs.ansible.com/projects/ansible/latest/cli/ansible-playbook.html["Documentação do Playbook do Ansible"^] e, para executar o playbook do Ansible no modo de verificação (simulação), consulte link:https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_checkmode.html["Ansible: Modo de verificação"^].
 
 Depois de executar o Playbook do Ansible, consulte o link:task_validate_firmware_installation.html["Validações de instalação do firmware"] para obter instruções de pós-execução.
